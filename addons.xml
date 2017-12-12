@@ -2525,8 +2525,6 @@ Skin and code for skin by Demonstratorz</description>
   </extension>
 </addon>
 
-<<<<<<< HEAD
-=======
 <addon id="program.apollo" version="3.2.5" name="[COLOR white]Apollo[/COLOR] [COLOR FF028ddd]Group[/COLOR]" provider-name="Exodus, Apollo Group, Biglad">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -2546,27 +2544,6 @@ Skin and code for skin by Demonstratorz</description>
 	</extension>
 </addon>
 
-<addon id="repository.aresproject" name="[COLOR blue]A[/COLOR][COLOR white]res Project[/COLOR]" version="0.1.0" provider-name="Ares Team">
-	<extension point="xbmc.addon.repository" name="AresRepo">
-	<dir>
-        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
-	</dir>
-    <dir>
-		<info compressed="false">https://raw.githubusercontent.com/ares-fortress/repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/ares-fortress/repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/ares-fortress/repo/master/</datadir>
-    </dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>AresProject.</summary>
-		<description>Ares-Project Addons Source. Visit Us At https://ares-project.uk</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
->>>>>>> parent of 925bffc4... ..
 
 <addon id="repository.bear" name="PBear Repository" version="1.00" provider-name="PBear">
 	<extension point="xbmc.addon.repository" name="The Community Repository">
@@ -4859,7 +4836,7 @@ level.</description>
 
 <addon id="script.mtvbc4"
   name="CerebroTV Channel4"
-  version="1.4"
+  version="1.5"
   provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
