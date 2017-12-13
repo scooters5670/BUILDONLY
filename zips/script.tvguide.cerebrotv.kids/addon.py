@@ -83,7 +83,7 @@ d3()
 
 
 
-LOCATION     = "http://megatvbox.uk/uk-new.zip"
+LOCATION     = "https://github.com/biglad/BUILDONLY/blob/master/build_data/uk-new.zip?raw=true"
 HOME     = xbmc.translatePath('special://home')
 ROOT     = xbmc.translatePath('special://home')
 file2     = os.path.join(ROOT, 'uk.zip')
