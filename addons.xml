@@ -2184,6 +2184,30 @@ em procura livre na internet.</description>
   </extension>
 </addon>
 
+<addon id="plugin.video.tvone1" name="tvOne1" version="8" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">tvOne1</summary>
+    <description lang="en_gb">tvOne1</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.tvplayer" name="Tv Player" version="0.2.9" provider-name="catchup4kodi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -3131,6 +3155,19 @@ Skin and code for skin by Demonstratorz</description>
 		<description>This is the wolfpack repo, where you can get access to the wolfpack addon</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="repository.x-odi.nl" name="Xodi Repo" version="1.0" provider-name="Xodi">
+    <extension point="xbmc.addon.repository" name="Xodi Repository">
+        <info compressed="true">http://repo.x-odi.nl/addons.xml</info>
+        <checksum>http://repo.x-odi.nl/addons.xml.md5</checksum>
+        <datadir zip="true">http://repo.x-odi.nl/repo</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_gb">Xodirepo.</summary>
+        <description>Repo van Xodi</description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="repository.xbmchub" name="TVADDONS.CO Add-on Repository" version="3.0.0" provider-name="tvaddons">
