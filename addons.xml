@@ -628,7 +628,7 @@ provider-name="Crucialminds">
   </extension>
 </addon>
 
-<addon id="plugin.video.csoapbox" name="Cerebro Soap Box" version="0.0.1" provider-name="Biglad">
+<addon id="plugin.video.csoapbox" name="Cerebro Soap Box" version="0.0.2" provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -4061,7 +4061,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="script.module.coriginresolver" name="Cerebro Resolver" version="0.1.5" provider-name="Biglad>
+<addon id="script.module.coriginresolver" name="Cerebro Resolver" version="0.1.7" provider-name="Biglad">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="plugin.video.youtube" optional="true"/>
