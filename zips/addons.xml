@@ -854,6 +854,29 @@ provider-name="Cerebro">
   </extension>
 </addon>
 
+<addon id="plugin.video.FTFA" version="4.0.5" name="[COLOR lime]FTFA[/COLOR]" provider-name="WDS Brettus">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="script.module.ftfa" version="1.0.4" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">ftfa addon</summary>
+		<description lang="en">ftfa addon</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+	</extension>
+</addon>
+
 <addon id="plugin.video.iplayerwww" name="iPlayer WWW" version="3.0.18" provider-name="CaptainT, Cas, ihurst, primaeval">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -2654,6 +2677,19 @@ Skin and code for skin by Demonstratorz</description>
 	<extension point="xbmc.addon.metadata">
 		<summary>PBear Repo</summary>
 		<description>Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.Brettusrepo" name="Brettus Builds repository" version="1.0" provider-name="Brettus">
+	<extension point="xbmc.addon.repository" name="Brettus Builds repository">
+		<info compressed="false">http://brettusbuilds.com/brettusrepo/files/addons.xml</info>
+		<checksum>http://brettusbuilds.com/brettusrepo/files/addons.xml.md5</checksum>
+		<datadir zip="true">http://brettusbuilds.com/brettusrepo/files/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
 		<platform>all</platform>
 	</extension>
 </addon>
