@@ -112,10 +112,11 @@ def nan_menu(url):
 	for title,menu,link,thumb,plot,
 '''
 
-def Mov_sc():
-    Menu('[COLOR lime]New Releases[/COLOR]','https://pastebin.com/raw/2dfXE7XC',999999,'http://mavericktv.net/data/icons/online.jpg','https://i.imgur.com/SQrVkhu.jpg','','','','')
-    Menu('[COLOR lime]The Greatest Movies Of All Time[/COLOR]','https://pastebin.com/raw/QY1S2mth',999999,'http://mavericktv.net/data/icons/online.jpg','https://i.imgur.com/SQrVkhu.jpg','','','','')
-    Menu('[COLOR lime]Currently Most Popular[/COLOR]','http://www.imdb.com/chart/moviemeter?ref_=nv_mv_mpm_8',999996,'http://mavericktv.net/data/icons/online.jpg','https://i.imgur.com/SQrVkhu.jpg','','','','')
+def	Mov_sc():
+    Menu('[COLOR lime]New Releases[/COLOR]','http://mavericktv.net/data/livetv/newrel.txt',999999,'http://mavericktv.net/data/icons/online.jpg','https://i.imgur.com/SQrVkhu.jpg','','','','')
+    Menu('[COLOR lime]The Greatest Movies Of All Time[/COLOR]','http://mavericktv.net/data/livetv/fulllist.txt',999999,'http://mavericktv.net/data/icons/online.jpg','https://i.imgur.com/SQrVkhu.jpg','','','','')
+    Menu('[COLOR lime]British Cinema[/COLOR]','http://mavericktv.net/data/livetv/british.txt',999999,'http://mavericktv.net/data/icons/online.jpg','https://i.imgur.com/SQrVkhu.jpg','','','','')
+    Menu('[COLOR lime]Currently Trending[/COLOR]','http://www.imdb.com/chart/moviemeter?ref_=nv_mv_mpm_8',999996,'http://mavericktv.net/data/icons/online.jpg','https://i.imgur.com/SQrVkhu.jpg','','','','')
 	
 def reg_nan(url):
     html = requests.get(url).text
@@ -132,7 +133,7 @@ def reg_nan(url):
             Menu(title,sub,999999,im,fanart,plot,'')
 
 def Mpop(url):
-    Menu('[COLOR lime]Currently Most Popular Movie Genres[/COLOR]','http://www.imdb.com/genre/?ref_=nv_ch_gr_3',999995,'','','','','','')
+    Menu('[COLOR lime]Currently Trending Movie Genres[/COLOR]','http://www.imdb.com/genre/?ref_=nv_ch_gr_3',999995,'','','','','','')
     base = 'http://imdb.com'
     html = requests.get('http://www.imdb.com/chart/moviemeter?ref_=nv_mv_mpm_8').content
     match = re.compile('<td class="posterColumn">.+?title=.+?>(.+?)</a>.+?<span class="secondaryInfo">(.+?)</span>',re.DOTALL).findall(html)
@@ -2575,13 +2576,6 @@ def getepg(link):
         nowtitle = sourcetitle[0][17:len(sourcetitle[0])]
         nowtitle = nowtitle.encode('utf-8')
         return "  - "+nowtitle+" - "+nowtime
-
-def ac247():
-    Menu('[COLOR lime] Featured 24/7[/COLOR]','',907,'http://stephen-builds.uk/art/24%207%20shows.png','http://stephen-builds.uk/art/20839702_10207884860798337_363786087_o.jpg','','')
-    Menu('[COLOR lime] 24/7 Tv Shows[/COLOR]','',908,'http://stephen-builds.uk/art/rolling-stone-100-best-tv-shows-of-all-time-c76cdd0b-2e04-4769-84c1-0faab178ddbf.jpg','http://stephen-builds.uk/art/20839702_10207884860798337_363786087_o.jpg','','')
-    Menu('[COLOR lime] 24/7 Movies[/COLOR]','',909,'http://stephen-builds.uk/art/24%20MOVIES.png','http://stephen-builds.uk/art/20839702_10207884860798337_363786087_o.jpg','','')
-    Menu('[COLOR lime] 24/7 Cable[/COLOR]','',910,'http://stephen-builds.uk/art/cableheader-graypurple-590x236.jpg','http://stephen-builds.uk/art/20839702_10207884860798337_363786087_o.jpg','','')
-    Menu('[COLOR lime] 24/7 Random Stream[/COLOR]','',911,'http://stephen-builds.uk/art/maxresdefault.jpg','http://stephen-builds.uk/art/20839702_10207884860798337_363786087_o.jpg','','')
 
 def actvshows():
     url = 'http://arconaitv.me/'
