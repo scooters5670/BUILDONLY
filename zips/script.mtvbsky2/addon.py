@@ -14,7 +14,7 @@ def menuoptions():
         
     call = dialog.select('[B][COLOR=yellow]CerebroTV[/COLOR][COLOR=red] Sky 2 Links[/COLOR][/B]', [
     '[B][COLOR=white]      Sky 2 Link 1[/COLOR][/B]' ,
-    '[B][COLOR=white]      Sky 2 Link 2[/COLOR][/B]'
+    '[B][COLOR=white]      Sky 2 Link 2[/COLOR][/B]',
     '[B][COLOR=white]      Sky 2 Link 3[/COLOR][/B]'
 	])
     # dialog.selectreturns
