@@ -276,40 +276,27 @@ def platform():
 reset_playing()
 #xbmc.sleep(1000) 
 dp.close()
-update = xbmcgui.Dialog().yesno("[COLOR tomato]TV Guide Helper[/COLOR]","[COLOR yellow][/COLOR]","" ,"","Open Guide","Update Guide")
-if update:
-    dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR tomato]TV Guide Auto Update[/COLOR]","Downloading New IPTV Data","This will take a second.")
-    percent = 50
-    dp.update(percent) 
-    #import downloader#
-    percent = 70
-    try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.sports/source.db"))
-    except: pass
-    try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.sports/cerebrouk.xml"))
-    except: pass
-    utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.sports/source.db"))
-    utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.sports/cerebrouk.xml"))
-    dp.update(percent) 
-    #xbmc.sleep(1000)
-    percent = 89
-    dp.update(percent)
-    #xbmc.sleep(1000)    
-    #downloader.getmodules()
-    percent = 99
-    #xbmc.sleep(1000)
-    dp.update(percent)
-    dp.close()
-    download(LOCATION,file2) 
-else:
-    try:
-        w = gui.TVGuide()
-        w.doModal()
-        del w
-
-    except:
-        import sys
-        import traceback as tb
-        (etype, value, traceback) = sys.exc_info()
-        tb.print_exception(etype, value, traceback)
+#update = xbmcgui.Dialog().yesno("[COLOR tomato]TV Guide Helper[/COLOR]","[COLOR yellow][/COLOR]","" ,"","Open Guide","Update Guide")
+download(LOCATION,file2) 
+#if update:
+#    try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/source.db"))
+#    except: pass
+#    utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/source.db"))
+#    try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/cerebrouk.xml"))
+#    except: pass
+#    utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/cerebrouk.xml"))
+#    #xbmc.executebuiltin('PlayMedia("plugin://plugin.video.streamhub")')
+#    #xbmc.sleep(1000)
+#    download(LOCATION,file2) 
+#else:
+#    try:
+#        w = gui.TVGuide()
+#        w.doModal()
+#        del w
+#
+#    except:
+#        import sys
+#        import traceback as tb
+#        (etype, value, traceback) = sys.exc_info()
+#        tb.print_exception(etype, value, traceback)
 
