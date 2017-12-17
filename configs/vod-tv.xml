@@ -9,18 +9,25 @@
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </plugin>
 
+<plugin>
+<title>[COLOR red]• [/COLOR][COLOR lightblue]Cererbro ShowBox TV Shows[/COLOR] [COLOR red]• [/COLOR] [COLOR yellow](Has replaced ALL others)[/COLOR]</title>
+<link>plugin://plugin.video.livehub2/?description&iconimage=%2ficon.png&mode=5008&name=%5bCOLOR%20white%5d%5bB%5dShowBox%20TV%5b%2fCOLOR%5d%5b%2fB%5d&url=url</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
 <dir>
-<name>[COLOR gold]Cerebro's TV On Demand[/COLOR] (Latest Shows & Episodes) ALWAYS WORKS!!!</name>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/index2-vod.xml</link>
+<name>[COLOR pink]CerebroTV: [/COLOR][COLOR red]Our TV Picks![/COLOR] (can request movies)</name>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/index2-vod.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
 
 <plugin>
-<title>[COLOR pink]Latest TV Releases[/COLOR] (Pair For Best Results!!)</title>
+<title>[COLOR gold]Latest TV Epsidoes[/COLOR] (Aired in Last 48 Hours)</title>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-<link>plugin://plugin.video.tvmix/?description&iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.tvmix%5cresources%5cart%5clatest.png&mode=1&name=New%20Latest%20Episodes&url=http%3a%2f%2fwatchepisodeseries.unblockall.org%2f</link>
+<link>plugin://plugin.video.tvheaven/?description&iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.tvheaven%5cresources%5cart%5clatest.png&mode=1&name=New%20Latest%20Episodes&url=http%3a%2f%2fwatchepisodeseries.unblockall.org%2f</link>
 </plugin>
 
 <plugin>
@@ -31,10 +38,10 @@
 </plugin>
 
 <plugin>
-<title>[COLOR pink]Cererbro ShowBox TV Shows[/COLOR] (VERY GOOD)</title>
-<link>plugin://plugin.video.livehub2/?description&iconimage=%2ficon.png&mode=5008&name=%5bCOLOR%20white%5d%5bB%5dShowBox%20TV%5b%2fCOLOR%5d%5b%2fB%5d&url=url</link>
+<title>[COLOR pink]Cerebro TV Heaven[/COLOR]</title>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<link>plugin://plugin.video.tvheaven</link>
 </plugin>
 
 <plugin>

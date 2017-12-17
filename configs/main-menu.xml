@@ -57,77 +57,77 @@
 
 <dir>
 <name>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Live TV[/COLOR] (IPTV)</name>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/Live.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/Live.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <name>[COLOR gold]CerebroTV: [/COLOR][COLOR red]TV Shows OnDemand [/COLOR] (Pair First!!!)</name>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/vod-tv.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/vod-tv.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <name>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Movies OnDemand [/COLOR] (Pair First!!!)</name>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/vod-movies.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/vod-movies.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Sports [/COLOR]</title>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/sports.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/sports.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]PPV [/COLOR](Pay Per View)</title>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/ppv.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/ppv.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <name>[COLOR gold]CerebroTV: [/COLOR][COLOR red]24/7 TV[/COLOR]</name>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/247menu.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/247menu.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Music Section [/COLOR]</title>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/music.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/music.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Kids Corner[/COLOR]</title>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/Kids.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/Kids.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Retro Games [/COLOR] (Premium Only)</title>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/games.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/games.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Andoind APKs [/COLOR] (Premium Only)</title>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/apk.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/apk.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]System Tools [/COLOR]</title>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/tools.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/tools.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>

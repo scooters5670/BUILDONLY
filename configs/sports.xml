@@ -31,6 +31,13 @@
 </plugin>
 
 <plugin>
+<title>[COLOR gold]CerebroTV: [/COLOR]Kick Off (All UK Football + Live Channels)</title>
+<link>plugin://plugin.video.kickoff</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
 <title>[COLOR gold]CerebroTV: [/COLOR]Sports Replays</title>
 <link>plugin://plugin.video.kratosfucksducky/?action=directory&content=addons&url=https%3a%2f%2fraw.githubusercontent.com%2fbiglad%2fCerebroTVRepo%2fmaster%2fconfigs%2freplays.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>

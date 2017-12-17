@@ -11,14 +11,14 @@
 
 <dir>
 <name>[COLOR pink]TV On Demand[/COLOR]</name>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/vod-tv.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/vod-tv.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <name>[COLOR pink]Movies on Demand[/COLOR]</name>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/vod-movies.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/vod-movies.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>

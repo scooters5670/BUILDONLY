@@ -31,14 +31,14 @@
 
 <dir>
 <name>[COLOR pink]Kids Youtube Channels[/COLOR]</name>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/KidsYouTube.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/KidsYouTube.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <name>[COLOR pink]Kids TV On Demand[/COLOR]</name>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/index2-vod-kids.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/index2-vod-kids.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
@@ -107,6 +107,13 @@
 </plugin>
 
 <plugin>
+<title>[COLOR pink]Trollhunters[/COLOR]</title>
+<link>plugin://plugin.video.Showbox/?mode=7&name=%20Trollhunters%c2%a0%20&url=https%3a%2f%2fvidics.unblocked.vc%2f%2fSerie%2fTrollhunters-&vidtype=tv</link>
+<thumbnail>https://vidics.unblocked.vc//static/150/86/Trollhunters_-1712133.JPEG</thumbnail>
+<fanart>https://vidics.unblocked.vc//static/150/86/Trollhunters_-1712133.JPEG</fanart>
+</plugin>
+
+<plugin>
 <title>[COLOR pink]Animation Movies 24/7[/COLOR]</title>
 <link>plugin://plugin.video.livehub2/?description&iconimage=http%3a%2f%2fgeekpeaksoftware.com%2fwp-content%2fuploads%2f2016%2f10%2fmobdro.png&mode=10&name=%5bB%5d%5bCOLOR%20white%5dAnimation%20Movies%2024%2f7%5b%2fCOLOR%5d%5b%2fB%5d&url=mpd%3a%2f%2f7e18e745bf13ed4e73c5e612599b4cf5.m3u8</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
@@ -165,6 +172,13 @@
 <plugin>
 <title>[COLOR pink]The Simpsons 24/7[/COLOR]</title>
 <link>plugin://plugin.video.livehub2/?description&iconimage=http%3a%2f%2fgeekpeaksoftware.com%2fwp-content%2fuploads%2f2016%2f10%2fmobdro.png&mode=10&name=%5bB%5d%5bCOLOR%20white%5dThe%20Simpsons%5b%2fCOLOR%5d%5b%2fB%5d&url=mpd%3a%2f%2f3691308f2a4c2f6983f2880d32e29c84.m3u8</link>
+<thumbnail>http://www.thetvdb.com/banners/posters/71663-15.jpg</thumbnail>
+<fanart>http://www.thetvdb.com/banners/posters/71663-15.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>[COLOR pink]Adventure Time[/COLOR]</title>
+<link>plugin://plugin.video.livehub2/?description&iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&mode=10&name=%5bB%5d%5bCOLOR%20white%5dAdventure%20Time%5b%2fCOLOR%5d%5b%2fB%5d&url=mpd%3a%2f%2f7d0db380a5b95a8ba1da0bca241abda1.m3u8</link>
 <thumbnail>http://www.thetvdb.com/banners/posters/71663-15.jpg</thumbnail>
 <fanart>http://www.thetvdb.com/banners/posters/71663-15.jpg</fanart>
 </plugin>

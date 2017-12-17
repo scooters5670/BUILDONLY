@@ -18,7 +18,7 @@
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Kids Corner[/COLOR]</title>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/Kids.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/Kids.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
@@ -122,6 +122,13 @@
 </plugin>
 
 <plugin>
+<title>[COLOR pink]Swift Streams[/COLOR] (ALL - UK,USA,PAK,PUN,TR,ETC!!!!)</title>
+<link>plugin://script.module.streamhublive/?description&iconimage=https%3a%2f%2fwww.apkdld.com%2fwp-content%2fuploads%2f2017%2f06%2fsnappy-streamz-apk-300x293.jpg&mode=4&name=%5bCOLOR%20white%5d%5bB%5dSnappy%20Streamz%5b%2fCOLOR%5d%5b%2fB%5d&url=snappystreams</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
 <title>[COLOR pink]WeeTV Streams[/COLOR]</title>
 <link>plugin://plugin.video.weetv</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
@@ -184,9 +191,23 @@
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </plugin>
 
+<plugin>
+<title>[COLOR pink]UK & USA Channels[/COLOR]</title>
+<link>plugin://plugin.video.tvone/list_channels/1</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>[COLOR pink]UK & USA Channels[/COLOR] Back Up</title>
+<link>plugin://plugin.video.tvone1/list_channels/channels</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
 <dir>
 <name>[COLOR gold]CerebroTV: [/COLOR][COLOR red]24/7 TV[/COLOR]</name>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/247menu.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/247menu.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>

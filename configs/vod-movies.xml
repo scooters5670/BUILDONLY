@@ -9,9 +9,16 @@
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </plugin>
 
+<plugin>
+<title>[COLOR red]• [/COLOR][COLOR lightblue]Cerebro ShowBox Movies[/COLOR] [COLOR red]• [/COLOR] [COLOR yellow](Has replaced ALL others)[/COLOR]</title>
+<link>plugin://plugin.video.livehub2/?description&iconimage=%2ficon.png&mode=5007&name=%5bCOLOR%20white%5d%5bB%5dShowBox%20Movies%5b%2fCOLOR%5d%5b%2fB%5d&url=url</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
 <dir>
-<name>[COLOR pink]CerebroTV: [/COLOR][COLOR red]Movies On Demand[/COLOR] (can request movies)</name>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/cerebro-movies.xml</link>
+<name>[COLOR pink]CerebroTV: [/COLOR][COLOR red]Our Movie Picks![/COLOR] (can request movies)</name>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/cerebro-movies.xml</link>
 <thumbnail>http://www.manolith.com/wp-content/uploads//2011/02/MoviesOnDemand1.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
@@ -31,17 +38,10 @@
 </plugin>
 
 <plugin>
-<title>[COLOR pink]Latest Movies in HD[/COLOR] [COLOR gold]Cerebero ONLY![/COLOR]</title>
+<title>[COLOR pink]Latest Movies in HD ONLY[/COLOR]</title>
 <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Full_hd_logo.svg/2000px-Full_hd_logo.svg.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-<link>plugin://plugin.video.cerebroHDmovies</link>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]Cerebro ShowBox Movies[/COLOR] (VERY GOOD)</title>
-<link>plugin://plugin.video.livehub2/?description&iconimage=%2ficon.png&mode=5007&name=%5bCOLOR%20white%5d%5bB%5dShowBox%20Movies%5b%2fCOLOR%5d%5b%2fB%5d&url=url</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<link>plugin://plugin.video.cerebrozstrictlyhd</link>
 </plugin>
 
 <plugin>
@@ -137,7 +137,7 @@
 
 <dir>
 <name>[COLOR gold]CerebroTV: [/COLOR][COLOR red]24/7 TV[/COLOR]</name>
-<link>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/configs/247menu.xml</link>
+<link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/247menu.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </dir>
