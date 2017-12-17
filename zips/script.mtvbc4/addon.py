@@ -38,10 +38,10 @@ def menuoptions():
     return 
 
 
-def function3():
-    xbmc.executebuiltin('PlayMedia("plugin://plugin.video.tvplayer/?url=92&mode=200&name=%5BCOLOR+royalblue%5DChannel+4%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DCome+Dine+with+Me%5B%2FCOLOR%5D&iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F92.png&description=Four+residents+of+Shropshire+battle+it+out+in+the+dinner-party+challenge.+Yvonne+hopes+her+first-class+dining+experience+will+impress%2C+but+one+guest+refuses+to+eat+her+dessert%2C+while+one+of+her%27+attention-distracting+handstands+lands+her+on+her+back+in+the+kitchen+of+interior+architect+student+Olu.+Natsai+serves+up+a+mammoth+meat-fest+she+claims+to+resemble+The+Lion+King+on+a+plate+-+much+to+the+horror+of+everyone.&genre=Entertainment")')
-
 def function1():
+    xbmc.executebuiltin('ActivateWindow(10025,"plugin://plugin.video.livehub2/?description&iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&mode=10&name=%5bCOLOR%20white%5dChannel%204%5b%2fCOLOR%5d&url=mpd%3a%2f%2fe77d2afa4363dad35c713745802d7bee.m3u8",return)')
+
+def function3():
     xbmc.executebuiltin('PlayMedia("plugin://script.module.streamhublive/?url=swift:http://185.21.216.192:7071/routernew/Channel4/playlist.m3u8&mode=10&name=%5BB%5D%5BCOLOR+white%5DChannel+4%5B%2FCOLOR%5D%5B%2FB%5D&iconimage=http%3A%2F%2Fswiftstreamz.com%2FSwiftStream%2Fimages%2Fthumbs%2F51044_ch41.jpg&description=Channel+4+Channel+4+Channel+4+Channel+4+Channel+4")')
     
 def function2():
