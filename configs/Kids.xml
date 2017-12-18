@@ -16,6 +16,13 @@
 </plugin>
 
 <plugin>
+<title>[COLOR pink]Latest Cartoons & Animie[/COLOR]</title>
+<link>plugin://plugin.video.cartoons8</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
 <title>[COLOR pink]Kids Latest Movies in HD[/COLOR]</title>
 <link>plugin://plugin.video.bob.unleashed/?description=No%20information%20available&fanart=http%3a%2f%2f178.32.217.111%2freloaded%2fthemes%2fmovies%2fmovies8.jpg&iconimage=http%3a%2f%2f178.32.217.111%2freloaded%2ficons%2fKids%2fKids-New-Releases.png&mode=get_list&name=%5bCOLORcyan%5dClick%20For%20New%20Kids%20Movies%5b%2fCOLOR%5d&url=https%3a%2f%2fpastebin.com%2fraw%2fduFQdTxY</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
@@ -182,5 +189,7 @@
 <thumbnail>http://www.thetvdb.com/banners/posters/71663-15.jpg</thumbnail>
 <fanart>http://www.thetvdb.com/banners/posters/71663-15.jpg</fanart>
 </plugin>
+
+
 
 
