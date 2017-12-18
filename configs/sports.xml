@@ -45,8 +45,8 @@
 </plugin>
 
 <plugin>
-<title>[COLOR pink]MamaHD UK Sports[/COLOR] (Go Sports TV -> MAMA HD) (VPN Needed Sometimes)[/COLOR]</title>
-<link>plugin://plugin.video.SportsDevil/</link>
+<title>[COLOR pink]UK / USA & World Sports IPTV[/COLOR]</title>
+<link>plugin://plugin.video.tvone11/list_channels/36</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </plugin>
