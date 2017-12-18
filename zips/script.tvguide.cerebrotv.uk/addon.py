@@ -63,6 +63,8 @@ def d():
 	except:
 		pass
 d() 
+
+xbmc.executebuiltin('PlayMedia("plugin://plugin.video.tvone11/refresh")')
  
 
 

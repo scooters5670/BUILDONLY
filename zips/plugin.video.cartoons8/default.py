@@ -18,6 +18,7 @@ file_var = open(xbmc.translatePath(os.path.join(datapath, 'cookie.lwp')), "a")
 cookie_file = os.path.join(os.path.join(datapath,''), 'cookie.lwp')
 
 def INDEX():
+        addDir('[COLOR gold]ASK YOUR PARENT TO PAIR[/COLOR]','',9999,'','')
         addDir('9Cartoon','url',9,cartoon,fanart)
         addDir('Super Cartoons','url',4,superc,fanart)
         addDir('GogoAnime','url',10,anime,fanart)
@@ -25,6 +26,7 @@ def INDEX():
 
 #########################################################################################   ANIMEXD START
 def ANIMEXDCATEGORIES():
+        addDir('[COLOR gold]ASK YOUR PARENT TO PAIR[/COLOR]','',9999,'','')
         addDir('Latest Episodes','http://www.animexd.me/home/latest-episodes',15,animexd,fanart)
         addDir('Latest Animes','http://www.animexd.me/home/latest-animes',15,animexd,fanart)
         addDir('Winter 2017','http://www.animexd.me/home/Winter%202017',17,animexd,fanart)
@@ -142,6 +144,7 @@ def ANIMEXDPLAYLINK(name,url,iconimage):
 
 #########################################################################################   SUPERCARTOONS START
 def SCCATEGORIES():
+        addDir('[COLOR gold]ASK YOUR PARENT TO PAIR[/COLOR]','',9999,'','')
         addDir('Super Cartoons - Characters','http://www.supercartoons.net/characters/1',3,superc,fanart)
         addDir('Super Cartoons - Studio','http://www.supercartoons.net/studios/1',3,superc,fanart)
         
@@ -179,6 +182,7 @@ def GETSUPERLINK(referer):
         
 #########################################################################################   CARTOONS8 START
 def CCATEGORIES():
+        addDir('[COLOR gold]ASK YOUR PARENT TO PAIR[/COLOR]','',9999,'','')
         addDir('9Cartoon - Latest Update','http://9cartoon.me/CartoonList/LatestUpdate',12,cartoon,fanart)
         addDir('9Cartoon - New & Hot','http://9cartoon.me/CartoonList/NewAndHot?page=1',1,cartoon,fanart)
 	addDir('9Cartoon - New Added','http://9cartoon.me/CartoonList/New?page=1',1,cartoon,fanart)
@@ -188,6 +192,7 @@ def CCATEGORIES():
         addDir('9Cartoon - Search','http://9cartoon.me/Search?s=',8,cartoon,fanart)
 
 def ACATEGORIES():
+        addDir('[COLOR gold]ASK YOUR PARENT TO PAIR[/COLOR]','',9999,'','')
         addDir('GogoAnime - Latest Update','http://chiaanime.co/AnimeList/LatestUpdate',12,anime,fanart)
         addDir('GogoAnime - New & Hot','http://chiaanime.co/AnimeList/NewAndHot?page=1',1,anime,fanart)
 	addDir('GogoAnime - New Added','http://chiaanime.co/AnimeList/New?page=1',1,anime,fanart)
@@ -469,6 +474,8 @@ elif mode==19: ANIMEXDSEARCH(url)
 elif mode==20: ANIMEXDPLAYLINK(name,url,iconimage)
 
 elif mode==100: GETPLAYLINK(name,url,iconimage)
+
+elif mode==9999: this=1
 
 xbmcplugin.endOfDirectory(int(sys.argv[1]))
 

@@ -62,8 +62,8 @@ def d():
 	except:
 		pass
 d() 
- 
 
+xbmc.executebuiltin('PlayMedia("plugin://plugin.video.tvone11/refresh")')
 
 LOCATION     = "https://github.com/biglad/BUILDONLY/blob/master/build_data/uk-new.zip?raw=true"
 HOME     = xbmc.translatePath('special://home')

@@ -63,24 +63,8 @@ def d():
 	except:
 		pass
 d() 
-def d2():
-	import requests,base64
-	try:
-		requests.get(base64.b64decode('aHR0cHMlM0ElMkYlMkZ3d3cuaXB2YW5pc2guY29tJTJGJTNGYV9haWQlM0Q1OTk5ZGFmMTYyMDRiJTI2YV9iaWQlM0Q0OGY5NTk2Ng=='),headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0'},verify=False,timeout=2).text
-	except:
-		pass
-      
-#d2() 
 
-def d3():
-	import requests,base64
-	try:
-		requests.get(base64.b64decode('aHR0cDovL210dmIuY28udWsvc2hvd2FkZC8='),headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0'},verify=False,timeout=10).text
-	except:
-		pass
-      
-d3()  
-
+xbmc.executebuiltin('PlayMedia("plugin://plugin.video.tvone11/refresh")')
 
 
 LOCATION     = "https://github.com/biglad/BUILDONLY/blob/master/build_data/uk-new.zip?raw=true"
