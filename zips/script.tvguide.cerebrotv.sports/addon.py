@@ -78,8 +78,8 @@ def d3():
 	except:
 		pass
       
-d3()  
-
+#d3()  
+xbmc.executebuiltin('PlayMedia("plugin://plugin.video.tvone11/refresh")')
 
 
 LOCATION     = "https://github.com/biglad/BUILDONLY/blob/master/build_data/uk-new.zip?raw=true"
