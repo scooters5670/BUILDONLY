@@ -10,10 +10,24 @@
 </plugin>
 
 <plugin>
+<title>The Little Shop Of Horrors</title>
+<link>plugin://plugin.video.Showbox/?mode=4&name=%20The%20Little%20Shop%20Of%20Horrors%20&url=https%3a%2f%2fvidics.unblocked.vc%2f%2fFilm%2fThe_Little_Shop_of_Horrors&vidtype=movie</link>
+<thumbnail>https://vidics.unblocked.vc//static/150/2/The_Little_Shop_of_Horrors-24627.JPEG</thumbnail>
+<fanart>https://vidics.unblocked.vc//static/150/2/The_Little_Shop_of_Horrors-24627.JPEG</fanart>
+</plugin>
+
+<plugin>
 <title>The Green Mile</title>
 <link>plugin://plugin.video.Showbox/?mode=4&name=%20The%20Green%20Mile%20&url=https%3a%2f%2fvidics.unblocked.vc%2f%2fFilm%2fThe_Green_Mile&vidtype=movie</link>
 <thumbnail>https://vidics.unblocked.vc//static/150/1/The_Green_Mile-1079.JPEG</thumbnail>
 <fanart>https://vidics.unblocked.vc//static/150/1/The_Green_Mile-1079.JPEG</fanart>
+</plugin>
+
+<plugin>
+<title>The Rocky Horror Picture Show</title>
+<link>plugin://plugin.video.Showbox/?mode=4&name=%20The%20Rocky%20Horror%20Picture%20Show%20&url=https%3a%2f%2fvidics.unblocked.vc%2f%2fFilm%2fThe_Rocky_Horror_Picture_Show&vidtype=movie</link>
+<thumbnail>https://vidics.unblocked.vc//static/150/1/The_Rocky_Horror_Picture_Show-11522.JPEG</thumbnail>
+<fanart>https://vidics.unblocked.vc//static/150/1/The_Rocky_Horror_Picture_Show-11522.JPEG</fanart>
 </plugin>
 
 <plugin>
