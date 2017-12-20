@@ -1,3 +1,6 @@
+v2.4.1 
+Removed live TV. Changed proxy to https
+
 v2.3.9
 Fixed regex to pull correct video url
 

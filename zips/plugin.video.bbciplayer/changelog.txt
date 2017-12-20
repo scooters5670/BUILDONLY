@@ -1,3 +1,9 @@
+v0.5.3
+changed proxy to https to fix playback
+
+v0.5.2
+Fixed next page link. Removed livetv from menu cos it never worked for me here.
+
 v0.5
 Fixed search
 

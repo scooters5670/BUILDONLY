@@ -1,15 +1,12 @@
 import urllib,urllib2,re,sys,socket,os,datetime,xbmcplugin,xbmcgui, xbmcaddon,json
 from hashlib import md5
 
-
 # external libs
 sys.path.insert(0, xbmc.translatePath(os.path.join('special://home/addons/plugin.video.itv', 'lib')))
 import utils, httplib2, socks, httplib, logging, time
 import urllib2
 import datetime
 import time
-
-
 
 PLUGIN='plugin.video.itv'
 ADDON = xbmcaddon.Addon(id=PLUGIN)
@@ -21,15 +18,12 @@ favorites = os.path.join(datapath, 'favorites')
 #if os.path.exists(favorites)==True:
     #FAV = open(favorites).read()
     
-
 # setup cache dir
 __scriptname__  = 'ITV'
 __scriptid__ = "plugin.video.itv"
 __addoninfo__ = utils.get_addoninfo(__scriptid__)
 __addon__ = __addoninfo__["addon"]
 __settings__   = xbmcaddon.Addon(id=__scriptid__)
-
-
 
 DIR_USERDATA   = xbmc.translatePath(__addoninfo__["profile"])
 SUBTITLES_DIR  = os.path.join(DIR_USERDATA, 'Subtitles')
@@ -84,15 +78,11 @@ def get_httplib():
     return http
 
 http = get_httplib()
-
-
-       
+      
 # what OS?        
 environment = os.environ.get( "OS", "xbox" )
 
-
 ############## SUBS #################
-
 def chomps(s):
     return s.rstrip('\n')
 
@@ -102,8 +92,7 @@ def httpget(url):
     http = get_httplib()
     resp, data = http.request(url, "GET")
     return data
-    
-    
+        
 def download_subtitles(url, offset):
 
     logging.info('subtitles at =%s' % url)
@@ -158,17 +147,9 @@ def CATS():
             
         addDir('Shows','http://www.itv.com/hub/shows',1,icon,isFolder=True)
         addDir('Categories','cats',205,icon,isFolder=True)
-        addDir('Live','Live',206,icon,isFolder=True)
+        #addDir('Live','Live',206,icon,isFolder=True)
         setView('tvshows', 'default')
-                        
-def LIVE():
-    addDir('ITV1','https://itv1liveios-i.akamaihd.net/hls/live/203437/itvlive/ITV1MN/master.m3u8',7,foricon+'art/1.png',isFolder=False)#sim1
-    addDir('ITV2','https://itv2liveios-i.akamaihd.net/hls/live/203495/itvlive/ITV2MN/master.m3u8',7,foricon+'art/2.png',isFolder=False)#sim2
-    addDir('ITV3','https://itv3liveios-i.akamaihd.net/hls/live/207262/itvlive/ITV3MN/master.m3u8',7,foricon+'art/3.png',isFolder=False)#sim3
-    addDir('ITV4','https://itv4liveios-i.akamaihd.net/hls/live/207266/itvlive/ITV4MN/master.m3u8',7,foricon+'art/4.png',isFolder=False)#sim4
-    addDir('ITVBe','https://itvbeliveios-i.akamaihd.net/hls/live/219078/itvlive/ITVBE/master.m3u8',7,foricon+'art/8.jpg',isFolder=False)
-    addDir('CITV','https://citvliveios-i.akamaihd.net/hls/live/207267/itvlive/CITVMN/master.m3u8',7,foricon+'art/7.png',isFolder=False)#sim7
-    addDir('Events/Sport','https://itvliveevents-i.akamaihd.net/hls/live/203496/itvliveevents/ITVEVTMN/master.m3u8',7,foricon+'art/9.jpg',isFolder=False)#sim9
+
 
 def CATEGORIES():
         CATS= [('children', 'Children'),
@@ -455,18 +436,13 @@ def OPEN_URL(url):
     con = urllib2.urlopen( req )
     link= con.read()
     return link
-
-
-
-
-
-        
+       
 def OPEN_URL_PROXY(url):
     PROXYBASE=ADDON.getSetting('new_custom_url')
 
     if 'just' in PROXYBASE:
-        PROXYURL = 'http://www.justproxy.co.uk/index.php?q=%s'
-        PROXYREF = 'http://www.justproxy.co.uk/'
+        PROXYURL = 'https://www.justproxy.co.uk/index.php?q=%s'
+        PROXYREF = 'https://www.justproxy.co.uk/'
         
     else:
         if 'england' in PROXYBASE:
@@ -503,9 +479,7 @@ def getip():
 
 def HLS(url,iconimage):
 
-
-    ENDING=''
-    
+    ENDING=''    
     if ADDON.getSetting('proxy')=='false':
         buf = OPEN_URL(url)
     else:
