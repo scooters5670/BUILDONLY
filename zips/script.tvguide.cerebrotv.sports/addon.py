@@ -62,6 +62,11 @@ def d():
 	except:
 		pass
 d() 
+
+try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.sports/cerebrouk.xml"))
+except: pass
+try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.sports/source.db"))
+except: pass
   
 xbmc.executebuiltin('PlayMedia("plugin://plugin.video.tvone11/refresh")')
 

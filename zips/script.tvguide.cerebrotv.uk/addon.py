@@ -43,6 +43,7 @@ __addon__ = xbmcaddon.Addon()
 __addonname__ = __addon__.getAddonInfo('name')
 __icon__ = __addon__.getAddonInfo('icon')
 
+
 ipaddy="0.0.0.0"
 HOME     = xbmc.translatePath('special://userdata/')
 addonicon = xbmc.translatePath('special://addons/plugin.video.wargames/icon.png')
@@ -63,6 +64,11 @@ def d():
 	except:
 		pass
 d() 
+
+try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/cerebrouk.xml"))
+except: pass
+try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/source.db"))
+except: pass
 
 xbmc.executebuiltin('PlayMedia("plugin://plugin.video.tvone11/refresh")')
  
