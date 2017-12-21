@@ -207,14 +207,14 @@
 
 <plugin>
 <title>[COLOR pink]UK , USA  , World Channels & SPORTS[/COLOR]</title>
-<link>plugin://plugin.video.tvone11</link>
+<link>plugin://plugin.video.tvone111/</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]UK , USA  , World Channels & SPORTS[/COLOR] Back Up</title>
-<link>plugin://plugin.video.tvone1111</link>
+<link>plugin://plugin.video.tvone1111/</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </plugin>
