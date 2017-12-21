@@ -205,6 +205,20 @@
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </plugin>
 
+<plugin>
+<title>[COLOR pink]UK , USA  , World Channels[/COLOR]</title>
+<link>plugin://plugin.video.tvone11</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>[COLOR pink]UK , USA  , World Channels/COLOR] Back Up</title>
+<link>plugin://plugin.video.tvone1111</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
 <dir>
 <name>[COLOR gold]CerebroTV: [/COLOR][COLOR red]24/7 TV[/COLOR]</name>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/247menu.xml</link>
