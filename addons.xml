@@ -397,7 +397,7 @@ provider-name="Crucialminds">
     </extension>
 </addon>
 
-<addon id="plugin.video.bbciplayer" name="BBC iPlayer" version="0.5" provider-name="catchup4kodi">
+<addon id="plugin.video.bbciplayer" name="BBC iPlayer" version="0.5.3" provider-name="catchup4kodi">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -406,9 +406,9 @@ provider-name="Crucialminds">
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">BBC iPlayer</summary>
-    <description lang="en">BBC iPlayer</description>
+    <description lang="en">BBC iPlayer. Modded by geeteetv</description>
     <platform>all</platform>
-    <news>Fixed search</news>
+    <news>Fixed proxy</news>
   </extension>
 </addon>
 
@@ -1444,7 +1444,7 @@ Initial release.
   </extension>
 </addon>
 
-<addon id="plugin.video.itv" name="ITV" version="2.4.0" provider-name="catchup4kodi">
+<addon id="plugin.video.itv" name="ITV" version="2.4.1" provider-name="catchup4kodi, geeteetv">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -1453,9 +1453,9 @@ Initial release.
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Plugin for ITV Live Tv Player</summary>
-    <description>ITV Player Front End</description>
-    <news>Fixed regex so video links are now being picked up correctly</news>
+    <summary>ITV Tv Player</summary>
+    <description>ITV Player </description>
+    <news>modded version of catchup4kodi's ITVplayer. Fixed proxy, removed live TV</news>
   </extension>
 </addon>
 
@@ -2288,6 +2288,54 @@ em procura livre na internet.</description>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_gb">tvOne1</summary>
     <description lang="en_gb">tvOne1</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvone111" name="tvOne111" version="4" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">tvOne</summary>
+    <description lang="en_gb">tvOne</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvone1111" name="tvOne1111" version="4" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.pyamf" />
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">tvOne</summary>
+    <description lang="en_gb">tvOne</description>
     <disclaimer lang="en_gb"></disclaimer>
     <language></language>
     <platform>all</platform>
@@ -4773,7 +4821,7 @@ level.</description>
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.15" provider-name="Eldorado, tknorris, tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.16" provider-name="Eldorado, tknorris, tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
