@@ -38,6 +38,13 @@
 </plugin>
 
 <plugin>
+<title>[COLOR gold]CerebroTV: [/COLOR]Deliverance Sports</title>
+<link>plugin://plugin.video.DELIVERANCE/?fanart=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2ffanart.jpg&iconimage=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2fhomepics%2fsports.jpg&mode=1&name=Deliverance%20Sports&url=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2fsubtexts%2fsportssub.txt</link>
+<thumbnail>http://sport-xplosion.com/DELIVERANCE%20TXT%20FILES/homepics/sports.jpg</thumbnail>
+<fanart>http://sport-xplosion.com/DELIVERANCE%20TXT%20FILES/homepics/sports.jpg</fanart>
+</plugin>
+
+<plugin>
 <title>[COLOR gold]CerebroTV: [/COLOR]Sports Replays</title>
 <link>plugin://plugin.video.kratosfucksducky/?action=directory&content=addons&url=https%3a%2f%2fraw.githubusercontent.com%2fbiglad%2fCerebroTVRepo%2fmaster%2fconfigs%2freplays.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
