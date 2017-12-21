@@ -2299,6 +2299,30 @@ em procura livre na internet.</description>
   </extension>
 </addon>
 
+<addon id="plugin.video.tvone11" name="tvOne11" version="7" provider-name="RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">tvOne</summary>
+    <description lang="en_gb">tvOne</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.tvone111" name="tvOne111" version="4" provider-name="RACC">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2901,6 +2925,23 @@ Skin and code for skin by Demonstratorz</description>
 		<description>Cypers Locker Repo - Home to Project Cypher.</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+    <addon id="repository.Deliverance" name="Deliverance" version="1.0.0" provider-name="Deliverance">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Deliverance">
+            <info compressed="false">https://raw.githubusercontent.com/paspden10/DELIVERANCE/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/paspden10/DELIVERANCE/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/paspden10/DELIVERANCE/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>communal addon repo</summary>
+            <description>Deliverance Repo</description>
+            <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="repository.elysium" version="2017.06.10" name="Elysium repository" provider-name="Elysium">
