@@ -63,6 +63,11 @@ def d():
 		pass
 d() 
 
+try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/cerebrousa.xml"))
+except: pass
+try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/source.db"))
+except: pass
+
 xbmc.executebuiltin('PlayMedia("plugin://plugin.video.tvone11/refresh")')
 
 LOCATION     = "https://github.com/biglad/BUILDONLY/blob/master/build_data/uk-new.zip?raw=true"
