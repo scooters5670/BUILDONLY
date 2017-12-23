@@ -234,7 +234,7 @@ def xxxadd_next_button(link):
 			return
 			
 def xxxgenre(url):
-        link = passpopup(url)
+        #link = passpopup(url)
         link = OPEN_URL(link)
         main = regex_from_to(link,'<strong>All tags</strong>','mobile-hide')
         all_videos = regex_get_all(main, '<li>', '</li>')
