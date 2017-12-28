@@ -63,7 +63,7 @@ def d():
 		pass
 d() 
 
-try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.usa/cerebrouk.xml"))
+try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.usa/cerebrousa.xml"))
 except: pass
 try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.usa/source.db"))
 except: pass
