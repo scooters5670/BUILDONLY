@@ -886,6 +886,22 @@ provider-name="Cerebro">
 	</extension>
 </addon>
 
+<addon id="plugin.video.filmon.simple" name="FilmOn Simple" version="0.1.9" provider-name="mhancoc7">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">FilmOn Simple</summary>
+    <description lang="en">Please visit [COLOR blue]https://www.tvaddons.co[/COLOR] for addon support! Watch Live TV from FilmOn.</description>
+    <platform>all</platform>
+    <forum>https://tvaddons.co/forums/</forum>
+    <website>https://tvaddons.co/</website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.freeview" name="Freeview" version="3.1.2" provider-name="rayw1986">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -944,7 +960,7 @@ provider-name="Cerebro">
 	</extension>
 </addon>
 
-<addon id="plugin.video.iplayerwww" name="iPlayer WWW" version="3.0.18" provider-name="CaptainT, Cas, ihurst, primaeval">
+<addon id="plugin.video.iplayerwww" name="iPlayer WWW" version="3.0.20" provider-name="CaptainT, Cas, ihurst, primaeval">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.requests" version="2.7.0"/>
@@ -967,6 +983,12 @@ provider-name="Cerebro">
         <fanart>resources/fanart.jpg</fanart>
     </assets>
     <news>
+v3.0.20
+Fixed Most Popular and Highlights.
+
+v3.0.19
+Fixed Channel Highlights.
+
 v3.0.18
 Fixed Highlights (again).
 Fixed BBCiD login.
