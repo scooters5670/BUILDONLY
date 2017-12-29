@@ -61,10 +61,10 @@ def function1():
     xbmc.executebuiltin('PlayMedia("plugin://plugin.video.freeview/?url=http%3A%2F%2Fvs-hls-uk-live.akamaized.net%2Fpool_30%2Flive%2Fbbc_one_hd%2Fbbc_one_hd.isml%2Fbbc_one_hd-pa4%253d128000-video%253d5070016.m3u8&mode=1&name=BBC+One+HD")')
 
 def function3():
-    xbmc.executebuiltin('PlayMedia("plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaabeebyc-1%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&mode=9999&name=BBC+1&iconimage=http%253A%252F%252Fsmarterlogix.com%252FiosSecureApps%252FPakIndiaTVHD%252FV1-2%252FImages%252Fsports.jpg&description=")')
+    xbmc.executebuiltin('PlayMedia("plugin://plugin.video.f4mTester/?proxy_for_chunks=False&maxbitrate=0&name=bbc1+%28uk%29&url=http%3A%2F%2Fvs-hds-uk-live.akamaized.net%2Fpool_30%2Flive%2Fbbc_one_hd%2Fbbc_one_hd.isml%2Fbbc_one_hd-pa3%253d96000-video%253d827008.f4m%7CReferer%3Dhttp%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbcone%26X-Requested-With%3DShockwaveFlash%2F18.0.0.160&proxy=&mode=play")')
 
 def function4():
-    xbmc.executebuiltin('PlayMedia("plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaabeebyc-1%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&mode=9999&name=BBC+1&iconimage=http%253A%252F%252Fsmarterlogix.com%252FiosSecureApps%252FPakIndiaTVHD%252FV1-2%252FImages%252Fsports.jpg&description=")')
+    xbmc.executebuiltin('PlayMedia("plugin://plugin.video.tvone1111/play/MTM3w")')
 
 def function5():
     xbmc.executebuiltin('PlayMedia("plugin://plugin.video.iplayerwww/?url=bbc_one_london&mode=203&name=BBC+One+London&iconimage=C%3A%5CUsers%5Cbiglad%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.iplayerwww%5Cmedia%5Cbbc_one.png&description=&subtitles_url=&logged_in=False")')
