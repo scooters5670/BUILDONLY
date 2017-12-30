@@ -634,6 +634,32 @@ provider-name="Crucialminds">
   </extension>
 </addon>
 
+<addon id="plugin.video.cerebroIPTV" name=" [COLOR black].[/COLOR][COLOR ghostwhite][B]Cerebro IPTV 2[/B][/COLOR]" version="1.01" provider-name="Biglad">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+	<import addon="plugin.video.livehub2" />
+	<import addon="script.cerebro.backend" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">Cerebro IPTV 2</summary>
+    <description lang="en_gb">Cerebro IPTV 2</description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
 <!--suppress ALL -->
 <addon id="plugin.video.cererbrooneclickbase" version="1.0.17" name="Cerebro HD Movies Core" provider-name="Biglad">
     <requires>
