@@ -17,22 +17,8 @@
 </plugin>
 
 <plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR]Open 3pm KO / PPV Menu (Premium Only)</title>
-<link>plugin://plugin.program.super.favourites/?label=[COLOR black]ppv[/COLOR]&mode=400&path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper%20Favourites%5Cppv&sf_options=fanart%3Dspecial%3A%2F%2Fhome%2Faddons%5Cplugin.program.super.favourites%5Cfanart.jpg%26_options_sf</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR orange]Mega Streams (TODAYS EVENTS)[/COLOR] (Premium Only) - (65 random channels with all the latest sports today)</title>
 <link>plugin://plugin.program.super.favourites/?label=[COLOR black]randomstreams[/COLOR]&mode=400&path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper%20Favourites%5Crandomstreams&sf_options=fanart%3Dspecial%3A%2F%2Fhome%2Faddons%5Cplugin.program.super.favourites%5Cfanart.jpg%26_options_sf</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR]Kick Off (All UK Football + Live Channels)</title>
-<link>plugin://plugin.video.kickoff</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </plugin>
@@ -59,34 +45,6 @@
 </plugin>
 
 <plugin>
-<title>[COLOR pink]BT Sports[/COLOR] (After Click stream links wait 30 secs)</title>
-<link>plugin://plugin.video.DELIVERANCE/?fanart=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2fSportsChannels%2fbackgrounds%2fworldsport.jpg&iconimage=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2fSportsChannels%2ficons%2fBT.png&mode=1&name=%5bCOLORgreen%5dONLINE%3a%5b%2fCOLOR%5dBT%20SPORTS%20(%20UK%20)&url=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2fSportsChannels%2fBT.txt</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]Sky Sports[/COLOR] (After Click stream links wait 30 secs)</title>
-<link>plugin://plugin.video.DELIVERANCE/?fanart=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2fSportsChannels%2fbackgrounds%2fworldsport.jpg&iconimage=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2fSportsChannels%2ficons%2fSKYSPORT.png&mode=1&name=%5bCOLORgreen%5dONLINE%3a%5b%2fCOLOR%5dSKY%20SPORTS%20(%20UK%20)&url=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2fSportsChannels%2fskysport.txt</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]BEIN Sports[/COLOR] (After Click stream links wait 30 secs)</title>
-<link>plugin://plugin.video.DELIVERANCE/?fanart=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2fSportsChannels%2fbackgrounds%2fworldsport.jpg&iconimage=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2fSportsChannels%2ficons%2fBEIN.jpg&mode=1&name=%5bCOLORgreen%5dONLINE%3a%5b%2fCOLOR%5dBEIN%20SPORTS%20(%20ARABIC%20)&url=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2fSportsChannels%2fbein.txt</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]Today's Football[/COLOR]</title>
-<link>plugin://plugin.video.nemesis/?description&fanart=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.nemesis%5cfanart.jpg&iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.nemesis%5cicon.png&mode=4&name=%5bCOLOR%20yellow%5dF%5bCOLOR%20aqua%5dootball%5b%2fCOLOR%5d&url=https%3a%2f%2fwww.reddit.com%2fr%2fsoccerstreams</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
 <title>[COLOR pink]Pi sports[/COLOR]</title>
 <link>plugin://plugin.video.ZemTV-shani/?mode=71&name=Pi%20sports&url=sss</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
@@ -108,20 +66,6 @@
 </plugin>
 
 <plugin>
-<title>[COLOR pink]Sky & BT Sports[/COLOR]</title>
-<link>plugin://plugin.video.falconproject/?action=directory&content=0&url=http%3a%2f%2fajbuilds.uk%2ffalcon_project%2fsky_bt.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]Sky & BT Sports[/COLOR] Version 2</title>
-<link>plugin://plugin.video.SchemeStreams/?fanart=http%3a%2f%2fe2.365dm.com%2f17%2f07%2f16-9%2f20%2fskysports-all-new-rebrand-f1-premier-league-golf-cricket_4001810.jpg&mode=1&name=%5bCOLOR%20limegreen%5dLive%20Sports%20Channels%5b%2fCOLOR%5d&url=http%3a%2f%2fbit.ly%2f2wGwTay</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
 <title>[COLOR pink]WWE[/COLOR]</title>
 <link>plugin://plugin.video.wwe-on-demand</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
@@ -131,20 +75,6 @@
 <plugin>
 <title>[COLOR pink]MMA/UFC/ETC.[/COLOR]</title>
 <link>plugin://plugin.video.ufc-finest</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]SportsDevil Live Sports[/COLOR]</title>
-<link>plugin://plugin.video.SportsDevil/?item=title%3dLive%2bSports%26url%3dlivesports.cfg%26definedIn%3dmainMenu.cfg%26director%3dSportsDevil%26genre%3dLive%2bSports%26type%3drss%26icon%3dC%253A%255CUsers%255Cbigla%255CAppData%255CRoaming%255CKodi%255Caddons%255Cplugin.video.SportsDevil%255Cresources%255Cimages%255Clivesports.png&mode=1</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]SportsDevil Sports TV[/COLOR]</title>
-<link>plugin://plugin.video.SportsDevil/?item=title%3dSports%2bTV%26url%3dtv.cfg%26definedIn%3dmainMenu.cfg%26director%3dSportsDevil%26genre%3dTV%26type%3drss%26icon%3dC%253A%255CUsers%255Cbigla%255CAppData%255CRoaming%255CKodi%255Caddons%255Cplugin.video.SportsDevil%255Cresources%255Cimages%255Cstation.png&mode=1</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </plugin>
