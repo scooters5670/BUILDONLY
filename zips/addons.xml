@@ -2338,7 +2338,7 @@ em procura livre na internet.</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.tvone1" name="tvOne1" version="8" provider-name="RACC">
+<addon id="plugin.video.tvone1" name="Cerebro IPTV Mobdro" version="8.1" provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.livestreamer" />
@@ -2362,7 +2362,7 @@ em procura livre na internet.</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.tvone11" name="tvOne11" version="7" provider-name="RACC">
+<addon id="plugin.video.tvone11" name="Cerebro IPTV SwitfStreams" version="7.1" provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.livestreamer" />
@@ -2386,7 +2386,7 @@ em procura livre na internet.</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.tvone111" name="tvOne111" version="4" provider-name="RACC">
+<addon id="plugin.video.tvone111" name="Cerebro IPTV SolidStremz" version="4.1" provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests" />
@@ -2409,7 +2409,7 @@ em procura livre na internet.</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.tvone1111" name="tvOne1111" version="4" provider-name="RACC">
+<addon id="plugin.video.tvone1111" name="Cerebro IPTV 2" version="4.1" provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.pyamf" />
