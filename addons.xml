@@ -661,8 +661,8 @@ provider-name="Crucialminds">
 </addon>
 
 <addon id="plugin.video.cerebroIPTVBase"
-       name=".Cerebro IPTV BASE"
-       version="1.4"
+       name=".Cerebro MEGA IPTV"
+       version="1.6"
        provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -681,6 +681,7 @@ provider-name="Crucialminds">
     <import addon="script.module.metahandler" version="2.5.1"/>
 	<import addon="script.cerebro.backend" />
 	<import addon="repository.cerebro" />
+	<import addon="repository.cerebrobuildonly" />
 
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
