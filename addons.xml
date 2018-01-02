@@ -7036,9 +7036,9 @@ level.</description>
   </extension>
 </addon>
 
-<addon id="skin.titan" version="100.0.01" name="CerebroTV Skin" provider-name="marcelveldt,mgonzales,Biglad">
+<addon id="skin.titan" version="100.0.02" name="CerebroTV Skin" provider-name="marcelveldt,mgonzales,Biglad">
 	<requires>
-		<import version="5.12.0" addon="xbmc.gui"/>
+		<import addon="xbmc.gui"/>
 		<import addon="script.skinshortcuts" version="0.6.5"/>
 		<import addon="script.skin.helper.service" version="1.0.0"/>
         <import addon="script.skin.helper.widgets" version="1.0.0"/>
