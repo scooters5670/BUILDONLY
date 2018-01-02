@@ -1,31 +1,10 @@
 <item>
-<title>PICK UK</title>
+<title>PICK</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http://streamxcode.ddns.net:25461/live/data/ask/638.ts/PICK TV-EN/http://logosforapp.ddns.net/logo/pick_tv_uk.jpg::LISTNAME:Pick UK::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http://185.21.216.159:7071/server/PICK/playlist.m3u8::LISTNAME:Pick UK::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F638.ts/PICK%20TV-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fpick_tv_uk.jpg::LISTNAME:Pick UK::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2FPICK%2Fplaylist.m3u8::LISTNAME:Pick UK::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDc1w::LISTNAME:Pick UK::#
 </link>
 <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTU3Njc1ZjEtMDU5ZC00ODIwLTk0NjItMzhlMzZmYWY1MWZhXkEyXkFqcGdeQXVyMTY3MjMxMjY@._V1_UY268_CR7,0,182,268_AL_.jpg</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
-
-<item>
-<title>Hostages (2017)</title>
-<link>
-sublink:LISTSOURCE:https://www.youtube.com/watch?v=apVZcaujlGs::LISTNAME:[COLOR yellow]TRAILER[/COLOR]::#
-sublink:LISTSOURCE:http://vidto.me/aohmthwlsl17.html ::LISTNAME:[COLOR red]CerberoTV SD[/COLOR]::#
-sublink:LISTSOURCE:http://uptobox.com/b7n18b0eot8c ::LISTNAME:[COLOR red]CerberoTV HD[/COLOR]::#
-sublink:LISTSOURCE:https://streamango.com/f/dblfksaoppaqdefa/Hostages_2017_720p_BRRip_950MB_MkvCage_mkv_mp4 ::LISTNAME:[COLOR red]CerberoTV HD[/COLOR]::#
-</link>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTU3Njc1ZjEtMDU5ZC00ODIwLTk0NjItMzhlMzZmYWY1MWZhXkEyXkFqcGdeQXVyMTY3MjMxMjY@._V1_UY268_CR7,0,182,268_AL_.jpg</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</item>
-
-<plugin>
-<title>[COLOR gold]Main Menu[/COLOR]</title>
-<link>plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F638.ts/PICK%20TV-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fpick_tv_uk.jpg</link>
-<link>plugin://plugin.video.tvone11/play/http://185.21.216.159:7071/server/PICK/playlist.m3u8</link>
-<link>plugin://plugin.video.tvone1111/play/NDc1w</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
