@@ -660,6 +660,37 @@ provider-name="Crucialminds">
   </extension>
 </addon>
 
+<addon id="plugin.video.cerebroIPTVBase"
+       name=".Ceebro IPTV BASE"
+       version="1.0"
+       provider-name="Biglad">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cerebreo IPTV</summary>
+    <description lang="en">Cerebro IPTV</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <!--suppress ALL -->
 <addon id="plugin.video.cererbrooneclickbase" version="1.0.17" name="Cerebro HD Movies Core" provider-name="Biglad">
     <requires>
