@@ -28,6 +28,29 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk
 </item>
 
 <item>
+<title>BBC2</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=http%3A%2F%2Fvs-hls-uk-live.akamaized.net%2Fpool_31%2Flive%2Fbbc_two_hd%2Fbbc_two_hd.isml%2Fbbc_two_hd-pa4%253d128000-video%253d5070016.m3u8&amp;mode=1&amp;name=BBC+Two+HD::LISTNAME:BBC Two HD::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBBC%20Two%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fd6b64a19b548bf941f57cdd4c5d71904.m3u8::LISTNAME:BBC Two (NO GEO LOCK)::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_scotland.m3u8&amp;mode=9999&amp;name=BBC+Two+Scotland&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description::LISTNAME:BBC Two Scotland::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_northern_ireland_digital.m3u8&amp;mode=9999&amp;name=BBC+Two+Northen+Ireland&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC Two Northen Ireland::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_wales_digital.m3u8&amp;mode=9999&amp;name=BBC+Two+Wales&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC Two Wales::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/bbc_two_england.m3u8&amp;mode=9999&amp;name=BBC+Two+England&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC Two England::#
+</link>
+<thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/90.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BASE</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDc1w::LISTNAME:NAME::#
+</link>
+<thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/90.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>PICK</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F638.ts/PICK%20TV-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fpick_tv_uk.jpg::LISTNAME:Pick UK::#
