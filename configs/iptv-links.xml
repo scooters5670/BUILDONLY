@@ -1,0 +1,10 @@
+<item>
+<title>PICK UK</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F638.ts/PICK%20TV-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fpick_tv_uk.jpg::LISTNAME:Pick UK::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2FPICK%2Fplaylist.m3u8 ::LISTNAME:Pick UK::#
+
+</link>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTU3Njc1ZjEtMDU5ZC00ODIwLTk0NjItMzhlMzZmYWY1MWZhXkEyXkFqcGdeQXVyMTY3MjMxMjY@._V1_UY268_CR7,0,182,268_AL_.jpg</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
