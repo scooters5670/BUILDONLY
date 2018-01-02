@@ -138,6 +138,17 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjc5w::LISTNAME:Sky Atla
 </item>
 
 <item>
+<title>Sky Living</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Living%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f26cb04f6748172109489d18b64feca2e.m3u8::LISTNAME:Sky Living::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyLiving%2Fplaylist.m3u8::LISTNAME:Sky Living::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY2w::LISTNAME:Sky Living::#
+</link>
+<thumbnail>http://212.129.54.17:4040/data/img/files/sky_living.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>PICK</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F638.ts/PICK%20TV-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fpick_tv_uk.jpg::LISTNAME:Pick UK::#
