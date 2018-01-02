@@ -5,6 +5,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2FPICK%2Fplaylist.m3u8::LISTNAME:Pick UK::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDc1w::LISTNAME:Pick UK::#
 </link>
-<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BNTU3Njc1ZjEtMDU5ZC00ODIwLTk0NjItMzhlMzZmYWY1MWZhXkEyXkFqcGdeQXVyMTY3MjMxMjY@._V1_UY268_CR7,0,182,268_AL_.jpg</thumbnail>
+<thumbnail>http://212.129.54.17:4040/data/img/files/pick.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
