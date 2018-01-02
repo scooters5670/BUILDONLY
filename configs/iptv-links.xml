@@ -54,7 +54,7 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3
 <item>
 <title>ITV 2</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://itv2liveios-i.akamaihd.net/hls/live/203495/itvlive/ITV2MN/master_Main1800.m3u8&amp;mode=9999&amp;name=ITV+2&amp;iconimage=http%3A%2F%2Fblog.careco.co.uk%2Fwp-content%2Fuploads%2F2015%2F08%2Fx__i0KC0.png&amp;description::LISTNAME:ITV 2::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://itv2liveios-i.akamaihd.net/hls/live/203495/itvlive/ITV2MN/master_Main1800.m3u8&amp;mode=9999&amp;name=ITV+2&amp;iconimage=http%3A%2F%2Fblog.careco.co.uk%2Fwp-content%2Fuploads%2F2015%2F08%2Fx__i0KC0.png&amp;description=::LISTNAME:ITV 2::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dITV2%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f28d16f04d9b55d2ea2f826735ddffb85.m3u8::LISTNAME:ITV 2 (NO GEO LOCK)::#
 </link>
 <thumbnail>http://blog.careco.co.uk/wp-content/uploads/2015/08/x__i0KC0.png</thumbnail>
@@ -62,11 +62,22 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3
 </item>
 
 <item>
-<title>BASE</title>
+<title>ITV 3</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDc1w::LISTNAME:NAME::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://itv3liveios-i.akamaihd.net/hls/live/207262/itvlive/ITV3MN/master_Main1800.m3u8&amp;mode=9999&amp;name=ITV+3&amp;iconimage=http%3A%2F%2Fblog.careco.co.uk%2Fwp-content%2Fuploads%2F2015%2F08%2Fx__i0KC0.png&amp;description=::LISTNAME:ITV 3::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dITV3%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fef4aa10e04cfa8191ff3253dc8184bc2.m3u8::LISTNAME:ITV 3 (NO GEO LOCK)::#
 </link>
-<thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/90.png</thumbnail>
+<thumbnail>http://blog.careco.co.uk/wp-content/uploads/2015/08/x__i0KC0.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>ITV 4</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://itv4liveios-i.akamaihd.net/hls/live/207266/itvlive/ITV4MN/master_Main1800.m3u8&amp;mode=9999&amp;name=ITV+4&amp;iconimage=http%3A%2F%2Fblog.careco.co.uk%2Fwp-content%2Fuploads%2F2015%2F08%2Fx__i0KC0.png&amp;description=::LISTNAME:ITV 4::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dITV4%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2a2714a7d955d8810a21bb3f195cc0d9.m3u8::LISTNAME:ITV 4 (NO GEO LOCK)::#
+</link>
+<thumbnail>http://blog.careco.co.uk/wp-content/uploads/2015/08/x__i0KC0.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
@@ -78,5 +89,14 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.15
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDc1w::LISTNAME:Pick UK::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/pick.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BASE</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDc1w::LISTNAME:NAME::#
+</link>
+<thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/90.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
