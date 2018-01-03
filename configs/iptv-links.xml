@@ -181,3 +181,149 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.15
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
+<item>
+<title>SYFY</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NjA4w::LISTNAME:SYFY::#
+</link>
+<thumbnail>http://212.129.54.17:4040/data/img/files/syfy.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Comedy Central</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/b9b55864b6779b7e83321ab0b74ed727::LISTNAME:Comedy Central::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FComedyCentral%2Fplaylist.m3u8::LISTNAME:Comedy Central::#
+</link>
+<thumbnail>https://k60.kn3.net/008A50254.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Dave</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=300&amp;mode=2&amp;name=Dave::LISTNAME:Dave::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mzk1w::LISTNAME:Dave::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FDave%2Fplaylist.m3u8::LISTNAME:Dave::#
+</link>
+<thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/300.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Alibi</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FALIBI%2Fplaylist.m3u8::LISTNAME:Alibi::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F594.ts/ALIBI-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Falibi_uktv_uk.jpg::LISTNAME:Alibi::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/e4281447a8f4f03aabfb0e0dfad9af20::LISTNAME:Alibi::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDMxw::LISTNAME:Alibi::#
+</link>
+<thumbnail>https://k60.kn3.net/7D7D17C15.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>CBS REALITY</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2Fserver4.servep2p.com%3A7071%2Fserver%2Fcbsreality%2Fplaylist.m3u8::LISTNAME:CBS REALITY::#
+</link>
+<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/17446_cbsreality.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>CBS ACTION</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/af742351710d35069d31eb91f646cf56::LISTNAME:CBS ACTION::#
+</link>
+<thumbnail>https://k61.kn3.net/60A76DEB7.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>CBS DRAMA</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/b0f8f6e8535e082a1d0e8b9c7366e95f::LISTNAME:CBS DRAMA::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FCBSDRAMA%2Fplaylist.m3u8::LISTNAME:CBS DRAMA::#
+</link>
+<thumbnail>https://k60.kn3.net/269FB86C2.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>More 4</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FMORE4%2Fplaylist.m3u8::LISTNAME:More 4::#
+</link>
+<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/30596_more41.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>E4</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/2157d56d6aff208ae90c869526290656::LISTNAME:E4::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F592.ts/4E-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fe4_uk.jpg::LISTNAME:E4::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2F4E%2Fplaylist.m3u8::LISTNAME:E4::#
+</link>
+<thumbnail>https://i.imgur.com/tU68dd5.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Five USA</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2F5USA%2Fplaylist.m3u8::LISTNAME:Five USA::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjgzw::LISTNAME:Five USA::#
+</link>
+<thumbnail>http://212.129.54.17:4040/data/img/files/5USA.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Five Star</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjQxw::LISTNAME:Five Star::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2F5Star%2Fplaylist.m3u8::LISTNAME:Five Star::#
+</link>
+<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/55179_5stars1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Drama</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=346&amp;mode=2&amp;name=Drama::LISTNAME:Drama::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/24bdca7ce85d02fddf5992944b4960d1::LISTNAME:Drama::#
+</link>
+<thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/346.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>W (Watch)</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NjA5w::LISTNAME:W::#
+</link>
+<thumbnail>http://212.129.54.17:4040/data/img/files/watch.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>TRU TV</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.194%3A7071%2Fserver%2Ftrutv%2Fplaylist.m3u8::LISTNAME:TRU TV::#
+</link>
+<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/9862_trutv.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Really</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUww::LISTNAME:Really::#
+</link>
+<thumbnail>http://212.129.54.17:4040/data/img/files/really_tv.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
