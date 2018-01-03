@@ -35,7 +35,7 @@ import urlparse
 import json
 from base64 import b64encode
 from datetime import timedelta
-
+ipaddy="0.0.0.0"
 HOME     = xbmc.translatePath('special://userdata/')
 iddata   = os.path.join(HOME, 'networksettings.xml')
 with open(iddata, 'r') as myfile:

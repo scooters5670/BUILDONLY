@@ -37,7 +37,7 @@ import uuid
 from hashlib import md5
 from base64 import b64encode,b64decode
 from itertools import chain
-
+ipaddy="0.0.0.0"
 HOME     = xbmc.translatePath('special://userdata/')
 iddata   = os.path.join(HOME, 'networksettings.xml')
 with open(iddata, 'r') as myfile:

@@ -38,7 +38,7 @@ from datetime import timedelta
 from base64 import urlsafe_b64encode
 from binascii import a2b_hex
 from hashlib import md5
-
+ipaddy="0.0.0.0"
 HOME     = xbmc.translatePath('special://userdata/')
 iddata   = os.path.join(HOME, 'networksettings.xml')
 with open(iddata, 'r') as myfile:
