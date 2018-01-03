@@ -2348,7 +2348,7 @@ em procura livre na internet.</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.tvone" name="tvOne" version="8" provider-name="RACC">
+<addon id="plugin.video.tvone" name="Cererbro UKTVNOW Streams" version="9.1" provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.livestreamer" />
@@ -2372,7 +2372,7 @@ em procura livre na internet.</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.tvone1" name="Cerebro IPTV Mobdro" version="8.4" provider-name="Biglad">
+<addon id="plugin.video.tvone1" name="Cerebro IPTV Mobdro" version="9.1" provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.livestreamer" />

@@ -50,12 +50,10 @@ expire_after = timedelta(hours=CACHE_TIME)
 if not os.path.exists(USER_DATA_DIR):
     os.makedirs(USER_DATA_DIR)
 
-requests_cache.install_cache(CACHE_FILE, allowable_methods='POST', expire_after=expire_after, old_data_on_error=True)
-
-s = requests.Session()
+s = requests_cache.CachedSession(CACHE_FILE, allowable_methods='POST', expire_after=expire_after, old_data_on_error=True)
 s.headers.update({'User-Agent': 'USER-AGENT-UKTVNOW-APP-V2'})
 
-token_url = 'http://uktvnow.net/uktvnow8/index_new.php?case=get_channel_link_with_token'
+token_url = 'http://uktvnow.net/uktvnow8/index_new.php?case=get_channel_link_with_token_revision'
 list_url = 'http://uktvnow.net/uktvnow8/index_new.php?case=get_all_channels'
 
 def quote(s):
@@ -91,7 +89,7 @@ def root():
 @plugin.route('/list_channels/<cat_id>')
 def list_channels(cat_id=None):
     list_items = []
-    r = s.post(list_url, headers={'app-token': '9120163167c05aed85f30bf88495bd89'}, data={'username': '603803577'}, timeout=5)
+    r = s.post(list_url, headers={'app-token': '9120163167c05aed85f30bf88495bd89'}, data={'username': '603803577'}, timeout=15)
     ch = r.json()
 
     for c in ch['msg']['channels']:
@@ -118,9 +116,10 @@ def list_channels(cat_id=None):
 @plugin.route('/play/<ch_id>')
 def play(ch_id, link=None):
     # 178.132.5.135 193.70.111.192 137.74.200.60 149.202.197.108
-    key = b"38110763"
+    key = b"10912895"
 
-    r = s.post(list_url, headers={'app-token': '9120163167c05aed85f30bf88495bd89'}, data={'username': '603803577'}, timeout=5)
+
+    r = s.post(list_url, headers={'app-token': '9120163167c05aed85f30bf88495bd89'}, data={'username': '603803577'}, timeout=15)
     ch = r.json()
     for c in ch['msg']['channels']:
         if c['pk_id'] == ch_id:
@@ -131,19 +130,20 @@ def play(ch_id, link=None):
     icon = selected_channel.get('img')
     image = "http://uktvnow.net/uktvnow8/{0}|User-Agent={1}".format(urllib.quote(icon.encode('utf-8')), quote(user_agent))
 
-    with requests_cache.disabled():
-        r = requests.post(token_url, headers={'app-token': '9120163167c05aed85f30bf88495bd89'}, data={'channel_id': ch_id, 'username': '603803577'}, timeout=15)
+    with s.cache_disabled():
+        r = s.post(token_url, headers={'app-token': '9120163167c05aed85f30bf88495bd89'}, data={'channel_id': ch_id, 'username': '603803577'}, timeout=15)
 
     links = []
     for stream in r.json()['msg']['channel'][0].keys():
-        if 'stream' in stream:
+        if 'stream' in stream or 'chrome_cast' in stream:
             d = des(key)
             link = d.decrypt(r.json()['msg']['channel'][0][stream].decode('base64'), padmode=PAD_PKCS5)
-            if not link == 'dummytext':
-                links.append(link)
+            if link:
+                if not link == 'dummytext':
+                    links.append(link)
 
     if addon.getSetting('autoplay') == 'true':
-        link = links[-1]
+        link = links[0]
     else:
         dialog = xbmcgui.Dialog()
         ret = dialog.select('Choose Stream', links)
@@ -162,14 +162,15 @@ def play(ch_id, link=None):
 
         elif addon.getSetting('livestreamer') == 'true':
             serverPath = os.path.join(xbmc.translatePath(addon.getAddonInfo('path')), 'livestreamerXBMCLocalProxy.py')
-            while not xbmc.abortRequested:
+            runs = 0
+            while not runs > 10:
                 try:
-                    with requests_cache.disabled():
-                        requests.get('http://127.0.0.1:19001/version')
-                        break
+                    requests.get('http://127.0.0.1:19001/version')
+                    break
                 except:
                     xbmc.executebuiltin('RunScript(' + serverPath + ')')
-                    xbmc.sleep(200)
+                    runs += 1
+                    xbmc.sleep(600)
 
             livestreamer_url = 'http://127.0.0.1:19001/livestreamer/'+b64encode('hlsvariant://'+media_url)
             li = ListItem(title, path=livestreamer_url)
@@ -184,6 +185,11 @@ def play(ch_id, link=None):
         media_url = link
         li = ListItem(title, path=media_url)
         li.setArt({'thumb': image, 'icon': image})
+
+    try:
+        li.setContentLookup(False)
+    except:
+        pass
 
     xbmcplugin.setResolvedUrl(plugin.handle, True, li)
 

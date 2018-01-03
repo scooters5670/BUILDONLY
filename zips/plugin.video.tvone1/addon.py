@@ -31,14 +31,23 @@ import traceback
 
 import requests
 import requests_cache
-import urllib
-import urllib2
 import json
-from cookielib import LWPCookieJar
 from datetime import timedelta
 from base64 import urlsafe_b64encode
 from binascii import a2b_hex
 from hashlib import md5
+try:
+    from http.cookiejar import LWPCookieJar
+except ImportError:
+    from cookielib import LWPCookieJar
+try:
+    from urllib.parse import quote as orig_quote
+    from urllib.parse import unquote as orig_unquote
+except ImportError:
+    from urllib import quote as orig_quote
+    from urllib import unquote as orig_unquote
+	
+import urllib2
 ipaddy="0.0.0.0"
 HOME     = xbmc.translatePath('special://userdata/')
 iddata   = os.path.join(HOME, 'networksettings.xml')
@@ -48,7 +57,6 @@ response = urllib2.urlopen('http://cerebrotv.co.uk/TV-DATA/auth2.php?id='+str(da
 if not response == "OK":
     xbmc.executebuiltin("Notification([COLOR=gold]CerebroTV[/COLOR],NO CODE FOUND, ..,4000,"+__icon__+")")
     exit()
-
 
 warnings.filterwarnings("ignore")
 
@@ -68,7 +76,7 @@ user_agent = 'Mozilla/5.0 (Linux; Android 5.1.1; AFTT Build/LVY48F) AppleWebKit/
 auth_url = a2b_hex('68747470733a2f2f6170692e6d6f6264726f2e73782f7574696c732f61757468')
 lb_url = a2b_hex('68747470733a2f2f6170692e6d6f6264726f2e73782f7574696c732f6c6f616462616c616e636572')
 list_url = a2b_hex('68747470733a2f2f6170692e6d6f6264726f2e73782f73747265616d626f742f76342f73686f77')
-app_signature = str(0x20b5d5bb)     # 0xedecbf54 0x0c50a4f9
+app_signature = str(0x3b72c95d)     # 0x20b5d5bb 0xedecbf54 0x0c50a4f9
 
 s = requests_cache.CachedSession(CACHE_FILE, allowable_methods='POST',
                                  expire_after=expire_after, old_data_on_error=True,
@@ -92,12 +100,12 @@ if current_time - auth_token_time > 7200:
         addon.setSetting('auth_token', auth_token)
 
 
-def quote(s):
-    return urllib.quote(s.encode('utf-8'), str(''))
+def quote(s, safe=''):
+    return orig_quote(s.encode('utf-8'), safe.encode('utf-8'))
 
 
 def unquote(s):
-    return urllib.unquote(s).decode('utf-8')
+    return orig_unquote(s).decode('utf-8')
 
 
 @plugin.route('/')
@@ -121,19 +129,21 @@ def list_channels(cat=None):
     list_items = []
     for ch in r.json():
         if 'relayer' in ch:
-            image = "{0}|User-Agent={1}".format(ch.get('img'), quote(user_agent))
-            li = ListItem(ch.get('name'))
-            li.setProperty("IsPlayable", "true")
-            li.setInfo(type='Video', infoLabels={'Title': ch.get('name'), 'mediatype': 'video', 'PlayCount': 0})
-            li.setArt({'thumb': image, 'icon': image})
-            #kodi 16/17
-            try:
-                li.setContentLookup(False)
-            except:
-                #kodi 14/15
-                pass
-            url = plugin.url_for(play_id, cat=cat, _id=ch.get('_id'))
-            list_items.append((url, li, False))
+            channel = json.loads(ch.get('relayer'))
+            if not channel.get('protocol') == 'rtmfp':
+                image = "{0}|User-Agent={1}".format(ch.get('img'), quote(user_agent))
+                li = ListItem(ch.get('name'))
+                li.setProperty("IsPlayable", "true")
+                li.setInfo(type='Video', infoLabels={'Title': ch.get('name'), 'mediatype': 'video', 'PlayCount': 0})
+                li.setArt({'thumb': image, 'icon': image})
+                # kodi 16/17
+                try:
+                    li.setContentLookup(False)
+                except AttributeError:
+                    # kodi 14/15
+                    pass
+                url = plugin.url_for(play_id, cat=cat, _id=ch.get('_id'))
+                list_items.append((url, li, False))
 
     xbmcplugin.addDirectoryItems(plugin.handle, list_items)
     xbmcplugin.endOfDirectory(plugin.handle)
@@ -150,22 +160,23 @@ def play_id(cat, _id):
         if 'relayer' in ch:
             if _id == ch.get('_id'):
                 channel = json.loads(ch.get('relayer'))
-                label = ch.get('name')
-                image = "{0}|User-Agent={1}".format(ch.get('img'), quote(user_agent))
-                break
+                if not channel.get('protocol') == 'rtmfp':
+                    label = ch.get('name')
+                    image = "{0}|User-Agent={1}".format(ch.get('img'), quote(user_agent))
+                    break
 
     if channel:
         data = {'referer': a2b_hex('6d6f6264726f2e6d65'), 'token': auth_token}
         try:
             with s.cache_disabled():
-                #r = s.post(lb_url, data=data, timeout=10)
+                # r = s.post(lb_url, data=data, timeout=10)
                 r = s.get(lb_url, timeout=10)
 
             lb_info = r.json()
-        except:
+        except Exception:
             lb_info = {}
 
-        time_stamp = str(int(lb_info.get('epoch',time.time())) + int(channel.get('expiration_time','20400')))
+        time_stamp = str(int(lb_info.get('epoch', time.time())) + int(channel.get('expiration_time', '20400')))
         to_hash = '{password}{time_stamp}/{dir}/{playpath}'.format(time_stamp=time_stamp, **channel)
         out_hash = urlsafe_b64encode(md5(to_hash).digest()).rstrip('=')
 
@@ -174,11 +185,11 @@ def play_id(cat, _id):
                    'Cookie={0}'.format(quote(lb_info.get('cookie', 'token=null'))),
                    a2b_hex('582d5265717565737465642d576974683d322e302e3538253230467265656d69756d')]
 
-        url = "{0}://{1}/{2}/{3}/{4}/{5}".format(channel.get('protocol','http'),
-                                                lb_info.get('server', channel.get('server')),
-                                                channel.get('app','live'),
-                                                out_hash, time_stamp,
-                                                channel.get('playpath').replace(channel.get('replace'),''))
+        url = "{0}://{1}/{2}/{3}/{4}/{5}".format(channel.get('protocol', 'http'),
+                                                 lb_info.get('server', channel.get('server')),
+                                                 channel.get('app', 'live'),
+                                                 out_hash, time_stamp,
+                                                 channel.get('playpath').replace(channel.get('replace'), ''))
 
         media_url = '{url}|{headers}'.format(url=url, headers='&'.join(headers))
 
@@ -189,7 +200,7 @@ def play_id(cat, _id):
                 try:
                     requests.get('http://127.0.0.1:19001/version')
                     break
-                except:
+                except Exception:
                     xbmc.executebuiltin('RunScript(' + serverPath + ')')
                     runs += 1
                     xbmc.sleep(600)
@@ -203,11 +214,11 @@ def play_id(cat, _id):
             li.setArt({'thumb': image, 'icon': image})
             li.setMimeType('application/vnd.apple.mpegurl')
 
-        #kodi 18
+        # kodi 18
         try:
             li.setContentLookup(False)
-        except:
-            #kodi 14/15
+        except AttributeError:
+            # kodi 14/15
             pass
 
         xbmcplugin.setResolvedUrl(plugin.handle, True, li)
