@@ -32,6 +32,7 @@ import traceback
 import requests
 import requests_cache
 import urllib
+import urllib2
 import json
 from cookielib import LWPCookieJar
 from datetime import timedelta
