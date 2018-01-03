@@ -1,11 +1,15 @@
 <item>
 <title>Cerebro IPTV Channels</title>
+<link>
+</link>
 <thumbnail>http://mtvb.co.uk/fanart.jpg</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
 <title>UK IPTV Channels</title>
+<link>
+</link>
 <thumbnail>http://mtvb.co.uk/fanart.jpg</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
@@ -336,6 +340,8 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUww::LISTNAME:Really::
 <title>USA IPTV Channels</title>
 <thumbnail>http://mtvb.co.uk/fanart.jpg</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<link>
+</link>
 </item>
 
 <item>
