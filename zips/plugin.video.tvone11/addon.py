@@ -31,6 +31,7 @@ import traceback
 import requests
 import requests_cache
 import urllib
+import urllib2
 import urlparse
 from base64 import b64encode
 from datetime import timedelta
