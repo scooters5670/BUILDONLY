@@ -2004,7 +2004,7 @@ def urlsolver(url):
     resolved=genesisresolvers.get(url).result
     if url == resolved or resolved is None:
         #import
-        xbmc.executebuiltin("XBMC.Notification(CerebroIPTV, Is Looking For Your Link ,5000,"+__icon__+")")
+        xbmc.executebuiltin("XBMC.Notification(CerebroIPTV, Is Looking For Your Stream....... ,5000,"+__icon__+")")
         import urlresolver
         host = urlresolver.HostedMediaFile(url)
         if host:
