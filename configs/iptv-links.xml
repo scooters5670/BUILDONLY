@@ -353,6 +353,82 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/97::LISTNAME:DMAX::#
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
 </item>
 
+<item>
+<title>Investigation Discovery (ID)</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/cf723f822ded11e60e6bb78f16c327c8::LISTNAME:Investigation Discovery::#
+</link>
+<thumbnail>https://k61.kn3.net/2/4/3/A/C/D/AD0.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Discovery Channel</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/c283a671e1189d568500d494ff8cd77d::LISTNAME:Discovery Channel::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.31%3A7071%2Fgama%2FDiscovery%2Fplaylist.m3u8::LISTNAME:Discovery Channel::#
+</link>
+<thumbnail>https://k61.kn3.net/7662FB2B2.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Discovery Science</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/c283a671e1189d568500d494ff8cd77d::LISTNAME:Discovery Science::#
+</link>
+<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/49109_discoveryscience1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Discovery Turbo</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/0f61fdde073409d41b534b38184fb9c9::LISTNAME:Discovery Turbo::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fdiscoveryturbo%2Fplaylist.m3u8::LISTNAME:Discovery Turbo::#
+</link>
+<thumbnail>https://k60.kn3.net/A9282DAF5.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>History Channel</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/ccb7de5c42461be2cac10f5baf7d62cf::LISTNAME:History Channel::#
+</link>
+<thumbnail>https://k60.kn3.net/89CEAFFEF.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Animal Planet</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/b39899a4d7a8537a3fb9a4b36a364642::LISTNAME:Animal Planet::#
+</link>
+<thumbnail>https://k60.kn3.net/12E42B0E1.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Travel Channel</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/614452655bc157322106de2e209a2853::LISTNAME:Travel Channel::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/230::LISTNAME:Travel Channel::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=126&amp;mode=2&amp;name=Travel+Channel::LISTNAME:Travel Channel::#
+</link>
+<thumbnail>https://static1.squarespace.com/static/570feabe22482e8e386f0385/570ff5182b8ddef633276114/57704a86d2b857e35787a860/1466976918144/travel-channel-logo.jpg?format=750w|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+
 
 
 
