@@ -10,8 +10,50 @@
 </plugin>
 
 <plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR pink]Sports Channels (ALL)[/COLOR] ( Premium Only! )</title>
-<link>plugin://plugin.program.super.favourites/?label=[COLOR black]sports[/COLOR]&mode=400&path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper%20Favourites%5Csports&sf_options=fanart%3Dspecial%3A%2F%2Fhome%2Faddons%5Cplugin.program.super.favourites%5Cfanart.jpg%26_options_sf</link>
+<title>[COLOR gold]CerebroTV: [/COLOR][COLOR orange]IPTV Sports[/COLOR]</title>
+<link>plugin://plugin.video.tvone1111/list_channels/1</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>[COLOR gold]CerebroTV: [/COLOR][COLOR orange]Pak India Sports[/COLOR]</title>
+<link>plugin://plugin.video.livehub2/?description=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;iconimage=http%3a%2f%2fwww.madhyamam.com%2fen%2fsites%2fdefault%2ffiles%2findia-pak.jpg&amp;mode=4&amp;name=%5bCOLOR%20white%5d%5bB%5dPak%20India%20Sports%5b%2fCOLOR%5d%5b%2fB%5d&amp;url=pakindiasport</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>[COLOR gold]CerebroTV: [/COLOR][COLOR orange]UKTVNOW Sports[/COLOR]</title>
+<link>plugin://plugin.video.tvone/list_channels/5</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>[COLOR gold]CerebroTV: [/COLOR][COLOR orange]Mobdro Sports[/COLOR]</title>
+<link>plugin://plugin.video.tvone1/list_channels/sports</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>[COLOR gold]CerebroTV: [/COLOR][COLOR orange]SolidStremz Sports[/COLOR]</title>
+<link>plugin://plugin.video.tvone111/list_channels/55</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>[COLOR gold]CerebroTV: [/COLOR][COLOR orange]BEIN HD Channels[/COLOR]</title>
+<link>plugin://plugin.video.tvone111/list_channels/50</link>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>[COLOR gold]CerebroTV: [/COLOR][COLOR orange]SwitfStreams Sports[/COLOR]</title>
+<link>plugin://plugin.video.tvone11/list_channels/36</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </plugin>
@@ -24,46 +66,12 @@
 </plugin>
 
 <plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR]Deliverance Sports</title>
-<link>plugin://plugin.video.DELIVERANCE/?fanart=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2ffanart.jpg&iconimage=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2fhomepics%2fsports.jpg&mode=1&name=Deliverance%20Sports&url=http%3a%2f%2fsport-xplosion.com%2fDELIVERANCE%2520TXT%2520FILES%2fsubtexts%2fsportssub.txt</link>
-<thumbnail>http://sport-xplosion.com/DELIVERANCE%20TXT%20FILES/homepics/sports.jpg</thumbnail>
-<fanart>http://sport-xplosion.com/DELIVERANCE%20TXT%20FILES/homepics/sports.jpg</fanart>
-</plugin>
-
-<plugin>
 <title>[COLOR gold]CerebroTV: [/COLOR]Sports Replays</title>
 <link>plugin://plugin.video.kratosfucksducky/?action=directory&content=addons&url=https%3a%2f%2fraw.githubusercontent.com%2fbiglad%2fCerebroTVRepo%2fmaster%2fconfigs%2freplays.xml</link>
 <thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </plugin>
 
-<plugin>
-<title>[COLOR pink]UK / USA & World Sports IPTV[/COLOR]</title>
-<link>plugin://plugin.video.tvone11/list_channels/36</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]Pi sports[/COLOR]</title>
-<link>plugin://plugin.video.ZemTV-shani/?mode=71&name=Pi%20sports&url=sss</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]Modbro Sports[/COLOR]</title>
-<link>plugin://plugin.video.livehub2/?description&iconimage=http%3a%2f%2fapk.co%2fimages%2fmobdro-2014-freemium.png&mode=4&name=%5bCOLOR%20white%5d%5bB%5dMobdro%5b%2fCOLOR%5d%5b%2fB%5d&url=mobdro</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]Cerebro Pak India Streams[/COLOR] (UK/USA/Indian Sports)</title>
-<link>plugin://plugin.video.livehub2/?description&iconimage=http%3a%2f%2fwww.madhyamam.com%2fen%2fsites%2fdefault%2ffiles%2findia-pak.jpg&mode=4&name=%5bCOLOR%20white%5d%5bB%5dPak%20India%20Sports%5b%2fCOLOR%5d%5b%2fB%5d&url=pakindiasport</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</plugin>
 
 <plugin>
 <title>[COLOR pink]WWE[/COLOR]</title>
