@@ -15,8 +15,7 @@ def menuoptions():
         function4,
 		function5,
 		function6,
-		function7,
-		function8
+		function7
         )
         
     call = dialog.select('[B][COLOR=yellow]Live TV Menu[/COLOR][/B]', [ 
@@ -26,8 +25,7 @@ def menuoptions():
 	'[B]      >> [COLOR=yellow]Open Cerebro[/COLOR] [COLOR=red]Sports[/COLOR] [COLOR=gold]TV Guide[/COLOR] << [/B]' , 	
     '[B]      >> [COLOR=gold]My TV Guide [/COLOR]<<[/B] (make your own)',
     '[B]      >> [COLOR=yellow]Cerebro IPTV[/COLOR] << Live TV (Many Options)[/B]',
-    '[B]      >> [COLOR=gold]Cerebro Media[/COLOR] <<[/B] (Access All Options)',
-    '[B]      >> [COLOR=yellow]Cerbro Christmas Fire Places[/COLOR] <<[/B]'
+    '[B]      >> [COLOR=gold]Cerebro Media[/COLOR] <<[/B] (Access All Options)'
     ])
     # dialog.selectreturns
     #   0 -> escape pressed
@@ -67,8 +65,5 @@ def function6():
     
 def function7():
     xbmc.executebuiltin('RunAddon(plugin.video.wargames)')
-	
-def function8():
-    xbmc.executebuiltin('ActivateWindow(10025,"plugin://plugin.program.super.favourites/?label=[COLOR black]fireplace[/COLOR]&mode=400&path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper%20Favourites%5Cfireplace&sf_options=fanart%3Dspecial%3A%2F%2Fhome%2Faddons%5Cplugin.program.super.favourites%5Cfanart.jpg%26_options_sf",return)')
-    
+	  
 menuoptions()
