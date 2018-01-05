@@ -1383,4 +1383,103 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/210::LISTNAME:Sky Sports New
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
 </item>
 
+<item>
+<title>Premier Sports</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dPremier%20Sports%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2d18f483dbcf20bf0cc41b916f026d6b.m3u8::LISTNAME:Premier Sports::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDE0w::LISTNAME:Premier Sports::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/170::LISTNAME:Premier Sports::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116033917prem.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Box Nation</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBox%20Nation%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f96433d4a4b7fe9fdddcc23da704dce11.m3u8::LISTNAME:Box Nation::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTE5w::LISTNAME:Box Nation::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/55::LISTNAME:Box Nation::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115340box.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>British Eurosport 1</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBritish%20Eurosport%201%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f7adc3be6083aeecdcfd51f2cc92d3713.m3u8::LISTNAME:British Eurosport 1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA2w::LISTNAME:British Eurosport 1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/108::LISTNAME:British Eurosport 1::#
+</link>
+<thumbnail>http://cdn.livenettv.co:4040/data/img/files/euro_sports_1.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>British Eurosport 2</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBritish%20Eurosport%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb17a4be223d6d945f21785dc401a0429.m3u8::LISTNAME:British Eurosport 2::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA3w::LISTNAME:British Eurosport 2::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/109::LISTNAME:British Eurosport 2::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116044416euro2.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>At The Races</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dAt%20the%20Races%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f770491f6a94a4901fb248d5f6659d88a.m3u8::LISTNAME:At The Races::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjkxw::LISTNAME:At The Races::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/41::LISTNAME:At The Races::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114320at.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Racing UK</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dRacing%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f7e8c4145e3a4119dbe243813d877aca8.m3u8::LISTNAME:Racing UK::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjkyw::LISTNAME:Racing UK::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/178::LISTNAME:Racing UK::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116035209racing.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Chelsea TV</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dChelsea%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fdc3b39d192930d7e940b1d58bda64bcf.m3u8::LISTNAME:Chelsea TV::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDQ1w::LISTNAME:Chelsea TV::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/78::LISTNAME:Chelsea TV::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116010005chelsea.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>MUTV</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dMUTV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f50e67d468d54cd43a2bd100b5ef8a53e.m3u8::LISTNAME:MUTV::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDExw::LISTNAME:MUTV::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/154::LISTNAME:MUTV::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116020618mutv.gif|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>LFC TV</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dLiverpool%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f71a00014007ea740e245d9a342300cab.m3u8::LISTNAME:LFC TV::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTIww::LISTNAME:LFC TV::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/145::LISTNAME:LFC TV::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116013110lfc.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
 
