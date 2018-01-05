@@ -762,6 +762,143 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjU5w::LISTNAME:True Mov
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
 </item>
 
+<item>
+<title>CBeebies</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/cbeebies_hd.m3u8&amp;mode=9999&amp;name=CBeebies&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:CBeebies::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F4696.ts/BBC%20CBEEBIES%20UK-KDZ/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fbbc_cbeebies.jpg::LISTNAME:CBeebies::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/498::LISTNAME:CBeebies::#
+</link>
+<thumbnail>https://pbs.twimg.com/profile_images/851480480700669952/5ttz9hg1.jpg</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Tiny Pop</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.filmon.simple/?url=http%3A%2F%2Fwww.filmon.com%2Fgroup%2Fkids&amp;mode=2&amp;name=Tiny+Pop&amp;iconimage=https%3A%2F%2Fstatic.filmon.com%2Fassets%2Fchannels%2F318%2Fbig_logo.png&amp;description=318&amp;group=KIDS&amp;rand=V5RQLY::LISTNAME:Tiny Pop::#
+</link>
+<thumbnail>https://static.filmon.com/assets/channels/318/big_logo.png</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Disney Junior</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dDisney%20Junior%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe6e17fbb85e77c0eabc0ed20d6b8799e.m3u8::LISTNAME:Disney Junior::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/96::LISTNAME:Disney Junior::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116014600disj.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Nick Junior</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNick%20Junior%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f85fa8712793a2a6b1feda57b2395adbf.m3u8::LISTNAME:Nick Junior::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fnickjr%2Fplaylist.m3u8::LISTNAME:Nick Junior::#
+</link>
+<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/11611_NickJr1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Boomerang</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fboomerang%2Fplaylist.m3u8::LISTNAME:Boomerang::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F4689.ts/BOOMERANG%20UK-KDZ/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fboomerang_global.jpg::LISTNAME:Boomerang::#
+</link>
+<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/99191_boomrang.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Cartoon Network</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dCartoon%20Network%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fafafc38ed5abfaf4372734cea19f409a.m3u8::LISTNAME:Cartoon Network::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FCartoonNetwork%2Fplaylist.m3u8::LISTNAME:Cartoon Network::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/62::LISTNAME:Cartoon Network::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115659cn.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>POP</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.filmon.simple/?url=http%3A%2F%2Fwww.filmon.com%2Fgroup%2Fkids&amp;mode=2&amp;name=POP&amp;iconimage=https%3A%2F%2Fstatic.filmon.com%2Fassets%2Fchannels%2F320%2Fbig_logo.png&amp;description=320&amp;group=KIDS&amp;rand=OTU9GU::LISTNAME:POP::#
+</link>
+<thumbnail>https://static.filmon.com/assets/channels/320/big_logo.png</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Kix!</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.filmon.simple/?url=http%3A%2F%2Fwww.filmon.com%2Fgroup%2Fkids&amp;mode=2&amp;name=Kix%21&amp;iconimage=https%3A%2F%2Fstatic.filmon.com%2Fassets%2Fchannels%2F316%2Fbig_logo.png&amp;description=316&amp;group=KIDS&amp;rand=EVCG8V::LISTNAME:Kix!::#
+</link>
+<thumbnail>https://static.filmon.com/assets/channels/316/big_logo.png</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Disney XD</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FDisneyXD%2Fplaylist.m3u8::LISTNAME:Disney XD::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/250::LISTNAME:Disney XD::#
+</link>
+<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/78312_DisneyXD1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>CITV</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://citvliveios-i.akamaihd.net/hls/live/207267/itvlive/CITVMN/master_Main1800.m3u8&amp;mode=9999&amp;name=CITV&amp;iconimage=http%3A%2F%2Fblog.careco.co.uk%2Fwp-content%2Fuploads%2F2015%2F08%2Fx__i0KC0.png&amp;description=::LISTNAME:Disney XD::#
+</link>
+<thumbnail>http://blog.careco.co.uk/wp-content/uploads/2015/08/x__i0KC0.png</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>CBBC</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/cbbc_hd.m3u8&amp;mode=9999&amp;name=CBBC&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:CBBC::#
+</link>
+<thumbnail>https://pbs.twimg.com/profile_images/851480480700669952/5ttz9hg1.jpg</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Nick Toons</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNicktoons%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa5c568b3ed1bce30903f6092519ef949.m3u8::LISTNAME:Nick Toons::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/166::LISTNAME:Nick Toons::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116021120nicktoons.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Disney Channel</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dDisney%20Channel%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f14b7d3edf41bba55aebd39254e3a0100.m3u8::LISTNAME:Disney Channel::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/95::LISTNAME:Disney Channel::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116012005disnep.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>CARTOONITO</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fcartoonito%2Fplaylist.m3u8::LISTNAME:CBBC::#
+</link>
+<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/61131_Cartoonito.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+
 
 
 
