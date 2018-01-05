@@ -1058,16 +1058,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34
 </item>
 
 <item>
-<title>WWE Network</title>
-<link>
-sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dWWE%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fcd61f0ea3b560a665ea813dab2505a2f.m3u8::LISTNAME:WWE Network::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA4w::LISTNAME:WWE Network::#
-</link>
-<thumbnail>http://cdn.livenettv.co:4040/data/img/files/wwe.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
-</item>
-
-<item>
 <title>Fox News</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFox%20News%20Channel%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f877e1fd192b3a58577e4387971c215a7.m3u8::LISTNAME:Fox News::#
@@ -1204,6 +1194,16 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA4Mw==w::LISTNAME:Hall
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
 </item>
 
+
+
+<item>
+<title>[COLOR gold]Sports Channels[/COLOR]</title>
+<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/49259_SPORTS.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/49259_SPORTS.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+<link>
+</link>
+</item>
+
 <item>
 <title>NBC Sport Network</title>
 <link>
@@ -1211,6 +1211,32 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fnbcsn%2Fplaylist.m3u8::LISTNAME:NBC Sport Network::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/45155_nbcsn.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>WWE Network</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dWWE%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fcd61f0ea3b560a665ea813dab2505a2f.m3u8::LISTNAME:WWE Network::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA4w::LISTNAME:WWE Network::#
+</link>
+<thumbnail>http://cdn.livenettv.co:4040/data/img/files/wwe.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>BT Sports 1</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%201%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2ffeb9c19124327ffd2bae3c97249ea40e.m3u8::LISTNAME:BT Sports 1::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33RaaabB3eETtiyiy-1%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+1&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports 1::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F163.172.220.115%3A8080%2FMatH33RaaabB3eETtiyiy-1%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+1%282%29&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports 1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTExw::LISTNAME:BT Sports 1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2Fserver4.servep2p.com%3A7071%2Fserver%2Fbt1%2Fplaylist.m3u8::LISTNAME:BT Sports 1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fbt1sd%2Fplaylist.m3u8::LISTNAME:BT Sports 1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fbt1hd%2Fplaylist.m3u8::LISTNAME:BT Sports 1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/59::LISTNAME:BT Sports 1::#
+</link>
+<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/49801_bt1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
 </item>
 
