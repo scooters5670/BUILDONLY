@@ -1136,5 +1136,15 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MzYyw::LISTNAME:USA Netw
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
 </item>
 
+<item>
+<title>USA Network</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dUSA%20Network%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f0e367435d4bc1a89ea7506cf0eadb3a7.m3u8::LISTNAME:USA Network::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MzYyw::LISTNAME:USA Network::#
+</link>
+<thumbnail>http://cdn.livenettv.co:4040/data/img/files/ae.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
 
 
