@@ -57,20 +57,13 @@ if not response == "OK":
 xbmc.executebuiltin("Notification([COLOR=gold]CerebroTV[/COLOR],Opening TV Guide,2000,"+__icon__+")")
 
 
-def d():
-	import requests,base64
-	try:
-		requests.get(base64.b64decode('aHR0cDovL2FmZmlsaWF0ZS5lbnRpcmV3ZWIuY29tL3NjcmlwdHMvY3owNm5mP2E9Y2VyZWJyb3R2JmFtcDtiPWM3ZmJiZDkzJmFtcDtkZXN0dXJsPWh0dHAlM0ElMkYlMkZtdHZiLmNvLnVrJTJGcCUyRg=='),headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0'},verify=False,timeout=4).text
-	except:
-		pass
-d() 
 
-try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/cerebrouk.xml"))
-except: pass
-try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/source.db"))
-except: pass
+#try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/cerebrouk.xml"))
+#except: pass
+#try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/source.db"))
+#except: pass
 
-xbmc.executebuiltin('PlayMedia("plugin://plugin.video.tvone11/refresh")')
+#xbmc.executebuiltin('PlayMedia("plugin://plugin.video.tvone11/refresh")')
  
 
 
@@ -244,27 +237,27 @@ def platform():
 # After a restart the proc file should be wiped!
 reset_playing()
 dp.close()
-#update = xbmcgui.Dialog().yesno("[COLOR tomato]TV Guide Helper[/COLOR]","[COLOR yellow][/COLOR]","" ,"","Open Guide","Update Guide")
-download(LOCATION,file2) 
-#if update:
-#    try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/source.db"))
-#    except: pass
-#    utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/source.db"))
-#    try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/cerebrouk.xml"))
-#    except: pass
-#    utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/cerebrouk.xml"))
-#    #xbmc.executebuiltin('PlayMedia("plugin://plugin.video.streamhub")')
-#    #xbmc.sleep(1000)
-#    download(LOCATION,file2) 
-#else:
-#    try:
-#        w = gui.TVGuide()
-#        w.doModal()
-#        del w
-#
-#    except:
-#        import sys
-#        import traceback as tb
-#        (etype, value, traceback) = sys.exc_info()
-#        tb.print_exception(etype, value, traceback)
+update = xbmcgui.Dialog().yesno("[COLOR tomato]TV Guide Helper[/COLOR]","[COLOR yellow][/COLOR]","" ,"","Open Guide","Update Guide")
+#download(LOCATION,file2) 
+if update:
+    try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/source.db"))
+    except: pass
+    utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/source.db"))
+    try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/cerebrouk.xml"))
+    except: pass
+    utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/cerebrouk.xml"))
+    #xbmc.executebuiltin('PlayMedia("plugin://plugin.video.streamhub")')
+    #xbmc.sleep(1000)
+    download(LOCATION,file2) 
+else:
+    try:
+        w = gui.TVGuide()
+        w.doModal()
+        del w
+
+    except:
+        import sys
+        import traceback as tb
+        (etype, value, traceback) = sys.exc_info()
+        tb.print_exception(etype, value, traceback)
 

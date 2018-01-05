@@ -54,21 +54,14 @@ if not response == "OK":
     exit()
 xbmc.executebuiltin("Notification([COLOR=gold]CerebroTV[/COLOR],Opening TV Guide,2000,"+__icon__+")")
 
+ 
 
-def d():
-	import requests,base64
-	try:
-		requests.get(base64.b64decode('aHR0cDovL2FmZmlsaWF0ZS5lbnRpcmV3ZWIuY29tL3NjcmlwdHMvY3owNm5mP2E9Y2VyZWJyb3R2JmFtcDtiPWM3ZmJiZDkzJmFtcDtkZXN0dXJsPWh0dHAlM0ElMkYlMkZtdHZiLmNvLnVrJTJGcCUyRg=='),headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0'},verify=False,timeout=4).text
-	except:
-		pass
-d() 
-
-try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.sports/cerebrouk.xml"))
-except: pass
-try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.sports/source.db"))
-except: pass
+#try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.sports/cerebrouk.xml"))
+#except: pass
+#try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.sports/source.db"))
+#except: pass
   
-xbmc.executebuiltin('PlayMedia("plugin://plugin.video.tvone11/refresh")')
+#xbmc.executebuiltin('PlayMedia("plugin://plugin.video.tvone11/refresh")')
 
 
 LOCATION     = "https://github.com/biglad/BUILDONLY/blob/master/build_data/uk-new.zip?raw=true"
@@ -242,50 +235,31 @@ def platform():
      
 
 
-# After a restart the proc file should be wiped!
-#dp = xbmcgui.DialogProgress()
-#dp.create("[COLOR tomato]Cerebero TV[/COLOR]","Showing Advert","Please Wait")
-#dp.update(50)
-#myplatform = platform()
-#if myplatform == 'android': # Android 
-#    xbmc.executebuiltin( 'StartAndroidActivity(,android.intent.action.VIEW,,%s)' % ( 'http://mtvb.co.uk/showadd/' ) )
-#else:
-#    webbrowser . open('http://mtvb.co.uk/showadd/')
-#dp.update(90)
-#xbmc.sleep(1000) 
-#dp.update(92)
-#xbmc.sleep(1000) 
-#dp.update(94)
-#xbmc.sleep(1000) 
-#dp.update(96)
-#xbmc.sleep(1000) 
-#dp.update(98)
-#xbmc.sleep(1000) 
-#dp.update(100)
+
 reset_playing()
-#xbmc.sleep(1000) 
+ 
 dp.close()
-#update = xbmcgui.Dialog().yesno("[COLOR tomato]TV Guide Helper[/COLOR]","[COLOR yellow][/COLOR]","" ,"","Open Guide","Update Guide")
-download(LOCATION,file2) 
-#if update:
-#    try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/source.db"))
-#    except: pass
-#    utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/source.db"))
-#    try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/cerebrouk.xml"))
-#    except: pass
-#    utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/cerebrouk.xml"))
-#    #xbmc.executebuiltin('PlayMedia("plugin://plugin.video.streamhub")')
-#    #xbmc.sleep(1000)
-#    download(LOCATION,file2) 
-#else:
-#    try:
-#        w = gui.TVGuide()
-#        w.doModal()
-#        del w
-#
-#    except:
-#        import sys
-#        import traceback as tb
-#        (etype, value, traceback) = sys.exc_info()
-#        tb.print_exception(etype, value, traceback)
+update = xbmcgui.Dialog().yesno("[COLOR tomato]TV Guide Helper[/COLOR]","[COLOR yellow][/COLOR]","" ,"","Open Guide","Update Guide")
+
+if update:
+    try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/source.db"))
+    except: pass
+    utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/source.db"))
+    try: os.remove(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/cerebrouk.xml"))
+    except: pass
+    utils.DeleteFile(xbmc.translatePath("special://userdata/addon_data/script.tvguide.cerebrotv.uk/cerebrouk.xml"))
+    #xbmc.executebuiltin('PlayMedia("plugin://plugin.video.streamhub")')
+    #xbmc.sleep(1000)
+    download(LOCATION,file2) 
+else:
+    try:
+        w = gui.TVGuide()
+        w.doModal()
+        del w
+
+    except:
+        import sys
+        import traceback as tb
+        (etype, value, traceback) = sys.exc_info()
+        tb.print_exception(etype, value, traceback)
 
