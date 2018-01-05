@@ -375,7 +375,9 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.31
 <item>
 <title>Discovery Science</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY1w::LISTNAME:Discovery Science::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FDiscoveryScience%2Fplaylist.m3u8::LISTNAME:Discovery Science::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/93::LISTNAME:Discovery Science::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/49109_discoveryscience1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
