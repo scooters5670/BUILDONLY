@@ -1273,6 +1273,19 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/298::LISTNAME:BT Sports 3::#
 </item>
 
 <item>
+<title>BT Sports ESPN</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%20ESPN%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f8a0b2af9d4b4eb4cf9967448b67714d6.m3u8::LISTNAME:BT Sports ESPN::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33RaaaBeetYywEespeen%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+ESPN&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports ESPN::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUzw::LISTNAME:BT Sports ESPN::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.153%3A7071%2Fserver%2Fbtespn%2Fplaylist.m3u8::LISTNAME:BT Sports ESPN::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/107::LISTNAME:BT Sports ESPN::#
+</link>
+<thumbnail>http://cdn.livenettv.co:4040/data/img/files/bt_sport_espn.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
 <title>Sky Sports Main</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTM=w::LISTNAME:Sky Sports Main::#
