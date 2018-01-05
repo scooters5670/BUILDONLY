@@ -1316,4 +1316,71 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/205::LISTNAME:Sky Sports Cri
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
 </item>
 
+<item>
+<title>Sky Sports Golf</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTg=w::LISTNAME:Sky Sports Golf::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp4%2Fplaylist.m3u8::LISTNAME:Sky Sports Golf::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/207::LISTNAME:Sky Sports Golf::#
+</link>
+<thumbnail>http://cdn.livenettv.co:4040/data/img/files/sky_sp_golf.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Sky Sports F1</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Sports%20F1%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f343b4b2909705b5f5babe196c05c7895.m3u8::LISTNAME:Sky Sports F1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUxw::LISTNAME:Sky Sports F1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysportsf1%2Fplaylist.m3u8::LISTNAME:Sky Sports F1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/209::LISTNAME:Sky Sports F1::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717081443f12.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Sky Sports Action</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTU=w::LISTNAME:Sky Sports Action::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp3%2Fplaylist.m3u8::LISTNAME:Sky Sports Action::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/206::LISTNAME:Sky Sports Action::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717080926act3.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Sky Sports Arena</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTgzw::LISTNAME:Sky Sports Arena::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp6%2Fplaylist.m3u8::LISTNAME:Sky Sports Arena::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/411::LISTNAME:Sky Sports Arena::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/270717102912arena1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Sky Sports Mix</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NTgww::LISTNAME:Sky Sports Mix::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fskymix%2Fplaylist.m3u8::LISTNAME:Sky Sports Mix::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/308::LISTNAME:Sky Sports Mix::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717081554mix2.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Sky Sports News</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/ODExw::LISTNAME:Sky Sports News::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskyspnews%2Fplaylist.m3u8::LISTNAME:Sky Sports News::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/210::LISTNAME:Sky Sports News::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717081653news1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
 
