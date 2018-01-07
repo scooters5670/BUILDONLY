@@ -79,8 +79,6 @@ def makeRequest(url, headers=None):
 				
 def SKindex():
     addon_log("SKindex")
-    addDir('Favorites','Favorites',4,'http://www.pixhoster.info/f/2016-08/8db7bda11eddc189f8923ed4989c3b17.png' ,  FANART,'','','','')
-    addDir('SearchChannels','SearchChannels',40,'http://www.pixhoster.info/f/2016-08/c1fe58dd38c0e1ac4a7b23e2fec7fec5.png' ,  FANART,'','','','')
     getData(_Edit.MainBase,'')
     xbmcplugin.endOfDirectory(int(sys.argv[1]))
 		
