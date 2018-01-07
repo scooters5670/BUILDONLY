@@ -2250,7 +2250,7 @@ em procura livre na internet.</description>
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.12.03"
+  version="2018.01.07"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
