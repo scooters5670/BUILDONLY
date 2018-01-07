@@ -166,6 +166,10 @@ elif action == 'channels':
 	from resources.lib.indexers import channels
 	channels.channels().get(name)
 
+elif action == 'channelSearch':
+	from resources.lib.indexers import channels
+	channels.channels().search()
+
 elif action == 'tvshows':
 	from resources.lib.indexers import tvshows
 	tvshows.tvshows().get(url)

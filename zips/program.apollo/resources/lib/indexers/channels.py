@@ -57,7 +57,7 @@ class channels:
 
 	def get(self,name): 
 		if name==None:
-			response = get("http://json.apollogroup.tv/list/livetv/menu.json")
+			response = get("http://json.apollogroup.tv/list/livetv/menu.json", verify=False)
 			data = json.loads(response.text)
 			for cat in data['result']:
 				try: 
@@ -66,7 +66,7 @@ class channels:
 					print "####### ERROR Getting List from Server: %s"%cat
 					pass
 		elif name>0:
-			response = get("http://json.apollogroup.tv/list/livetv/%s.json"%name)
+			response = get("http://json.apollogroup.tv/list/livetv/%s.json"%name, verify=False)
 			data = json.loads(response.text)
 		
 			for channel in data['result']:
@@ -101,14 +101,14 @@ class channels:
 
 		control.window.setProperty('%s.channel.search' % control.addonInfo('id'), self.query)
 
-		search_link = control.apollo_link+'?action=search&type=live&search=%s' % urllib.quote_plus(self.query)
-		raw = urllib.urlopen(search_link)
-		json_object = json.load(raw)
-		for data in json_object:
+		response = get(control.apollo_static_link+'search.php?type=livetv&search=%s' % urllib.quote_plus(self.query), verify=False)
+		data = json.loads(response.text)
+	
+		for channel in data['result']:
 			try: 
-				self.list.append({'id': str(data['id']),'name': str(data['name'].encode('utf-8')),'title':str(data['title']),'hd': str(data['hd']), 'url': str(data['url']),'poster': "https://github.com/Apollo2000/Repo/raw/master/TVLogos/"+str(data['id'])+".png"})
-			except: 
-				print "####### ERROR Getting List from Server: %s"%str(data['id'])
+				self.list.append({'id': str(channel['id']),'name': str(channel['name'].encode('utf-8')),'title':'','hd': str(channel['hd']), 'url': 'plugin://program.apollo/?action=apollo&imdb=9999&season=%s&title=%s'%(channel['id'],channel['id']),'poster': "https://github.com/Apollo2000/Repo/raw/master/TVLogos/"+str(channel['id'])+".png"})
+			except:
+				print "####### ERROR Getting List from Server: %s %s"%(str(channel['id']),channel)
 				pass
 	
 		try: self.list = sorted(self.list, key=lambda k: k['name'])

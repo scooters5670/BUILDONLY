@@ -8,17 +8,19 @@
         <setting type="action" visible="eq(-1,false)" label="Login" action="RunScript(program.apollo, 1,action=loginApollo)" option="close"/>
 		<setting type="action" visible="!eq(-2,false)" label="Logout" action="RunScript(program.apollo, 1,action=logoutApollo)" option="close"/>
 		<setting type="lsep" label="Account Info" />
-		<setting id="apollo.account" label="Account Status" type="text" default="Free Account" enable="0" />
-		<setting id="device.streams" visible="!eq(0,0)" label="Allowed Streams" type="text" default="0" enable="0" />
-		<setting id="device.networks" visible="!eq(0,0)" label="Allowed Networks (IP)" type="text" default="0" enable="0" />
+		<setting id="apollo.account" label="Status" type="text" default="Free Account" enable="0" />
+		<setting id="apollo.expire" visible="!eq(0,0)" label="Expire" type="text" default="0" enable="0" />
         <setting type="lsep" label="Addon Info" />
-		<setting id="apollo.version" label="Apollo Version" type="text" default="3.1.5/3.1.5" enable="0" />
+		<setting id="apollo.version" label="Apollo Version" type="text" default="3.6.0/3.6.0" enable="0" />
 		<setting id="apollo.pvr" type="bool" default="true" label="Use Apollo TV Guide" />
 		<setting id="apollo.first" type="bool" default="false" visible="0"/>
 		<setting id="apollo.token" type="text" default="" visible="0"/>
 		<setting id="bookmarks" type="bool" label="32344" default="true" />
 		<setting type="action" label="Reset all Apollo setting" action="RunScript(program.apollo, 1,action=cleanApollo)"/>
 		<setting type="action" label="Set advance buffer setting" action="RunScript(program.apollo, 1,action=bufferApollo)"/>
+		<setting type="lsep" label="Server Setting" />
+		<setting id="apollo.ssl" type="bool" default="false" label="Use SSL connection"/>
+		<setting id="apollo.domain" type="select" values="ApolloGroup.TV|BestNetflix.info|MyNetflix.info" default="ApolloGroup.TV" label="Server Domain" />
 	</category>
 	<category label="32310">
 		<setting id="appearance.alt" type="action" label="32311" default="-" option="close" action="RunPlugin(plugin://program.apollo/?action=artwork)" visible="!System.HasAddon(script.exodus.artwork)" />

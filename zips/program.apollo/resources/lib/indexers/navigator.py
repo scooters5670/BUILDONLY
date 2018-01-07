@@ -68,7 +68,7 @@ class navigator:
 				thumb = os.path.join(artPath, "highly-rated.png")
 				item.setArt({'icon': thumb, 'thumb': thumb})
 				control.addItem(handle=syshandle, url='', listitem=item, isFolder=False)
-				item = control.item(label="[COLOR red]Please Try Again[/COLOR]")
+				item = control.item(label="[COLOR red]Free slots are full? Follow the announcement on our Facebook page.[/COLOR]")
 				thumb = os.path.join(artPath, "highly-rated.png")
 				item.setArt({'icon': thumb, 'thumb': thumb})
 				control.addItem(handle=syshandle, url='', listitem=item, isFolder=False)
@@ -231,6 +231,7 @@ class navigator:
 	def search(self):
 		self.addDirectoryItem(32001, 'movieSearch', 'search.png', 'DefaultMovies.png')
 		self.addDirectoryItem(32002, 'tvSearch', 'search.png', 'DefaultTVShows.png')
+		self.addDirectoryItem(32007, 'channelSearch', 'search.png', 'DefaultTVShows.png')
 		#self.addDirectoryItem(32029, 'moviePerson', 'people-search.png', 'DefaultMovies.png')
 		#self.addDirectoryItem(32030, 'tvPerson', 'people-search.png', 'DefaultTVShows.png')
 

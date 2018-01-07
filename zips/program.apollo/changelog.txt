@@ -1,3 +1,12 @@
+[B]3.6.1[/B]
++ Add: Auto login and member info update
++ Add: Channels search
++ Fix: Search option
+
+[B]3.6.0[/B]
++ Add: SSL connection
++ Add: More domains
+
 [B]3.2.1[/B]
 + Add: Add buffer setting in advancedsettings.xml
 

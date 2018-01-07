@@ -23,10 +23,6 @@ import urlparse,os,sys
 
 import xbmc,xbmcaddon,xbmcplugin,xbmcgui,xbmcvfs
 
-#Apollo
-apollo_link = 'http://api10.apollogroup.tv/'
-apollo_static_link='http://json.apollogroup.tv/'
-
 integer = 1000
 
 lang = xbmcaddon.Addon().getLocalizedString
@@ -114,6 +110,15 @@ providercacheFile = os.path.join(dataPath, 'providers.12.db')
 metacacheFile = os.path.join(dataPath, 'meta.4.db')
 
 cacheFile = os.path.join(dataPath, 'cache.db')
+
+#Apollo
+if addon().getSetting('apollo.ssl')=="false":
+	protocol = 'http://';
+else:
+	protocol = 'https://';
+
+apollo_link = protocol+'api.'+addon().getSetting('apollo.domain').lower()+'/'
+apollo_static_link = protocol+'json.'+addon().getSetting('apollo.domain').lower()+'/'
 
 
 def addonIcon():

@@ -81,7 +81,7 @@ class apollo(xbmc.Player):
 					xml.append('\t\t<readfactor>20</readfactor>\n')
 					xml.append('\t</cache>\n')
 					xml.append('\t<network>\n')
-					xml.append('\t\t<curlclienttimeout>30</curlclienttimeout>\n')
+					xml.append('\t\t<curlclienttimeout>10</curlclienttimeout>\n')
 					xml.append('\t\t<curllowspeedtime>30</curllowspeedtime> \n')
 					xml.append('\t\t<curlretries>2</curlretries>\n')
 					xml.append('\t</network>\n')
@@ -90,7 +90,7 @@ class apollo(xbmc.Player):
 					xml.append('\t\t<buffermode>1</buffermode>\n')
 					xml.append('\t\t<cachemembuffersize>139460608</cachemembuffersize>\n')
 					xml.append('\t\t<readbufferfactor>20</readbufferfactor>\n')
-					xml.append('\t\t<curlclienttimeout>30</curlclienttimeout>\n')
+					xml.append('\t\t<curlclienttimeout>10</curlclienttimeout>\n')
 					xml.append('\t\t<curllowspeedtime>30</curllowspeedtime>\n')
 					xml.append('\t\t<curlretries>2</curlretries>\n')
 					xml.append('\t</network>\n')
@@ -114,11 +114,10 @@ class apollo(xbmc.Player):
 		json.loads(unicode(xbmc.executeJSONRPC('{"jsonrpc": "2.0", "method":"GUI.ActivateWindow","params":{"window":"tvguide"}, "id": 1}'), 'utf-8', errors='ignore'))
 
 	def logout(self):
-		response = get(control.apollo_link+'logout/?token='+control.addon().getSetting('apollo.token'))
+		response = get(control.apollo_link+'logout/?token='+control.addon().getSetting('apollo.token'), verify=False)
 		control.addon().setSetting('apollo.account', "Free Account")
 		control.addon().setSetting('apollo.paid', "false")
-		control.addon().setSetting('device.streams', "0")
-		control.addon().setSetting('device.networks', "0")
+		control.addon().setSetting('apollo.expire', "0")
 		control.addon().setSetting('apollo.token',"0")
 		control.addon().openSettings()
 
@@ -134,7 +133,7 @@ class apollo(xbmc.Player):
 				play_link = play_link+'&token=%s&channel=%s'%(control.addon().getSetting('apollo.token'),season)
 			else:
 				play_link = play_link+'&token=%s&imdb=%s&season=%s&episode=%s'%(control.addon().getSetting('apollo.token'),imdb,season,episode)
-			response = get(play_link)
+			response = get(play_link, verify=False)
 			data = json.loads(response.text)
 		except:
 			control.infoDialog("Our Servers are down for maintenance, for more info visit FB @ApolloGroupTV", icon='WARNING',time=20000)
@@ -156,7 +155,7 @@ class apollo(xbmc.Player):
 	
 	def playlogin(self):
 		if len(control.addon().getSetting('apollo.token'))>10:
-			response = get(control.apollo_link+'token/?token='+control.addon().getSetting('apollo.token'))
+			response = get(control.apollo_link+'token/?token='+control.addon().getSetting('apollo.token'), verify=False)
 			data = json.loads(response.text)
 			if not "error" in data:
 				return #REFRESH
@@ -165,7 +164,7 @@ class apollo(xbmc.Player):
 		login_link = control.apollo_link+'login/?'
 		if mac:
 			login_link += '&mac='+mac			
-		response = get(login_link+'&email='+control.addon().getSetting('apollo.email')+'&password='+control.addon().getSetting('apollo.password'))
+		response = get(login_link+'&email='+control.addon().getSetting('apollo.email')+'&password='+control.addon().getSetting('apollo.password'), verify=False)
 		data = json.loads(response.text)
 		if not "error" in data and "token" in data:
 			control.addon().setSetting('apollo.token', data["token"])
@@ -174,7 +173,7 @@ class apollo(xbmc.Player):
 		free_link = control.apollo_link+'free/?'
 		if mac:
 			free_link += '&mac='+mac			
-		response = get(free_link)
+		response = get(free_link, verify=False)
 		data = json.loads(response.text)
 		control.addon().setSetting('apollo.token', data["token"])
 
@@ -184,7 +183,7 @@ class apollo(xbmc.Player):
 		mac = GetMacAddress()
 		if mac:
 			login_link += '&mac='+mac			
-		response = get(login_link+'&email='+control.addon().getSetting('apollo.email')+'&password='+control.addon().getSetting('apollo.password'))
+		response = get(login_link+'&email='+control.addon().getSetting('apollo.email')+'&password='+control.addon().getSetting('apollo.password'), verify=False)
 		data = json.loads(response.text)
 		if "error" in data:
 			xbmcgui.Dialog().ok("Apollo Group Error", data["error"])
@@ -192,17 +191,14 @@ class apollo(xbmc.Player):
 		if "token" in data:
 			control.addon().setSetting('apollo.token', data["token"])
 
-		response = get(control.apollo_link+'account/?&token='+control.addon().getSetting('apollo.token'))
+		response = get(control.apollo_link+'account/?&token='+control.addon().getSetting('apollo.token'), verify=False)
 		data = json.loads(response.text)
 		if "account" in data:
 			if control.addon().getSetting('apollo.account')<>data["account"]:
 				control.addon().setSetting('apollo.account', data["account"])
-		if "stream" in data:
-			if control.addon().getSetting('device.streams')<>data["stream"]:
-				control.addon().setSetting('device.streams', data["stream"])
-		if "network" in data:
-			if control.addon().getSetting('device.networks')<>data["network"]:
-				control.addon().setSetting('device.networks', data["network"])
+		if "expire" in data:
+			if control.addon().getSetting('apollo.expire')<>data["expire"]:
+				control.addon().setSetting('apollo.expire', data["expire"])
 
 		if control.addon().getSetting('apollo.account')<>"Free Account":
 			control.addon().setSetting('apollo.paid', "true")
@@ -210,9 +206,10 @@ class apollo(xbmc.Player):
 
 	def run(self, title, year, season, episode, imdb, tvdb, url, meta):
 		try:
+			xbmc.executebuiltin('Notification(Apollo Group,"Please wait, connecting...", {0}, {1})'.format(3000,os.path.join( control.addonPath ,"icon.png")))
+			control.sleep(200)
 			if control.addon().getSetting('apollo.account')<>"Free Account":
 				control.addon().setSetting('apollo.paid', "true")
-			xbmc.executebuiltin('Notification(CerebroTV,"Please wait, connecting...", {0}, {1})'.format(3000,os.path.join( control.addonPath ,"icon.png")))
 
 			if imdb=="9999": # Play Channel
 				url = self.GetMedia(imdb,season,episode)
@@ -229,8 +226,6 @@ class apollo(xbmc.Player):
 				control.player.play(url, item)
 				control.resolve(int(sys.argv[1]), True, item)
 			else:
-				control.sleep(200)
-
 				self.totalTime = 0 ; self.currentTime = 0
 
 				self.content = 'movie' if season == None or episode == None else 'episode'
@@ -263,6 +258,7 @@ class apollo(xbmc.Player):
 				if 'plugin' in control.infoLabel('Container.PluginName'):
 					control.player.play(url, item)
 
+				print "@@@@@@@@@@@@@ PLAY 01"
 				control.resolve(int(sys.argv[1]), True, item)
 
 				control.window.setProperty('script.trakt.ids', json.dumps(self.ids))
@@ -270,6 +266,7 @@ class apollo(xbmc.Player):
 				self.keepPlaybackAlive()
 
 				control.window.clearProperty('script.trakt.ids')
+				print "@@@@@@@@@@@@@ PLAY 02"
 		except:
 			return
 

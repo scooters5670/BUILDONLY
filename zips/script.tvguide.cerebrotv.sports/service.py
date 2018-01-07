@@ -27,6 +27,7 @@ import xbmc
 import source
 from utils import reset_playing
 
+xbmc.sleep(5000) 
 
 class Service(object):
     def __init__(self):

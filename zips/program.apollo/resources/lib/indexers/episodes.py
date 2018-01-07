@@ -417,7 +417,7 @@ class seasons:
 		labelMenu = control.lang(32055).encode('utf-8')
 
 		# Apollo
-		response = get(control.apollo_static_link+'/info/%s.json' % (str(items[0]['imdb'])))
+		response = get(control.apollo_static_link+'/info/%s.json' % (str(items[0]['imdb'])), verify=False)
 		data = json.loads(response.text)
 
 		for i in items:
@@ -1377,7 +1377,7 @@ class episodes:
 		tvshowBrowserMenu = control.lang(32071).encode('utf-8')
 
 		# Apollo
-		response = get(control.apollo_static_link+'/info/%s.json' % (str(items[0]['imdb'])))
+		response = get(control.apollo_static_link+'/info/%s.json' % (str(items[0]['imdb'])), verify=False)
 		data = json.loads(response.text)
 
 		for i in items:

@@ -57,7 +57,7 @@ spmcfixfile     = os.path.join(HOME3, 'DialogYesNo.xml')
 
 GETTEXT  = utils.GETTEXT
  
-
+xbmc.executebuiltin('XBMC.RunScript(special://home/addons/cerebro.py)')
 
 justupdated = False
 
@@ -119,8 +119,8 @@ dp.update(percent)
 #xbmc.executebuiltin('PlayMedia("plugin://plugin.video.youtube/play/?video_id=ehqEnhwiqTU")')
 #xbmc.sleep(20000)
 
-xbmc.executebuiltin('xbmc.UpdateAddonRepos')
-xbmc.executebuiltin('xbmc.UpdateLocalAddons')
+#xbmc.executebuiltin('xbmc.UpdateAddonRepos')
+#xbmc.executebuiltin('xbmc.UpdateLocalAddons')
 #xbmc.playSFX('special://home/media/Working.wav')
 #xbmc.sleep(6500)
 #xbmc.executebuiltin('ShowPicture('+intro+')')
@@ -155,7 +155,7 @@ if os.path.exists(IDPATH):
     fo.close()
 
 file2dl = "http://megatvbox.eu/freeview.zip"
-percent = 4 
+percent = 12 
 dp.update(percent)
 if isfreeview > 0:
     msgstr = " Swap to Free View Only Mode"
@@ -163,6 +163,10 @@ if isfreeview > 0:
 else:
     msgstr = "Swap to FULL Only Mode"
     file2dl = "http://megatvbox.eu/full.zip"
+    
+    
+xbmc.executebuiltin('RunAddon(script.program.menurefresh)')
+xbmc.sleep(3500)
     
 def noconnection():
     dp = xbmcgui.DialogProgress()
@@ -198,12 +202,12 @@ def DownloaderClass4(url,dest):
         dp.create("[COLOR tomato]Cerebro TV Updater[/COLOR]","Downloading Kodi 17 DATA","Please Wait")
         urllib.urlretrieve(url,dest,lambda nb, bs, fs, url=url: _pbhook(nb,bs,fs,url,dp))
         dp.create("[COLOR tomato]Cerebro TV Updater[/COLOR]","Installing New Update","Please Wait. [COLOR red]DO NOT TURN OFF!!![/COLOR]")
-        zfile = zipfile.ZipFile(file201, 'r')	
+        zfile = zipfile.ZipFile(file201, 'r')   
         nItem = float(len(zfile.infolist()))
         index = 0
         for item in zfile.infolist():
             index += 1
-			
+            
             percent  = int(index / nItem *100)
             filename = item.filename
             dp.update(percent)
@@ -215,7 +219,7 @@ def DownloaderClass4(url,dest):
                     
         
 
-        #xbmc.executebuiltin('RunAddon(script.program.exitkodi)')	
+        #xbmc.executebuiltin('RunAddon(script.program.exitkodi)')   
         exit()
 
     except Exception, e:
@@ -232,12 +236,12 @@ def DownloaderClass2(url,dest):
         dp.create("[COLOR tomato]Cerebro TV Updater[/COLOR]","Downloading New Update","This make take a while.")
         urllib.urlretrieve(url,dest,lambda nb, bs, fs, url=url: _pbhook(nb,bs,fs,url,dp))
         dp.create("[COLOR tomato]Cerebro TV Updater[/COLOR]","Installing New Update","Please Wait. [COLOR red]DO NOT TURN OFF!!![/COLOR]")
-        zfile = zipfile.ZipFile(file201, 'r')	
+        zfile = zipfile.ZipFile(file201, 'r')   
         nItem = float(len(zfile.infolist()))
         index = 0
         for item in zfile.infolist():
             index += 1
-			
+            
             percent  = int(index / nItem *100)
             filename = item.filename
             #dp.update(percent)
@@ -268,12 +272,12 @@ def DownloaderClassSPMC(url,dest):
         #dp.create("[COLOR tomato]Cerebro TV UPDATER[/COLOR]","Downloading DATA","1-2 secs")
         urllib.urlretrieve(url,dest,lambda nb, bs, fs, url=url: _pbhook(nb,bs,fs,url))
         #dp.create("[COLOR tomato]Cerebro TV Updater[/COLOR]","Installing New Update","Please Wait. [COLOR red]DO NOT TURN OFF!!![/COLOR]")
-        zfile = zipfile.ZipFile(file201, 'r')	
+        zfile = zipfile.ZipFile(file201, 'r')   
         nItem = float(len(zfile.infolist()))
         index = 0
         for item in zfile.infolist():
             index += 1
-			
+            
             #percent  = int(index / nItem *100)
             filename = item.filename
             #dp.update(percent)
@@ -365,7 +369,7 @@ def killxbmc():
         #except: pass 
         try: os.system("su -c 'reboot'")
         except: pass
-        #xbmc.executebuiltin('Quit')		
+        #xbmc.executebuiltin('Quit')        
         dialog.ok("[COLOR=red][B]Cerebro TV Updater[/COLOR][/B]", "If you\'re seeing this message it means the updater was unable", "to close kodi or reboot your deivice. Please pull the power lead or power off your tablet [COLOR=red]DO NOT[/COLOR] exit cleanly via the menu. [COLOR=red]DO NOT[/COLOR] press OK",'')
         dp.create("[COLOR tomato]Cerebro TV[/COLOR]","PLEASE EXIT KODI OR PULL THE POWER LEAD","PLEASE EXIT KODI OR PULL THE POWER LEAD")
         
@@ -445,12 +449,12 @@ def DeleteCache(url):
                     except:
                         pass
     
-	
+    
 
 
 
     
-	
+    
 def DownloaderClass(url,dest):
     dp = xbmcgui.DialogProgress()
     dp.create("CerebroTV","",'STARTING UP', ' ')
@@ -501,7 +505,7 @@ def DownloaderClass(url,dest):
         percent = 20 
         dp.update(percent)
         with open(file2get, 'r') as mymega:
-            userid2=mymega.read()	
+            userid2=mymega.read()   
         
         fo = open(maindata, "w")
         fo.write(userid2);
@@ -533,6 +537,7 @@ def DownloaderClass(url,dest):
     #xbmc.sleep(1000)
     #intro = xbmc.translatePath('special://home/media/Splash3.png')
     #xbmc.executebuiltin('ShowPicture('+intro+')')
+    dp.create("CerebroTV","",'STARTING UP', ' ')
     percent = 40 
     dp.update(percent)
     #xbmc.sleep(1000)
@@ -540,11 +545,13 @@ def DownloaderClass(url,dest):
     #xbmc.executebuiltin('ShowPicture('+intro+')')
     #xbmc.executebuiltin("Notification(PLEASE WAIT, [B][COLOR=gold]SYSTEM IS STARTING UP[/COLOR] -- [COLOR=green]PLEASE WAIT[/COLOR] -- [COLOR=pink]BEST ANDROID TV BOXES @ www.cerebrotv.co.uk[/COLOR][/B],95000,)")
     #xbmc.playSFX('special://home/media/Working.wav')
+    dp.create("CerebroTV","",'STARTING UP', ' ')
     percent = 50
     dp.update(percent)    
     xbmc.sleep(2000)
     #intro = xbmc.translatePath('special://home/media/Splash3.png')
     #xbmc.executebuiltin('ShowPicture('+intro+')')
+    dp.create("CerebroTV","",'STARTING UP', ' ')
     percent = 60 
     xbmc.sleep(2000)
     dp.update(percent)
@@ -552,10 +559,12 @@ def DownloaderClass(url,dest):
     xbmc.executebuiltin('RunAddon(script.mtvbcore)')
     xbmc.executebuiltin("XBMC.AlarmClock('MTVBCS',XBMC.RunAddon(script.cachesystem),1,silent)")
     #xbmc.playSFX('special://home/media/Working.wav')
+    dp.create("CerebroTV","",'STARTING UP', ' ')
     percent = 70 
     dp.update(percent)    
     xbmc.sleep(2000)
     xbmc.executebuiltin('RunAddon(plugin.program.megatvboxnot)')
+    dp.create("CerebroTV","",'STARTING UP', ' ')
     percent = 80 
     dp.update(percent)
     xbmc.sleep(2000)
@@ -595,13 +604,13 @@ def ping(host):
 
     # Ping
     return os.system("ping " + ping_str + " " + host) == 0
-			
+            
 
 def get_external_ip():
     site = urllib.urlopen("http://checkip.dyndns.org/").read()
     grab = re.findall('([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)', site)
     address = grab[0]
-    return address			
+    return address          
 
 
 def DownloaderClass2(url,dest):
@@ -616,12 +625,12 @@ def DownloaderClass2(url,dest):
             userdata = "test|test"
             with open(file3, 'w') as f:
                 f.write(userdata)
-            zfile = zipfile.ZipFile(file201, 'r')	
+            zfile = zipfile.ZipFile(file201, 'r')   
             nItem = float(len(zfile.infolist()))
             index = 0
             for item in zfile.infolist():
                 index += 1
-			
+            
                 percent  = int(index / nItem *100)
                 filename = item.filename
                 dp.update(percent)
@@ -632,8 +641,8 @@ def DownloaderClass2(url,dest):
                     utils.log(e)
         
 
-        utils.DeleteFile(file201)	
-        dp.create("[COLOR tomato]Cerebro TV[/COLOR]","Update Complete","Closing Kodi....")	
+        utils.DeleteFile(file201)   
+        dp.create("[COLOR tomato]Cerebro TV[/COLOR]","Update Complete","Closing Kodi....")  
         killxbmc()
         exit()
 
@@ -717,7 +726,7 @@ if appversion == "SPMC-OUTDATED":
 if os.path.exists(iddata):
     #dialog.ok("[COLOR=yellow][B]FILE FOUND[/COLOR][/B]", "FILE FOUND", "","FILE FOUND")
     with open(iddata, 'r') as mymega:
-        userid=mymega.read()	
+        userid=mymega.read()    
 
     if userid == "megatvbot1234567890qwertyuiop2016biglad":
         dialog.ok("[COLOR=yellow][B]First Time Load[/COLOR][/B]", "Setting Up Some Data Files.", "Kodi will now close.","Press OK to Continue")
@@ -734,7 +743,7 @@ if os.path.exists(iddata):
         except: pass
         xbmc.executebuiltin('RunAddon(script.program.exitkodi)')
         exit()
-		
+        
     if userid == "-1":
         dialog.ok("[COLOR=yellow][B]WARNING[/COLOR][/B]", "You Have been ripped off", "Please return your device to seller for full refund","Buy Cerebro TV @ www.megawow.co.uk The only site for official boxes")
         #xbmc.executebuiltin('RunAddon(script.program.megatvhousekeeper2)') 
@@ -758,7 +767,7 @@ if os.path.exists(iddata):
         dp.create("[COLOR=red][B]Authentication code Not Found![/COLOR][/B]","[B]Please Contact your seller as your code is unauthorized","[B]This could also be due to the auth server been offline, please try again.[/B]")
         xbmc.sleep(15000)
         dp.close()
-        dp.create("[COLOR=yellow][B]Authentication code Not Found![/COLOR][/B]","[B]Please Contact your seller as your code is unauthorized","[B]This could also be due to the auth server been offline, please try again.[/B]")	
+        dp.create("[COLOR=yellow][B]Authentication code Not Found![/COLOR][/B]","[B]Please Contact your seller as your code is unauthorized","[B]This could also be due to the auth server been offline, please try again.[/B]")    
         xbmc.sleep(15000)
         xbmc.executebuiltin('Quit')
 else:
@@ -767,7 +776,7 @@ else:
     if userid =="":
         dp = xbmcgui.DialogProgress()
         dp.create("[COLOR=yellow][B]CODE NOT RIGHT[/COLOR][/B]","Cerebro TV WILL NOW EXIT","PLEASE TRY AGAIN")
-        xbmc.sleep(15000)		
+        xbmc.sleep(15000)       
         try: utils.DeleteFile(iddata)
         except: pass
         xbmc.executebuiltin('Quit')
@@ -775,14 +784,14 @@ else:
     if choice == 0:
         dp = xbmcgui.DialogProgress()
         dp.create("[COLOR=yellow][B]CODE NOT RIGHT[/COLOR][/B]","Cerebro TV WILL NOW EXIT","PLEASE TRY AGAIN")
-        xbmc.sleep(15000)		
+        xbmc.sleep(15000)       
         try: utils.DeleteFile(iddata)
         except: pass
         xbmc.executebuiltin('Quit')
     #elif choice == 1:
         #pass
     response = urllib2.urlopen('http://cerebrotv.co.uk/TV-DATA/auth2.php?id='+str(userid)+'&ip='+str(ipaddy)).read()
-    if response == "INUSE":	
+    if response == "INUSE": 
         dp = xbmcgui.DialogProgress()
         dp.create("[COLOR=yellow][B]INFORMATION[/COLOR][/B]","Your Code has been used by someone else","Contact you seller......")
         xbmc.sleep(15000)
@@ -790,7 +799,7 @@ else:
         dp.create("[COLOR=yellow][B]INFORMATION[/COLOR][/B]","Your Code has been used by someone else","Contact you seller......")
         xbmc.sleep(15000)
         xbmc.executebuiltin('Quit')
-    elif response == "OK":	
+    elif response == "OK":  
         fo = open(iddata, "w")
         fo.write(userid);
         fo.close()
@@ -805,8 +814,8 @@ else:
         dp.close()
         dp.create("[COLOR=yellow][B]Authentication code Not Found![/COLOR][/B]","[B]Please Contact your seller as your code is unauthorized","[B]Only buy from www.cerebrotv.co.uk[/B]")
         xbmc.sleep(15000)
-        xbmc.executebuiltin('Quit')	
-	
+        xbmc.executebuiltin('Quit') 
+    
 
 
 

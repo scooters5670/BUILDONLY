@@ -638,7 +638,7 @@ class movies:
 		self.meta = []
 		total = len(self.list)
 
-		response = get(control.apollo_static_link+'list/movie/all.json')
+		response = get(control.apollo_static_link+'list/movie/all.json', verify=False)
 		try:
 			json_object = json.loads(response.text)
 		except:
@@ -675,7 +675,7 @@ class movies:
 
 	def apollo_list(self, url):
 		try:
-			response = get(url)
+			response = get(url, verify=False)
 			try:
 				json_object = json.loads(response.text)
 			except:

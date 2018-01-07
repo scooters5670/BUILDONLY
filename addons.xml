@@ -2885,18 +2885,19 @@ Skin and code for skin by Demonstratorz</description>
   </extension>
 </addon>
 
-<addon id="program.apollo" version="3.2.5" name="[COLOR white]Apollo[/COLOR] [COLOR FF028ddd]Group[/COLOR]" provider-name="Exodus, Apollo Group, Biglad">
+<addon id="program.apollo" version="99993.6.1" name="[COLOR white]Apollo[/COLOR] [COLOR FF028ddd]Group[/COLOR]" provider-name="Exodus, Apollo Group">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.4.3" />
 		<import addon="script.exodus.artwork" version="1.0.4" />
 		<import addon="script.exodus.metadata" version="1.0.0" />
 		<import addon="script.module.metahandler" version="1.0.0" />
-		<!--<import addon="service.iptvsimple.plugin.player" version="1.0.0" />-->
+		<import addon="service.iptvsimple.plugin.player" version="1.0.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
+	<extension point="xbmc.service" library="pvr.py" start="[login|startup]"/>
 	<extension point="xbmc.addon.metadata">
         <summary>Apollo Group - Watch for the B-E-S-T!</summary>
         <description>Facebook Page and Support Group @ApolloGroupTV. Slots are full? Become a member today, visit: ApolloGroup.tv</description>
@@ -4249,7 +4250,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 <addon id="script.megatvupdater"
-    name="[COLOR mediumseagreen]## CerebroTV Updater ##[/COLOR]" version="1.10.5" provider-name="Biglad">
+    name="..[COLOR mediumseagreen]## CerebroTV Updater ##[/COLOR]" version="1.10.7" provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
     <import addon="script.module.httplib2" version="0.8.0" />
@@ -5392,7 +5393,7 @@ level.</description>
 
 <addon id="script.mtvbexit"
   name="CerebroTV Exit/Reboot"
-  version="2.3"
+  version="2.4"
   provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -6475,7 +6476,7 @@ level.</description>
   </extension>
 </addon>
 
-<addon id="script.tvguide.cerebrotv.kids" name="Cerebro TV Guide KIDS" version="2.0.40" provider-name="Biglad">
+<addon id="script.tvguide.cerebrotv.kids" name="Cerebro TV Guide KIDS" version="2.0.41" provider-name="Biglad">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -6552,7 +6553,7 @@ level.</description>
 	</extension>
 </addon>
 
-<addon id="script.tvguide.cerebrotv.sports" name="Cerebro TV Guide SPORTS" version="2.0.41" provider-name="Biglad">
+<addon id="script.tvguide.cerebrotv.sports" name="Cerebro TV Guide SPORTS" version="2.0.42" provider-name="Biglad">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -6725,7 +6726,7 @@ level.</description>
 	</extension>
 </addon>
 
-<addon id="script.tvguide.cerebrotv.usa" name="Cerebro TV Guide USA FULL" version="2.0.56" provider-name="Biglad">
+<addon id="script.tvguide.cerebrotv.usa" name="Cerebro TV Guide USA FULL" version="2.0.57" provider-name="Biglad">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
