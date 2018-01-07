@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.goodfellas2"
-       name=".cerebroIPTV3"
+       name=".Cerebro Prime"
        version="2.0.5"
        provider-name="Biglad">
    <requires>
@@ -15,9 +15,9 @@
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />    
     <import addon="script.module.metahandler" version="2.5.1"/>
-    <import addon="repository.shani" version="2.8"/>
 	<import addon="plugin.video.f4mTester" optional="true"/>
-	<import addon="plugin.program.goodfellasmessages" optional="false"/>
+	<import addon="script.cerebro.backend" />
+	<import addon="repository.cerebro" />
 	<import addon="plugin.video.SportsDevil" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
