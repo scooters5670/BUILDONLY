@@ -122,6 +122,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.19
 <item>
 <title>Sky One</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-one%2526title%3DSky+One%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky One::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY4w::LISTNAME:Sky One::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSKYONE%2Fplaylist.m3u8::LISTNAME:Sky One::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20One%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2febcd8ef93fa99c4834d0cc3275f3dcd7.m3u8::LISTNAME:Sky One::#
@@ -1266,6 +1267,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA4Mw==w::LISTNAME:Hall
 <item>
 <title>NBC Sport Network</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fnbcsn%2526title%3DNBC+Sports+Network%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:NBC Sport Network::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNBC%20Sport%20Network%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe4d6b46ca81b601fe8461b43f641488c.m3u8::LISTNAME:NBC Sport Network::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fnbcsn%2Fplaylist.m3u8::LISTNAME:NBC Sport Network::#
 </link>
@@ -1286,6 +1288,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA4w::LISTNAME:WWE Netw
 <item>
 <title>BT Sports 1</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fbt-sport-1%2526title%3DBT+Sports+1%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:BT Sports 1::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%201%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2ffeb9c19124327ffd2bae3c97249ea40e.m3u8::LISTNAME:BT Sports 1::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33RaaabB3eETtiyiy-1%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+1&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports 1::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F163.172.220.115%3A8080%2FMatH33RaaabB3eETtiyiy-1%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+1%282%29&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports 1::#
@@ -1302,6 +1305,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/59::LISTNAME:BT Sports 1::#
 <item>
 <title>BT Sports 2</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fbt-sport-2%2526title%3DBT+Sports+2%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:BT Sports 2::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa0baff4a9870ad57efd54f32cf8be880.m3u8::LISTNAME:BT Sports 2::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33RaaabB3eETtiyiy-2%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+2&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports 2::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F163.172.220.115%3A8080%2FMatH33RaaabB3eETtiyiy-2%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+2%282%29&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports 2::#
@@ -1318,6 +1322,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/60::LISTNAME:BT Sports 2::#
 <item>
 <title>BT Sports 3</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fbt-sport-3%2526title%3DBT+Sports+3%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:BT Sports 3::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%203%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fba7c7bb9f1f2be48a9041f6a308eaa92.m3u8::LISTNAME:BT Sports 3::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33RaaaBeeT3yy-U%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+3&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports 3::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F163.172.220.115%3A8080%2FMatH33RaaaBeeT3yy-U%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+3%282%29&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports 3::#
@@ -1347,6 +1352,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/107::LISTNAME:BT Sports ESPN
 <item>
 <title>Sky Sports Main</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-sports-main-event%2526title%3DSky+Sports+Main+Event%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Sports Main::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTM=w::LISTNAME:Sky Sports Main::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp1%2Fplaylist.m3u8::LISTNAME:Sky Sports Main::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/204::LISTNAME:Sky Sports Main::#
@@ -1358,6 +1364,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/204::LISTNAME:Sky Sports Mai
 <item>
 <title>Sky Sports Football</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-sports-football%2526title%3DSky+Sports+Football%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Sports Football::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTgyw::LISTNAME:Sky Sports Football::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.137%3A7071%2Fserver%2Fskysp7%2Fplaylist.m3u8::LISTNAME:Sky Sports Football::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/410::LISTNAME:Sky Sports Football::#
@@ -1402,6 +1409,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/207::LISTNAME:Sky Sports Gol
 <item>
 <title>Sky Sports F1</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-sports-f1%2526title%3DSky+Sports+F1%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Sports F1::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Sports%20F1%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f343b4b2909705b5f5babe196c05c7895.m3u8::LISTNAME:Sky Sports F1::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUxw::LISTNAME:Sky Sports F1::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysportsf1%2Fplaylist.m3u8::LISTNAME:Sky Sports F1::#
@@ -1414,6 +1422,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/209::LISTNAME:Sky Sports F1:
 <item>
 <title>Sky Sports Action</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-sports-action%2526title%3DSky+Sports+Action%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Sports Action::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTU=w::LISTNAME:Sky Sports Action::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp3%2Fplaylist.m3u8::LISTNAME:Sky Sports Action::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/206::LISTNAME:Sky Sports Action::#
@@ -1447,6 +1456,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/308::LISTNAME:Sky Sports Mix
 <item>
 <title>Sky Sports News</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-sports-news%2526title%3DSky+Sports+News%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Sports News::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/ODExw::LISTNAME:Sky Sports News::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskyspnews%2Fplaylist.m3u8::LISTNAME:Sky Sports News::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/210::LISTNAME:Sky Sports News::#
@@ -1458,6 +1468,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/210::LISTNAME:Sky Sports New
 <item>
 <title>Premier Sports</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fpremier-sports%2526title%3DPremier+Sports%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Premier Sports::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dPremier%20Sports%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2d18f483dbcf20bf0cc41b916f026d6b.m3u8::LISTNAME:Premier Sports::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDE0w::LISTNAME:Premier Sports::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/170::LISTNAME:Premier Sports::#
@@ -1469,6 +1480,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/170::LISTNAME:Premier Sports
 <item>
 <title>Box Nation</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fbox-nation%2526title%3DBT+Sports+Box+Nation%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Box Nation::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBox%20Nation%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f96433d4a4b7fe9fdddcc23da704dce11.m3u8::LISTNAME:Box Nation::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTE5w::LISTNAME:Box Nation::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/55::LISTNAME:Box Nation::#
@@ -1513,6 +1525,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/41::LISTNAME:At The Races::#
 <item>
 <title>Racing UK</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fracing-uk%2526title%3DRacing+UK%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Racing UK::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dRacing%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f7e8c4145e3a4119dbe243813d877aca8.m3u8::LISTNAME:Racing UK::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjkyw::LISTNAME:Racing UK::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/178::LISTNAME:Racing UK::#
@@ -1535,6 +1548,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/78::LISTNAME:Chelsea TV::#
 <item>
 <title>MUTV</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fmutv%2526title%3DMU+TV%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:MUTV::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dMUTV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f50e67d468d54cd43a2bd100b5ef8a53e.m3u8::LISTNAME:MUTV::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDExw::LISTNAME:MUTV::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/154::LISTNAME:MUTV::#
@@ -1546,6 +1560,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/154::LISTNAME:MUTV::#
 <item>
 <title>LFC TV</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Flfctv%2526title%3DLFC+TV%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:LFC TV::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dLiverpool%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f71a00014007ea740e245d9a342300cab.m3u8::LISTNAME:LFC TV::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTIww::LISTNAME:LFC TV::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/145::LISTNAME:LFC TV::#
