@@ -1022,7 +1022,7 @@ provider-name="Cerebro">
 
 <addon id="plugin.video.goodfellas2"
        name=".cerebroIPTV3"
-       version="2.0.4"
+       version="2.0.5"
        provider-name="Biglad">
    <requires>
     <import addon="xbmc.python" version="2.1.0"/>
