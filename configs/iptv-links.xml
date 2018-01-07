@@ -609,6 +609,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2Fserver4.serve
 <item>
 <title>Sky Cinema Disney</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-disney%2526title%3DSky+Cinema+Disney%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Disney::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSKYMOVIESDISNEY%2Fplaylist.m3u8::LISTNAME:Sky Cinema Disney::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Disney%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2ffb2cde6e0410cf537a19800bd19261f0.m3u8::LISTNAME:Sky Cinema Disney::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/194::LISTNAME:Sky Cinema Disney::#
@@ -631,6 +632,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Sho
 <item>
 <title>Sky Cinema Premiere</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-premiere%2526title%3DSky+Cinema+Premiere%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Premiere::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Premiere%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3265682a41f442e5a4164e9b26393634.m3u8::LISTNAME:Sky Cinema Premiere::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesPremiere%2Fplaylist.m3u8::LISTNAME:Sky Cinema Premiere::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Premiere::#
@@ -652,6 +654,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/255::LISTNAME:Sky Cinema Sho
 <item>
 <title>Sky Cinema Family</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-family%2526title%3DSky+Cinema+Family%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Family::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Family%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3caed59e3b7e405b3a802cc480a14e32.m3u8::LISTNAME:Sky Cinema Family::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyFamily%2Fplaylist.m3u8::LISTNAME:Sky Cinema Family::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/200::LISTNAME:Sky Cinema Family::#
@@ -673,6 +676,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/199::LISTNAME:Sky Cinema Dra
 <item>
 <title>Sky Cinema Action</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-action%2526title%3DSky+Cinema+Action%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Action::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Action%20%26%20Adventure%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3c909c9218961b2ecfdd5f44a89a90b8.m3u8::LISTNAME:Sky Cinema Action::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesAction%2Fplaylist.m3u8::LISTNAME:Sky Cinema Action::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/196::LISTNAME:Sky Cinema Action::#
@@ -684,6 +688,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/196::LISTNAME:Sky Cinema Act
 <item>
 <title>Sky Cinema Comedy</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-comedy%2526title%3DSky+Cinema+Comedy%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Comedy::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Comedy%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc168262cf8b9775300da0b79b2199ee6.m3u8::LISTNAME:Sky Cinema Comedy::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyComedy%2Fplaylist.m3u8::LISTNAME:Sky Cinema Comedy::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/197::LISTNAME:Sky Cinema Comedy::#
@@ -695,6 +700,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/197::LISTNAME:Sky Cinema Com
 <item>
 <title>Sky Cinema Crime</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-crime%2526title%3DSky+Cinema+Crime%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Crime::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Crime%20%26%20Thriller%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa84271250d9dc93c1edc84874552d6c7.m3u8::LISTNAME:Sky Cinema Crime::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesCrime%2Fplaylist.m3u8::LISTNAME:Sky Cinema Crime::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/198::LISTNAME:Sky Cinema Crime::#
@@ -717,6 +723,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/202::LISTNAME:Sky Cinema Sci
 <item>
 <title>Sky Cinema Select</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-select%2526title%3DSky+Cinema+Select%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Select::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Select%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f760670eeaaa3e62adc1989fee2e8b259.m3u8::LISTNAME:Sky Cinema Select::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/254::LISTNAME:Sky Cinema Select::#
 </link>
