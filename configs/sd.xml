@@ -78,6 +78,40 @@
 <fanart></fanart>
 </item>
 
+<item>
+<title>BT Sports Box Nation</title>
+<sportsdevil>https://live.bypassed.org/box-nation</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>NBC Sports Network</title>
+<sportsdevil>https://live.bypassed.org/nbcsn</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Fox Sports 1</title>
+<sportsdevil>https://live.bypassed.org/fox-sports-1</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Fox Sports 2</title>
+<sportsdevil>https://live.bypassed.org/fox-sports-2</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
 
 
 
