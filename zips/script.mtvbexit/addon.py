@@ -11,14 +11,12 @@ def menuoptions():
     dialog = xbmcgui.Dialog()
     funcs = (
         function1,
-        function2,
-        function3
+        function2
         )
         
     call = dialog.select('[B][COLOR=yellow]CerebroTV[/COLOR][COLOR=red] Exit / Reboot[/COLOR][/B]', [
-    '[B][COLOR=green]Reboot Box[/COLOR][/B] (Needs Reboot.apk)',
-    '[B][COLOR=green]Exit / Reboot[/COLOR][/B] (Need Admin/ADB Shell/Root/SU Access)',
-    '[B][COLOR=green]Exit Kodi[/COLOR][/B] (All Devices, will take some time!!)'])
+    '[B][COLOR=green]Run House Keeper and Reboot[/COLOR][/B]',
+    '[B][COLOR=green]Exit Kodi[/COLOR][/B]'])
     # dialog.selectreturns
     #   0 -> escape pressed
     #   1 -> first item
@@ -27,7 +25,7 @@ def menuoptions():
         # esc is not pressed
         if call < 0:
             return
-        func = funcs[call-3]
+        func = funcs[call-2]
         #dp = xbmcgui.DialogProgress()
         #dp.create("[COLOR tomato]CerebroTV[/COLOR]",""+str(func)+" -3","PLEASE EXIT KODI OR PULL THE POWER LEAD")
         #xbmc.sleep(1000)
@@ -42,18 +40,7 @@ def menuoptions():
 
 
 def function1():
-    if os.path.exists(iddata):
-        with open(iddata, 'r') as mymega:
-            userid=mymega.read()
-        try: response = urllib2.urlopen('http://megatvbox.co.uk/TV-DATA/auth2.php?id='+str(userid)+'&die=1').read()
-        except: pass
-    xbmc.executebuiltin('StartAndroidActivity("fr.petrus.tools.reboot")')
 
-def function2():
-    #the content of function 1
-    #dp = xbmcgui.DialogProgress()
-    #dp.create("[COLOR tomato]CerebroTV[/COLOR]","PLEASE EXIT KODI OR PULL THE POWER LEAD","PLEASE EXIT KODI OR PULL THE POWER LEAD")
-    #xbmc.sleep(5000)
     if os.path.exists(iddata):
         with open(iddata, 'r') as mymega:
             userid=mymega.read()
@@ -61,7 +48,7 @@ def function2():
         except: pass
     xbmc.executebuiltin('RunAddon(script.program.megatvhousekeeper3)')
 
-def function3():
+def function2():
     xbmc.executebuiltin("Notification(CerebroTV,Closing SPMC/Kodi, Will take a few seconds,7000,)")
     xbmc.sleep(1000)
     if os.path.exists(iddata):
