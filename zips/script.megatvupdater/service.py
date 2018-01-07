@@ -1,9 +1,32 @@
 import xbmc
 import xbmcgui
+import os
+
+def ping(host):
+    """
+    Returns True if host responds to a ping request
+    """
+    import os, platform
+
+    # Ping parameters as function of OS
+    ping_str = "-n 1" if  platform.system().lower()=="windows" else "-c 1"
+
+    # Ping
+    return os.system("ping " + ping_str + " " + host) == 0
+	
+	
+if not ping("google.com"):
+	dialog = xbmcgui.Dialog()
+	dialog.ok("[COLOR=red][B]Cerebro TV[/COLOR][/B]", "No Internet Connection Found!", "Press OK to exit",'Please Check Your Connection.')
+	xbmc.executebuiltin('Quit')
+	exit()
+
 dp = xbmcgui.DialogProgress()
 dp.create("CerebroTV","",'STARTING UP', ' ')
 percent = 1 
 dp.update(percent)
+xbmc.executebuiltin('RunAddon(script.program.menurefresh)')
+xbmc.sleep(3500)
 #intro = xbmc.translatePath('special://home/media/Splash3.png')
 xbmc.playSFX('special://home/media/startup.wav')
 #xbmc.executebuiltin('ShowPicture('+intro+')')
@@ -12,7 +35,6 @@ xbmc.playSFX('special://home/media/startup.wav')
 #xbmc.executebuiltin("ActivateWindow(Weather)")
 #xbmc.executebuiltin("ActivateScreensaver()")
 import utils
-import os
 import xbmcgui
 import zipfile
 import sfile
@@ -164,9 +186,6 @@ else:
     msgstr = "Swap to FULL Only Mode"
     file2dl = "http://megatvbox.eu/full.zip"
     
-    
-xbmc.executebuiltin('RunAddon(script.program.menurefresh)')
-xbmc.sleep(3500)
     
 def noconnection():
     dp = xbmcgui.DialogProgress()
@@ -593,17 +612,6 @@ def Search(name):
         if search_entered == None:
             return False 
 
-def ping(host):
-    """
-    Returns True if host responds to a ping request
-    """
-    import os, platform
-
-    # Ping parameters as function of OS
-    ping_str = "-n 1" if  platform.system().lower()=="windows" else "-c 1"
-
-    # Ping
-    return os.system("ping " + ping_str + " " + host) == 0
             
 
 def get_external_ip():
