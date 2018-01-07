@@ -2,8 +2,8 @@
 <title>[COLOR gold]Cerebro Prime IPTV Channels[/COLOR]</title>
 <sportsdevil>http://ignore</sportsdevil>
 <referer></referer>
-<thumbnail></thumbnail>
-<fanart></fanart>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -11,7 +11,7 @@
 <sportsdevil>https://live.bypassed.org/sky-sports-main-event</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717080757main1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -19,7 +19,7 @@
 <sportsdevil>https://live.bypassed.org/sky-sports-action</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717080926act3.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -27,7 +27,7 @@
 <sportsdevil>https://live.bypassed.org/sky-sports-football</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/270717102848foot1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -35,7 +35,7 @@
 <sportsdevil>https://live.bypassed.org/sky-sports-f1</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717081443f12.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -43,7 +43,7 @@
 <sportsdevil>https://live.bypassed.org/sky-sports-box-office</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail></thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -51,7 +51,7 @@
 <sportsdevil>https://live.bypassed.org/sky-one</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040021sky1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -59,7 +59,7 @@
 <sportsdevil>https://live.bypassed.org/sky-sports-news</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717081653news1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -67,7 +67,7 @@
 <sportsdevil>https://live.bypassed.org/bt-sport-1</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115523bt1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -75,7 +75,7 @@
 <sportsdevil>https://live.bypassed.org/bt-sport-2</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115549bt2.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -83,7 +83,7 @@
 <sportsdevil>https://live.bypassed.org/bt-sport-3</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/270916013607bt3.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -91,7 +91,7 @@
 <sportsdevil>https://live.bypassed.org/box-nation</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115340box.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -99,7 +99,7 @@
 <sportsdevil>https://live.bypassed.org/nbcsn</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/041017012728cbss.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -107,7 +107,7 @@
 <sportsdevil>https://live.bypassed.org/fox-sports-1</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045235foxsp1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -115,7 +115,7 @@
 <sportsdevil>https://live.bypassed.org/fox-sports-2</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045256fox2.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -123,7 +123,7 @@
 <sportsdevil>https://live.bypassed.org/premier-sports</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116033917prem.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -131,7 +131,7 @@
 <sportsdevil>https://live.bypassed.org/espn-uk</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116015231espn.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -139,7 +139,7 @@
 <sportsdevil>https://live.bypassed.org/espn-usa</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116015231espn.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -147,7 +147,7 @@
 <sportsdevil>https://live.bypassed.org/racing-uk</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116035209racing.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -155,7 +155,7 @@
 <sportsdevil>https://live.bypassed.org/lfctv</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116013110lfc.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -163,7 +163,7 @@
 <sportsdevil>https://live.bypassed.org/mutv</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116020618mutv.gif|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -171,7 +171,7 @@
 <sportsdevil>https://live.bypassed.org/bein-sport-1</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114905bein1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -179,7 +179,7 @@
 <sportsdevil>https://live.bypassed.org/bein-sport-2</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/130216035217bein2.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -187,7 +187,7 @@
 <sportsdevil>https://live.bypassed.org/bein-sport-3</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/130216035348bein3.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -195,7 +195,7 @@
 <sportsdevil>https://live.bypassed.org/bein-sport-4</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/130216035427bein4.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -203,7 +203,7 @@
 <sportsdevil>https://live.bypassed.org/bein-sport-5</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/130216035528bein5.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -211,7 +211,7 @@
 <sportsdevil>https://live.bypassed.org/bein-sport-6</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/130216035739bein6.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -219,7 +219,7 @@
 <sportsdevil>https://live.bypassed.org/bein-sport-7</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/130216035811bein7.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -227,7 +227,7 @@
 <sportsdevil>https://live.bypassed.org/bein-sport-8</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/130216035917bein8.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -235,7 +235,7 @@
 <sportsdevil>https://live.bypassed.org/bein-sport-9</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/130216035950bein9.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -243,7 +243,7 @@
 <sportsdevil>https://live.bypassed.org/nbatv</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116020842nba.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -251,7 +251,7 @@
 <sportsdevil>http://uktvnow.net/uktvnow8/images/channel_imgs/200116043251tsn1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail></thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -259,7 +259,7 @@
 <sportsdevil>http://uktvnow.net/uktvnow8/images/channel_imgs/200116043314ts2.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail></thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -267,7 +267,7 @@
 <sportsdevil>https://live.bypassed.org/nflnetwork</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116021039nfl.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -275,7 +275,7 @@
 <sportsdevil>https://live.bypassed.org/golf-channel</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045453golf.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 
@@ -296,7 +296,7 @@
 <sportsdevil>https://live.bypassed.org/sky-movies-select</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/070216062955select_1426076182.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -304,7 +304,7 @@
 <sportsdevil>https://live.bypassed.org/sky-movies-premiere</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040916premi.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -312,7 +312,7 @@
 <sportsdevil>https://live.bypassed.org/sky-movies-family</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040807famil.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -320,7 +320,7 @@
 <sportsdevil>https://live.bypassed.org/sky-movies-comedy</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040536comedy.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -328,7 +328,7 @@
 <sportsdevil>https://live.bypassed.org/sky-movies-action</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040508action.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -336,7 +336,7 @@
 <sportsdevil>https://live.bypassed.org/sky-movies-crime</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040646crime.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -344,7 +344,7 @@
 <sportsdevil>https://live.bypassed.org/sky-movies-disney</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040235disn.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -352,7 +352,7 @@
 <sportsdevil>https://live.bypassed.org/history-channel</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045928his.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -360,7 +360,7 @@
 <sportsdevil>https://live.bypassed.org/discovery-channel</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116011400disc.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -368,7 +368,7 @@
 <sportsdevil>https://live.bypassed.org/animal-planet</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116113807animal.PNG|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -376,7 +376,7 @@
 <sportsdevil>https://live.bypassed.org/natgeo</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116020643natgeo.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -384,7 +384,7 @@
 <sportsdevil>https://live.bypassed.org/amc</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/201217101152amc.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -392,7 +392,7 @@
 <sportsdevil>https://live.bypassed.org/axn</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/231216025852axnn.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -400,7 +400,7 @@
 <sportsdevil>https://live.bypassed.org/bbcone</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114707bbc1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -408,7 +408,7 @@
 <sportsdevil>https://live.bypassed.org/bbctwo</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114814bbc2.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -416,7 +416,7 @@
 <sportsdevil>https://live.bypassed.org/cartoon-network</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115659cn.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -424,7 +424,7 @@
 <sportsdevil>https://live.bypassed.org/comedy-central</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116011001comedy.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -432,7 +432,7 @@
 <sportsdevil>https://live.bypassed.org/disneyxd</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/070216061240disneyxd.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -440,7 +440,7 @@
 <sportsdevil>hhttps://live.bypassed.org/fx</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045335fx.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -448,7 +448,7 @@
 <sportsdevil>https://live.bypassed.org/tnt</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116043043tnt.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -456,7 +456,7 @@
 <sportsdevil>https://live.bypassed.org/hbo</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail></thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -464,7 +464,7 @@
 <sportsdevil>https://live.bypassed.org/jasmintv</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail></thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 <item>
@@ -472,7 +472,7 @@
 <sportsdevil>https://live.bypassed.org/nflredzone</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail></thumbnail>
-<fanart></fanart>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
 
