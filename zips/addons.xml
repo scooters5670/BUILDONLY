@@ -5440,7 +5440,7 @@ level.</description>
 
 <addon id="script.mtvbexit"
   name="CerebroTV Exit/Reboot"
-  version="2.5"
+  version="2.6"
   provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

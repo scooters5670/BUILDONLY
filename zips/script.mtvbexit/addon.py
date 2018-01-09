@@ -56,6 +56,6 @@ def function2():
             userid=mymega.read()
         try: response = urllib2.urlopen('http://megatvbox.co.uk/TV-DATA/auth2.php?id='+str(userid)+'&die=1').read()
         except: pass
-    xbmc.executebuiltin('RunAddon(script.program.exitkodi2)')
+    xbmc.executebuiltin('ActivateWindow(10001,"plugin://plugin.close.kodi/?description&fanart=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.close.kodi%5cfanart.jpg&iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.close.kodi%5cresources%5cart%5cforce.png&mode=10&name=Close%20System%20(Recommended)&url=fclose",return)')
 
 menuoptions()
