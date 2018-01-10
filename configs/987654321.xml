@@ -2,7 +2,7 @@
 
 <channel>
 <name>[COLOR gold]Cerebro Prime IPTV Channels[/COLOR]</name>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<thumbnail>http://mtvb.co.uk/icon2.png</thumbnail>
 <externallink>http://ignore</externallink>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 <info>[COLOR green]Cerebro Prime IPTV Sports Channels[/COLOR]</info>
@@ -10,7 +10,7 @@
 
 <channel>
 <name>[COLOR green]UK & USA Sports[/COLOR]</name>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<thumbnail>http://mtvb.co.uk/icon2.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/SDSports.xml</externallink>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 <info>[COLOR green]Cerebro Prime IPTV Sports Channels[/COLOR]</info>
