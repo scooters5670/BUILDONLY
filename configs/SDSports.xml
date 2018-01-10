@@ -282,6 +282,14 @@
 </item>
 
 <item>
+<title>Chelsea TV (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Chelsea-TV-70</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>BEIN 1</title>
 <sportsdevil>https://live.bypassed.org/bein-sport-1</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
