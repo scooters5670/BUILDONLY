@@ -16,6 +16,14 @@
 </item>
 
 <item>
+<title>BBC One (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/BBC-One-4</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>BBC Two</title>
 <sportsdevil>https://live.bypassed.org/bbctwo</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
@@ -88,11 +96,5 @@
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
-<item>
-<title>BBC1 Test</title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/BBC-One-4</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</item>
+
 
