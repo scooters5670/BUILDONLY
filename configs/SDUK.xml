@@ -32,6 +32,14 @@
 </item>
 
 <item>
+<title>BBC Two (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/BBC-Two-5</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>Sky One</title>
 <sportsdevil>https://live.bypassed.org/sky-one</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
@@ -42,6 +50,14 @@
 <item>
 <title>5 Spike (Takes a few seconds to start playing)</title>
 <sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Spike-93</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Movies 4 Men (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Movies4Men-26</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>
 <thumbnail></thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
