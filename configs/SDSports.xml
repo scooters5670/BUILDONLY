@@ -250,6 +250,14 @@
 </item>
 
 <item>
+<title>Racing UK(Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Racing-UK-91</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116035209racing.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>LFC TV</title>
 <sportsdevil>https://live.bypassed.org/lfctv</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
@@ -374,6 +382,22 @@
 <sportsdevil>https://live.bypassed.org/golf-channel</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045453golf.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Euro Sports 1(Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Eurosport-1-34</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Euro Sports 2(Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Eurosport-2-35</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 

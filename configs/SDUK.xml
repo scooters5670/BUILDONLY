@@ -19,7 +19,7 @@
 <title>BBC One (Takes a few seconds to start playing)</title>
 <sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/BBC-One-4</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114707bbc1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
@@ -34,6 +34,54 @@
 <item>
 <title>BBC Two (Takes a few seconds to start playing)</title>
 <sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/BBC-Two-5</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114814bbc2.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>ITV (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/ITV1-21</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Channel 4 (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Channel-4-11</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Channel 5 (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Channel-5-31</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>ITV 2 (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/ITV2-22</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>ITV 3 (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/ITV3-23</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>ITV 4 (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/ITV4-24</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>
 <thumbnail></thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
@@ -54,6 +102,80 @@
 <thumbnail></thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
+
+<item>
+<title>E! (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/E!-79</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Gold (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Gold-45</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>E4 (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/E4-14</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>More 4 (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/More4-25</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Discovery (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Discovery-Channel-42</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Discovery Turbo (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Discovery-Turbo-75</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Disney Channel (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Disney-Channel-43</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Comedy Central (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Comedy-Central-56</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+
 
 <item>
 <title>Movies 4 Men (Takes a few seconds to start playing)</title>
@@ -120,5 +242,52 @@
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
+<item>
+<title>Film 4 (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Film4-16</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>True Movies (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/True-Movies-1-96</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>MTV Dance (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/MTV-Dance-58</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>MTV (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/MTV-85</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>MTV Classic (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/MTV-Classic-57</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BBC World News (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/BBC-World-News-3</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
 
 
