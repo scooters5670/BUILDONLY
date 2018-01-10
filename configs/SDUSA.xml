@@ -7,6 +7,54 @@
 </item>
 
 <item>
+<title>NBC (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/NBC-54</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>CBS (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/CBS-85</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>ABC (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/ABC-83</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>USA Network (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/USA-Network-92</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<item>
 <title>History</title>
 <sportsdevil>https://live.bypassed.org/history-channel</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
@@ -19,6 +67,14 @@
 <sportsdevil>https://live.bypassed.org/discovery-channel</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116011400disc.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Discovery (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/Discovery-Channel-37</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
@@ -43,6 +99,14 @@
 <sportsdevil>https://live.bypassed.org/amc</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/201217101152amc.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>AMC (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/AMC-25</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
 
@@ -99,6 +163,14 @@
 <title>HBO</title>
 <sportsdevil>https://live.bypassed.org/hbo</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>HBO (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/Home-Box-Office-(HBO)-96</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
 <thumbnail></thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
 </item>
