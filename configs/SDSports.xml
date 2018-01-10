@@ -162,8 +162,24 @@
 </item>
 
 <item>
+<title>BT Sports 2</title>
+<sportsdevil>http://mamahd.com/p/mama.php?id=17812&match=BT%20Sport%202%20vs%20</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115549bt2.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>BT Sports 3</title>
 <sportsdevil>https://live.bypassed.org/bt-sport-3</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/270916013607bt3.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BT Sports 3</title>
+<sportsdevil>http://mamahd.com/p/mama.php?id=17813&match=BT%20Sport%203%20vs%20</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/270916013607bt3.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://mtvb.co.uk/fanart.jpg</fanart>
