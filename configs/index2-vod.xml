@@ -5,15 +5,15 @@
 <plugin>
 <title> ** [COLOR green]Pair Device For More 1080p (FULL HD) Conent[/COLOR] ** </title>
 <link>plugin://script.cerebro.pairwith.laucnher</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <dir>
 <name>[COLOR green]24/7 TV Live[/COLOR]</name>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/247-2.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <plugin>
@@ -258,7 +258,7 @@
 <title>[COLOR pink]After The First 48[/COLOR]</title>
 <link>plugin://plugin.video.Showbox/?mode=7&name=%20After%20The%20First%2048%20&url=http%3a%2f%2fvidics.unblocked.pl%2fSerie%2fAfter_The_First_48&vidtype=tv</link>
 <thumbnail>https://vidics.unblocked.pl/static/150/1/No_Poster-1.JPEG</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
@@ -271,8 +271,8 @@
 <dir>
 <name>[COLOR pink]The Real Housewives (All Version)[/COLOR]</name>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/housewives.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <plugin>
@@ -531,7 +531,7 @@
 <title>[COLOR pink]Street Outlaws[/COLOR] Option 2</title>
 <link>plugin://plugin.video.Showbox/?mode=7&name=%20Street%20Outlaws%20&url=http%3a%2f%2fvidics.unblocked.pl%2fTV-Show%2fStreet-Outlaws&vidtype=tv</link>
 <thumbnail>https://vidics.unblocked.pl/static/150/1/No_Poster-1.JPEG</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>

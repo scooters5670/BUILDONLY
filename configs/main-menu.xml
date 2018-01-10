@@ -5,8 +5,8 @@
 <plugin>
 <title>[COLOR green]Pair Device For More HD Conent[/COLOR] (Do this once every 4 hours)</title>
 <link>plugin://script.cerebro.pairwith.laucnher</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <dir>
@@ -16,120 +16,120 @@
 <plugin>
 <title>[COLOR green]UPGRADE TO PREMIUM[/COLOR] (This Addon Works Much Better and A LOT more content!)</title>
 <link>plugin://script.cerebro.buyprem</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]UK TV GUIDE[/COLOR] (Premium Only)</title>
 <link>plugin://script.tvguide.cerebrotv.uk</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]USA TV GUIDE[/COLOR] (Premium Only)</title>
 <link>plugin://script.tvguide.cerebrotv.usa</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Sports GUIDE[/COLOR] (Premium Only)</title>
 <link>plugin://script.tvguide.cerebrotv.sports</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR green]Open FREE TV Guide[/COLOR] (Free Version)</title>
 <link>plugin://script.cerebro.tvguide.open.free</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR green]Make Your Own InI File For FREE TV Guide[/COLOR]</title>
 <link>plugin://plugin.video.echoini</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <dir>
 <name>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Live TV[/COLOR] (IPTV)</name>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/Live.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <name>[COLOR gold]CerebroTV: [/COLOR][COLOR red]TV Shows OnDemand [/COLOR] (Pair First!!!)</name>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/vod-tv.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <name>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Movies OnDemand [/COLOR] (Pair First!!!)</name>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/vod-movies.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Sports [/COLOR]</title>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/sports.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]PPV [/COLOR](Pay Per View)</title>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/ppv.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <name>[COLOR gold]CerebroTV: [/COLOR][COLOR red]24/7 TV[/COLOR]</name>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/247menu.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Music Section [/COLOR]</title>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/music.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Kids Corner[/COLOR]</title>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/Kids.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Retro Games [/COLOR] (Premium Only)</title>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/games.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Andoind APKs [/COLOR] (Premium Only)</title>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/apk.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]System Tools [/COLOR]</title>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/tools.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <dir>
@@ -147,22 +147,22 @@
 <plugin>
 <title>[COLOR green]Install Premium Installer[/COLOR] (Will need a Auth code!!) - (use link bellow)</title>
 <link>plugin://script.cerebrotv</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR green]UPGRADE TO PREMIUM[/COLOR] (This Addon Works Much Better and A LOT more content!)</title>
 <link>plugin://script.cerebro.buyprem</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR gold]Need a New Super Fast High Spec Box??[/COLOR] (Comes with Premium Access Built In)</title>
 <link>plugin://script.cerebro.buy</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <dir>
@@ -185,8 +185,8 @@
 <plugin>
 <title>[COLOR pink]Adult XXX Section[/COLOR] [I](Premium Only)[/I]</title>
 <link>plugin://script.mtvbxxx/</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <dir>

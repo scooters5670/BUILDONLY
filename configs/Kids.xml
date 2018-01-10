@@ -4,43 +4,43 @@
 <dir>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR red]Kids Corner[/COLOR]</title>
 <link></link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <plugin>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR green]Open Pre Linked [COLOR red]Kids[/COLOR] TV Guide[/COLOR] (Premium Only)</title>
 <link>plugin://script.cerebro.tvguide.open3</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]Latest Cartoons & Animie[/COLOR] (Get a Parent to PAIR for You)</title>
 <link>plugin://plugin.video.cartoons8</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <dir>
 <name>[COLOR pink]Kids Youtube Channels[/COLOR]</name>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/KidsYouTube.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <dir>
 <name>[COLOR pink]Kids TV On Demand[/COLOR]</name>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/index2-vod-kids.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <plugin>
 <title>[COLOR pink]DanTDM[/COLOR] (Youtuber)</title>
 <link>plugin://plugin.video.youtube/kodion/search/query/?q=dantdm</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
@@ -53,8 +53,8 @@
 <plugin>
 <title>[COLOR pink]Ruff ruff tweet and Dave[/COLOR]</title>
 <link>plugin://plugin.video.youtube/kodion/search/query/?q=Ruff%20ruff%20tweet%20and%20Dave</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
@@ -109,8 +109,8 @@
 <plugin>
 <title>[COLOR pink]Animation Movies 24/7[/COLOR]</title>
 <link>plugin://plugin.video.livehub2/?description&iconimage=http%3a%2f%2fgeekpeaksoftware.com%2fwp-content%2fuploads%2f2016%2f10%2fmobdro.png&mode=10&name=%5bB%5d%5bCOLOR%20white%5dAnimation%20Movies%2024%2f7%5b%2fCOLOR%5d%5b%2fB%5d&url=mpd%3a%2f%2f7e18e745bf13ed4e73c5e612599b4cf5.m3u8</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>

@@ -5,29 +5,29 @@
 <plugin>
 <title> ** [COLOR green]Pair Device For More 1080p (FULL HD) Conent[/COLOR] ** </title>
 <link>plugin://script.cerebro.pairwith.laucnher</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]Wile E. Coyote and The Road Runner[/COLOR]</title>
 <link>plugin://plugin.video.cartoonson/?description&iconimage=http%3a%2f%2fwww.cartoonson.com%2f_resources%2fCartoons%2fshow%2f39%2fimage%2f555x418%2fWile_E._Coyote_and_The_Road_Runner.jpg&mode=2&name=%5bB%5d%5bCOLOR%20white%5dWile%20E.%20Coyote%20and%20The%20Road%20Runner%5b%2fCOLOR%5d%5b%2fB%5d&url=http%3a%2f%2fwww.cartoonson.com%2fcartoons%2fview%2fid%2fwile-e-coyote-and-the-road-runner</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]More Kids TV on Demand[/COLOR] (Premium Only)</title>
 <link>plugin://plugin.program.super.favourites/?label=[COLOR black]kids[/COLOR]&mode=400&path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper%20Favourites%5Ckids&sf_options=fanart%3Dspecial%3A%2F%2Fhome%2Faddons%5Cplugin.program.super.favourites%5Cfanart.jpg%26_options_sf</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]Liv and Maddie[/COLOR]</title>
 <link>plugin://plugin.video.elysium/?action=seasons&imdb=tt2794380&tmdb=59375&tvdb=270423&tvshowtitle=Liv%20and%20Maddie&year=2013</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 

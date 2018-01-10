@@ -5,119 +5,119 @@
 <plugin>
 <title> ** [COLOR green]Pair Device For More 1080p (FULL HD) Conent[/COLOR] ** </title>
 <link>plugin://script.cerebro.pairwith.laucnher</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR red]• [/COLOR][COLOR lightblue]Cererbro ShowBox TV Shows[/COLOR] [COLOR red]• [/COLOR]</title>
 <link>plugin://plugin.video.livehub2/?description&iconimage=%2ficon.png&mode=5008&name=%5bCOLOR%20white%5d%5bB%5dShowBox%20TV%5b%2fCOLOR%5d%5b%2fB%5d&url=url</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <dir>
 <name>[COLOR pink]CerebroTV: [/COLOR][COLOR red]Our TV Picks![/COLOR] (can request shows)</name>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/index2-vod.xml</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </dir>
 
 <plugin>
 <title>[COLOR gold]Latest TV Epsidoes[/COLOR] (Aired in Last 48 Hours)</title>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 <link>plugin://plugin.video.tvheaven/?description&iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.tvheaven%5cresources%5cart%5clatest.png&mode=1&name=New%20Latest%20Episodes&url=http%3a%2f%2fwatchepisodeseries.unblocked.vc%2f</link>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]Search Vidics For TV Shows / Episdoes[/COLOR]</title>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 <link>plugin://plugin.video.Showbox/?mode=10&name=Search%20TV%20Shows&url=search</link>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]Cerebro TV Heaven[/COLOR]</title>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 <link>plugin://plugin.video.tvheaven</link>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]Vidics New TV Shows[/COLOR]</title>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 <link>plugin://plugin.video.Showbox/?mode=27&name=Recently%20Added%20TV%20Shows&url=http%3a%2f%2fvidics.unblocked.pl%2fCategory-TvShows%2fGenre-Any%2fLetter-Any%2fLatestFirst%2f1.htm</link>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]Vidics TV Shows Genres[/COLOR]</title>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 <link>plugin://plugin.video.Showbox/?mode=19&name=TV%20Shows%20Genres&url=Category-TvShows</link>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]Vidics Top TV Shows[/COLOR]</title>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 <link>plugin://plugin.video.Showbox/?mode=6&name=Top%20TV%20Shows&url=http%3a%2f%2fvidics.unblocked.pl%2ftop%2ftvshows.html</link>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]Vidics TV Shows 2010-2017[/COLOR]</title>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 <link>plugin://plugin.video.Showbox/?mode=27&name=TV%20Shows%202010-2017&url=http%3a%2f%2fvidics.unblocked.pl%2fCategory-TvShows%2fGenre-Any%2f2010-2017%2fLetter-Any%2fLatestFirst%2f1.htm</link>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]Vidics TV Shows 2000-2010[/COLOR]</title>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 <link>plugin://plugin.video.Showbox/?mode=27&name=TV%20Shows%202000-2010&url=http%3a%2f%2fvidics.unblocked.pl%2fCategory-TvShows%2fGenre-Any%2f2000-2010%2fLetter-Any%2fLatestFirst%2f1.htm</link>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]Cerebro's 7 Day TV Schedule[/COLOR]</title>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 <link>plugin://plugin.video.Showbox/?mode=20&name=7%20Day%20TV%20Schedule&url=TV%20Schedule</link>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]Cerebro TV Shows A-Z[/COLOR]</title>
 <link>plugin://plugin.video.Showbox/?mode=17&name=TV%20Shows%20A-Z&url=Category-TvShows</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]Cerebro Vidics Add-On[/COLOR]</title>
 <link>plugin://plugin.video.Showbox</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]BBC Catch Up[/COLOR]</title>
 <link>plugin://plugin.video.bbciplayer/?IPID&description&iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.bbciplayer%5cimg%5ciplay.jpg&mode=15&name=By%20Channel&url=http%3a%2f%2fwww.bbc.co.uk%2fiplayer</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]BBC iPlayer[/COLOR]</title>
 <link>plugin://plugin.video.iplayerwww/?content_type=video</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
 <plugin>
 <title>[COLOR pink]Classic British Comedy[/COLOR]</title>
 <link>plugin://plugin.video.yt-comedy/</link>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
