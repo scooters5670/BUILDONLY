@@ -1,10 +1,4 @@
-<item>
-<title>[COLOR gold]Cerebro Prime IPTV Channels[/COLOR]</title>
-<sportsdevil>http://ignore</sportsdevil>
-<referer></referer>
-<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</item>
+<channels>
 
 <channel>
 <name>[COLOR green]Cerebro Prime IPTV Sports Channels[/COLOR]</name>
@@ -14,6 +8,17 @@
 <info>[COLOR green]Cerebro Prime IPTV Sports Channels[/COLOR]</info>
 </channel>
 
+
+</channels>
+
+
+<item>
+<title>[COLOR gold]Cerebro Prime IPTV Channels[/COLOR]</title>
+<sportsdevil>http://ignore</sportsdevil>
+<referer></referer>
+<thumbnail>http://mtvb.co.uk/icon.png</thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
 
 
 <item>
