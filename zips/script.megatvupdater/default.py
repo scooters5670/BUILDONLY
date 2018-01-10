@@ -76,7 +76,7 @@ def killxbmc():
         try: os.system("su -c 'reboot'")
         except: pass
         #dialog.ok("[COLOR=red][B]CerebroTV Updater[/COLOR][/B]", "If you\'re seeing this message it means the updater was unable", "to close kodi or reboot your deivice. Please pull the power lead or power off your tablet [COLOR=lime]DO NOT[/COLOR] exit cleanly via the menu. [COLOR=lime]DO NOT[/COLOR] press OK",'')
-        xbmc.executebuiltin('RunAddon(script.program.exitkodi)')    
+        xbmc.executebuiltin("Action(Close)")    
     elif myplatform == 'linux': #Linux
         response = urllib2.urlopen('http://cerebrotv.co.uk/TV-DATA/auth2.php?id='+str(boxid)+'&die=1').read()
         print "############   try linux force close  #################"
@@ -91,7 +91,7 @@ def killxbmc():
         try: os.system("su -c 'reboot'")
         except: pass
         #dialog.ok("[COLOR=red][B]CerebroTV Updater[/COLOR][/B]", "If you\'re seeing this message it means the updater was unable", "to close kodi or reboot your deivice. Please pull the power lead or power off your tablet [COLOR=lime]DO NOT[/COLOR] exit cleanly via the menu. [COLOR=lime]DO NOT[/COLOR] press OK",'')
-        xbmc.executebuiltin('RunAddon(script.program.exitkodi)') 
+        xbmc.executebuiltin("Action(Close)")
     elif myplatform == 'android': # Android  
         response = urllib2.urlopen('http://cerebrotv.co.uk/TV-DATA/auth2.php?id='+str(boxid)+'&die=1').read()
         print "############   try android force close  #################"
@@ -106,7 +106,7 @@ def killxbmc():
         #try: os.system("su -c 'reboot'")
         #except: pass		
         #dialog.ok("[COLOR=red][B]CerebroTV Updater[/COLOR][/B]", "If you\'re seeing this message it means the updater was unable", "to close kodi or reboot your deivice. Please pull the power lead or power off your tablet [COLOR=lime]DO NOT[/COLOR] exit cleanly via the menu. [COLOR=lime]DO NOT[/COLOR] press OK",'')
-        xbmc.executebuiltin('RunAddon(script.program.exitkodi)') 
+        xbmc.executebuiltin("Action(Close)") 
     elif myplatform == 'windows': # Windows
         #response = urllib2.urlopen('http://cerebrotv.co.uk/TV-DATA/auth2.php?id='+str(userid)+'&die=1').read()
         print "############   try windows force close  #################"
@@ -127,7 +127,7 @@ def killxbmc():
             os.system('TASKKILL /im XBMC.exe /f')
         except: pass
         #dialog.ok("[COLOR=red][B]CerebroTV Updater[/COLOR][/B]", "If you\'re seeing this message it means the updater was unable", "to close kodi or reboot your deivice. Please pull the power lead or power off your tablet [COLOR=lime]DO NOT[/COLOR] exit cleanly via the menu. [COLOR=lime]DO NOT[/COLOR] press OK",'')
-        xbmc.executebuiltin('RunAddon(script.program.exitkodi)') 
+        xbmc.executebuiltin("Action(Close)") 
     else: #ATV
         response = urllib2.urlopen('http://cerebrotv.co.uk/TV-DATA/auth2.php?id='+str(userid)+'&die=1').read()
         print "############   try atv force close  #################"
@@ -141,7 +141,7 @@ def killxbmc():
         try: os.system("su -c 'reboot'")
         except: pass
         #dialog.ok("[COLOR=red][B]CerebroTV Updater[/COLOR][/B]", "If you\'re seeing this message it means the updater was unable", "to close kodi or reboot your deivice. Please pull the power lead or power off your tablet [COLOR=lime]DO NOT[/COLOR] exit cleanly via the menu. [COLOR=lime]DO NOT[/COLOR] press OK",'')
-        xbmc.executebuiltin('RunAddon(script.program.exitkodi)') 
+        xbmc.executebuiltin("Action(Close)")
 		
 def platform():
     if xbmc.getCondVisibility('system.platform.android'):
@@ -202,7 +202,7 @@ def DownloaderClass(url,dest):
 
         utils.DeleteFile(file)	
         #dp.create("[COLOR tomato]CerebroTV[/COLOR]","Update Complete","Closing Kodi....")	
-        xbmc.executebuiltin('RunAddon(script.program.exitkodi)')
+        xbmc.executebuiltin("Action(Close)")
         #exit()
 
     except Exception, e:
@@ -275,7 +275,7 @@ if ping("www.google.co.uk"):
         xbmc.sleep(15000)
         intro()
         killxbmc()
-        xbmc.executebuiltin('quit')
+        xbmc.executebuiltin("Action(Close)")
         exit()
     if auth == "INUSE":
         dp = xbmcgui.DialogProgress()
@@ -284,7 +284,7 @@ if ping("www.google.co.uk"):
         xbmc.sleep(15000)
         intro()
         killxbmc()
-        xbmc.executebuiltin('quit')
+        xbmc.executebuiltin("Action(Close)")
         exit()
 		
     dialog = xbmcgui.Dialog()
