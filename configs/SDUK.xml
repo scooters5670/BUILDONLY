@@ -136,22 +136,6 @@
 </item>
 
 <item>
-<title>Discovery (Takes a few seconds to start playing)</title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Discovery-Channel-42</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Discovery Turbo (Takes a few seconds to start playing)</title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Discovery-Turbo-75</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
-</item>
-
-<item>
 <title>Disney Channel (Takes a few seconds to start playing)</title>
 <sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Disney-Channel-43</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>
@@ -170,7 +154,29 @@
 
 
 
+<item>
+<title>Discovery (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Discovery-Channel-42</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
 
+<item>
+<title>Discovery Turbo (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Discovery-Turbo-75</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>History (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/History-44</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>http://mtvb.co.uk/fanart.jpg</fanart>
+</item>
 
 
 
