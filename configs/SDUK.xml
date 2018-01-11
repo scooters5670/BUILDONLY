@@ -120,6 +120,14 @@
 </item>
 
 <item>
+<title>SYFY</title>
+<sportsdevil>https://www.liveonlinetv247.info/syfy.php</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>E! (Takes a few seconds to start playing)</title>
 <sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/E!-79</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>

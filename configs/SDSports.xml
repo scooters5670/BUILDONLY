@@ -32,14 +32,6 @@
 
 <item>
 <title>Sky Sports Main Event</title>
-<sportsdevil>http://mamahd.com/p/mama.php?id=17804&match=Sky%20Sports%20Main%20Event%20vs%20</sportsdevil>
-<referer>referer=http://freeitvonline.com/</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717080757main1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>http://theboyz.comli.com/goodfellas/fanart/goodfellas.jpg</fanart>
-</item>
-
-<item>
-<title>Sky Sports Main Event</title>
 <sportsdevil>https://www.liveonlinetv247.info/skysportsmainevent.php</sportsdevil>
 <referer>referer=http://freeitvonline.com/</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717080757main1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -91,14 +83,6 @@
 <sportsdevil>https://www.liveonlinetv247.info/skysportsgolf.php</sportsdevil>
 <referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail>https://www.liveonlinetv247.info/skysportscricket.php</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Sky Sports Arena</title>
-<sportsdevil>http://mamahd.com/p/mama.php?id=17808&match=Sky%20Sports%20Arena%20vs%20</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
