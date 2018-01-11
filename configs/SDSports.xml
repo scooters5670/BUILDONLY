@@ -224,8 +224,24 @@
 </item>
 
 <item>
+<title>BT Sports 3 SD</title>
+<sportsdevil>https://www.liveonlinetv247.info/btsport3.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/270916013607bt3.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>Box Nation</title>
 <sportsdevil>https://live.bypassed.org/box-nation</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115340box.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Box Nation</title>
+<sportsdevil>https://www.liveonlinetv247.info/boxnation.php</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115340box.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
@@ -248,8 +264,24 @@
 </item>
 
 <item>
+<title>Fox Sports 1</title>
+<sportsdevil>https://www.liveonlinetv247.info/foxsports1.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045235foxsp1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>Fox Sports 2</title>
 <sportsdevil>https://live.bypassed.org/fox-sports-2</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045256fox2.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Fox Sports 2</title>
+<sportsdevil>https://www.liveonlinetv247.info/foxsports2.php</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045256fox2.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
@@ -400,6 +432,14 @@
 </item>
 
 <item>
+<title>BEIN 11</title>
+<sportsdevil>https://www.liveonlinetv247.info/beinsports11.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>NBA TV</title>
 <sportsdevil>https://live.bypassed.org/nbatv</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
@@ -448,9 +488,25 @@
 </item>
 
 <item>
+<title>Euro Sports 1</title>
+<sportsdevil>https://www.liveonlinetv247.info/eurosport.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>Euro Sports 2(Takes a few seconds to start playing)</title>
 <sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Eurosport-2-35</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Euro Sports 2</title>
+<sportsdevil>https://www.liveonlinetv247.info/eurosport2.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>

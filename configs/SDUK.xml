@@ -104,6 +104,14 @@
 </item>
 
 <item>
+<title>Sky Atlantic</title>
+<sportsdevil>https://www.liveonlinetv247.info/skyatlantic.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>5 Spike (Takes a few seconds to start playing)</title>
 <sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Spike-93</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>
