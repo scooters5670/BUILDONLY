@@ -10,6 +10,13 @@
 </plugin>
 
 <plugin>
+<title>[COLOR gold]CerebroTV: [/COLOR][COLOR orange]Cerebro Prime Sports[/COLOR]</title>
+<link>plugin://plugin.video.goodfellas2/?fanart=https%3a%2f%2fraw.githubusercontent.com%2fbiglad%2fBUILDONLY%2fmaster%2fbuild_data%2ffanart.jpg&mode=1&name=%5bCOLOR%20green%5dUK%20%26%20USA%20Sports%5b%2fCOLOR%5d&url=https%3a%2f%2fraw.githubusercontent.com%2fbiglad%2fBUILDONLY%2fmaster%2fconfigs%2fSDSports.xml</link>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR orange]IPTV Sports[/COLOR]</title>
 <link>plugin://plugin.video.tvone1111/list_channels/1</link>
 <thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
@@ -18,7 +25,7 @@
 
 <plugin>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR orange]Pak India Sports[/COLOR]</title>
-<link>plugin://plugin.video.livehub2/?description=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;iconimage=http%3a%2f%2fwww.madhyamam.com%2fen%2fsites%2fdefault%2ffiles%2findia-pak.jpg&amp;mode=4&amp;name=%5bCOLOR%20white%5d%5bB%5dPak%20India%20Sports%5b%2fCOLOR%5d%5b%2fB%5d&amp;url=pakindiasport</link>
+<link>plugin://plugin.video.livehub2/?description=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&iconimage=http%3a%2f%2fwww.madhyamam.com%2fen%2fsites%2fdefault%2ffiles%2findia-pak.jpg&mode=4&name=%5bCOLOR%20white%5d%5bB%5dPak%20India%20Sports%5b%2fCOLOR%5d%5b%2fB%5d&url=pakindiasport</link>
 <thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
