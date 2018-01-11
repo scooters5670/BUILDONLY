@@ -33,6 +33,14 @@
 
 <item>
 <title>Sky Sports Premier League SD</title>
+<sportsdevil>https://www.liveonlinetv247.info/skysportspremierleague.php</sportsdevil>
+<referer>referer=http://freeitvonline.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Sports Premier League SD</title>
 <sportsdevil>http://mamahd.com/p/mama.php?id=17805&match=Sky%20Sports%20Premier%20League%20vs%20</sportsdevil>
 <referer>referer=http://freeitvonline.com/</referer>
 <thumbnail></thumbnail>
