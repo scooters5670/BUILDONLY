@@ -425,8 +425,24 @@
 </item>
 
 <item>
+<title>Sky Cinema Select</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviesselect.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/070216062955select_1426076182.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>Sky Cinema Premiere</title>
 <sportsdevil>https://live.bypassed.org/sky-movies-premiere</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040916premi.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Cinema Premiere</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviespremiere.php</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040916premi.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
@@ -441,8 +457,24 @@
 </item>
 
 <item>
+<title>Sky Cinema Family</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviesfamily.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040807famil.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>Sky Cinema Comedy</title>
 <sportsdevil>https://live.bypassed.org/sky-movies-comedy</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040536comedy.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Cinema Comedy</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviescomedy.php</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040536comedy.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
@@ -457,8 +489,24 @@
 </item>
 
 <item>
+<title>Sky Cinema Action</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviesaction.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040508action.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>Sky Cinema Crime</title>
 <sportsdevil>https://live.bypassed.org/sky-movies-crime</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040646crime.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Cinema Crime</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviescrime.php</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040646crime.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
@@ -469,6 +517,22 @@
 <sportsdevil>https://live.bypassed.org/sky-movies-disney</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040235disn.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Cinema Disney</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviesdisney.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040235disn.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Cinema Showcase</title>
+<sportsdevil>https://www.liveonlinetv247.info/skymoviesshowcase.php</sportsdevil>
+<referer>referer=https://live.bypassed.org</referer>
+<thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
