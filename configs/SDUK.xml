@@ -371,9 +371,25 @@
 </item>
 
 <item>
+<title>Nickelodeon</title>
+<sportsdevil>https://www.liveonlinetv247.info/nick.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>Disney XD (Takes a few seconds to start playing)</title>
 <sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Disney-XD-77</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Disney XD</title>
+<sportsdevil>https://www.liveonlinetv247.info/disneyxd.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
