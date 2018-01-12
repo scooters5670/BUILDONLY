@@ -170,6 +170,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY2w::LISTNAME:Sky Livi
 <title>Gold</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dGOLD%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2c0898822ab3baf7f93bea86648adb26.m3u8::LISTNAME:Gold::#
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FGold-45%2526title%3DGold+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Gold::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDMww::LISTNAME:Gold::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FGold%2Fplaylist.m3u8::LISTNAME:Gold::#
 </link>
@@ -221,6 +222,7 @@ sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.
 <title>Comedy Central</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/b9b55864b6779b7e83321ab0b74ed727::LISTNAME:Comedy Central::#
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FComedy-Central-56%2526title%3DComedy+Central+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Comedy Central::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FComedyCentral%2Fplaylist.m3u8::LISTNAME:Comedy Central::#
 </link>
 <thumbnail>https://k60.kn3.net/008A50254.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -241,6 +243,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.19
 <item>
 <title>Alibi</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FAlibi-63%2526title%3DAlibi+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Alibi::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FALIBI%2Fplaylist.m3u8::LISTNAME:Alibi::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F594.ts/ALIBI-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Falibi_uktv_uk.jpg::LISTNAME:Alibi::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/e4281447a8f4f03aabfb0e0dfad9af20::LISTNAME:Alibi::#
@@ -292,6 +295,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.19
 <title>E4</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/2157d56d6aff208ae90c869526290656::LISTNAME:E4::#
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FE4-14%2526title%3DE4+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:E4::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F592.ts/4E-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fe4_uk.jpg::LISTNAME:E4::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2F4E%2Fplaylist.m3u8::LISTNAME:E4::#
 </link>
@@ -369,11 +373,21 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.15
 <item>
 <title>DMAX</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FDMAX-53%2526title%3DDMAX+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:DMAX::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/8371f16a5529228ac3dda62ea9ffb0e4::LISTNAME:DMAX::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.194%3A7071%2Fserver%2Fdmax%2Fplaylist.m3u8::LISTNAME:DMAX::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/97::LISTNAME:DMAX::#
 </link>
 <thumbnail>https://k60.kn3.net/CD4655D85.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>National Geographic</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FNational-Geographic-Channel-62%2526title%3DNat+Geo+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:National Geographic::#
+</link>
+<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/23125_natgeous.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
 </item>
 
@@ -389,6 +403,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/cf723f822ded11e
 <item>
 <title>Discovery Channel</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FDiscovery-Channel-42%2526title%3DDiscovery+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Discovery Channel::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/c283a671e1189d568500d494ff8cd77d::LISTNAME:Discovery Channel::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.31%3A7071%2Fgama%2FDiscovery%2Fplaylist.m3u8::LISTNAME:Discovery Channel::#
 </link>
@@ -399,6 +414,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.31
 <item>
 <title>Discovery Science</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FDiscovery-Science-41%2526title%3DDiscovery+Science+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Discovery Science::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY1w::LISTNAME:Discovery Science::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FDiscoveryScience%2Fplaylist.m3u8::LISTNAME:Discovery Science::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/93::LISTNAME:Discovery Science::#
@@ -410,6 +426,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/93::LISTNAME:Discovery Scien
 <item>
 <title>Discovery Turbo</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FDiscovery-Turbo-75%2526title%3DDiscovery+Turbo+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Discovery Turbo::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/0f61fdde073409d41b534b38184fb9c9::LISTNAME:Discovery Turbo::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fdiscoveryturbo%2Fplaylist.m3u8::LISTNAME:Discovery Turbo::#
 </link>
@@ -418,8 +435,27 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.15
 </item>
 
 <item>
+<title>Discovery History</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FDiscovery-History-72%2526title%3DDiscovery+History+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Discovery History::#
+</link>
+<thumbnail></thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Discovery Shed</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FDiscovery-Shed-74%2526title%3DDiscovery+Shed+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Discovery Shed::#
+</link>
+<thumbnail></thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
 <title>History Channel</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FHistory-44%2526title%3DHistory+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:History Channel::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/ccb7de5c42461be2cac10f5baf7d62cf::LISTNAME:History Channel::#
 </link>
 <thumbnail>https://k60.kn3.net/89CEAFFEF.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -632,6 +668,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2Fserver4.serve
 <item>
 <title>Sky Cinema Disney</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesdisney.php%2526title%3DSky+Cinema+Disney%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Disney::#
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-disney%2526title%3DSky+Cinema+Disney%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Disney::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSKYMOVIESDISNEY%2Fplaylist.m3u8::LISTNAME:Sky Cinema Disney::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Disney%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2ffb2cde6e0410cf537a19800bd19261f0.m3u8::LISTNAME:Sky Cinema Disney::#
@@ -644,6 +681,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/194::LISTNAME:Sky Cinema Dis
 <item>
 <title>Sky Cinema Showcase</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesshowcase.php%2526title%3DSky+Cinema+Showcase%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Showcase::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Premiere%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3265682a41f442e5a4164e9b26393634.m3u8::LISTNAME:Sky Cinema Showcase::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesPremiere%2Fplaylist.m3u8::LISTNAME:Sky Cinema Showcase::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Showcase::#
@@ -655,6 +693,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Sho
 <item>
 <title>Sky Cinema Premiere</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviespremiere.php%2526title%3DSky+Cinema+Premiere%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Premiere::#
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-premiere%2526title%3DSky+Cinema+Premiere%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Premiere::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Premiere%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3265682a41f442e5a4164e9b26393634.m3u8::LISTNAME:Sky Cinema Premiere::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesPremiere%2Fplaylist.m3u8::LISTNAME:Sky Cinema Premiere::#
@@ -677,6 +716,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/255::LISTNAME:Sky Cinema Sho
 <item>
 <title>Sky Cinema Family</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesfamily.php%2526title%3DSky+Cinema+Family%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Family::#
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-family%2526title%3DSky+Cinema+Family%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Family::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Family%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3caed59e3b7e405b3a802cc480a14e32.m3u8::LISTNAME:Sky Cinema Family::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyFamily%2Fplaylist.m3u8::LISTNAME:Sky Cinema Family::#
@@ -699,6 +739,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/199::LISTNAME:Sky Cinema Dra
 <item>
 <title>Sky Cinema Action</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesaction.php%2526title%3DSky+Cinema+Action%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Action::#
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-action%2526title%3DSky+Cinema+Action%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Action::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Action%20%26%20Adventure%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3c909c9218961b2ecfdd5f44a89a90b8.m3u8::LISTNAME:Sky Cinema Action::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesAction%2Fplaylist.m3u8::LISTNAME:Sky Cinema Action::#
@@ -711,6 +752,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/196::LISTNAME:Sky Cinema Act
 <item>
 <title>Sky Cinema Comedy</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviescomedy.php%2526title%3DSky+Cinema+Comedy%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Comedy::#
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-comedy%2526title%3DSky+Cinema+Comedy%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Comedy::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Comedy%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc168262cf8b9775300da0b79b2199ee6.m3u8::LISTNAME:Sky Cinema Comedy::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyComedy%2Fplaylist.m3u8::LISTNAME:Sky Cinema Comedy::#
@@ -723,6 +765,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/197::LISTNAME:Sky Cinema Com
 <item>
 <title>Sky Cinema Crime</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviescrime.php%2526title%3DSky+Cinema+Crime%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Crime::#
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-crime%2526title%3DSky+Cinema+Crime%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Crime::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Crime%20%26%20Thriller%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa84271250d9dc93c1edc84874552d6c7.m3u8::LISTNAME:Sky Cinema Crime::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesCrime%2Fplaylist.m3u8::LISTNAME:Sky Cinema Crime::#
@@ -746,6 +789,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/202::LISTNAME:Sky Cinema Sci
 <item>
 <title>Sky Cinema Select</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesselect.php%2526title%3DSky+Cinema+Select%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Select::#
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-select%2526title%3DSky+Cinema+Select%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Select::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Select%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f760670eeaaa3e62adc1989fee2e8b259.m3u8::LISTNAME:Sky Cinema Select::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/254::LISTNAME:Sky Cinema Select::#
@@ -778,6 +822,7 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3
 <item>
 <title>Film 4</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FFilm4-16%2526title%3DFilm+4+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Film 4::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFilm%204%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f0f2c179db3d0e356f8615dde513bc4aa.m3u8::LISTNAME:Film 4::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/112::LISTNAME:Film 4::#
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=film4&amp;mode=13&amp;name=Film4::LISTNAME:Film 4::#
@@ -789,6 +834,7 @@ sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=film4&amp;mode=13&amp;nam
 <item>
 <title>True Movies</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FTrue-Movies-1-96%2526title%3DTrue+Movies+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:True Movies::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTrue%20Movies%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fd2c73be17b950368083f5c7ca9445cb9.m3u8::LISTNAME:True Movies::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjU5w::LISTNAME:True Movies::#
 </link>
