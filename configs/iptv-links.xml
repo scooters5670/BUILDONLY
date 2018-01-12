@@ -819,6 +819,8 @@ sublink:LISTSOURCE:plugin://plugin.video.filmon.simple/?url=http%3A%2F%2Fwww.fil
 <item>
 <title>Disney Junior</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FDisney-Junior-76%2526title%3DDisney+JR+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Disney Junior::#
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fdisneyjunior.php%2526title%3DDisney+JR%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Disney Junior::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dDisney%20Junior%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe6e17fbb85e77c0eabc0ed20d6b8799e.m3u8::LISTNAME:Disney Junior::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/96::LISTNAME:Disney Junior::#
 </link>
@@ -876,6 +878,8 @@ sublink:LISTSOURCE:plugin://plugin.video.filmon.simple/?url=http%3A%2F%2Fwww.fil
 <item>
 <title>Disney XD</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fdisneyxd.php%2526title%3DDisney+XD%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Disney XD::#
+sublink:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FDisney-XD-77%2526title%3DDisney+XD+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Disney XD::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FDisneyXD%2Fplaylist.m3u8::LISTNAME:Disney XD::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/250::LISTNAME:Disney XD::#
 </link>
@@ -906,6 +910,7 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNicktoons%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa5c568b3ed1bce30903f6092519ef949.m3u8::LISTNAME:Nick Toons::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/166::LISTNAME:Nick Toons::#
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FNicktoons-88%2526title%3DNick+Toons+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Nick Toons::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116021120nicktoons.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -914,6 +919,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/166::LISTNAME:Nick Toons::#
 <item>
 <title>Disney Channel</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FDisney-Channel-43%2526title%3DDisney+Channel+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Disney Channel::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dDisney%20Channel%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f14b7d3edf41bba55aebd39254e3a0100.m3u8::LISTNAME:Disney Channel::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/95::LISTNAME:Disney Channel::#
 </link>
@@ -924,7 +930,17 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/95::LISTNAME:Disney Channel:
 <item>
 <title>CARTOONITO</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fcartoonito%2Fplaylist.m3u8::LISTNAME:CBBC::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fcartoonito%2Fplaylist.m3u8::LISTNAME:CARTOONITO::#
+</link>
+<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/61131_Cartoonito.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Nickelodeon</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fnick.php%2526title%3DNickelodeon%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Nickelodeon::#
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FNickelodeon-87%2526title%3DNickelodeon+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Nickelodeon::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/61131_Cartoonito.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
