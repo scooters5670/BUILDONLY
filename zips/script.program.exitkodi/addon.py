@@ -53,7 +53,8 @@ def platform():
     
     
 def killxbmc():
-    #choice = xbmcgui.Dialog().yesno('Force Close Kodi', 'You are about to close Kodi', 'Would you like to continue?', nolabel='No, Cancel',yeslabel='Yes, Close')
+	xbmc.executebuiltin("Action(Close)")
+	#choice = xbmcgui.Dialog().yesno('Force Close Kodi', 'You are about to close Kodi', 'Would you like to continue?', nolabel='No, Cancel',yeslabel='Yes, Close')
     #if choice == 0:
     #    return
     #elif choice == 1:
