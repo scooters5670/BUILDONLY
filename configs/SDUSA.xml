@@ -7,6 +7,22 @@
 </item>
 
 <item>
+<title>The CW (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/The-CW-Television-Network-35</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>A&E (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/A+E-21</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>NBC (Takes a few seconds to start playing)</title>
 <sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/NBC-54</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>
@@ -33,6 +49,14 @@
 <item>
 <title>USA Network (Takes a few seconds to start playing)</title>
 <sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/USA-Network-92</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>My9 (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/WWOR-TV-93</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
@@ -105,6 +129,54 @@
 <item>
 <title>AMC (Takes a few seconds to start playing)</title>
 <sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/AMC-25</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>TV Land (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/TV-Land-69</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Showtime (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/Showtime-60</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Showtime 2 (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/Showtime-2-102</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Fox 5 (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/FOX5-News-New-York-(WNYW)-15</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Fox 2 (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/FOX2-News-(KTVI)-14</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>The Weather Channel (Takes a few seconds to start playing)</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/The-Weather-Channel-111</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
