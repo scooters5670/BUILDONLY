@@ -551,6 +551,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/news/3b7dd11b6654dd5f357
 <title>Capital TV</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=157&amp;mode=2&amp;name=Capital+TV::LISTNAME:Community Channel::#
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FCapital-TV-10%2526title%3DCapital+TV+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Community Channel::#
 </link>
 <thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/157.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -559,6 +560,7 @@ sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=157&amp;mode=2&amp;name=C
 <item>
 <title>The Box</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FThe-Box-28%2526title%3DThe+Box+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:The Box::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/119439698dc34ddddd6ce92420985919::LISTNAME:The Box::#
 </link>
 <thumbnail>https://www.boxplus.com/images/thebox.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -568,6 +570,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/119439698dc34ddddd
 <item>
 <title>Magic</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FMagic-105%2526title%3DMagic+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Magic::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/02700e454d679f31f27c6f0768986dd1::LISTNAME:Magic::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dMagic%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f02700e454d679f31f27c6f0768986dd1.m3u8::LISTNAME:Magic::#
 </link>
@@ -596,6 +599,63 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/fe87875db342914b69
 </item>
 
 <item>
+<title>Channel AKA</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=227&amp;mode=2&amp;name=Channel+AKA::LISTNAME:Channel AKA::#
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FChannel-AKA-33%2526title%3DChannel+AKA+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Channel AKA::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/d219be9bfb4b4adab469f2b9760e1f68::LISTNAME:Channel AKA::#
+</link>
+<thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/227.png</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>VIVA</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FViva-120%2526title%3DVIVA+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:VIVA::#
+</link>
+<thumbnail></thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>4 Music</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2F4Music-104%2526title%3D4+Music+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:4 Music::#
+</link>
+<thumbnail></thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Kiss</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FKiss-TV-51%2526title%3DKiss+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Kiss::#
+</link>
+<thumbnail></thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Kerrang!</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FKerrang%21-TV-47%2526title%3DKerrang%21+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Kerrang!::#
+</link>
+<thumbnail></thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Heart TV</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FHeart-TV-18%2526title%3DHeart+TV+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Heart TV::#
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=153&amp;mode=2&amp;name=Heart+TV::LISTNAME:Heart TV::#
+</link>
+<thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/153.png</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
 <title>MTV Base</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FMTVBase%2Fplaylist.m3u8::LISTNAME:MTV Base::#
@@ -605,27 +665,9 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.19
 </item>
 
 <item>
-<title>Channel AKA</title>
-<link>
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=227&amp;mode=2&amp;name=Channel+AKA::LISTNAME:Channel AKA::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/d219be9bfb4b4adab469f2b9760e1f68::LISTNAME:Channel AKA::#
-</link>
-<thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/227.png</thumbnail>
-<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
-</item>
-
-<item>
-<title>Heart TV</title>
-<link>
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=153&amp;mode=2&amp;name=Heart+TV::LISTNAME:Heart TV::#
-</link>
-<thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/153.png</thumbnail>
-<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
-</item>
-
-<item>
 <title>MTV Hits</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FMTV-Hits-59%2526title%3DMTV+Hits+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:MTV Hits::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FMTVHits%2Fplaylist.m3u8::LISTNAME:MTV Hits::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/152::LISTNAME:MTV Hits::#
 </link>
@@ -636,6 +678,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/152::LISTNAME:MTV Hits::#
 <item>
 <title>MTV Dance</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FMTV-Dance-58%2526title%3DMTV+Dance+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:MTV Dance::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FMTVDance%2Fplaylist.m3u8::LISTNAME:MTV Dance::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/295::LISTNAME:MTV Dance::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/2672617afdf44cdfe0bef6f41856c920::LISTNAME:MTV Dance::#
@@ -648,6 +691,7 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3
 <item>
 <title>MTV Rocks</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FMTV-Rocks-60%2526title%3DMTV+Rocks+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:MTV Rocks::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/296::LISTNAME:MTV Rocks::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/38b937a77d8587999c0e1d1d13d9a37c::LISTNAME:MTV Rocks::#
 </link>
