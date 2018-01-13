@@ -9,7 +9,7 @@
 
 <item>
 <title>RTE One</title>
-<sportsdevil>https://www.firstonetv.net/Live/Ireland/RTÉ-One-2</sportsdevil>
+<sportsdevil>https://www.firstonetv.net/Live/Ireland/RTE-One-2</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
@@ -17,7 +17,7 @@
 
 <item>
 <title>RTE Two</title>
-<sportsdevil>https://www.firstonetv.net/Live/Ireland/RTÉ2-3</sportsdevil>
+<sportsdevil>https://www.firstonetv.net/Live/Ireland/RTE2-3</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
