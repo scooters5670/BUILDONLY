@@ -1,0 +1,64 @@
+<item>
+<title>[COLOR gold]IE IPTV[/COLOR]</title>
+<sportsdevil>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/SDUK.xml</sportsdevil>
+<referer></referer>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon2.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+
+<item>
+<title>RTE One</title>
+<sportsdevil>https://www.firstonetv.net/Live/Ireland/RT%C3%89-One-2</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>RTE Two</title>
+<sportsdevil>https://www.firstonetv.net/Live/Ireland/RT%C3%892-3</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>TV3</title>
+<sportsdevil>https://www.firstonetv.net/Live/Ireland/TV3-7</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>TG4</title>
+<sportsdevil>https://www.firstonetv.net/Live/Ireland/TG4-5</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>3e</title>
+<sportsdevil>https://www.firstonetv.net/Live/Ireland/3e-(3-entertainment)-8</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>RTE News</title>
+<sportsdevil>https://www.firstonetv.net/Live/Ireland/RT%C3%89-News-Now-1</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>RTE Jr</title>
+<sportsdevil>https://www.firstonetv.net/Live/Ireland/RT%C3%89jr-4</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
