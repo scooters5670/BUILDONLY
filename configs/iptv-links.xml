@@ -373,6 +373,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUww::LISTNAME:Really::
 <item>
 <title>TLC</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/288::LISTNAME:TLC::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/d7aa295db6f5a09cc47f862d7042dd64::LISTNAME:TLC::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2FTLC%2Fplaylist.m3u8::LISTNAME:TLC::#
 </link>
@@ -404,6 +405,7 @@ sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.
 <item>
 <title>Investigation Discovery (ID)</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/249::LISTNAME:Investigation Discovery::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/cf723f822ded11e60e6bb78f16c327c8::LISTNAME:Investigation Discovery::#
 </link>
 <thumbnail>https://k61.kn3.net/2/4/3/A/C/D/AD0.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -475,6 +477,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/ccb7de5c42461be
 <item>
 <title>Animal Planet</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/30::LISTNAME:Animal Planet::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/b39899a4d7a8537a3fb9a4b36a364642::LISTNAME:Animal Planet::#
 </link>
 <thumbnail>https://k60.kn3.net/12E42B0E1.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -549,6 +552,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.15
 <item>
 <title>Sky News</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/203::LISTNAME:Sky News::#
 sublink:LISTSOURCE:plugin://plugin.video.youtube/play/?video_id=XOacA3RYrXk::LISTNAME:Sky News::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20News%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3b7dd11b6654dd5f35745285ededdbd9.m3u8::LISTNAME:Sky News::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/news/3b7dd11b6654dd5f35745285ededdbd9::LISTNAME:Sky News::#
@@ -1134,6 +1138,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/379::LISTNAME:3e::#
 <item>
 <title>TBS</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/222::LISTNAME:TBS::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTBS%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc370dca571a8e9eeb48104236808fe8d.m3u8::LISTNAME:TBS::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDY3w::LISTNAME:TBS::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2Fserver4.servep2p.com%3A7071%2Fserver%2Ftbs%2Fplaylist.m3u8::LISTNAME:TBS::#
