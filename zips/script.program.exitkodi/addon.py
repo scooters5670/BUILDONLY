@@ -18,7 +18,7 @@ iddata   = os.path.join(HOME, 'networksettings.xml')
 
 #thumbs     = xbmc.translatePath('special://home/userdata/Thumbnails/')
 #try: sfile.rmtree(thumbs)
-#except: pass	
+#except: pass   
 
 dialog = xbmcgui.Dialog()
 dp = xbmcgui.DialogProgress()
@@ -53,8 +53,8 @@ def platform():
     
     
 def killxbmc():
-	xbmc.executebuiltin("Action(Close)")
-	#choice = xbmcgui.Dialog().yesno('Force Close Kodi', 'You are about to close Kodi', 'Would you like to continue?', nolabel='No, Cancel',yeslabel='Yes, Close')
+    xbmc.executebuiltin("Action(Close)")
+    #choice = xbmcgui.Dialog().yesno('Force Close Kodi', 'You are about to close Kodi', 'Would you like to continue?', nolabel='No, Cancel',yeslabel='Yes, Close')
     #if choice == 0:
     #    return
     #elif choice == 1:
@@ -99,7 +99,7 @@ def killxbmc():
         #try: os.system('adb shell am force-stop org.xbmc.xbmc')
         #except: pass
         #try: os.system('adb shell am force-stop org.xbmc')
-        #except: pass	
+        #except: pass   
         #try: os.system('adb shell am force-stop com.semperpax.spmc16')
         #except: pass
         dp.create("[COLOR tomato]Cerebro[/COLOR]","SPMC/Kodi is now Closing","This make take a while.")
@@ -161,7 +161,7 @@ def killxbmc():
 
 
 
-		
+        
 if os.path.exists(iddata):
     with open(iddata, 'r') as mymega:
         userid=mymega.read()

@@ -49,6 +49,7 @@ def intro():
     
  
 def killxbmc():
+    xbmc.executebuiltin("Action(Close)")
     #dp = xbmcgui.DialogProgress()
     #dp.create("[COLOR tomato]Mega TV[/COLOR]","SPMC/Kodi is now Closing","This make take a while.")
     with open(file4, 'r') as myfile:
