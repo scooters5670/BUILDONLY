@@ -564,6 +564,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/news/3b7dd11b6654dd5f357
 <item>
 <title>Capital TV</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=157&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DCapital+TV%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DBig+Top+40%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F157.png&amp;description=&amp;genre=Music::LISTNAME:Community Channel::#
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=157&amp;mode=2&amp;name=Capital+TV::LISTNAME:Community Channel::#
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FCapital-TV-10%2526title%3DCapital+TV+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Community Channel::#
 </link>
@@ -595,6 +596,7 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3
 <item>
 <title>Now That's What I Call Music</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=228&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DNow+Thats+What+I+Call+Music%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DWe+Are+Family%21+Top+20%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F228.png&amp;description=Brothers%2C+Sisters%2C+Husbands%2C+Wives+-+they+made+it+a+family+business+back+in+the+80s%21+From+The+Bee+Gees+%26+The+Nolans+to+Bros%2C+Sister+Sledge%2C+Spandau+%26+UB40.&amp;genre=Music::LISTNAME:Now That's What I Call Music::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/4f2bbf7cda8028c3cc2c16723defb7d8::LISTNAME:Now That's What I Call Music::#
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=228&amp;mode=2&amp;name=NOW+Music::LISTNAME:Now That's What I Call Music::#
 </link>
@@ -605,6 +607,7 @@ sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=228&amp;mode=2&amp;name=N
 <item>
 <title>Clubland TV</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=225&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DClubland%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DBig+Phat+Clubland+90s+Countdown%21%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F225.png&amp;description=Robin+Banks+returns+with+a+further+selection+of+classic+Clubland+90s.+Including+25+top+5+hits%2C+and+number+1s.&amp;genre=Music::LISTNAME:Clubland TV::#
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=225&amp;mode=2&amp;name=Clubland::LISTNAME:Clubland TV::#
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FClubland-TV-32%2526title%3DClubland+TV+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Clubland TV::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/fe87875db342914b6983c5b202624537::LISTNAME:Clubland TV::#
@@ -663,6 +666,7 @@ sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.
 <item>
 <title>Heart TV</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=153&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DHeart%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DNoughties+But+Nice%21+Top+40%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F153.png&amp;description=&amp;genre=Music::LISTNAME:Heart TV::#
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FHeart-TV-18%2526title%3DHeart+TV+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Heart TV::#
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=153&amp;mode=2&amp;name=Heart+TV::LISTNAME:Heart TV::#
 </link>
