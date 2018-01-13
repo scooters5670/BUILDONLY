@@ -49,7 +49,6 @@ def intro():
     
  
 def killxbmc():
-    xbmc.executebuiltin("Action(Close)")
     #dp = xbmcgui.DialogProgress()
     #dp.create("[COLOR tomato]Mega TV[/COLOR]","SPMC/Kodi is now Closing","This make take a while.")
     with open(file4, 'r') as myfile:
@@ -57,7 +56,7 @@ def killxbmc():
     response = urllib2.urlopen('http://cerebrotv.co.uk/TV-DATA/auth2.php?id='+str(boxid)+'&die=1').read()
     xbmc.executebuiltin("Notification(CerebroTV,Closing SPMC/Kodi, Will take a few seconds,7000,)")
     xbmc.sleep(1000)
-    xbmc.executebuiltin('Quit')
+    xbmc.executebuiltin("Action(Close)")
     exit()
     #choice = xbmcgui.Dialog().yesno('Force Close Kodi', 'You are about to close Kodi', 'Would you like to continue?', nolabel='No, Cancel',yeslabel='Yes, Close')
     #if choice == 0:
