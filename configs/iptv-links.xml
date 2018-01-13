@@ -1051,6 +1051,7 @@ sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.
 <item>
 <title>RTE 1</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FIreland%2FRTE-One-2%2526title%3DRTE+One%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:RTE 1::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/179::LISTNAME:RTE 1::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDQ2w::LISTNAME:RTE 1::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dRTE%201%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2c3bc07df7606365a0c449d3193cefe8.m3u8::LISTNAME:RTE 1::#
@@ -1063,6 +1064,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.
 <item>
 <title>RTE 2</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FIreland%2FRTE2-3%2526title%3DRTE+Two%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:RTE 2::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F642.ts/RTE%202-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Frte_2_ie.jpg::LISTNAME:RTE 2::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dRTE%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f36fc922224816d18332eb55b897746ba.m3u8::LISTNAME:RTE 2::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjcyw::LISTNAME:RTE 2::#
@@ -1075,6 +1077,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/180::LISTNAME:RTE 2::#
 <item>
 <title>TG4</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FIreland%2FTG4-5%2526title%3DTG4%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:TG4::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTG4%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fcd7247622a163a95d54994da83ee69fd.m3u8::LISTNAME:TG4::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/226::LISTNAME:TG4::#
 </link>
@@ -1085,6 +1088,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/226::LISTNAME:TG4::#
 <item>
 <title>TV3</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FIreland%2FTV3-7%2526title%3DTV3%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:TV3::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTG4%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fcd7247622a163a95d54994da83ee69fd.m3u8::LISTNAME:TV3::#
 </link>
 <thumbnail>http://</thumbnail>
@@ -1094,6 +1098,7 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3
 <item>
 <title>3e</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FIreland%2F3e-%283-entertainment%29-8%2526title%3D3e%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:3e::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F591.ts/3E-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Ftv3_ie_e.jpg::LISTNAME:3e::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjcww::LISTNAME:3e::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/379::LISTNAME:3e::#
