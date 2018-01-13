@@ -110,10 +110,10 @@ sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FChannel-4-11%2526title%3DChannel+4+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Channel 4::#
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=92&amp;mode=2&amp;name=Channel+4::LISTNAME:Channel 4::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTQ0w::LISTNAME:Channel 4::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FChannel4%2Fplaylist.m3u8::LISTNAME:Channel 4::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dChannel%204%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe77d2afa4363dad35c713745802d7bee.m3u8::LISTNAME:Channel 4::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaakchenl-4%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=Channel+4+UK&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:Channel 4::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTQ0w::LISTNAME:Channel 4::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/channel4.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -134,9 +134,9 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.19
 <title>Sky One</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-one%2526title%3DSky+One%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky One::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY4w::LISTNAME:Sky One::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSKYONE%2Fplaylist.m3u8::LISTNAME:Sky One::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20One%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2febcd8ef93fa99c4834d0cc3275f3dcd7.m3u8::LISTNAME:Sky One::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY4w::LISTNAME:Sky One::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/79832_sky11.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -145,9 +145,9 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3
 <item>
 <title>Sky Two</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY5w::LISTNAME:Sky Two::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSKYTWO%2Fplaylist.m3u8::LISTNAME:Sky Two::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Two%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f838d5a3429b075f8b9ab00c083d93989.m3u8::LISTNAME:Sky Two::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY5w::LISTNAME:Sky Two::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/sky_2.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -179,10 +179,10 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY2w::LISTNAME:Sky Livi
 <item>
 <title>Gold</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dGOLD%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2c0898822ab3baf7f93bea86648adb26.m3u8::LISTNAME:Gold::#
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FGold-45%2526title%3DGold+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Gold::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDMww::LISTNAME:Gold::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FGold%2Fplaylist.m3u8::LISTNAME:Gold::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dGOLD%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2c0898822ab3baf7f93bea86648adb26.m3u8::LISTNAME:Gold::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDMww::LISTNAME:Gold::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/28932_gold.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -191,9 +191,9 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.19
 <item>
 <title>PICK</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2FPICK%2Fplaylist.m3u8::LISTNAME:Pick UK::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDc1w::LISTNAME:Pick UK::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F638.ts/PICK%20TV-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fpick_tv_uk.jpg::LISTNAME:Pick UK::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2FPICK%2Fplaylist.m3u8::LISTNAME:Pick UK::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/pick.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -212,8 +212,8 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjU0w::LISTNAME:SYFY UK/
 <item>
 <title>5 Spike</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FSpike-93%2526title%3D5+Spike+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:5 Spike::#
-sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSpike%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3036779a6ef01d9c0da3b7e139a6445d.m3u8::LISTNAME:5 Spike::#
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FSpike-93%2526title%3D5+Spike+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:5 Spike (USA Stream sometimes)::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSpike%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3036779a6ef01d9c0da3b7e139a6445d.m3u8::LISTNAME:5 Spike (USA Stream sometimes)::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/12963_spike.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -243,8 +243,8 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.19
 <title>Dave</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=300&amp;mode=2&amp;name=Dave::LISTNAME:Dave::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mzk1w::LISTNAME:Dave::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FDave%2Fplaylist.m3u8::LISTNAME:Dave::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mzk1w::LISTNAME:Dave::#
 </link>
 <thumbnail>https://assets.tvplayer.com/common/logos/256/Inverted/300.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -326,8 +326,8 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjgzw::LISTNAME:Five USA
 <item>
 <title>Five Star</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjQxw::LISTNAME:Five Star::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2F5Star%2Fplaylist.m3u8::LISTNAME:Five Star::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjQxw::LISTNAME:Five Star::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/55179_5stars1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -364,6 +364,8 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.19
 <item>
 <title>Really</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=306&amp;mode=2&amp;name=Really::LISTNAME:Really::#
+sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=306&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DReally%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DEscape+to+the+Country%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F306.png&amp;description=Alistair+Appleton+helps+a+pair+of+newlyweds+find+their+first+home+together+in+Gloucestershire+on+a+budget+of+%C2%A3600%2C000.+He+also+takes+to+the+waterways+and+meets+the+volunteers+who+are+restoring+the+county%27s+historic+canals.&amp;genre=Entertainment:LISTNAME:Really::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUww::LISTNAME:Really::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/really_tv.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
