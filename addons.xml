@@ -178,7 +178,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.close.kodi" name="[COLOR red] Force Close Kodi[/COLOR] " version="3.1.4" provider-name="Based_Skid">
+<addon id="plugin.close.kodi" name="[COLOR red] Force Close Kodi[/COLOR] " version="3.1.5" provider-name="Based_Skid">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -4297,7 +4297,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 <addon id="script.megatvupdater"
-    name="..[COLOR mediumseagreen]## CerebroTV Updater ##[/COLOR]" version="1.10.12" provider-name="Biglad">
+    name="..[COLOR mediumseagreen]## CerebroTV Updater ##[/COLOR]" version="1.10.15" provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
     <import addon="script.module.httplib2" version="0.8.0" />

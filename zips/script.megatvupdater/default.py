@@ -57,6 +57,7 @@ def killxbmc():
     xbmc.executebuiltin("Notification(CerebroTV,Closing SPMC/Kodi, Will take a few seconds,7000,)")
     xbmc.sleep(1000)
     xbmc.executebuiltin("Action(Close)")
+    os._exit(1)
     exit()
     #choice = xbmcgui.Dialog().yesno('Force Close Kodi', 'You are about to close Kodi', 'Would you like to continue?', nolabel='No, Cancel',yeslabel='Yes, Close')
     #if choice == 0:
@@ -203,6 +204,7 @@ def DownloaderClass(url,dest):
         utils.DeleteFile(file)	
         #dp.create("[COLOR tomato]CerebroTV[/COLOR]","Update Complete","Closing Kodi....")	
         xbmc.executebuiltin("Action(Close)")
+        os._exit(1)
         #exit()
 
     except Exception, e:
@@ -276,6 +278,7 @@ if ping("www.google.co.uk"):
         intro()
         killxbmc()
         xbmc.executebuiltin("Action(Close)")
+        os._exit(1)
         exit()
     if auth == "INUSE":
         dp = xbmcgui.DialogProgress()
@@ -285,6 +288,7 @@ if ping("www.google.co.uk"):
         intro()
         killxbmc()
         xbmc.executebuiltin("Action(Close)")
+        os._exit(1)
         exit()
 		
     dialog = xbmcgui.Dialog()

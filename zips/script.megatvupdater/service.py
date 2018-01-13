@@ -13,13 +13,13 @@ def ping(host):
 
     # Ping
     return os.system("ping " + ping_str + " " + host) == 0
-	
-	
+    
+    
 if not ping("google.com"):
-	dialog = xbmcgui.Dialog()
-	dialog.ok("[COLOR=red][B]Cerebro TV[/COLOR][/B]", "No Internet Connection Found!", "Press OK to exit",'Please Check Your Connection.')
-	xbmc.executebuiltin('Quit')
-	exit()
+    dialog = xbmcgui.Dialog()
+    dialog.ok("[COLOR=red][B]Cerebro TV[/COLOR][/B]", "No Internet Connection Found!", "Press OK to exit",'Please Check Your Connection.')
+    xbmc.executebuiltin('Quit')
+    exit()
 
 dp = xbmcgui.DialogProgress()
 dp.create("CerebroTV","",'STARTING UP', ' ')
@@ -192,7 +192,7 @@ def noconnection():
     dp.create("[COLOR=white][B]Internet Connection Error[/COLOR][/B]","[B][COLOR=red]Cerebro TV will now close / reboot[/COLOR][/B]","Please check your internet connection.")
     xbmc.playSFX('special://home/media/closings.wav')
     xbmc.sleep(6500)
-    xbmc.executebuiltin('RunAddon(script.program.exitkodi)')
+    os._exit(1)
     exit()
 
 def dlProgress(count, blockSize, totalSize):
@@ -274,7 +274,7 @@ def DownloaderClass2(url,dest):
 
         utils.DeleteFile(file201)
         xbmc.sleep(1000)        
-        xbmc.executebuiltin('RunAddon(script.program.exitkodi)')
+        os._exit(1)
         exit()
 
     except Exception, e:
@@ -350,6 +350,7 @@ def killxbmc():
     #elif choice == 1:
     #    passv
     myplatform = platform()
+    os._exit(1)
     dialog = xbmcgui.Dialog()
     print "Platform: " + str(myplatform)
     if myplatform == 'osx': # OSX
@@ -540,7 +541,7 @@ def DownloaderClass(url,dest):
             os.system('@ECHO off')
             os.system('TASKKILL /im Kodi.exe /f')
         except: pass
-        xbmc.executebuiltin('Quit')
+        os._exit(1)
         exit()
         
   
@@ -741,7 +742,7 @@ if os.path.exists(iddata):
         #xbmc.executebuiltin('RunAddon(script.program.megatvhousekeeper2)') 
         try: utils.DeleteFile(iddata)
         except: pass
-        xbmc.executebuiltin('RunAddon(script.program.exitkodi)')
+        os._exit(1)
         exit()
 
     if userid == "0":
@@ -749,7 +750,7 @@ if os.path.exists(iddata):
         #xbmc.executebuiltin('RunAddon(script.program.megatvhousekeeper2)') 
         try: utils.DeleteFile(iddata)
         except: pass
-        xbmc.executebuiltin('RunAddon(script.program.exitkodi)')
+        os._exit(1)
         exit()
         
     if userid == "-1":
@@ -757,7 +758,7 @@ if os.path.exists(iddata):
         #xbmc.executebuiltin('RunAddon(script.program.megatvhousekeeper2)') 
         try: utils.DeleteFile(iddata)
         except: pass
-        xbmc.executebuiltin('RunAddon(script.program.exitkodi)')
+        os._exit(1)
         exit()
 
     response = urllib2.urlopen('http://cerebrotv.co.uk/TV-DATA/auth2.php?id='+str(userid)+'&ok=OK&ip='+ipaddy).read()
@@ -766,7 +767,7 @@ if os.path.exists(iddata):
         dialog.ok("[COLOR=red][B]INFORMATION[/COLOR][/B]", "Your Code ("+str(userid)+") is in use on our system.", "If you have just crashed Please Wait 5 minuets and try again","If you keep getting this message please contact us http://m.me/mtvb1")
         #dp.create("[COLOR=red][B]INFORMATION[/COLOR][/B]","Your Code is in use by someone else","Please Wait 10 minuets and try again or Contact you seller......")
         #xbmc.sleep(15000)
-        xbmc.executebuiltin('Quit')
+        os._exit(1)
     elif response == "OK":
         DownloaderClass(LOCATION,file)
     else:
@@ -777,7 +778,7 @@ if os.path.exists(iddata):
         dp.close()
         dp.create("[COLOR=yellow][B]Authentication code Not Found![/COLOR][/B]","[B]Please Contact your seller as your code is unauthorized","[B]This could also be due to the auth server been offline, please try again.[/B]")    
         xbmc.sleep(15000)
-        xbmc.executebuiltin('Quit')
+        os._exit(1)
 else:
     dialog.ok("[COLOR=red][B]Cerebro TV Authentication System[/COLOR][/B]", "You will now be asked for your [COLOR=red]Authentication Code[/COLOR]", "If you dont have one please visit","www.facebook.com/mtvb1/")
     userid=Search('[B][COLOR=white]Please enter your Authentication code[/COLOR][/B]')
@@ -787,7 +788,7 @@ else:
         xbmc.sleep(15000)       
         try: utils.DeleteFile(iddata)
         except: pass
-        xbmc.executebuiltin('Quit')
+        os._exit(1)
     choice = xbmcgui.Dialog().yesno('[COLOR=white]Is this code correct[/COLOR]', '[B][COLOR=white]Is this code correct[/COLOR] [COLOR=red]'+str(userid)+'[/COLOR][/B]', 'Would you like to continue?', nolabel='No, Cancel',yeslabel='Yes, Continue')
     if choice == 0:
         dp = xbmcgui.DialogProgress()
@@ -795,7 +796,7 @@ else:
         xbmc.sleep(15000)       
         try: utils.DeleteFile(iddata)
         except: pass
-        xbmc.executebuiltin('Quit')
+        os._exit(1)
     #elif choice == 1:
         #pass
     response = urllib2.urlopen('http://cerebrotv.co.uk/TV-DATA/auth2.php?id='+str(userid)+'&ip='+str(ipaddy)).read()
@@ -806,7 +807,7 @@ else:
         dp.close()
         dp.create("[COLOR=yellow][B]INFORMATION[/COLOR][/B]","Your Code has been used by someone else","Contact you seller......")
         xbmc.sleep(15000)
-        xbmc.executebuiltin('Quit')
+        os._exit(1)
     elif response == "OK":  
         fo = open(iddata, "w")
         fo.write(userid);
@@ -822,7 +823,7 @@ else:
         dp.close()
         dp.create("[COLOR=yellow][B]Authentication code Not Found![/COLOR][/B]","[B]Please Contact your seller as your code is unauthorized","[B]Only buy from www.cerebrotv.co.uk[/B]")
         xbmc.sleep(15000)
-        xbmc.executebuiltin('Quit') 
+        os._exit(1) 
     
 
 

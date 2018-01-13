@@ -29,6 +29,7 @@ def flawless():
 	#else:
 	#	xbmc.executebuiltin("Action(Close)")
 	xbmc.executebuiltin("Action(Close)")
+	os._exit(1)
 #############################
 
 #############################
