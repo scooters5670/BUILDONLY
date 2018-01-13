@@ -24,14 +24,6 @@
 </item>
 
 <item>
-<title>BBC One </title>
-<sportsdevil>http://www.filmon.com/tv/horror-channel</sportsdevil>
-<referer>referer=http://www.filmon.com</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114707bbc1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
 <title>BBC Two</title>
 <sportsdevil>https://live.bypassed.org/bbctwo</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
@@ -231,6 +223,14 @@
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
+<item>
+<title>Horror Channel</title>
+<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/London-Live-46</sportsdevil>
+<referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
 
 
 
@@ -411,9 +411,50 @@
 </item>
 
 <item>
+<title>Popeye TV</title>
+<sportsdevil>http://www.filmon.com/tv/popeye-tv</sportsdevil>
+<referer>referer=http://www.filmon.com</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Kartoon Klassics</title>
+<sportsdevil>http://www.filmon.com/tv/kartoon-klassics</sportsdevil>
+<referer>referer=http://www.filmon.com</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>CBBC </title>
 <sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/CBBC-6</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+
+<item>
+<title>Tiny Pop</title>
+<sportsdevil>http://www.filmon.com/tv/tiny-pop</sportsdevil>
+<referer>referer=http://www.filmon.com</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Pop</title>
+<sportsdevil>http://www.filmon.com/tv/pop</sportsdevil>
+<referer>referer=http://www.filmon.com</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>KiX!</title>
+<sportsdevil>http://www.filmon.com/tv/kix</sportsdevil>
+<referer>referer=http://www.filmon.com</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
