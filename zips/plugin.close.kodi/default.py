@@ -23,11 +23,12 @@ log            = xbmc.translatePath('special://logpath/')
 ###################################
 #
 def flawless():
-	choice = DIALOG.yesno('Close System', '[COLOR %s]You are about to close The Media Center' % COLOR2, 'Would you like to continue?[/COLOR]', nolabel='[B][COLOR red] No Cancel[/COLOR][/B]',yeslabel='[B][COLOR green]Yes Close[/COLOR][/B]')
-	if choice == 1:
-		os._exit(1)
-	else:
-		xbmc.executebuiltin("Action(Close)")
+	#choice = DIALOG.yesno('Close System', '[COLOR %s]You are about to close The Media Center' % COLOR2, 'Would you like to continue?[/COLOR]', nolabel='[B][COLOR red] No Cancel[/COLOR][/B]',yeslabel='[B][COLOR green]Yes Close[/COLOR][/B]')
+	#if choice == 1:
+	#	os._exit(1)
+	#else:
+	#	xbmc.executebuiltin("Action(Close)")
+	xbmc.executebuiltin("Action(Close)")
 #############################
 
 #############################
