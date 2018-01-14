@@ -106,7 +106,15 @@
 <item>
 <title>Sky Atlantic</title>
 <sportsdevil>https://www.liveonlinetv247.info/skyatlantic.php</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
+<referer>referer=https://www.liveonlinetv247.info</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Sky Atlantic</title>
+<sportsdevil>http://m.liveonlinetv247.info/external.php?title=Sky%20Atlantic&stream=skyatlantic-hq</sportsdevil>
+<referer>referer=http://m.liveonlinetv247.info</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
