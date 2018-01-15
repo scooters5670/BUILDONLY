@@ -224,9 +224,9 @@
 </item>
 
 <item>
-<title>Horror Channel</title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/London-Live-46</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
+<title>Horror Channel (FilmOn - WIll Cut of Every 3 Mins, click again)</title>
+<sportsdevil>http://www.filmon.com/tv/horror-channel</sportsdevil>
+<referer>referer=http://www.filmon.com</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
