@@ -1,7 +1,7 @@
 import xbmc
 import xbmcgui
 import os
-
+xbmc.executebuiltin("Notification(PLEASE WAIT, [COLOR=gold]SYSTEM IS STARTING UP[/COLOR],95000,)")
 def ping(host):
     """
     Returns True if host responds to a ping request
@@ -18,20 +18,12 @@ def ping(host):
 if not ping("google.com"):
     dialog = xbmcgui.Dialog()
     dialog.ok("[COLOR=red][B]Cerebro TV[/COLOR][/B]", "No Internet Connection Found!", "Press OK to exit",'Please Check Your Connection.')
-    xbmc.executebuiltin('Quit')
+    os._exit(1)
     exit()
 
-dp = xbmcgui.DialogProgress()
-dp.create("CerebroTV","",'STARTING UP', ' ')
-percent = 1 
-dp.update(percent)
-xbmc.executebuiltin('RunAddon(script.program.menurefresh)')
-xbmc.sleep(3500)
-#intro = xbmc.translatePath('special://home/media/Splash3.png')
-xbmc.playSFX('special://home/media/startup.wav')
-#xbmc.executebuiltin('ShowPicture('+intro+')')
 
-#xbmc.executebuiltin("Notification(PLEASE WAIT, [B][COLOR=gold]SYSTEM IS STARTING UP[/COLOR] -- [COLOR=green]PLEASE WAIT[/COLOR] -- [COLOR=pink]BEST ANDROID TV BOXES @ www.cerebrotv.co.uk[/COLOR][/B],95000,)")
+
+xbmc.executebuiltin("Notification(PLEASE WAIT, [COLOR=gold]SYSTEM IS STARTING UP[/COLOR],95000,)")
 #xbmc.executebuiltin("ActivateWindow(Weather)")
 #xbmc.executebuiltin("ActivateScreensaver()")
 import utils
@@ -59,7 +51,7 @@ LOCATION = "http://cerebrotv.co.uk/TV-DATA/menu-data.zip"
 SPMCFIXDL = "http://megatvbox.eu/spmc-fix.zip"
 file200 = os.path.join(HOME, 'freeview.xml')
 IDPATH     = '/storage/emulated/0/Download/MTVB/' 
-
+xbmc.executebuiltin("Notification(PLEASE WAIT, [COLOR=gold]SYSTEM IS STARTING UP[/COLOR],95000,)")
 ROOT     = xbmc.translatePath('special://userdata/addon_data/plugin.program.super.favourites/')
 file     = os.path.join(HOME, '_mega_temp.zip')
 file2    = os.path.join(HOME, 'megatvbox.xml')
@@ -80,7 +72,7 @@ spmcfixfile     = os.path.join(HOME3, 'DialogYesNo.xml')
 GETTEXT  = utils.GETTEXT
  
 xbmc.executebuiltin('XBMC.RunScript(special://home/addons/cerebro.py)')
-
+xbmc.executebuiltin("Notification(PLEASE WAIT, [COLOR=gold]SYSTEM IS STARTING UP[/COLOR],95000,)")
 justupdated = False
 
 if not os.path.exists(IDPATH):
@@ -96,7 +88,7 @@ except: pass
 utils.DeleteFile(file)
 try: os.remove(file)
 except: pass
-
+xbmc.executebuiltin("Notification(PLEASE WAIT, [COLOR=gold]SYSTEM IS STARTING UP[/COLOR],95000,)")
 if os.path.exists(justupd):
     checktime = int(time.time())+604800 #7 days
     fo = open(filehk, "w")
@@ -108,8 +100,8 @@ if os.path.exists(justupd):
 
 
 
-percent = 2
-dp.update(percent)
+
+
 
 
 context = Context()
@@ -130,8 +122,8 @@ elif version >= (16, 0) and application == 'SPMC':
     appversion = "SPMC-OUTDATED"
 else:
     appversion = "KODI-OUTDATED"
-percent = 3 
-dp.update(percent)    
+
+xbmc.executebuiltin("Notification(PLEASE WAIT, [COLOR=gold]SYSTEM IS STARTING UP[/COLOR],95000,)")   
 #xbmc.executebuiltin("Notification(PLEASE WAIT, [B][COLOR=gold]SYSTEM IS STARTING UP[/COLOR] -- [COLOR=green]PLEASE WAIT[/COLOR] -- [COLOR=pink]BEST ANDROID TV BOXES @ www.cerebrotv.co.uk[/COLOR][/B],65000,)")
 #xbmc.executebuiltin("ActivateWindow(Weather)")
 
@@ -146,12 +138,12 @@ dp.update(percent)
 #xbmc.playSFX('special://home/media/Working.wav')
 #xbmc.sleep(6500)
 #xbmc.executebuiltin('ShowPicture('+intro+')')
-percent = 10 
-dp.update(percent)
+
+
 with open(file2, 'r') as myfile:
     data=float(myfile.read())
 
-file201     = os.path.join(HOME2, 'skin.zip')
+
 
 if os.path.exists(file200):
     letsgo="ok"
@@ -170,23 +162,9 @@ with open(iddata, 'r') as myfile:
     data300=str(myfile.read())
 
 skindir = xbmc.getSkinDir()
+file2dl = "http://megatvbox.eu/skin.zip"
+file201     = os.path.join(HOME2, 'skin.zip')
 
-if os.path.exists(IDPATH):
-    fo = open(idbackup, "w")
-    fo.write(data300);
-    fo.close()
-
-file2dl = "http://megatvbox.eu/freeview.zip"
-percent = 12 
-dp.update(percent)
-if isfreeview > 0:
-    msgstr = " Swap to Free View Only Mode"
-    file2dl = "http://megatvbox.eu/freeview.zip"
-else:
-    msgstr = "Swap to FULL Only Mode"
-    file2dl = "http://megatvbox.eu/full.zip"
-    
-    
 def noconnection():
     dp = xbmcgui.DialogProgress()
     dp.create("[COLOR=white][B]Internet Connection Error[/COLOR][/B]","[B][COLOR=red]Cerebro TV will now close / reboot[/COLOR][/B]","Please check your internet connection.")
@@ -212,6 +190,78 @@ def _pbhook(numblocks, blocksize, filesize, url=None,dp=None):
     #if dp.iscanceled(): 
         #print "DOWNLOAD CANCELLED" # need to get this part working
         #dp.close()
+
+def DownloaderClass2(url,dest):
+    dp = xbmcgui.DialogProgress()
+    dp.create("[COLOR tomato]Cerebro TV Updater[/COLOR]","Downloading New Update","This make take a while.")
+    try:
+        urllib.urlretrieve(url,dest,lambda nb, bs, fs, url=url: _pbhook(nb,bs,fs,url,dp))
+        dp.create("[COLOR tomato]Cerebro TV Updater[/COLOR]","Installing New Update","Please Wait. [COLOR red]DO NOT TURN OFF!!![/COLOR]")
+        if os.path.exists(file201):
+            file3 = os.path.join(HOME, 'mchangelog.xml')
+            open(file3, 'w+')
+            userdata = "test|test"
+            with open(file3, 'w') as f:
+                f.write(userdata)
+            zfile = zipfile.ZipFile(file201, 'r')   
+            nItem = float(len(zfile.infolist()))
+            index = 0
+            for item in zfile.infolist():
+                index += 1
+            
+                percent  = int(index / nItem *100)
+                filename = item.filename
+                dp.update(percent)
+                try:
+                    zfile.extract(item, HOME2)
+                except Exception, e:
+                    utils.log('Changelog error in extractAll')
+                    utils.log(e)
+        
+
+        utils.DeleteFile(file201)   
+        dp.create("[COLOR tomato]Cerebro TV[/COLOR]","Update Complete","Closing Kodi....")  
+        os._exit(1)
+        exit()
+
+    except Exception, e:
+        noconnection()
+        #print(e)
+        exit()    
+
+if skindir != "skin.titan":
+    dialog = xbmcgui.Dialog()
+    dialog.ok("[COLOR=yellow][B]HMMMMMMM NO LAYOUT?????[/COLOR][/B]", "We have detected a problem...", "We will try and fix it","Press OK to Continue")
+    if isfreeview > 0:
+        DownloaderClass2(file2dl,file201)
+    else:
+        DownloaderClass2(file2dl,file201)
+		
+xbmc.executebuiltin('RunAddon(script.program.menurefresh)')
+dp = xbmcgui.DialogProgress()
+dp.create("CerebroTV","",'STARTING UP', ' ')
+percent = 1 
+dp.update(percent)
+xbmc.sleep(3500)
+#intro = xbmc.translatePath('special://home/media/Splash3.png')
+xbmc.playSFX('special://home/media/startup.wav')
+#xbmc.executebuiltin('ShowPicture('+intro+')')
+
+if os.path.exists(IDPATH):
+    fo = open(idbackup, "w")
+    fo.write(data300);
+    fo.close()
+
+
+percent = 12 
+dp.update(percent)
+#if isfreeview > 0:
+#    msgstr = " Swap to Free View Only Mode"
+#    file2dl = "http://megatvbox.eu/freeview.zip"
+#else:
+#    msgstr = "Swap to FULL Only Mode"
+#    file2dl = "http://megatvbox.eu/full.zip"
+   
 
 def DownloaderClass4(url,dest):
     dp = xbmcgui.DialogProgress()
@@ -621,44 +671,6 @@ def get_external_ip():
     address = grab[0]
     return address          
 
-
-def DownloaderClass2(url,dest):
-    dp = xbmcgui.DialogProgress()
-    dp.create("[COLOR tomato]Cerebro TV Updater[/COLOR]","Downloading New Update","This make take a while.")
-    try:
-        urllib.urlretrieve(url,dest,lambda nb, bs, fs, url=url: _pbhook(nb,bs,fs,url,dp))
-        dp.create("[COLOR tomato]Cerebro TV Updater[/COLOR]","Installing New Update","Please Wait. [COLOR red]DO NOT TURN OFF!!![/COLOR]")
-        if os.path.exists(file201):
-            file3 = os.path.join(HOME, 'mchangelog.xml')
-            open(file3, 'w+')
-            userdata = "test|test"
-            with open(file3, 'w') as f:
-                f.write(userdata)
-            zfile = zipfile.ZipFile(file201, 'r')   
-            nItem = float(len(zfile.infolist()))
-            index = 0
-            for item in zfile.infolist():
-                index += 1
-            
-                percent  = int(index / nItem *100)
-                filename = item.filename
-                dp.update(percent)
-                try:
-                    zfile.extract(item, HOME2)
-                except Exception, e:
-                    utils.log('Changelog error in extractAll')
-                    utils.log(e)
-        
-
-        utils.DeleteFile(file201)   
-        dp.create("[COLOR tomato]Cerebro TV[/COLOR]","Update Complete","Closing Kodi....")  
-        killxbmc()
-        exit()
-
-    except Exception, e:
-        noconnection()
-        #print(e)
-        exit()    
     
     
 ###### START OF CODE #######
@@ -685,13 +697,7 @@ dp.update(percent)
 
 
 #
-#if skindir != "skin.titan":
-#    dialog.ok("[COLOR=yellow][B]HMMMMMMM NO LAYOUT?????[/COLOR][/B]", "We have detected a problem...", "We will try and fix it","Press OK to Continue")
-#    if isfreeview > 0:
-#        DownloaderClass2(file2dl,file201)
-#    else:
-#        DownloaderClass2(file2dl,file201)
-#    exit()
+
     
 #if not os.path.exists(xbmc.translatePath('special://home/addons/skin.titan/extras/hometiles/')):
 #    DownloaderClass4("http://mtvb.co.uk/kodi17.zip",file4)

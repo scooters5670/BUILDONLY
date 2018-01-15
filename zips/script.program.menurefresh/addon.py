@@ -19,14 +19,14 @@ file2     = os.path.join(ROOT, 'uk.zip')
 def download(url, dest, dp = None):
     if not dp:
         dp = xbmcgui.DialogProgress()
-        dp.create("[COLOR tomato]Cerebro TV Menu Updater[/COLOR]","Downloading New Menu Data","This will take a few seconds.")
-        dp.update(0)
+        #dp.create("[COLOR tomato]Cerebro TV Menu Updater[/COLOR]","Downloading New Menu Data","This will take a few seconds.")
+        #dp.update(0)
     start_time=time.time()
     try:
         urllib.URLopener.version = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36'
         urllib.urlretrieve(url, dest, lambda nb, bs, fs: _pbhook(nb, bs, fs, dp, start_time))
-        dp.close()
-        dp.create("[COLOR tomato]TV Guide Auto Update[/COLOR]","Installing New Menu Data","Please Wait. [COLOR red]www.cerebrotv.co.uk[/COLOR]")
+        #dp.close()
+        #dp.create("[COLOR tomato]TV Guide Auto Update[/COLOR]","Installing New Menu Data","Please Wait. [COLOR red]www.cerebrotv.co.uk[/COLOR]")
         if os.path.exists(file2):
             zfile = zipfile.ZipFile(file2, 'r')	
             nItem = float(len(zfile.infolist()))
@@ -36,16 +36,16 @@ def download(url, dest, dp = None):
             
                 percent  = int(index / nItem *100)
                 filename = item.filename
-                dp.update(percent)
+                #dp.update(percent)
                 try:
                     zfile.extract(item, ROOT)
                 except Exception, e:
                     utils.log('Changelog error in extractAll')
                     utils.log(e)
                         
-        #xbmc.executebuiltin('RunAddon(script.tvguide.cerebrotv.uk)')
+        xbmc.executebuiltin("Notification(CerebroTV, [COLOR=green]TV Guides Updated[/COLOR],7000,)")  
     except Exception, e:
-        dp.close()
+        #dp.close()
         noconnection()
      
 def _pbhook(numblocks, blocksize, filesize, dp, start_time):
@@ -62,12 +62,12 @@ def _pbhook(numblocks, blocksize, filesize, dp, start_time):
             mbs = '%.02f MB of %.02f MB' % (currently_downloaded, total) 
             e = 'Speed: %.02f Kb/s ' % kbps_speed 
             e += 'ETA: %02d:%02d' % divmod(eta, 60)
-            dp.update(percent, mbs, e,' ')
+            #dp.update(percent, mbs, e,' ')
         except: 
             percent = 100 
-            dp.update(percent) 
-        if dp.iscanceled(): 
-            dp.close() 
+            #dp.update(percent) 
+        #if dp.iscanceled(): 
+        #    dp.close() 
 
 def dlProgress(count, blockSize, totalSize):
       percent = int(count*blockSize*100/totalSize)
@@ -107,7 +107,7 @@ def DownloaderClass(url,dest, dp = None):
         
 
 
-        dp.close()
+        #dp.close()
         dialog = xbmcgui.Dialog()
         dialog.ok("[COLOR tomato]Cerebro TV Menus Updated[/COLOR]", " ", " ","Press OK or Back to Continue")
 
@@ -131,12 +131,12 @@ def _pbhook(numblocks, blocksize, filesize, dp, start_time):
             mbs = '%.02f MB of %.02f MB' % (currently_downloaded, total) 
             e = 'Speed: %.02f Kb/s ' % kbps_speed 
             e += 'ETA: %02d:%02d' % divmod(eta, 60)
-            dp.update(percent, mbs, e,' ')
+            #dp.update(percent, mbs, e,' ')
         except: 
             percent = 100 
-            dp.update(percent) 
-        if dp.iscanceled(): 
-            dp.close() 
+            #dp.update(percent) 
+        #if dp.iscanceled(): 
+        #    dp.close() 
  
 
 def noconnection():
