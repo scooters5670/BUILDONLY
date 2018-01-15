@@ -26,7 +26,6 @@ from routing import Plugin
 
 import requests
 import urllib
-import urllib2
 import time
 import json
 import io
@@ -38,15 +37,6 @@ import uuid
 from hashlib import md5
 from base64 import b64encode,b64decode
 from itertools import chain
-ipaddy="0.0.0.0"
-HOME     = xbmc.translatePath('special://userdata/')
-iddata   = os.path.join(HOME, 'networksettings.xml')
-with open(iddata, 'r') as myfile:
-    data300=str(myfile.read())
-response = urllib2.urlopen('http://cerebrotv.co.uk/TV-DATA/auth2.php?id='+str(data300)+'&ok=OK&ip='+ipaddy).read()
-if not response == "OK":
-    xbmc.executebuiltin("Notification([COLOR=gold]CerebroTV[/COLOR],NO CODE FOUND, ..,4000,"+__icon__+")")
-    exit()
 
 addon = xbmcaddon.Addon()
 plugin = Plugin()
@@ -59,7 +49,7 @@ RESOURCES_DIR = os.path.join(ADDON_DATA_DIR, 'resources')
 amf_request_file = os.path.join(RESOURCES_DIR, 'request.amf')
 channel_list_file = os.path.join(USER_DATA_DIR, 'channels.json')
 app_config_file = os.path.join(USER_DATA_DIR, 'config.json')
-implemented = ['0', '29', '33', '38', '44', '48']
+implemented = ['0', '29', '32', '33', '38', '44', '48']
 
 if not os.path.exists(USER_DATA_DIR):
     os.makedirs(USER_DATA_DIR)
@@ -67,24 +57,33 @@ if not os.path.exists(USER_DATA_DIR):
 #apk secrets
 user_agent = 'Dalvik/2.1.0 (Linux; U; Android 5.1.1; AFTS Build/LVY48F)'
 device_name = 'Fire TV'
-package_name = 'com.live.androidnettv'
-version_sub = '28'
-version = '4.5.1+({0})'.format(version_sub)
+package_name = 'com.streams.androidnettv'
+version_sub = '30'
+version = '4.6 ({0})'.format(version_sub)
 apk_cert_sha1 = 'EA:32:78:87:BF:88:8F:AD:C9:88:81:09:9A:31:69:F7:BE:E9:91:CE'
-kinvey_app_id = 'kid_r1sA4qn_g'
-kinvey_app_secret = '32cf12a1d93f41429a37cd2a0f53e174'
-user = 'zHJS0S0gWk'
-passwd = 'LiQN;GK88Lh1£J'
+kinvey_app_id = 'kid_rkUF38Fbz'
+kinvey_app_secret = '5fef3dcf83b74eaba14d87f1fe15747b'
+user = 'EtSBR38Y'
+passwd = 'c63Chg986t'
 
 kinvey_login_url = 'https://baas.kinvey.com/user/{0}/login'.format(kinvey_app_id)
-kinvey_config_url = 'https://baas.kinvey.com/appdata/{0}/AppConfigBeta'.format(kinvey_app_id)
+kinvey_config_url = 'https://baas.kinvey.com/appdata/{0}/AppConfigCharlie'.format(kinvey_app_id)
 
-adduser_url = 'http://212.47.236.151:8080/data/i/adduserinfo.nettv/'
-list_url = 'http://212.47.236.151:8080/data/i/live3.nettv/'
+adduser_url = 'http://195.154.26.54:8080/data/i/adduserinfo.nettv/'
+list_url = 'http://195.154.26.54:8080/data/i/data.nettv/'
 
 
 def id_generator(size=8, chars=string.ascii_lowercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
+
+_reset = addon.getSetting('reset') or '0'
+if int(_reset) < int(version_sub):
+    addon.setSetting('user_id', '')
+    addon.setSetting('kinvey_auth', '')
+    addon.setSetting('kinvey_user', '')
+    addon.setSetting('data_time', '')
+    addon.setSetting('android_id', '')
+    addon.setSetting('reset', version_sub)
 
 android_id = addon.getSetting('android_id')
 if not android_id:
@@ -165,7 +164,7 @@ def get_channel_list(config):
     data = {'provider': provider,
             'time': time_stamp,
             'user_id': user_id,
-            'check': '10', # ????
+            'check': '11', # ????
             'key': funguo,
             'version': version_sub
             }
@@ -318,6 +317,26 @@ def get_auth_token_48(referer):
     r = requests.get(wms_url, headers = {'User-Agent': user_agent, 'Referer': referer, 'Modified': modified(mod_value), 'Authorization': auth} )
     return fix_auth_date(r.text)
 
+#bein 1
+def get_stream_32(stream):
+    user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+    api_url = b64decode(app_config.get('dWt1c3VzYV91a3ViaGFsYV9iYXRlczAw')[1:])
+    auth = b64decode(app_config.get('amFnX3Ryb3JfYXR0X2Vu')[1:])
+    mod_value = int(b64decode(app_config.get('TW9vbl9oaWsx')[1:]))
+    modified = lambda value: ''.join(chain(*zip(str(int(time.time()) ^ value),'0123456789')))
+
+    response_body_api_url = b64decode(app_config.get('bWFya2llcmlzX2J0aXMw')[1:])
+    response_body_auth = b64decode(app_config.get('bXdlbnRlcnR5')[1:])
+    r = requests.get(response_body_api_url, headers = {'User-Agent': user_agent, 'Authorization': auth} )
+    response_body = r.text
+
+    data = { 'data': json.dumps({'token': 32,
+                                 'response_body': response_body,
+                                 'stream_url': stream})  }
+
+    r = requests.post(api_url, headers = {'User-Agent': user_agent, 'Modified': modified(mod_value), 'Authorization': auth}, data = data )
+    return r.json().get('stream_url')
+
 
 # bt sports 1
 def get_stream_29(stream):
@@ -379,8 +398,6 @@ def list_channels(cat=None):
 
 @plugin.route('/play/<c_id>')
 def play(c_id):
-    variant = False
-
     for channel in channel_list.get("eY2hhbm5lbHNfbGlzdA=="):
         if channel.get("rY19pZA==") == c_id:
             selected_channel = channel
@@ -403,19 +420,16 @@ def play(c_id):
     if "AdG9rZW4=" in selected_stream:
         if b64decode(selected_stream.get("AdG9rZW4=")[:-1]) == "33":
             media_url = b64decode(selected_stream.get("Bc3RyZWFtX3VybA==")[1:]) + get_auth_token_33(selected_stream.get("referer"))
-            variant = True
         elif b64decode(selected_stream.get("AdG9rZW4=")[:-1]) == "38":
             media_url = b64decode(selected_stream.get("Bc3RyZWFtX3VybA==")[1:]) + get_auth_token_38(selected_stream.get("referer"))
-            variant = True
         elif b64decode(selected_stream.get("AdG9rZW4=")[:-1]) == "44":
             media_url = b64decode(selected_stream.get("Bc3RyZWFtX3VybA==")[1:]) + get_auth_token_44()
-            variant = True
         elif b64decode(selected_stream.get("AdG9rZW4=")[:-1]) == "48":
             media_url = b64decode(selected_stream.get("Bc3RyZWFtX3VybA==")[1:]) + get_auth_token_48(selected_stream.get("referer"))
-            variant = True
+        elif b64decode(selected_stream.get("AdG9rZW4=")[:-1]) == "32":
+            media_url = get_stream_32(b64decode(selected_stream.get("Bc3RyZWFtX3VybA==")[1:]))
         elif b64decode(selected_stream.get("AdG9rZW4=")[:-1]) == "29":
             media_url = get_stream_29(b64decode(selected_stream.get("Bc3RyZWFtX3VybA==")[1:]))
-            #variant = True
         elif b64decode(selected_stream.get("AdG9rZW4=")[:-1]) == "0":
             media_url = b64decode(selected_stream.get("Bc3RyZWFtX3VybA==")[1:])
         else:
@@ -433,40 +447,41 @@ def play(c_id):
     icon = b64decode(selected_channel.get("abG9nb191cmw=")[1:])
     image = "{0}|User-Agent={1}".format(icon, quote(user_agent))
 
-    if addon.getSetting('livestreamer') == 'true':
-        serverPath = os.path.join(xbmc.translatePath(addon.getAddonInfo('path')), 'livestreamerXBMCLocalProxy.py')
-        runs = 0
-        while not runs > 10:
-            try:
-                requests.get('http://127.0.0.1:19001/version')
-                break
-            except:
-                xbmc.executebuiltin('RunScript(' + serverPath + ')')
-                runs += 1
-                xbmc.sleep(600)
 
-        if variant:
+    if 'playlist.m3u8' in media_url:
+        if addon.getSetting('inputstream') == 'true':
+            li = ListItem(title, path=media_url)
+            li.setArt({'thumb': image, 'icon': image})
+            li.setMimeType('application/vnd.apple.mpegurl')
+            li.setProperty('inputstreamaddon', 'inputstream.adaptive')
+            li.setProperty('inputstream.adaptive.manifest_type', 'hls')
+            li.setProperty('inputstream.adaptive.stream_headers', media_url.split('|')[-1])
+        elif addon.getSetting('livestreamer') == 'true':
+            serverPath = os.path.join(xbmc.translatePath(addon.getAddonInfo('path')), 'livestreamerXBMCLocalProxy.py')
+            runs = 0
+            while not runs > 10:
+                try:
+                    requests.get('http://127.0.0.1:19001/version')
+                    break
+                except:
+                    xbmc.executebuiltin('RunScript(' + serverPath + ')')
+                    runs += 1
+                    xbmc.sleep(600)
             livestreamer_url = 'http://127.0.0.1:19001/livestreamer/'+b64encode('hlsvariant://'+media_url)
+            li = ListItem(title, path=livestreamer_url)
+            li.setArt({'thumb': image, 'icon': image})
+            li.setMimeType('video/x-mpegts')
         else:
-            livestreamer_url = 'http://127.0.0.1:19001/livestreamer/'+b64encode('hls://'+media_url)
-        li = ListItem(title, path=livestreamer_url)
-        li.setArt({'thumb': image, 'icon': image})
-        li.setMimeType('video/x-mpegts')
+            li = ListItem(title, path=media_url)
+            li.setArt({'thumb': image, 'icon': image})
+            li.setMimeType('application/vnd.apple.mpegurl')
+            try:
+                li.setContentLookup(False)
+            except:
+                pass
     else:
         li = ListItem(title, path=media_url)
         li.setArt({'thumb': image, 'icon': image})
-        li.setMimeType('application/vnd.apple.mpegurl')
-
-        if addon.getSetting('inputstream') == 'true':
-            if variant:
-                li.setProperty('inputstreamaddon', 'inputstream.adaptive')
-                li.setProperty('inputstream.adaptive.manifest_type', 'hls')
-                li.setProperty('inputstream.adaptive.stream_headers', media_url.split('|')[-1])
-
-    try:
-        li.setContentLookup(False)
-    except:
-        pass
 
     xbmcplugin.setResolvedUrl(plugin.handle, True, li)
 

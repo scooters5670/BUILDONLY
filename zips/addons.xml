@@ -2490,7 +2490,7 @@ em procura livre na internet.</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.tvone1111" name="Cerebro IPTV 2" version="4.4" provider-name="Biglad">
+<addon id="plugin.video.tvone1111" name="Cerebro IPTV 2" version="5.1" provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.pyamf" />
