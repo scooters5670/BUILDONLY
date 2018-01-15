@@ -1,3 +1,6 @@
+v3.7-
+Server Change
+
 v3.6-
 What's New Section changed to Information to match popup when addon is opened.
 

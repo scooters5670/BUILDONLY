@@ -21,7 +21,7 @@ sd_path         = xbmc.translatePath(os.path.join('special://home/addons/', 'plu
 dp                  = xbmcgui.DialogProgress()
 REDDIT_FILE         = xbmc.translatePath(os.path.join(DATA_FOLDER, 'reddit.xml'))
 PLEXUS_PATH         = xbmc.translatePath('special://home/addons/program.plexus')
-baseurl         = 'http://www.lookingglass.rocks/detectivekodi/mma/ufcmain.xml'
+baseurl         = 'http://supremacy.org.uk/MMA/ufcmain.xml'
 ytpl            = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId='
 ytpl2           = '&maxResults=50&key=AIzaSyAd-YEOqZz9nXVzGtn3KWzYLbLaajhqIDA'
 ytplpg1         = 'https://www.googleapis.com/youtube/v3/playlistItems?pageToken='
@@ -29,9 +29,9 @@ ytplpg2         = '&part=snippet&playlistId='
 ytplpg3         = '&maxResults=50&key=AIzaSyAd-YEOqZz9nXVzGtn3KWzYLbLaajhqIDA'
 adultpass       = selfAddon.getSetting('password')
 metaset         = selfAddon.getSetting('enable_meta')
-messagetext     = 'http://www.lookingglass.rocks/detectivekodi/mma/startinfo.xml'
-startinfo       = 'http://www.lookingglass.rocks/detectivekodi/mma/startinfo.xml'
-SEARCH_LIST      = 'http://www.lookingglass.rocks/detectivekodi/mma/search.xml'
+messagetext     = 'http://supremacy.org.uk/MMA/startinfo.xml'
+startinfo       = 'http://supremacy.org.uk/MMA/startinfo.xml'
+SEARCH_LIST     = 'http://supremacy.org.uk/MMA/search.xml'
 dialog          = xbmcgui.Dialog()
                                                                
 def GetMenu():
@@ -467,7 +467,7 @@ def REDDIT_ADD():
 
 def REDDIT_SUGGESTED():
 
-    r = open_url('http://www.lookingglass.rocks/detectivekodi/mma/suggested.xml')
+    r = open_url('http://supremacy.org.uk/MMA/suggested.xml')
     
     r = re.compile('<link>(.+?)</link>').findall(r)
 

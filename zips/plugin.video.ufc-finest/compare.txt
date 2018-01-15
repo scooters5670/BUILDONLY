@@ -2,7 +2,7 @@ CURRENT STATUS: [COLORlime]!!!See Below!!![/COLOR]
 
 [COLORlime]!!!All Good Baby!!![/COLOR]
 
-[COLORlime]Latest Version 3.5[/COLOR]
+[COLORlime]Latest Version 3.6[/COLOR]
 
 [COLORred]-------------------------------------------------------------------------------------------------------[/COLOR]
 
@@ -12,13 +12,13 @@ CURRENT STATUS: [COLORlime]!!!See Below!!![/COLOR]
 
 [COLORwhite][B]!!!Addon News!!![/B][/COLOR]
 
-[COLORwhite][B]!!!UFC Fight Night 122 - Now Available!!![/B][/COLOR]
+[COLORwhite][B]!!!Eddie Bravo Invitational 14 - Now Available!!![/B][/COLOR]
 
-[COLORwhite][B]!!!UFC Retro Section Under Maintenence - 1 to 75 Fixed!!![/B][/COLOR]
+[COLORwhite][B]!!!UFC 218 - Now Available!!![/B][/COLOR]
 
-[COLORwhite][B]!!!Conor McGregor - Notorious 2017 - Now Available!!![/B][/COLOR]
+[COLORwhite][B]!!!The Ultimate Fighter Season 26 Finale - Now Available!!![/B][/COLOR]
 
-[COLORwhite][B]!!!The Looking Glass Repo!!![/B][/COLOR]
+[COLORwhite][B]!!!UFC Retro Maintenence Complete 1 to 99 Fixed!!![/B][/COLOR]
 
 [COLORwhite][B]!!!Remember UFC/MMA/TUF Openload For Early Event Replay Releases!!![/B][/COLOR]
 
@@ -26,48 +26,65 @@ CURRENT STATUS: [COLORlime]!!!See Below!!![/COLOR]
 
 [COLORwhite]!!!New This Week!!![/COLOR]
 
-[COLORred]25/11/17[/COLOR]
+[COLORred]9/12/17[/COLOR]
 
-[COLORwhite]!!!UFC Fight Night 122 - Now Available!!![/COLOR]
+[COLORwhite]!!!Invicta 26 - Now Available!!![/COLOR]
 
-[COLORred]24/11/17[/COLOR]
+[COLORwhite]!!!TKO 41 - Now Available!!![/COLOR]
 
-[COLORwhite]!!!Wrestling For BJJ by Hudson Taylor - Now Available (Learning Technique)!!![/COLOR]
+[COLORred]5/12/17[/COLOR]
 
-[COLORred]23/11/17[/COLOR]
+[COLORwhite]!!!Superstar Fight 10 - Now Available!!![/COLOR]
 
-[COLORwhite]!!!The Exchange - Max Holloway - Now Available!!![/COLOR]
+[COLORwhite]!!!Superstar Fight 9 - Now Available!!![/COLOR]
 
-[COLORwhite]!!!The Ultimate Fighter Season 26 Episode 10 - Now Available!!![/COLOR]
+[COLORred]4/12/17[/COLOR]
 
-[COLORred]22/11/17[/COLOR]
+[COLORwhite]!!!Eddie Bravo Invitational 14 - Now Available!!![/COLOR]
 
-[COLORwhite]!!!ROC Rise of Champions 4 - Now Available (DK Picks)!!![/COLOR]
+[COLORwhite]!!!Unified MMA 32 - Now Available (DK Picks)!!![/COLOR]
 
-[COLORwhite]!!!Oktagon 4 - Now Available (DK Picks)!!![/COLOR]
+[COLORwhite]!!!Rener Gracie: Mastery Seminar Exerpts - Now Available!!![/COLOR]
 
-[COLORwhite]!!!Oktagon 3 - Now Available (DK Picks)!!![/COLOR]
+[COLORwhite]!!!Glory 48 New York  - Now Available!!![/COLOR]
 
-[COLORwhite]!!!UFC Ultimate Submissions - Now Available (DK Picks)!!![/COLOR]
-
-[COLORwhite]!!!UFC Ultimate Knockouts Strikeforce - Now Available (DK Picks)!!![/COLOR]
-
-[COLORwhite]!!!Enfusion Live 52 - Now Available (DK Picks)!!![/COLOR]
-
-[COLORwhite]!!!XFN 17 Preliminary Fights - Now Available (DK Picks)!!![/COLOR]
-
-[COLORred]21/11/17[/COLOR]
-
-[COLORwhite]!!!Gregor McGregor - Notorious - Now Available!!![/COLOR]
-
-[COLORwhite]!!!KOK World Series 51 - Now Available!!![/COLOR]
-
-[COLORred]20/11/17[/COLOR]
-
-[COLORwhite]!!!ACB 74 - Now Available!!![/COLOR]
+[COLORwhite]!!!RXF 27 - Now Available (DK Picks)!!![/COLOR]
 
 [COLORred]Recently Added[/COLOR]
 
+[COLORwhite]!!!UFC 218 - Now Available!!![/COLOR]
+[COLORwhite]!!!The Ultimate Fighter Season 26 Finale - Now Available!!![/COLOR]
+[COLORwhite]!!!Bellator 189 - Now Available!!![/COLOR]
+[COLORwhite]!!!Glory 48 Super Fight Series  - Now Available!!![/COLOR]
+[COLORwhite]!!!EBI 14 10th Planet Qualifier - Now Available!!![/COLOR]
+[COLORwhite]!!!The Ultimate Fighter Season 26 Episode 12 - Now Available!!![/COLOR]
+[COLORwhite]!!!Fight Night Global 80 - Now Available!!![/COLOR]
+[COLORwhite]!!!UFC Fight Night 122 (1080) - Now Available (Main Card)!!![/COLOR]
+[COLORwhite]!!!K.A.T.C.H Leg Attack System 4 DVD Set (Learning Technique)!!![/COLOR]
+[COLORwhite]!!!M1 Challenge 84 to 86 - Now Available!!![/COLOR]
+[COLORwhite]!!!Cage Warriors 89 - Now Available!!![/COLOR]
+[COLORwhite]!!!ACB 75 - Now Available!!![/COLOR]
+[COLORwhite]!!!Fight Night Global 79 - Now Available!!![/COLOR]
+[COLORwhite]!!!Fight Night Global 78 - Now Available!!![/COLOR]
+[COLORwhite]!!!Lion Fight 38 - Now Available!!![/COLOR]
+[COLORwhite]!!!Alaska Fighting Championship 135 - Now Available!!![/COLOR]
+[COLORwhite]!!!Alaska Fighting Championship 134 - Now Available!!![/COLOR]
+[COLORwhite]!!!Alaska Fighting Championship 133 - Now Available!!![/COLOR]
+[COLORwhite]!!!UFC Fight Night 122 - Now Available!!![/COLOR]
+[COLORwhite]!!!One FC 65 - Now Available!!![/COLOR]
+[COLORwhite]!!!Wrestling For BJJ by Hudson Taylor - Now Available (Learning Technique)!!![/COLOR]
+[COLORwhite]!!!The Exchange - Max Holloway - Now Available!!![/COLOR]
+[COLORwhite]!!!The Ultimate Fighter Season 26 Episode 10 - Now Available!!![/COLOR]
+[COLORwhite]!!!ROC Rise of Champions 4 - Now Available (DK Picks)!!![/COLOR]
+[COLORwhite]!!!Oktagon 4 - Now Available (DK Picks)!!![/COLOR]
+[COLORwhite]!!!Oktagon 3 - Now Available (DK Picks)!!![/COLOR]
+[COLORwhite]!!!UFC Ultimate Submissions - Now Available (DK Picks)!!![/COLOR]
+[COLORwhite]!!!UFC Ultimate Knockouts Strikeforce - Now Available (DK Picks)!!![/COLOR]
+[COLORwhite]!!!Enfusion Live 52 - Now Available (DK Picks)!!![/COLOR]
+[COLORwhite]!!!XFN 17 Preliminary Fights - Now Available (DK Picks)!!![/COLOR]
+[COLORwhite]!!!Gregor McGregor - Notorious - Now Available!!![/COLOR]
+[COLORwhite]!!!KOK World Series 51 - Now Available!!![/COLOR]
+[COLORwhite]!!!ACB 74 - Now Available!!![/COLOR]
 [COLORwhite]!!!UFC Fight Night 121 - Now Available!!![/COLOR]
 [COLORwhite]!!!Bamma 32 - Now Available!!![/COLOR]
 [COLORwhite]!!!Titan FC 46 - Now Available!!![/COLOR]
@@ -88,7 +105,6 @@ CURRENT STATUS: [COLORlime]!!!See Below!!![/COLOR]
 [COLORwhite]!!!Dana White "Looking For a Fight" Section - Now Fixed!!![/COLOR]
 
 
-[COLORred]For more on added content please use the "What's New" Section.[/COLOR]
 
 
 
