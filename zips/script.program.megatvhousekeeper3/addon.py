@@ -129,7 +129,7 @@ xbmc.sleep(1000)
 dp.close()
 dp.create("[COLOR tomato]CerebroTV House Keeper[/COLOR]","Rebooting Device Or Closing Kodi","Please Wait...")
 xbmc.sleep(3000)
-xbmc.executebuiltin('RunAddon(script.program.exitkodi)')
+os._exit(1)
 
 
 

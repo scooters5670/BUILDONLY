@@ -6,7 +6,7 @@ import sfile
 import time
 import datetime
 
-
+exit()
 
 
 HOME2     = xbmc.translatePath('special://userdata')
@@ -115,7 +115,7 @@ if lock < 1:
             except: pass
             try: os.mkdir(thumbs)
             except: pass
-            xbmc.executebuiltin('RunAddon(script.program.exitkodi2)')
+            os._exit(1)
         else:
             fo = open(file2, "w")
             fo.write(str(remindtime));

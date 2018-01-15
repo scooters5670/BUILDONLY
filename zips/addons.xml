@@ -6179,7 +6179,7 @@ level.</description>
 
 <addon id="script.program.megatvhousekeeper"
   name="CerebroTV House Keeper"
-  version="1.2"
+  version="1.3"
   provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -6215,7 +6215,7 @@ level.</description>
 
 <addon id="script.program.megatvhousekeeper3"
   name="CerebroTV House Keeper (MAIN)"
-  version="1.4"
+  version="1.5"
   provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
