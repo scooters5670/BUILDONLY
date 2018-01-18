@@ -595,7 +595,7 @@ def DownloaderClass(url,dest):
         exit()
         
   
-    xbmc.executebuiltin('ReloadSkin()')
+    #xbmc.executebuiltin('ReloadSkin()')
     dp = xbmcgui.DialogProgress()
     dp.create("CerebroTV","",'STARTING UP', ' ')
     percent = 26 
