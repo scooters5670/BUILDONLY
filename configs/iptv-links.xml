@@ -1193,15 +1193,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTU5w::LISTNAME:A+E::#
 </item>
 
 <item>
-<title>My9</title>
-<link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-States-%28USA%29%2FWWOR-TV-93%2526title%3DMy9+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:A+E::#
-</link>
-<thumbnail></thumbnail>
-<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
-</item>
-
-<item>
 <title>Cartoon Network</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FCartoonNetwork%2Fplaylist.m3u8::LISTNAME:Cartoon Network:#
@@ -1214,7 +1205,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/62::LISTNAME:Cartoon Network
 <item>
 <title>History</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fhistory.php%2526title%3DHistory%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:History::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2Fserver4.servep2p.com%3A7071%2Fserver%2Fhistoryus%2Fplaylist.m3u8::LISTNAME:History::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/46577_history.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
