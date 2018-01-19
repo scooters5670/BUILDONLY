@@ -9,99 +9,36 @@
 
 <item>
 <title>BBC One</title>
-<sportsdevil>https://live.bypassed.org/bbcone</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114707bbc1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>BBC One*</title>
-<sportsdevil>http://www.sdw-net.me/channels/BBC-1.html</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
+<sportsdevil>https://www.liveonlinetv247.info/bbcone.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114707bbc1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
 <item>
 <title>BBC Two</title>
-<sportsdevil>https://live.bypassed.org/bbctwo</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114814bbc2.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>BBC Two </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/BBC-Two-5</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
+<sportsdevil>https://www.liveonlinetv247.info/bbctwo.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114814bbc2.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
 <item>
 <title>ITV </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/ITV1-21</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Channel 4 </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Channel-4-11</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Channel 5 </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Channel-5-31</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
+<sportsdevil>https://www.liveonlinetv247.info/itv1.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
 <item>
 <title>ITV 2 </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/ITV2-22</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
+<sportsdevil>https://www.liveonlinetv247.info/itv2.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
-<item>
-<title>ITV 3 </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/ITV3-23</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>ITV 4 </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/ITV4-24</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>ITV BE </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/ITVBe-110</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Sky One</title>
-<sportsdevil>https://live.bypassed.org/sky-one</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040021sky1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
 
 <item>
 <title>Sky Atlantic</title>
@@ -111,13 +48,6 @@
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
-<item>
-<title>5 Spike </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Spike-93</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
 
 <item>
 <title>SYFY</title>
@@ -127,187 +57,6 @@
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
-<item>
-<title>E! </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/E!-79</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Gold </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Gold-45</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>E4 </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/E4-14</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>More 4 </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/More4-25</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Comedy Central </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Comedy-Central-56</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Alibi </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Alibi-63</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>5 USA </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/5USA-126</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>CBS Action </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/CBS-Action-67</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>CBS Drama </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/CBS-Drama-68</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Quest </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Quest-90</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Drama </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Drama-78</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>London Live </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/London-Live-46</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<item>
-<title>Food Network </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Food-Network-107</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Discovery </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Discovery-Channel-42</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Discovery Science </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Discovery-Science-41</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Discovery History </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Discovery-History-72</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Discovery Turbo </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Discovery-Turbo-75</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Discovery Shed </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Discovery-Shed-74</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>History </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/History-44</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Nat Geo </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/National-Geographic-Channel-62</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>DMAX </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/DMAX-53</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
 
 
 
@@ -330,29 +79,7 @@
 
 
 
-<item>
-<title>Disney Channel </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Disney-Channel-43</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
 
-<item>
-<title>Nick Toons </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Nicktoons-88</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Disney JR </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Disney-Junior-76</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
 
 <item>
 <title>Disney JR</title>
@@ -362,13 +89,6 @@
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
-<item>
-<title>Nickelodeon </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Nickelodeon-87</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
 
 <item>
 <title>Nickelodeon</title>
@@ -377,15 +97,6 @@
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
-
-<item>
-<title>Disney XD </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Disney-XD-77</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
 <item>
 <title>Disney XD</title>
 <sportsdevil>https://www.liveonlinetv247.info/disneyxd.php</sportsdevil>
@@ -393,23 +104,6 @@
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
-
-<item>
-<title>CBeebies </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/CBeebies-50</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>CBBC </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/CBBC-6</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
 
 <item>
 <title>Tiny Pop</title>
@@ -435,65 +129,11 @@
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<item>
-<title>Movies 4 Men </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Movies4Men-26</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Sony Movie Channel </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Sony-Movie-Channel-92</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-
-<item>
-<title>Sky Cinema Select</title>
-<sportsdevil>https://live.bypassed.org/sky-movies-select</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/070216062955select_1426076182.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
 <item>
 <title>Sky Cinema Select</title>
 <sportsdevil>https://www.liveonlinetv247.info/skymoviesselect.php</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/070216062955select_1426076182.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Sky Cinema Premiere</title>
-<sportsdevil>https://live.bypassed.org/sky-movies-premiere</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040916premi.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
@@ -507,25 +147,9 @@
 
 <item>
 <title>Sky Cinema Family</title>
-<sportsdevil>https://live.bypassed.org/sky-movies-family</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040807famil.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Sky Cinema Family</title>
 <sportsdevil>https://www.liveonlinetv247.info/skymoviesfamily.php</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040807famil.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Sky Cinema Comedy</title>
-<sportsdevil>https://live.bypassed.org/sky-movies-comedy</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040536comedy.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
@@ -539,14 +163,6 @@
 
 <item>
 <title>Sky Cinema Action</title>
-<sportsdevil>https://live.bypassed.org/sky-movies-action</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040508action.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Sky Cinema Action</title>
 <sportsdevil>https://www.liveonlinetv247.info/skymoviesaction.php</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040508action.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -555,25 +171,9 @@
 
 <item>
 <title>Sky Cinema Crime</title>
-<sportsdevil>https://live.bypassed.org/sky-movies-crime</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040646crime.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Sky Cinema Crime</title>
 <sportsdevil>https://www.liveonlinetv247.info/skymoviescrime.php</sportsdevil>
 <referer>referer=https://live.bypassed.org</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040646crime.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Sky Cinema Disney</title>
-<sportsdevil>https://live.bypassed.org/sky-movies-disney</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040235disn.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
@@ -594,175 +194,6 @@
 </item>
 
 <item>
-<title>Film 4 </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Film4-16</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>True Movies </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/True-Movies-1-96</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>MTV </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/MTV-85</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>MTV Dance </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/MTV-Dance-58</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>MTV Hits </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/MTV-Hits-59</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>MTV Rocks </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/MTV-Rocks-60</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>MTV Classic </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/MTV-Classic-57</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Channel AKA </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Channel-AKA-33</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>VIVA </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Viva-120</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Heart TV </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Heart-TV-18</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Capital TV </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Capital-TV-10</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Clubland TV </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Clubland-TV-32</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>4 Music </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/4Music-104</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>The Box </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/The-Box-28</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>The Box Hits </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Box-Hits-103</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>The Box Upfront </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Box-Upfront-49</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Magic </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Magic-105</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Kiss </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Kiss-TV-51</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Kerrang! </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Kerrang!-TV-47</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Keep It Country TV </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/Keep-It-Country-TV-125</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-
-
-
-
-
-
-
-
-
-<item>
 <title>BBC World News </title>
 <sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/BBC-World-News-3</sportsdevil>
 <referer>referer=https://www.firstonetv.net</referer>
@@ -770,12 +201,6 @@
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
-<item>
-<title>BBC Red Button </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-Kingdom/BBC-Red-Button-118</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
+
 
 
