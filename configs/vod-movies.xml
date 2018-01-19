@@ -25,7 +25,7 @@
 
 <plugin>
 <title>[COLOR pink]Latest Movies[/COLOR]</title>
-<link>plugin://plugin.video.AtTheFlix/?description=No%20information%20available&amp;fanart=https%3a%2f%2fi.imgur.com%2fJTwgLfz.jpg&amp;iconimage=http%3a%2f%2fmavericktv.net%2fdata%2fflix%2ficon.png&amp;mode=get_list&amp;name=%5bCOLOR%20red%5d%5bB%5dNew%20Releases%5b%2fB%5d%5b%2fCOLOR%5d&amp;url=http%3a%2f%2fmavericktv.net%2fdata%2fflix%2fnewrels.txt</link>
+<link>plugin://plugin.video.AtTheFlix/?description=No%20information%20available&fanart=https%3a%2f%2fi.imgur.com%2fJTwgLfz.jpg&iconimage=http%3a%2f%2fmavericktv.net%2fdata%2fflix%2ficon.png&mode=get_list&name=%5bCOLOR%20red%5d%5bB%5dNew%20Releases%5b%2fB%5d%5b%2fCOLOR%5d&url=http%3a%2f%2fmavericktv.net%2fdata%2fflix%2fnewrels.txt</link>
 <thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
