@@ -24,6 +24,13 @@
 </dir>
 
 <plugin>
+<title>[COLOR pink]Latest Movies[/COLOR]</title>
+<link>plugin://plugin.video.livehub2/?description&iconimage=%2ficon.png&mode=5007&name=%5bCOLOR%20white%5d%5bB%5dShowBox%20Movies%5b%2fCOLOR%5d%5b%2fB%5d&url=url</link>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
 <title>[COLOR pink]Search Vidics for a Movie[/COLOR]</title>
 <thumbnail>https://lh4.ggpht.com/k0nNhRUSzyQN7OpTH_o5DrcbrHIC-8D5h2DNGeEpKijMZCmJE9HWWDuMBICMZJWBYHHW=w300</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
