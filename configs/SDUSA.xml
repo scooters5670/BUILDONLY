@@ -8,204 +8,84 @@
 
 <item>
 <title>The CW </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/The-CW-Television-Network-35</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>A+E *</title>
-<sportsdevil>http://www.ibrod.tv/ae-live-stream.html</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
+<sportsdevil>https://www.liveonlinetv247.info/cwtv.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
 <item>
 <title>NBC </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/NBC-54</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
+<sportsdevil>https://www.liveonlinetv247.info/nbc.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
 <item>
 <title>CBS </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/CBS-85</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
+<sportsdevil>https://www.liveonlinetv247.info/cbs.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
 <item>
 <title>ABC </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/ABC-83</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
+<sportsdevil>https://www.liveonlinetv247.info/abc.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
 <item>
 <title>USA Network </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/USA-Network-92</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
+<sportsdevil>https://www.liveonlinetv247.info/usanetwork.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>My9 </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/WWOR-TV-93</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>History</title>
-<sportsdevil>https://live.bypassed.org/history-channel</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045928his.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
 <item>
 <title>History</title>
 <sportsdevil>https://www.liveonlinetv247.info/history.php</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045928his.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
 <item>
-<title>Discovery</title>
-<sportsdevil>https://live.bypassed.org/discovery-channel</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
+<title>Discovery </title>
+<sportsdevil>https://www.liveonlinetv247.info/discovery.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116011400disc.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
 <item>
-<title>Discovery </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/Discovery-Channel-37</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
 <title>Animal Planet</title>
-<sportsdevil>https://live.bypassed.org/animal-planet</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
+<sportsdevil>https://www.liveonlinetv247.info/animalplanet.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116113807animal.PNG|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
 <item>
 <title>Nat Geo</title>
-<sportsdevil>https://live.bypassed.org/natgeo</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
+<sportsdevil>https://www.liveonlinetv247.info/natgeo.php</sportsdevil>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116020643natgeo.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
 <item>
 <title>AMC</title>
-<sportsdevil>https://live.bypassed.org/amc</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/201217101152amc.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>AMC</title>
 <sportsdevil>https://www.liveonlinetv247.info/amc.php</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/201217101152amc.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
-<item>
-<title>AMC </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/AMC-25</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>TV Land </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/TV-Land-69</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Showtime </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/Showtime-60</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Showtime 2 </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/Showtime-2-102</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Fox 5 </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/FOX5-News-New-York-(WNYW)-15</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Fox 2 </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/FOX2-News-(KTVI)-14</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>The Weather Channel </title>
-<sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/The-Weather-Channel-111</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>AXN</title>
-<sportsdevil>https://live.bypassed.org/axn</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/231216025852axnn.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-
-<item>
-<title>Cartoon Network</title>
-<sportsdevil>https://live.bypassed.org/cartoon-network</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115659cn.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Comedy Central</title>
-<sportsdevil>https://live.bypassed.org/comedy-central</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116011001comedy.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
 
 <item>
 <title>Comedy Central</title>
@@ -216,57 +96,9 @@
 </item>
 
 <item>
-<title>Disney XD</title>
-<sportsdevil>https://live.bypassed.org/disneyxd</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/070216061240disneyxd.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>FX</title>
-<sportsdevil>hhttps://live.bypassed.org/fx</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045335fx.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>TNT</title>
-<sportsdevil>https://live.bypassed.org/tnt</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116043043tnt.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>HBO</title>
-<sportsdevil>https://live.bypassed.org/hbo</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
 <title>HBO </title>
 <sportsdevil>https://www.firstonetv.net/Live/United-States-(USA)/Home-Box-Office-(HBO)-96</sportsdevil>
-<referer>referer=https://www.firstonetv.net</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>Jasmin TV</title>
-<sportsdevil>https://live.bypassed.org/jasmintv</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
-<thumbnail></thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</item>
-
-<item>
-<title>NFL Red Zone</title>
-<sportsdevil>https://live.bypassed.org/nflredzone</sportsdevil>
-<referer>referer=https://live.bypassed.org</referer>
+<referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
