@@ -185,9 +185,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDMww::LISTNAME:Gold::#
 <item>
 <title>PICK</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2FPICK%2Fplaylist.m3u8::LISTNAME:Pick UK::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDc1w::LISTNAME:Pick UK::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F638.ts/PICK%20TV-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fpick_tv_uk.jpg::LISTNAME:Pick UK::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/pick.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -200,15 +198,6 @@ sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjU0w::LISTNAME:SYFY UK/US (USE LINK ONE FOR UK)::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/syfy.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
-</item>
-
-<item>
-<title>5 Spike</title>
-<link>
-sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSpike%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3036779a6ef01d9c0da3b7e139a6445d.m3u8::LISTNAME:5 Spike (USA Stream sometimes)::#
-</link>
-<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/12963_spike.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
 </item>
 
@@ -389,6 +378,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/cf723f822ded11e
 <title>Discovery Channel</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/c283a671e1189d568500d494ff8cd77d::LISTNAME:Discovery Channel::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/c283a671e1189d568500d494ff8cd77d::LISTNAME:Discovery Channel::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.31%3A7071%2Fgama%2FDiscovery%2Fplaylist.m3u8::LISTNAME:Discovery Channel::#
 </link>
 <thumbnail>https://k61.kn3.net/7662FB2B2.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -398,7 +388,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.31
 <item>
 <title>Discovery Science</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY1w::LISTNAME:Discovery Science::#
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fdiscovery.php%2526title%3DDiscovery+%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Discovery Science::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FDiscoveryScience%2Fplaylist.m3u8::LISTNAME:Discovery Science::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/93::LISTNAME:Discovery Science::#
 </link>
@@ -429,6 +419,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/ccb7de5c42461be
 <item>
 <title>Animal Planet</title>
 <link>
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fanimalplanet.php%2526title%3DAnimal+Planet%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Animal Planet::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/30::LISTNAME:Animal Planet::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/b39899a4d7a8537a3fb9a4b36a364642::LISTNAME:Animal Planet::#
 </link>
