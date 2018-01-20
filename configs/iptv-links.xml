@@ -104,10 +104,9 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://itvbeliveios-i.aka
 <item>
 <title>Channel 4</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=92&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DChannel+4%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DCouples+Come+Dine+with+Me%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F92.png&amp;description=Three+couples+compete+for+the+cash+prize+in+Marbella.+Extrovert+Jojo+and+long-term+partner+Adrian+kick+off+the+competition+with+their+1970s-inspired+menu%2C+while+day+two+sees+young%2C+fun-loving+Mark+and+Zoe+plan+an+international-themed+menu.+Finally+it%27s+Caz+and+Dave%27s+turn+to+host+with+their+Jewish-inspired+family+menu%2C+but+which+pair+will+secure+the+%C2%A31%2C000+prize+for+best-staged+soiree+remains+to+be+seen.&amp;genre=Entertainment::LISTNAME:Channel 4::#
-sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=92&amp;mode=2&amp;name=Channel+4::LISTNAME:Channel 4::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FChannel4%2Fplaylist.m3u8::LISTNAME:Channel 4::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dChannel%204%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe77d2afa4363dad35c713745802d7bee.m3u8::LISTNAME:Channel 4::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaakchenl-4%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=Channel+4+UK&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:Channel 4::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FChannel4%2Fplaylist.m3u8::LISTNAME:Channel 4::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaakchenl-4%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=Channel+4+UK&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:Channel 4::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTQ0w::LISTNAME:Channel 4::#
 </link>
