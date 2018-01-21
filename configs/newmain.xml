@@ -39,3 +39,21 @@
   <thumbnail></thumbnail>
   <summary>Settings for Jen Addons</summary>
 </plugin>
+
+<item>
+        <title>TEST MOVIE</title>
+        <meta>
+                <content>movie</content>
+                <imdb>tt2283362</imdb>
+                <title>Jumanji: Welcome to the Jungle</title>
+                <year>2017</year>
+        </meta>
+        <link>
+                <sublink>search</sublink>
+                <sublink>searchsd</sublink>
+        </link>
+        <animated_thumbnail></animated_thumbnail>
+        <thumbnail></thumbnail>
+        <animated_fanart></animated_fanart>
+        <fanart></fanart>
+</item>
