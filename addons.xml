@@ -1092,8 +1092,8 @@ provider-name="Cerebro">
 </addon>
 
 <addon id="plugin.video.goodfellas2"
-       name=".Cerebro Prime"
-       version="2.0.5"
+       name=" [COLOR black].[/COLOR][COLOR ghostwhite][B]Cerebro Prime[/B][/COLOR]"
+       version="10.0.20"
        provider-name="Biglad">
    <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1110,7 +1110,7 @@ provider-name="Cerebro">
 	<import addon="plugin.video.f4mTester" optional="true"/>
 	<import addon="script.cerebro.backend" />
 	<import addon="repository.cerebro" />
-	<import addon="plugin.video.SportsDevil" optional="true"/>
+	<import addon="plugin.video.SportsDevil" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -2192,7 +2192,7 @@ em procura livre na internet.</description>
 
 <addon
   id="plugin.video.Showbox"
-  version="9.9"
+  version="10.4"
   name=" [COLOR black].[/COLOR][COLOR ghostwhite][B]CerebroTV Vidics Player[/B][/COLOR]"
   provider-name="Biglad">
   <requires>
@@ -2205,10 +2205,6 @@ em procura livre na internet.</description>
         <import addon="script.cerebro.pairwith.laucnher" />
         <import addon="script.module.requests" />
 		<import addon="script.module.futures" />
-		<!--<import addon="plugin.video.meta" />-->
-        <import addon="plugin.video.1channel" optional="true"/>
-        <import addon="script.xbmc.unpausejumpback" />
-		<import addon="script.module.thetvdb" version="0.0.1" />
 		<import addon="script.cerebro.backend" />
 
   </requires>
@@ -2431,6 +2427,26 @@ em procura livre na internet.</description>
     <source>https://github.com/maikito26/plugin.video.surveillanceroom.git</source>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
+</addon>
+
+<addon id="plugin.video.tvheaven" name=" [COLOR black].[/COLOR][COLOR ghostwhite][B]Cerebro TV Heaven[/B][/COLOR]" version="1.0.25" provider-name="Biglad">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver"  version="2.1.2"/>
+		<import addon="script.cerebro.pairwith" />
+        <import addon="script.cerebro.pairwith.laucnher" />
+        <import addon="script.module.requests" />
+		<import addon="script.cerebro.backend" />
+		<import addon="repository.cerebro" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="plugin.video.tvmix" name="TV Mix" version="1.0.14" provider-name="MetalKettle, Biglad">

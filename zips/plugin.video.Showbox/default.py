@@ -27,7 +27,7 @@ def d():
 		pass
 #xbmc.sleep(1000)  
 #import html
-
+#d()
 #from thetvdb import TheTvDb
 #self.tvdb_key.decode('base64')
 #tvdb_key = 'MUQ2MkYyRjkwMDMwQzQ0NA=='
@@ -95,7 +95,8 @@ playablehost=[
 'gorillavid',
 'vidoza',
 'cloudtime',
-'netu'
+'netu',
+'streamin'
 ]
 
 
@@ -1409,7 +1410,7 @@ def Episodes(url,name):
         if metaname=="Monsters%20Vs%20Aliens%20(2013)": metaname = "Monsters%20Vs%20Aliens"
         ####xbmc.log("Show Name?? "+metaname,2)
         ####xbmc.log("Show Season?? "+name,2)
-        epcunter=1
+        epcunter=0
         #ctitle = metaname
         newlink = ''.join(link.splitlines()).replace('\t','')
         try:
@@ -1444,19 +1445,20 @@ def Episodes(url,name):
         ####xbmc.log(seasoncount,2)
         if int(seasoncount) > 1: 
         #    epcunter=int(seasoncount)-1
-            epcunter=1
-        #if int(seasoncount) == 2: 
+            epcunter=0
+        #if int(seasoncount) == 9: 
         #    epcunter=int(seasoncount)-2
-        #    epcunter=1
-        else: epcunter=1
+         #    epcunter=1
+        else: epcunter=0
+        #if epcunter == 1: epcunter = 0
         addLink('[COLOR green]Click Here to Pair[/COLOR] - (Do this once every 4 hours)','Cerebro',9898,__icon__)
         for listcontent2 in listcontent:
             if (listcontent2.find(">"+name+"</a></h3>") > -1):
                 listcontent2=re.compile('>'+name+'</a></h3>(.+?)</div>').findall(listcontent2)[0]
                 episodelist=re.compile('<a class="episode" [^s][^>]*href=["\']?([^>^"^\']+)["\']?[^>]*>(.+?)</a>').findall(listcontent2)
                 for (vurl,vname) in episodelist:
-                     if epcunter >= scount:
-                        scount = epcunter
+                     #if epcunter >= scount:
+                     #   scount = epcunter
                      #else:
                         #scount = epcunter+1
                      ####xbmc.log("Episode?? "+str(epcunter),2)
@@ -1499,8 +1501,8 @@ def Episodes(url,name):
                              ####xbmc.log("URL"+str(url),2)
                              vname = '[COLORred]Watched - [/COLOR]'+(vname).replace('[COLORred]Watched - [/COLOR]','')                 # changes 'name' to add Watched in red before it
                              #adddir(name,etc,etc,etc)     # whatever your menu display code is here, aligned with for so itll pull others but run through and get new name if it gets a match
-                             addDir2("S"+str(seasoncount)+"E"+str(epcunter)+": "+vname,strdomain+vurl,4,str(vimg)," | "+epdata)
-                     addDir2("S"+str(seasoncount)+"E"+str(epcunter)+": "+vname,strdomain+vurl,4,str(vimg)," | "+epdata)
+                             addDir2("S"+str(seasoncount)+"E"+str(epcunter+1)+": "+vname,strdomain+vurl,4,str(vimg)," | "+epdata)
+                     addDir2("S"+str(seasoncount)+"E"+str(epcunter+1)+": "+vname,strdomain+vurl,4,str(vimg)," | "+epdata)
                      #u=sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+str("8")+"&name="+urllib.quote_plus(name)+"&movieinfo=test"
                      #liz=xbmcgui.ListItem(vname, iconImage="DefaultVideo.png", thumbnailImage=iconimage)
                      #liz.setInfo( type="Video", infoLabels={ "Title":vname, "Plot":plot})
@@ -1579,7 +1581,6 @@ def Seasons(url):
                 addDir(epsodlist[1]+"",url,8,str(vimg))
 
 def INDEX(url,modenum,curmode,vidtype,ctitle):
-        d()
     #try:
         ctitle = ctitle.replace("%20"," ")
         #ctitle = ctitle.replace("+"," ")
@@ -2521,8 +2522,6 @@ if os.path.isfile(db_dir)==False:
      initDatabase()
      
 def playVideo(url,name,movieinfo):
-        d()
-        xbmc.sleep(2000)
         #pl=xbmc.PlayList(1)
         builtin = 'XBMC.Notification(CerebroTV,Link not playable try another,2000,'+__icon__+')' 
         #url=url.replace("openload.co","oload.stream")  
@@ -2859,7 +2858,7 @@ elif mode==3:
         #d()
         playVideo(url,name,movieinfo)
 elif mode==4:
-        d()
+        #d()
         Mirrors(url,name,"IMAGE") 
 elif mode==5:
         INDEXList(url,4,5,"movie")
