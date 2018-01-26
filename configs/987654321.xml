@@ -33,5 +33,14 @@
 </channel>
 
 
+<channel>
+<name>TEST AREA</name>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon2.png</thumbnail>
+<externallink>C:\##KODI\SDUSA.xml</externallink>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+<info>[COLOR green]TEST AREA[/COLOR]</info>
+</channel>
+
+
 </channels>
 
