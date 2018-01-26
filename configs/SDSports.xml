@@ -230,3 +230,59 @@
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
+<item>
+<title>NBC SN</title>
+<sportsdevil>http://www.ibrod.tv/nbc-sports-network-live-stream.html</sportsdevil>
+<referer>referer=http://www.ibrod.tv/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>NFL Network</title>
+<sportsdevil>http://www.ibrod.tv/nfl-network-live-stream.html</sportsdevil>
+<referer>referer=http://www.ibrod.tv/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>NBA Network</title>
+<sportsdevil>http://www.ibrod.tv/nba-tv-live-stream.html</sportsdevil>
+<referer>referer=http://www.ibrod.tv/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Fox Sports 1</title>
+<sportsdevil>http://www.ibrod.tv/fox-sports-1-live-stream.html</sportsdevil>
+<referer>referer=http://www.ibrod.tv/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Fox Sports 2</title>
+<sportsdevil>http://www.ibrod.tv/fox-sports-2-live-stream.html</sportsdevil>
+<referer>referer=http://www.ibrod.tv/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>ESPN</title>
+<sportsdevil>http://www.ibrod.tv/espn-live-stream.html</sportsdevil>
+<referer>referer=http://www.ibrod.tv/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>ESPN2</title>
+<sportsdevil>http://www.ibrod.tv/espn2-live-stream.html</sportsdevil>
+<referer>referer=http://www.ibrod.tv/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
