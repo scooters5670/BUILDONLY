@@ -286,3 +286,19 @@
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
+<item>
+<title>At The Races</title>
+<sportsdevil>http://www.sdw-net.me/channels/At-The-Races.html</sportsdevil>
+<referer>referer=http://www.sdw-net.me/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Racing UK</title>
+<sportsdevil>http://www.sdw-net.me/channels/Racing-UK.html</sportsdevil>
+<referer>referer=http://www.sdw-net.me/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
