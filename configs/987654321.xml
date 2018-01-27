@@ -32,6 +32,14 @@
 <info>[COLOR green]USA Channels[/COLOR]</info>
 </channel>
 
+<channel>
+<name>[COLOR green]24/7 Live Channels[/COLOR]</name>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon2.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/SD247.xml</externallink>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+<info>[COLOR green]24/7 Live Channels[/COLOR]</info>
+</channel>
+
 
 <channel>
 <name>TEST AREA</name>
