@@ -22,6 +22,54 @@
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
+<item>
+<title>BBC America</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=bbc-america</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>A+E</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=ae-tv-usa</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>A+E</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=ae-tv-live</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>TBS</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=tbs-usa</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>AMC</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=amc-usa</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Showtime</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=showtime</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
 
 <item>
 <title>Comedy Central</title>

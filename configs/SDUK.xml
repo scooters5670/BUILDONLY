@@ -16,10 +16,26 @@
 </item>
 
 <item>
+<title>BBC1</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=bbc1</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114707bbc1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>BBC Two</title>
 <sportsdevil>https://www.liveonlinetv247.info/bbctwo.php</sportsdevil>
 <referer>referer=https://www.liveonlinetv247.info</referer>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114814bbc2.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>BBC2</title>
+<sportsdevil>http://ustreamyx.com/stream.php?id=bbc-two</sportsdevil>
+<referer>referer=http://ustreamyx.com/</referer>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114707bbc1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </item>
 
