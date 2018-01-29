@@ -47,8 +47,32 @@
 </item>
 
 <item>
+<title>24/7 Cartoon Classics</title>
+<sportsdevil>https://www.streamlive.to/view/70785/Cartoon-Classics</sportsdevil>
+<referer>referer=https://www.streamlive.to/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>24/7 That 70s Show</title>
+<sportsdevil>https://www.streamlive.to/view/38217/That's-70-show</sportsdevil>
+<referer>referer=https://www.streamlive.to/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
 <title>24/7 Friends</title>
 <sportsdevil>https://www.streamlive.to/view/36673/Friends-show</sportsdevil>
+<referer>referer=https://www.streamlive.to/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>24/7 King of Queens</title>
+<sportsdevil>https://www.streamlive.to/view/38213/King-of-Queens</sportsdevil>
 <referer>referer=https://www.streamlive.to/</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
@@ -97,6 +121,14 @@
 <item>
 <title>24/7 Dragon Ball Z</title>
 <sportsdevil>https://www.streamlive.to/view/40156/Dragon-Balll-Z</sportsdevil>
+<referer>referer=https://www.streamlive.to/</referer>
+<thumbnail></thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>24/7 Detective Conan Movies</title>
+<sportsdevil>https://www.streamlive.to/view/38223/Detective-Conan-the-movies</sportsdevil>
 <referer>referer=https://www.streamlive.to/</referer>
 <thumbnail></thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
