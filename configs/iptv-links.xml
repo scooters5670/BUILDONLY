@@ -20,6 +20,7 @@
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=http%3A%2F%2Fvs-hls-uk-live.akamaized.net%2Fpool_30%2Flive%2Fbbc_one_hd%2Fbbc_one_hd.isml%2Fbbc_one_hd-pa4%253d128000-video%253d5070016.m3u8&amp;mode=1&amp;name=BBC+One+HD::LISTNAME:BBC One HD::#
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fbbcone.php%2526title%3DBBC+One%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:BBC One (NO GEO LOCK!)::#
+sublink:LISTSOURCE:plugin://plugin.video.f4mTester/?proxy_for_chunks=False&amp;maxbitrate=0&amp;name=bbc1+%28uk%29&amp;url=http%3A%2F%2Fvs-hds-uk-live.akamaized.net%2Fpool_30%2Flive%2Fbbc_one_hd%2Fbbc_one_hd.isml%2Fbbc_one_hd-pa3%253d96000-video%253d827008.f4m%7CReferer%3Dhttp%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbcone%26X-Requested-With%3DShockwaveFlash%2F18.0.0.160&amp;proxy=&amp;mode=play::LISTNAME:BBC One (NO GEO LOCK!)::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_yorks.m3u8&amp;mode=9999&amp;name=BBC+One+Yorkshire&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One Yorkshire::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_east.m3u8&amp;mode=9999&amp;name=BBC+One+East&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One East::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_east_midlands.m3u8&amp;mode=9999&amp;name=BBC+One+East+Midlands&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One East Midlands::#
@@ -168,6 +169,16 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.19
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY2w::LISTNAME:Sky Living::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/sky_living.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>Sky Arts</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/191::LISTNAME:Sky Arts::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Arts%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f19720b905499b5bc8ff1c34eeb6c6e91.m3u8::LISTNAME:Sky Arts::#
+</link>
+<thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040113sky%20arts1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
 </item>
 
