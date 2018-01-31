@@ -103,6 +103,7 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://itv4liveios-i.akam
 <title>ITV BE</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://itvbeliveios-i.akamaihd.net/hls/live/219078/itvlive/ITVBE/master_Main1800.m3u8&amp;mode=9999&amp;name=ITV+Be&amp;iconimage=http%3A%2F%2Fblog.careco.co.uk%2Fwp-content%2Fuploads%2F2015%2F08%2Fx__i0KC0.png&amp;description=::LISTNAME:ITV BE::#
+sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=557&amp;mode=200&amp;name=%5BCOLOR+royalblue%5DITVBe%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DDinner+Date%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F557.png&amp;description=A+woman+from+Southampton+examines+the+menus+for+a+three-course+meal+submitted+by+five+potential+suitors%2C+before+whittling+them+down+to+three+candidates.+She+has+dinner+with+each+of+the+men+and+decides+who+she+would+like+to+see+again.+Matchmaking+show%2C+narrated+by+Charlotte+Hudson.&amp;genre=Entertainment::LISTNAME:ITV BE::#
 </link>
 <thumbnail>http://blog.careco.co.uk/wp-content/uploads/2015/08/x__i0KC0.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -204,8 +205,19 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDMww::LISTNAME:Gold::#
 <title>PICK</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDc1w::LISTNAME:Pick UK::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/650::LISTNAME:Pick UK::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/pick.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
+<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
+</item>
+
+<item>
+<title>4Seven</title>
+<link>
+sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=565&amp;mode=200&amp;name=%5BCOLOR+royalblue%5D4Seven%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DLocation%2C+Location%2C+Location%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F565.png&amp;description=Phil+Spencer+helps+a+couple+who+are+at+loggerheads+over+their+priorities+for+their+next+property%2C+with+Becki+wanting+a+ready-to-move-into+family+home%2C+while+Craig+is+looking+for+a+bargain+project+in+the+popular+suburbs+of+south+Manchester.+Kirstie+Allsopp+meets+newlyweds+Chris+and+Amy+in+Cheshire%2C+who+are+looking+to+buy+their+first+home+together+and+want+something+semi-rural+in+pricey+areas+including+Knutsford%2C+Lymm+and+Frodsham.&amp;genre=Entertainment::LISTNAME:4 Seven::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/501::LISTNAME:4 Seven::#
+</link>
+<thumbnail>https://assets.tvplayer.com/common/logos/256/Colour/565.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
 </item>
 
@@ -256,6 +268,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDMxw::LISTNAME:Alibi::#
 <title>CBS ACTION</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/af742351710d35069d31eb91f646cf56::LISTNAME:CBS ACTION::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dCBS%20Action%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2faf742351710d35069d31eb91f646cf56.m3u8::LISTNAME:CBS ACTION::#
 </link>
 <thumbnail>https://k61.kn3.net/60A76DEB7.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -265,6 +278,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/af742351710d350
 <title>CBS DRAMA</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/b0f8f6e8535e082a1d0e8b9c7366e95f::LISTNAME:CBS DRAMA::#
+sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dCBS%20Drama%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb0f8f6e8535e082a1d0e8b9c7366e95f.m3u8::LISTNAME:CBS DRAMA::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FCBSDRAMA%2Fplaylist.m3u8::LISTNAME:CBS DRAMA::#
 </link>
 <thumbnail>https://k60.kn3.net/269FB86C2.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
