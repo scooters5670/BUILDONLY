@@ -31,6 +31,13 @@
 </plugin>
 
 <plugin>
+<title>[COLOR red]• [/COLOR][COLOR lightblue]Rising Neptune[/COLOR] [COLOR red]• [/COLOR]</title>
+<link>plugin://plugin.video.neptune/</link>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
 <title>[COLOR pink]Search Vidics For TV Shows / Episdoes[/COLOR]</title>
 <thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
