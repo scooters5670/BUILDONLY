@@ -3,22 +3,16 @@ import xbmc,os
 addon_id   = 'plugin.video.livehub2'
 
 icon       = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, 'icon.png'))
+icon2       = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, 'icon.png'))
 fanart     = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id , 'fanart.jpg'))
 
-def d():
-	import requests,base64
-	try:
-		requests.get(base64.b64decode('aHR0cDovL2FmZmlsaWF0ZS5lbnRpcmV3ZWIuY29tL3NjcmlwdHMvY3owNm5mP2E9Y2VyZWJyb3R2JmFtcDtiPWM3ZmJiZDkzJmFtcDtkZXN0dXJsPWh0dHAlM0ElMkYlMkZtdHZiLmNvLnVrJTJGcCUyRg=='),headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0'},verify=False,timeout=4).text
-	except:
-		pass
-#d()
 
 def cat():
 	#addDir('[COLOR white][B]Geo TV[/COLOR][/B]','geotv',4,'https://image.winudf.com/v2/image/Y29tLnNuci5lbnRfaWNvbl8wX2I0N2VlYjZi/icon.png?w=170&fakeurl=1&type=.png',fanart,'')
 	#addDir('[COLOR white][B]eDoctor IPTV[/COLOR][/B]','edoctor',4,'https://lh3.googleusercontent.com/qydRpyUiySg1MuswXdbQE88PBfyPH8uJYhONBL3UO1Ij4yEHtftHFK3pKXHXppFUCmk=w300',fanart,'')
-	addDir('[COLOR white][B]Mobdro[/COLOR][/B]','mobdro',4,'http://apk.co/images/mobdro-2014-freemium.png',fanart,'')
+	addDir('[COLOR white][B]Mobdro[/COLOR][/B]','mobdro',4,'http://apk.co/images/mobdro-2014-freemium.png',fanart,icon)
 	#addDir('[COLOR white][B]Mobile TV[/COLOR][/B]','mobiletv',4,'https://4.bp.blogspot.com/-mAW-a99Dvlw/WO9Mf16-k6I/AAAAAAAAXTg/z_lXe9-JV2UA3xwrFTkfvSBvmXcXI0imwCLcB/s1600/unnamed.jpg',fanart,'')
-	addDir('[COLOR white][B]Pak India Sports[/COLOR][/B]','pakindiasport',4,'http://www.madhyamam.com/en/sites/default/files/india-pak.jpg',fanart,'')
+	addDir('[COLOR white][B]Pak India Sports[/COLOR][/B]','pakindiasport',4,'http://www.madhyamam.com/en/sites/default/files/india-pak.jpg',fanart,icon)
 	#addDir('[COLOR white][B]Swift Streams[/COLOR][/B]','snappystreams',4,'https://image.winudf.com/v2/image/Y29tLnN3aWZ0LnN0cmVhbV9zcmNqdHBicg/icon.png?w=170&fakeurl=1&type=.png',fanart,'')
 	#addDir('[COLOR white][B]TV Online Plus+[/COLOR][/B]','tvonlineplus',4,'https://1.bp.blogspot.com/-I_th1gsuna8/WRsJAg3SqMI/AAAAAAAAGdk/J-YznRwYMaMB_Y9ZINmhQzyvopkAbtA1wCLcB/s200/18424147_301931813588370_8617351845985017033_n.jpg',fanart,'')
 def get(url):
@@ -139,7 +133,7 @@ def pakindiasport():
                 url =a["channelLink"]+'|User-Agent=AppleCoreMedia/1.0.0.13A452 (iPhone; U; CPU OS 9_0_2 like Mac OS X; en_gb)' 
 				
                 icon=a["categoryLogo"]
-                addDir(name,urllib.quote_plus(url),9999,urllib.quote_plus(icon),fanart,'')
+                addDir(name,urllib.quote_plus(url),9999,icon2,fanart,'')
 		
 def geotv():
 	import base64,requests,urllib
@@ -186,7 +180,7 @@ def mobdro():
 			
             all   = re.compile('\n([^:]+):(mpd://[^\n]+)').findall(data)
             for name,url in all:
-				addDir('[B][COLOR white]%s[/COLOR][/B]'%name,url,10,'http://geekpeaksoftware.com/wp-content/uploads/2016/10/mobdro.png',fanart,'')
+				addDir('[COLOR white]%s[/COLOR]'%name,url,10,icon,fanart,'')
 				
 
 		

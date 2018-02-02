@@ -3,7 +3,17 @@ from datetime import datetime,tzinfo,timedelta
 import json
 import base64
 
+def ping(host):
+    """
+    Returns True if host responds to a ping request
+    """
+    import os, platform
 
+    # Ping parameters as function of OS
+    ping_str = "-n 1" if  platform.system().lower()=="windows" else "-c 1"
+
+    # Ping
+    return os.system("ping " + ping_str + " " + host) == 0
 
 
 def resolve(url):
@@ -137,6 +147,8 @@ def ustreamixresolve(url):
 	url   = strurl+token+'|referer=&User-Agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36&&X-Requested-With: ShockwaveFlash/25.0.0.171'
 	return url
 def mobdroresolve(url):
+    xbmc.executebuiltin('PlayerControl(stop)') 
+    xbmc.executebuiltin("Notification([COLOR=gold]Cerebro TV[/COLOR],Checking For Active Server,3000,"+__icon__+")")
     import random,time,md5
     from base64 import b64encode
     url  = (url).replace('mpd://','')
@@ -145,11 +157,39 @@ def mobdroresolve(url):
     time_stamp = str(int(time.time()) + 14400)
     to_hash = "{0}{1}/hls/{2}".format(token,time_stamp,url)
     out_hash = b64encode(md5.new(to_hash).digest()).replace("+", "-").replace("/", "_").replace("=", "")
-    #servers = ['185.152.64.236','185.102.219.72','185.102.219.67','185.102.218.56','185.59.222.232']
-    servers = ['185.102.218.56','185.59.222.232']
-    server  = random.choice(servers)
-    #server  = "185.152.64.236"
-    xbmc.log("Mod Server: "+server,2)
+
+    if ping("185.180.15.201"):
+        server = "185.180.15.201"
+		
+    elif ping("185.59.221.153"):
+        server = "185.59.221.153"
+
+    elif ping("195.181.170.41"):
+        server = "195.181.170.41"
+		
+    elif ping("195.181.170.36"):
+        server = "195.181.170.36"
+		
+    elif ping("195.181.170.45"):
+        server = "195.181.170.45"
+		
+    elif ping("185.59.222.232"):
+        server = "185.59.222.232"
+            
+    elif ping("185.152.64.236"): #old
+        server = "185.152.64.236"
+        
+    elif ping("185.102.219.67"): #old
+        server = "185.102.219.67"
+        
+    elif ping("185.102.218.56"): #dol
+        server = "185.102.218.56"
+
+    elif ping("185.102.219.72"): #dol
+        server = "185.102.219.72"
+        
+    #servers = ['185.180.15.201','185.59.221.153','195.181.170.41','195.181.170.36','195.181.170.45']
+    #server  = random.choice(servers)
     
     url = "http://{0}/p2p/{1}?st={2}&e={3}".format(servers,url,out_hash,time_stamp)
     return '{url}|User-Agent={user_agent}&referer={referer}'.format(url=url,user_agent=user_agent,referer='6d6f6264726f2e6d65'.decode('hex'))

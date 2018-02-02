@@ -685,6 +685,26 @@ provider-name="Crucialminds">
   </extension>
 </addon>
 
+<addon id="plugin.video.cerebroini"
+version="1.0.8"
+name="Cerebro INI Creator (makes addon ini file for free epg)"
+provider-name="Cerebro">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="repository.cerebro" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">INI Creator for CerebroTV</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
 <addon id="plugin.video.cerebroIPTV" name=" [COLOR black].[/COLOR][COLOR ghostwhite][B]Cerebro IPTV 2[/B][/COLOR]" version="1.01" provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -742,6 +762,41 @@ provider-name="Crucialminds">
     <summary lang="en">Cerebreo IPTV</summary>
     <description lang="en">Cerebro IPTV</description>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.cerebrozstrictlyhd" name=" [COLOR black].[/COLOR][COLOR ghostwhite][B]Cerebro Strictly HD[/B][/COLOR]" version="1.0.23" provider-name="Biglad">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.urlresolver" version="4.0.07"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+    <import addon="script.module.futures" version="2.2.0"/>
+    <import addon="script.cerebro.backend" />
+    <import addon="script.cerebro.pairwith" />
+    <import addon="script.cerebro.pairwith.laucnher" />
+	<import addon="repository.cerebro" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>You place for HD-only content. No Real Debrid needed.</summary>
+    <description>This multi-scraper Add-On does all the hard work for you. Scouring sites and tracking down as many links as possible, all of which are for Strictly HD content that is all viewable [I]without[/I]  Real-Debrid. Search, Click, Sit back and Enjoy.</description>
+    <disclaimer>I do not own, nor host any content provided within this add-on. All links are gathered from publicly available resources.</disclaimer>
+    <language>english</language>
+    <platform>all</platform>
+    <license>GNU General Public License v3.0</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot></screenshot>
+    </assets>
   </extension>
 </addon>
 
@@ -1786,12 +1841,13 @@ Initial release.
   </extension>
 </addon>
 
-<addon id="plugin.video.livehub2" name=" [COLOR black].[/COLOR][COLOR ghostwhite][B]Cerebro IPTV+[/B][/COLOR]" version="10.36" provider-name="sClarke and Biglad">
+<addon id="plugin.video.livehub2" name=" [COLOR black].[/COLOR][COLOR ghostwhite][B]Cerebro IPTV[/B][/COLOR]" version="10.57" provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
 	<import addon="script.video.F4mProxy" />
-    <!--<import addon="plugin.video.wargames" />-->
+    <import addon="script.cerebro.backend" />
+	<import addon="repository.cerebro" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -2294,6 +2350,44 @@ em procura livre na internet.</description>
         <screenshot>resources/art/screenshots/screenshot-02.jpg</screenshot>
         <screenshot>resources/art/screenshots/screenshot-03.jpg</screenshot>
     </assets>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.SportsDevil"
+  version="2018.01.30a"
+  name="SportsDevil"
+  provider-name="SportsDevil">
+  <requires>
+   <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="script.module.dateutil" />
+   <import addon="script.module.simplejson" />
+   <import addon="script.module.six" />
+   <import addon="script.module.requests" />
+   <import addon="script.module.streamlink.base" />
+   <import addon="script.video.F4mProxy" />
+   <import addon="plugin.video.f4mTester" />
+   <!-- <import addon="script.module.livestreamer" />  *Changed-2-StreamLink* -->
+   <!-- *broken* <import addon="repository.unofficialsportsdevil" version="1.0.0" optional="true"/> *broken* -->
+  </requires>
+  <extension
+    point="xbmc.python.pluginsource"
+    library="default.py">
+   <provides>video</provides>
+  </extension>
+  <!-- <extension point="xbmc.service" library="service/proxy_service.py" start="startup"/> *Changed-2-StreamLink* -->
+  <extension point="xbmc.service" library="service/streamlink_proxy.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Play videos of different ad-financed sports streaming sites (XvBMC-NL acts only as a mirror for SportsDevil).</summary>
+    <description>Play videos of different ad-financed sports streaming sites (XvBMC-NL acts only as a mirror for SportsDevil).</description>
+    <disclaimer>SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site. For updates - check the readme (XvBMC-NL acts only as a mirror for SportsDevil).</disclaimer>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <platform>all</platform>
+    <news>version="2018.01.29x" (CerebroTV)</news>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
   </extension>
 </addon>
 
@@ -2860,7 +2954,7 @@ Skin and code for skin by Demonstratorz</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.5.0~alpha17" provider-name="bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.5.0x" provider-name="bromix">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -2872,36 +2966,11 @@ Skin and code for skin by Demonstratorz</description>
     <extension point="xbmc.python.module" library="resources/lib/"/>
     <extension point="xbmc.addon.metadata">
         <news>
-[add] Saved Playlists
-[add] allow developers to use their own api key
-[add] audio only to quality selection
-[add] age gate enforcement - Settings -> General
-[add] quick search and quick search (incognito) to Settings -> Folders
-    - incognito doesn't add to search history or run post play events (add to watch history)
-[add] quick search to channels (no history)
-[add] Live folder to channels
-[fix] My Channel videos incl. private
-[fix] mpeg-dash vods, proxy required Settings - MPEG-DASH
-    - Thanks to Schtek for generating the needed mpd file
-[fix/upd] use select dialog for subtitle setting
-    - [add] Configure subtitles to Settings -> General
-    - [add] Current language with No auto-generated subtitles option
-[upd] language/translation paths * Isengard (15.x)+ required
-[upd] youtube_resolver: allow resolve by url
-[fix/upd] do not use distutils.version.LooseVersion for version compare [stefansaraev]
-[fix/upd] add check to api key stripping
-[fix/upd] subtitles default to non asr track when possible
-[fix/upd] login client logging and endpoints
-[fix/upd] Watch Later
-    - Clear Settings - Folders - Custom Watch Later Playlist ID
-[fix/upd] History
-    - cannot add to history from add-on
-    - Clear Settings - Folders - Custom History Playlist ID
-[fix] /api/update route logging
-[upd] Hebrew strings [Eng2Heb]
-[upd] Polish strings [Etharr]
-[upd] Italian strings [DjDiabolik]
-[upd] Hungarian strings [lacesz-sh]
+[fix] context menu after playback
+[fix] alternative player, do not append headers
+[fix/upd] set title from metadata on play
+[upd] Dutch strings [MB1968]
+[upd] French strings [bubuleur]
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -2931,7 +3000,7 @@ Skin and code for skin by Demonstratorz</description>
         <description lang="el_gr">Το YouTube είναι μία από τις μεγαλύτερες ιστοσελίδες διαμοιρασμού βίντεο στον κόσμο.</description>
         <summary lang="nb_no">Tillegg for YouTube</summary>
         <description lang="nb_no">YouTube er en av verdens største nettsider for videodeling.</description>
-        <disclaimer lang="en_gb"></disclaimer>
+        <disclaimer lang="en_gb">=v5.5.0 by Bromix - 20180128</disclaimer>
         <language></language>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -2939,6 +3008,7 @@ Skin and code for skin by Demonstratorz</description>
         <website>https://www.youtube.com</website>
         <email>ytplugin at datanet dot ws</email>
         <source>https://github.com/jdf76/plugin.video.youtube</source>
+        <size>1775888</size>
     </extension>
 </addon>
 
@@ -3857,7 +3927,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="script.cerebro.backend"
   name="CerebroTV BackEnd System"
-  version="2.0"
+  version="2.6"
   provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -3913,10 +3983,13 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="script.cerebro.pairwith"
   name="CerebroTV Pair With"
-  version="1.9"
+  version="2.1"
   provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+    <import addon="script.cerebro.backend" />
+	<import addon="repository.cerebro" />
   </requires>
   <extension point="xbmc.python.script" library="addon.py">
     <provides>executable</provides>
@@ -4521,6 +4594,18 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
+<addon id="script.module.cerebro1cm" name="CerebroTV Libraries" version="1.00.012" provider-name="Biglad">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Forked from TK Norris Shared Module. Reusable Modules used by several of Echo's addons</summary>
+	</extension>
+</addon>
+
 <addon id="script.module.certifi"
        name="certifi"
        version="2017.07.27.1"
@@ -5096,6 +5181,103 @@ level.</description>
     <description lang="en">[COLOR ffff0000][B]StreamHub Live[/B][/COLOR]</description>
 	<disclaimer lang="en">The author does not host or own any content found within this Addon. The Author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.streamlink.base" name="Streamlink Library" version="2018.01.14" provider-name="Twilight0">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.requests" version="2.12.4"/>
+    <import addon="script.module.futures" version="2.2.0"/>
+    <import addon="script.module.streamlink.crypto" />
+    <import addon="script.module.streamlink.plugins" />
+  </requires>
+  <extension point="xbmc.python.module" library="resources/lib/"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>Streamlink Library</summary>
+    <description>Streamlink Library for Kodi</description>
+    <platform>all</platform>
+    <license>Simplified BSD</license>
+    <source>https://github.com/streamlink/streamlink</source>
+    <language>en</language>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+    <news>
++ 2018.01.14
+- Fix introduced in hls plugin for locale, thanks to jairoxyz
+- Minor other fixes
+
++ 2018.01.11
+- Based on https://github.com/streamlink/streamlink/commit/790bdf26a62aff74a35abc99fc4f3c07d6e5dcc1
+  > Includes unmerged PR: https://github.com/streamlink/streamlink/pull/1423
+
++ 2017.11.18
+- Rebased on upstream 0.9.0
+
++ 2017.09.20
+- Fixes for ordered dict import for Kodi 16
+- Rebased on upstream 0.8.1 release
+- Removed dependency for shutil_which &amp; singledispatch
+
++ 2017.09.06
+- Fixes for relative imports
+
++ 2017.09.05
+- Added dependency for streamlink plugins
+- Updated to commit/f26733cfc83156db32f9721cca71ebf3b86e0dbd
+- Added websocket module in utils directory
+
++ 2017.08.30
+- Removed dependency for pycountry &amp; ordereddict
+
++ 2017.07.19
+- Fixed temp folder on Android
+
++ 2017.07.17.2
+- update import
+
++ 2017.07.17.1
+- Merged Plugins into the same Kodi Plugin
+
++ 2017.07.17
+- streamlink 5f658c8199690253dde8868b7ae0714f0cc5d88a
+- Renamed crypto.py -> cryptofix.py
+- use pycountry and streamlink.crypto
+
++ 2017.07.13
+- streamlink 5cc7793ff07e6eb9841287ed30fc7414379c7649
+    </news>
+  </extension>
+</addon>
+
+<addon id="script.module.streamlink.crypto" name="streamlink.crypto" version="1.4.0" provider-name="Streamlink.crypto">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Pure Python implementation of the cryptographic libraries required by Streamlink</summary>
+    <source>https://github.com/Twilight0/script.module.streamlink.crypto</source>
+    <platform>all</platform>
+    <license>MIT</license>
+  </extension>
+</addon>
+
+<addon id="script.module.streamlink.plugins" name="Streamlink Plugins" version="1.0.3" provider-name="Twilight0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.12.4"/>
+  </requires>
+  <extension point="xbmc.service"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>Streamlink Plugins</summary>
+    <description>Copy your custom streamlink plugins in this Kodi plugin.</description>
+    <platform>all</platform>
+    <license>GNU GPL, version 2</license>
+    <source>https://github.com/Twilight0/script.module.streamlink.plugins</source>
+    <!--<website></website>-->
+    <!--<language></language>-->
   </extension>
 </addon>
 
@@ -6813,14 +6995,16 @@ level.</description>
 	</extension>
 </addon>
 
-<addon id="script.tvguide.cerebrotv.uk.2017" name="Cerebro TV Guide UK" version="100.4" provider-name="Biglad-FREE VERSION">
+<addon id="script.tvguide.cerebrotv.uk.2017" name="Cerebro TV Guide FREE (EPG)" version="100.8" provider-name="Biglad-FREE VERSION">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
         <import addon="script.module.requests" />
+		<import addon="script.cerebro.backend" />
+		<import addon="repository.cerebro" />
 	</requires>
 	<extension point="xbmc.python.script" library="addon.py">
-            <provides>video executable</provides>
+            <provides>executable</provides>
     </extension>
     <extension point="xbmc.service" library="service.py" start="login"/>
 	<extension point="xbmc.addon.metadata">

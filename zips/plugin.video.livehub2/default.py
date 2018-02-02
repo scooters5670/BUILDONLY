@@ -6,14 +6,6 @@ icon       = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id
 fanart     = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, '/fanart.jpg'))
 logfile    = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, '/log.txt'))
 
-def d():
-	import requests,base64
-	try:
-		requests.get(base64.b64decode('aHR0cDovL2FmZmlsaWF0ZS5lbnRpcmV3ZWIuY29tL3NjcmlwdHMvY3owNm5mP2E9Y2VyZWJyb3R2JmFtcDtiPWM3ZmJiZDkzJmFtcDtkZXN0dXJsPWh0dHAlM0ElMkYlMkZtdHZiLmNvLnVrJTJGcCUyRg=='),headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0'},verify=False,timeout=2).text
-	except:
-		pass
-#aHR0cDovL2FmZmlsaWF0ZS5lbnRpcmV3ZWIuY29tL3NjcmlwdHMvY3owNm5mP2E9Y2VyZWJyb3R2JmFtcDtiPWM3ZmJiZDkzJmFtcDtkZXN0dXJsPWh0dHAlM0ElMkYlMkZjZXJlYnJvdHYuY28udWslMkZwJTJG < old        
-d() 
 
 
 from resources.root import android
@@ -24,39 +16,18 @@ def home():
     #addDir('[COLOR white][B][/COLOR][/B]','url',0,icon,fanart,'')
     addDir('[B][COLOR gold]Cerebro: [/COLOR][COLOR white]IPTV[/COLOR][/B] (Mobdro & Pak India)','url',2000,icon,fanart,'')
     addDir('[B][COLOR gold]Cerebro: [/COLOR][COLOR white]IPTV UK Geo Locked[/COLOR][/B] (BBCi & ITV Players)','url',1000,icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('','','',icon,fanart,'')
-    addDir('VoD Add-ons','','',icon,fanart,'')
-    addDir('[COLOR white][B]Elysium Movies[/COLOR][/B]','url',3000,icon,fanart,'')
-    addDir('[COLOR white][B]Elysium TV[/COLOR][/B]','url',4000,icon,fanart,'')
-    addDir('[COLOR white][B]Covenant Movies[/COLOR][/B]','url',5000,icon,fanart,'')
-    addDir('[COLOR white][B]Covenant TV[/COLOR][/B]','url',5001,icon,fanart,'')    
-    addDir('[COLOR white][B]Poseidon Movies[/COLOR][/B]','url',5002,icon,fanart,'')
-    addDir('[COLOR white][B]Poseidon TV[/COLOR][/B]','url',5003,icon,fanart,'')
-    addDir('[COLOR white][B]Exodus Movies[/COLOR][/B]','url',5004,icon,fanart,'')
-    addDir('[COLOR white][B]Exodus TV[/COLOR][/B]','url',5005,icon,fanart,'')
-    addDir('[COLOR white][B]TV Player[/COLOR][/B]','url',5006,icon,fanart,'')
-    addDir('[COLOR white][B]ShowBox Movies[/COLOR][/B]','url',5007,icon,fanart,'')
-    addDir('[COLOR white][B]ShowBox TV[/COLOR][/B]','url',5008,icon,fanart,'')
+    #addDir('VoD Add-ons','','',icon,fanart,'')
+    #addDir('[COLOR white][B]Elysium Movies[/COLOR][/B]','url',3000,icon,fanart,'')
+    #addDir('[COLOR white][B]Elysium TV[/COLOR][/B]','url',4000,icon,fanart,'')
+    #addDir('[COLOR white][B]Covenant Movies[/COLOR][/B]','url',5000,icon,fanart,'')
+    #addDir('[COLOR white][B]Covenant TV[/COLOR][/B]','url',5001,icon,fanart,'')    
+    #addDir('[COLOR white][B]Poseidon Movies[/COLOR][/B]','url',5002,icon,fanart,'')
+    #addDir('[COLOR white][B]Poseidon TV[/COLOR][/B]','url',5003,icon,fanart,'')
+    #addDir('[COLOR white][B]Exodus Movies[/COLOR][/B]','url',5004,icon,fanart,'')
+    #addDir('[COLOR white][B]Exodus TV[/COLOR][/B]','url',5005,icon,fanart,'')
+    #addDir('[COLOR white][B]TV Player[/COLOR][/B]','url',5006,icon,fanart,'')
+    #addDir('[COLOR white][B]ShowBox Movies[/COLOR][/B]','url',5007,icon,fanart,'')
+    #addDir('[COLOR white][B]ShowBox TV[/COLOR][/B]','url',5008,icon,fanart,'')
     
 def play(url,name,pdialogue=None):
         from resources.modules import resolvers

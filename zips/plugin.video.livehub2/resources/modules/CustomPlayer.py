@@ -7,13 +7,14 @@ __addonname__ = __addon__.getAddonInfo('name')
 __icon__ = __addon__.getAddonInfo('icon')
 
 class MyXBMCPlayer(xbmc.Player):
+    #xbmc.executebuiltin('PlayerControl(stop)') 
     #xbmc.executebuiltin("Notification([COLOR=gold]Cerebro TV[/COLOR],This Channel May Take A Few Clicks Checking 5 Servers,7000,"+__icon__+")")
     def __init__( self, *args, **kwargs ):
         self.is_active = True
         self.urlplayed = False
         self.pdialogue=None
         print "#XBMCPlayer#"
-    
+ 
     #def play(self, url, listitem):
     #   print 'Now im playing... %s' % url
     #    self.is_active = False
