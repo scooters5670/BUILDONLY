@@ -54,8 +54,8 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['123movies.to', '123movies.ru', '123movies.is', '123movies.gs', '123-movie.ru', '123movies-proxy.ru', '123movies.moscow', '123movies.msk.ru', '123movies.msk.ru', '123movies.unblckd.me', 'gostream.is']
-        self.base_link = 'https://gostream.is'
+        self.domains = ['123movies.to', '123movies.ru', '123movies.is', '123movies.gs', '123-movie.ru', '123movies-proxy.ru', '123movies.moscow', '123movies.msk.ru', '123movies.msk.ru', '123movies.unblckd.me', 'gostream.is'.'gomovies.pet']
+        self.base_link = 'https://123movieshub.to/'
         self.search_link = '/movie/search/%s'
         self.user = control.setting('gostream.user')
         self.password = control.setting('gostream.pass')

@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -33,7 +34,7 @@ class source:
         self.language = ['en']
         self.genre_filter = ['animation', 'anime']
         self.domains = ['gogoanimemobile.com', 'gogoanimemobile.net', 'gogoanime.io']
-        self.base_link = 'https://ww4.gogoanime.io'
+        self.base_link = 'http://ww1.gogoanime.io'
         self.search_link = '/search.html?keyword=%s'
         self.episode_link = '/%s-episode-%s'
 

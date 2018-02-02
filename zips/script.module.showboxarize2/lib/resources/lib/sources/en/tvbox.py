@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 
+# Broken - Needs fixing by manually creating the cookie from the first page.
+
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -24,22 +27,22 @@ from resources.lib.modules import cleantitle
 from resources.lib.modules import client
 from resources.lib.modules import source_utils
 from resources.lib.modules import dom_parser
-
-
+from resources.lib.modules import cfscrape
 
 class source:
     def __init__(self):       
         self.priority = 1
         self.language = ['en']
-        self.domains = ['tvbox.ag']
-        self.base_link = 'https://tvbox.ag'
-        self.search_link_tv = 'https://tvbox.ag/tvshows'
-        self.search_link_movie = 'https://tvbox.ag/movies'
+        self.domains = ['tvbox.ag','tvbox.unblocked.pl']
+        self.base_link = 'https://tvbox.unblocked.pl'
+        self.search_link_tv = 'https://tvbox.unblocked.pl/tvshows'
+        self.search_link_movie = 'https://tvbox.unblocked.pl/movies'
 
     
     def movie(self, imdb, title, localtitle, aliases, year):
         try:
-            result = client.request(self.search_link_movie)
+            self.scraper = cfscrape.create_scraper()
+            result = self.scraper.get(self.search_link_movie, verify=False).content
             m = client.parseDOM(result, 'div', attrs={'class': 'masonry'})[0]
             m = dom_parser.parse_dom(m, 'a', req='href')
             m = [(i.attrs['href'], i.content) for i in m]
@@ -51,9 +54,9 @@ class source:
             return
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
-
         try:
-            result = client.request(self.search_link_tv)
+            self.scraper = cfscrape.create_scraper()
+            result = self.scraper.get(self.search_link_tv, verify=False).content
             m = client.parseDOM(result, 'div', attrs={'class': 'masonry'})[0]
             m = dom_parser.parse_dom(m, 'a', req='href')
             m = [(i.attrs['href'], i.content) for i in m]
@@ -68,12 +71,10 @@ class source:
     def episode(self, url, imdb, tvdb, title, premiered, season, episode):
         try:
             if url == None: return
-
             url = urlparse.urljoin(self.base_link, url)
             for i in range(3):
-                result = client.request(url, timeout=10)
+                result = self.scraper.get(url, verify=False).content
                 if not result == None: break  
-
             title = cleantitle.get(title)
             premiered = re.compile('(\d{4})-(\d{2})-(\d{2})').findall(premiered)[0]
             premiered = '%s/%s/%s' % (premiered[2], premiered[1], premiered[0])
@@ -93,7 +94,7 @@ class source:
             if url == None: return sources
             url = urlparse.urljoin(self.base_link, url)
             for i in range(3):
-                result = client.request(url)
+                result = self.scraper.get(url, verify=False).content
                 if not result == None: break
             
             links = re.compile('onclick="report\(\'([^\']+)').findall(result)         

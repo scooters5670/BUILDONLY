@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -31,7 +32,7 @@ class source:
         self.language = ['en']
         self.domains = ['wrzcraft.net']
         self.base_link = 'http://wrzcraft.net'
-        self.search_link = '/?s=%s'
+        self.search_link = '/search/%s/feed/rss2/'
 
 
     def movie(self, imdb, title, localtitle, aliases, year):

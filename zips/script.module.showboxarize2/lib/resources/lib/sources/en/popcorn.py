@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -27,35 +28,16 @@ from resources.lib.modules import dom_parser2
 
 class source:
     def __init__(self):
-        self.priority = 0
+        self.priority = 1
         self.language = ['en']
-        self.domains = ['hdpopcorns.com','popcorntime.unblocked.vc','hdpopcorns.in']
-        self.base_link = 'http://hdpopcorns.in'
-        self.search_link = '/wp-admin/admin-ajax.php?action=mts_search&q=%s'
+        self.domains = ['hdpopcorns.com']
+        self.base_link = 'http://hdpopcorns.com'
+        self.search_link = '/?s=%s'
 
     def movie(self, imdb, title, localtitle, aliases, year):
         try:
+            self.scraper = cfscrape.create_scraper()
             url = {'imdb': imdb, 'title': title, 'year': year}
-            url = urllib.urlencode(url)
-            return url
-        except:
-            return
-
-    def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
-        try:
-            url = {'imdb': imdb, 'tvdb': tvdb, 'tvshowtitle': tvshowtitle, 'year': year}
-            url = urllib.urlencode(url)
-            return url
-        except:
-            return
-
-    def episode(self, url, imdb, tvdb, title, premiered, season, episode):
-        try:
-            if url == None: return
-
-            url = urlparse.parse_qs(url)
-            url = dict([(i, url[i][0]) if url[i] else (i, '') for i in url])
-            url['title'], url['premiered'], url['season'], url['episode'] = title, premiered, season, episode
             url = urllib.urlencode(url)
             return url
         except:
@@ -74,6 +56,8 @@ class source:
             title = data['tvshowtitle'] if 'tvshowtitle' in data else data['title']
 
             hdlr = 'Season %d' % int(data['season']) if 'tvshowtitle' in data else data['year']
+            if 'tvshowtitle' in data:
+                sep = 'S%02dE%02d' % (int(data['season']), int(data['episode']))
 
             query = '%s S%02dE%02d' % (data['tvshowtitle'], int(data['season']), int(data['episode'])) if 'tvshowtitle' in data else '%s %s' % (data['title'], data['year'])
 
@@ -81,26 +65,23 @@ class source:
 
             url = self.search_link % urllib.quote_plus(query)
             url = urlparse.urljoin(self.base_link, url)
-
-            self.scraper = cfscrape.create_scraper()
             r = self.scraper.get(url).content
-            posts = client.parseDOM(r, 'li')
-
+            posts = client.parseDOM(r, 'h2')
             for post in posts:
                 try:
                     data = dom_parser2.parse_dom(post, 'a', req='href')[0]
-                    t = re.findall('title=.+?>\s*(.+?)$', data.content, re.DOTALL)[0]
-                    t2 = re.sub('(\.|\(|\[|\s)(\d{4}|S\d*E\d*|S\d*|3D)(\.|\)|\]|\s|)(.+|)', '', t)
+                    t = data.attrs['title']
+                    t2 = re.sub('(\.|\(|\[|\s)(\d{4}|S\d*E\d*|S\d*|3D|720p / 1080p|\d{3,}p)(\.|\)|\]|\s|)(.+|)', '', t)
                     y = re.findall('[\.|\(|\[|\s](S\d*E\d*|Season\s*\d*|\d{4})[\.|\)|\]|\s]', t)[-1]
 
-                    if not (cleantitle.get_simple(t2.replace('720p / 1080p', '')) == cleantitle.get(
-                        title) and y == hdlr): raise Exception()
+                    if not (cleantitle.get(t2) == cleantitle.get(title) and y == hdlr): continue
 
-                    link = client.parseDOM(post, 'a', ret='href')[0]
-                    if not 'Episodes' in post: u = self.movie_links(link)
-                    else:
-                        sep = 'S%02dE%02d' % (int(data['season']), int(data['episode']))
+                    link = data.attrs['href']
+                    if 'season' in link:
                         u = self.show_links(link, sep)
+
+                    else:
+                        u = self.movie_links(link)
 
                     for item in u:
                         quality, info = source_utils.get_release_quality(item[0][0], None)
@@ -141,9 +122,8 @@ class source:
             post = {'FileName720p': FN720p, 'FileSize720p': FS720p, 'FSID720p': FSID720p,
                     'FileName1080p': FN1080p, 'FileSize1080p': FS1080p, 'FSID1080p': FSID1080p,
                     'x': 173, 'y': 22}
-
-            POST = client.request('http://hdpopcorns.com/select-movie-quality/', post=post)
-
+            POST = client.request('http://hdpopcorns.com/select-movie-quality.php', post=post)
+            #POST = self.scraper.post('http://hdpopcorns.com/select-movie-quality.php', data=post).text
             data = client.parseDOM(POST, 'div', attrs={'id': 'btn_\d+p'})
             u = zip([client.parseDOM(i, 'a', ret='href')[0],
                      re.findall('((?:\d+\.\d+|\d+\,\d+|\d+) (?:GB|GiB|MB|MiB))', i)[0]] for i in data)

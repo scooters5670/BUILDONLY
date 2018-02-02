@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -36,7 +37,6 @@ class source:
         self.search_link = '/ajax/search.php'
         self.user = control.setting('moviesplanet.user')
         self.password = control.setting('moviesplanet.pass')
-
 
     def movie(self, imdb, title, localtitle, aliases, year):
         try:

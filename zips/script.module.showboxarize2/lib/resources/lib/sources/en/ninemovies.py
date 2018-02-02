@@ -33,12 +33,10 @@ class source:
         '''
         self.priority = 1
         self.language = ['en']
-        self.domains = ['fmovies.se', 'fmovies.to']
-        self.base_link = 'https://fmovies.se'
-        self.movie_search_path = ('/filter?keyword=%s&sort=post_date:Adesc'
-                                  '&type[]=movie&release[]=%s')
-        self.episode_search_path = ('/filter?keyword=%s&sort=post_date:Adesc'
-                                    '&type[]=series')
+        self.domains = ['fmovies.se', 'fmovies.to','bmovies.se']
+        self.base_link = 'http://fmovies.bypassed.org/'
+        self.movie_search_path = '/search.html?keyword=%s'
+        self.episode_search_path = '/search.html?keyword=%s'
         self.film_path = '/film/%s'
         self.info_path = '/ajax/episode/info?ts=%s&_=%s&id=%s&update=0'
         self.grabber_path = '/grabber-api/?ts=%s&id=%s&token=%s&mobile=0'

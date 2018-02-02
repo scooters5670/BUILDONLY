@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -32,7 +33,7 @@ class source:
         self.language = ['en']
         self.domains = ['best-moviez.ws']
         self.base_link = 'http://www.best-moviez.ws'
-        self.search_link = '/?s=%s&submit=Search'
+        self.search_link = '/search/%s/feed/rss2/'
 
 
     def movie(self, imdb, title, localtitle, aliases, year):
@@ -86,14 +87,33 @@ class source:
 
             r = client.request(url)
 
-            posts = client.parseDOM(r, 'article', attrs={'id': 'post-\d+'})
-            posts = client.parseDOM(posts, 'h1')
-            posts = zip(client.parseDOM(posts, 'a', ret= 'href'),(client.parseDOM(posts, 'a', attrs={'rel': 'bookmark'})))
+            posts = client.parseDOM(r, 'item')
 
-            for item in posts:
+            hostDict = hostprDict + hostDict
+
+            items = []
+
+            for post in posts:
+                try:
+                    t = client.parseDOM(post, 'title')[0]
+
+                    c = client.parseDOM(post, 'content.+?')[0]
+
+                    s = re.findall('((?:\d+\.\d+|\d+\,\d+|\d+) (?:GB|GiB|MB|MiB))', c)
+                    s = s[0] if s else '0'
+
+                    u = client.parseDOM(post, 'enclosure', ret='url')
+
+                    u = [(t, i, s) for i in u]
+
+                    items += u
+                except:
+                    pass
+
+            for item in items:
 
                 try:
-                    name = item[1]
+                    name = item[0]
                     name = client.replaceHTMLCodes(name)
 
                     t = re.sub('(\.|\(|\[|\s)(\d{4}|S\d+E\d+|S\d+|3D)(\.|\)|\]|\s|)(.+|)', '', name, re.I)
@@ -104,40 +124,26 @@ class source:
 
                     if not y == hdlr: raise Exception()
 
-                    r = client.request(item[0], referer= self.base_link)
-                    r = client.parseDOM(r, 'article', attrs={'id': 'post-\d+'})
-                    #links = re.findall('>Single Links</b>(.+?)<p><b><span', data, re.DOTALL)
-                    links = [i for i in client.parseDOM(r, 'p') if 'Single Links' in i]
-                    links = zip(client.parseDOM(links, 'a', ret='href'),
-                                client.parseDOM(links, 'a', attrs={'href': '.+?'}))
+                    quality, info = source_utils.get_release_quality(item[1], item[0])
+                    try:
+                        size = re.findall('((?:\d+\.\d+|\d+\,\d+|\d+) (?:GB|GiB|MB|MiB))', item[2], re.DOTALL)[0].strip()
+                        div = 1 if size.endswith(('GB', 'GiB')) else 1024
+                        size = float(re.sub('[^0-9|/.|/,]', '', size)) / div
+                        size = '%.2f GB' % size
+                        info.append(size)
+                    except:
+                        pass
 
-                    for item in links:
-                        try:
-                            quality, info = source_utils.get_release_quality(item[1], item[0])
-                            try:
-                                size = re.findall('((?:\d+\.\d+|\d+\,\d+|\d+) (?:GB|GiB|MB|MiB))', r[0], re.DOTALL)[0].strip()
-                                div = 1 if size.endswith(('GB', 'GiB')) else 1024
-                                size = float(re.sub('[^0-9|/.|/,]', '', size)) / div
-                                size = '%.2f GB' % size
-                                info.append(size)
-                            except:
-                                pass
+                    info = ' | '.join(info)
 
-                            info = ' | '.join(info)
+                    if any(x in item[1] for x in ['.rar', '.zip', '.iso']): raise Exception()
+                    url = client.replaceHTMLCodes(item[1])
+                    url = url.encode('utf-8')
 
-                            if any(x in item[0] for x in ['.rar', '.zip', '.iso']): raise Exception()
-                            url = client.replaceHTMLCodes(item[0])
-                            url = url.encode('utf-8')
-
-                            hostDict = hostDict + hostprDict
-
-                            valid, host = source_utils.is_host_valid(url, hostDict)
-                            if not valid: continue
-                            sources.append({'source': host, 'quality': quality, 'language': 'en', 'url': url,
-                                            'info': info, 'direct': False, 'debridonly': True})
-                        except:
-                            pass
-
+                    valid, host = source_utils.is_host_valid(url, hostDict)
+                    if not valid: continue
+                    sources.append({'source': host, 'quality': quality, 'language': 'en', 'url': url,
+                                    'info': info, 'direct': False, 'debridonly': True})
                 except:
                     pass
 

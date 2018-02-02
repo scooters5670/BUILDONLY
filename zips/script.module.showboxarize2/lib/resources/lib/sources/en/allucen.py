@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
-    Bubbles Add-on
-    Copyright (C) 2016 Bubbles
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -29,8 +28,8 @@ class source:
     def __init__(self):
         self.priority = 0
         self.language = ['en']
-        self.domains = ['alluc.ee','alluc.unblckd.bz']
-        self.base_link = 'http://alluc.unblckd.bz/'
+        self.domains = ['alluc.ee']
+        self.base_link = 'https://www.alluc.ee'
         self.search_link = '/api/search/%s/?apikey=%s&getmeta=0&query=%s&count=%d&from=%d'
         self.types = ['stream']
         self.streamLimit = control.setting('alluc.limit')

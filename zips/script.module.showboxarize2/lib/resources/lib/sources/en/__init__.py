@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 
 """
-    Covenant Add-on
-    Copyright (C) 2017 Covenant
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
+    Copyright (C) 2017 Filmnet
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

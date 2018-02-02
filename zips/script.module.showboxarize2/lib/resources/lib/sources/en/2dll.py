@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -25,13 +25,14 @@ from resources.lib.modules import cleantitle
 from resources.lib.modules import client
 from resources.lib.modules import debrid
 from resources.lib.modules import source_utils
+from resources.lib.modules import cfscrape
 
 class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['2dll.unblocked.pro']
-        self.base_link = 'https://2ddl.unblocked.pro'
+        self.domains = ['2ddl.unblocked.vc']
+        self.base_link = 'https://2ddl.unblocked.vc'
         self.search_link = '/search/%s/feed/rss2/'
 
 
@@ -87,8 +88,8 @@ class source:
             url = self.search_link % urllib.quote_plus(query)
             url = urlparse.urljoin(self.base_link, url)
 
-            r = client.request(url)
-
+            scraper = cfscrape.create_scraper()
+            r = scraper.get(url).content
             posts = client.parseDOM(r, 'item')
 
             hostDict = hostprDict + hostDict
@@ -98,22 +99,26 @@ class source:
             for post in posts:
                 try:
                     t = client.parseDOM(post, 'title')[0]
-
-                    c = client.parseDOM(post, 'content.+?')[0]
-
-                    u = re.findall('<singlelink>(.+?)(?:<download>|$)', c.replace('\n', ''))[0]
-                    u = client.parseDOM(u, 'a', ret='href')
-
-                    s = re.findall('((?:\d+\.\d+|\d+\,\d+|\d+)\s*(?:GB|GiB|MB|MiB))', c)
-                    s = s[0] if s else '0'
-
+                    u = client.parseDOM(post, 'a', ret='href')
+                    s = re.search('((?:\d+\.\d+|\d+\,\d+|\d+)\s*(?:GB|GiB|MB|MiB))', post)
+                    s = s.groups()[0] if s else '0'
                     items += [(t, i, s) for i in u]
-
                 except:
                     pass
 
             for item in items:
                 try:
+                
+                    url = item[1]
+                    if any(x in url for x in ['.rar', '.zip', '.iso']): raise Exception()
+                    url = client.replaceHTMLCodes(url)
+                    url = url.encode('utf-8')
+
+                    valid, host = source_utils.is_host_valid(url, hostDict)
+                    if not valid: raise Exception()
+                    host = client.replaceHTMLCodes(host)
+                    host = host.encode('utf-8')
+
                     name = item[0]
                     name = client.replaceHTMLCodes(name)
 
@@ -125,7 +130,7 @@ class source:
 
                     if not y == hdlr: raise Exception()
 
-                    quality, info = source_utils.get_release_quality(name, item[1])
+                    quality, info = source_utils.get_release_quality(name, url)
 
                     try:
                         size = re.findall('((?:\d+\.\d+|\d+\,\d+|\d+)\s*(?:GB|GiB|MB|MiB))', item[2])[-1]
@@ -137,16 +142,6 @@ class source:
                         pass
 
                     info = ' | '.join(info)
-
-                    url = item[1]
-                    if any(x in url for x in ['.rar', '.zip', '.iso']): raise Exception()
-                    url = client.replaceHTMLCodes(url)
-                    url = url.encode('utf-8')
-
-                    valid, host = source_utils.is_host_valid(url, hostDict)
-                    if not valid: raise Exception()
-                    host = client.replaceHTMLCodes(host)
-                    host = host.encode('utf-8')
 
                     sources.append({'source': host, 'quality': quality, 'language': 'en', 'url': url, 'info': info, 'direct': False, 'debridonly': True})
                 except:

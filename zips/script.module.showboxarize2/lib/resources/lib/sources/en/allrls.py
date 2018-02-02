@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -30,9 +31,10 @@ from resources.lib.modules import source_utils
 class source:
     def __init__(self):
         self.priority = 1
+        self.release = 1
         self.language = ['en']
-        self.domains = ['allrls.me']
-        self.base_link = 'http://allrls.me'
+        self.domains = ['allrls.pw','allrls.me']
+        self.base_link = 'http://allrls.pw'
         self.search_link = '?s=%s+%s&go=Search'
 
 
@@ -58,7 +60,6 @@ class source:
             if url == None: return
             url = urlparse.urljoin(self.base_link, '%s-s%02de%02d' % (cleantitle.geturl(url), int(season), int(episode)))
             url = client.request(url, output='geturl')
-            print url
             if url == None: raise Exception()
             return url
         except:
@@ -72,9 +73,10 @@ class source:
       
             hostDict = hostprDict + hostDict
 
-            r = client.request(url)           
+            r = client.request(url)
 
             urls = client.parseDOM(r, 'a', ret = 'href')
+            size = re.findall('Size:\s*((?:\d+\.\d+|\d+\,\d+|\d+) (?:GB|GiB|MB|MiB))', r, re.DOTALL)[0]
 
             for url in urls:
                 try:
@@ -89,9 +91,15 @@ class source:
                     info = []
                     
                     if any(x in url.upper() for x in ['HEVC', 'X265', 'H265']): info.append('HEVC')
-                    
-                    info.append('ALLRLS')
-                    
+                    try:
+                        size = re.findall('((?:\d+\.\d+|\d+\,\d+|\d+)\s*(?:[G|Gi|M|Mi]B))', size, re.DOTALL)[0]
+                        div = 1 if size.endswith(('GB', 'GiB')) else 1024
+                        size = float(re.sub('[^0-9|/.|/,]', '', size)) / div
+                        size = '%.2f GB' % size
+                        info.append(size)
+                    except:
+                        pass
+
                     info = ' | '.join(info)
                     
                     host = client.replaceHTMLCodes(host)

@@ -1,9 +1,8 @@
-# NEEDS FIXING
-
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -20,13 +19,14 @@
 '''
 
 
-import re,urllib,urlparse,hashlib,random,string,json,base64,sys
+import re,urllib,urlparse,hashlib,random,string,json,base64,sys,time
 
 from resources.lib.modules import cleantitle
 from resources.lib.modules import client
 from resources.lib.modules import cache
 from resources.lib.modules import directstream
 from resources.lib.modules import jsunfuck
+from resources.lib.modules import source_utils
 
 CODE = '''def retA():
     class Infix:
@@ -53,13 +53,13 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['solarmoviez.to','solarmovie.unblocked.vc','solarmoviez.ru']
+        self.domains = ['solarmoviez.ru']
         self.base_link = 'https://solarmoviez.ru'
         self.search_link = '/movie/search/%s.html'
-        self.info_link = '/ajax/movie_info/%s.html?is_login=false'
+        self.info_link = '/ajax/movie_get_info/%s.html'
         self.server_link = '/ajax/v4_movie_episodes/%s'
         self.embed_link = '/ajax/movie_embed/%s'
-        self.token_link = '/ajax/movie_token?eid=%s&mid=%s'
+        self.token_link = '/ajax/movie_token?eid=%s&mid=%s&_=%s'
         self.source_link = '/ajax/movie_sources/%s?x=%s&y=%s'
 
     def matchAlias(self, title, aliases):
@@ -122,13 +122,18 @@ class source:
             r = client.request(url, headers=headers, timeout='15')
             r = client.parseDOM(r, 'div', attrs={'class': 'ml-item'})
             r = zip(client.parseDOM(r, 'a', ret='href'), client.parseDOM(r, 'a', ret='title'))
-            results = [(i[0], i[1], re.findall('\((\d{4})', i[1])) for i in r]
-            try:
-                r = [(i[0], i[1], i[2][0]) for i in results if len(i[2]) > 0]
-                url = [i[0] for i in r if self.matchAlias(i[1], aliases) and (year == i[2])][0]
-            except:
-                url = None
-                pass
+            r = [(i[0], i[1], re.findall('(\d+)', i[0])[0]) for i in r]
+            results = []
+            for i in r:
+                try:
+                    info = client.request(urlparse.urljoin(self.base_link, self.info_link % i[2]), headers=headers, timeout='15')
+                    y = re.findall('<div\s+class="jt-info">(\d{4})', info)[0]
+                    if self.matchAlias(i[1], aliases) and (year == y):
+                        url = i[0]
+                        break
+                except:
+                    url = None
+                    pass
 
             if (url == None):
                 url = [i[0] for i in results if self.matchAlias(i[1], aliases)][0]
@@ -157,15 +162,27 @@ class source:
             mid = re.findall('-(\d+)', url)[-1]
 
             try:
-                headers = {'Referer': url}
+                headers = {'Referer': url,
+                           'Accept-Encoding': 'gzip, deflate, br',
+                           'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+                           'Host': 'solarmoviez.ru',
+                           'Accept': 'application/json, text/javascript, */*; q=0.01'
+                }
+
                 u = urlparse.urljoin(self.base_link, self.server_link % mid)
-                r = client.request(u, headers=headers, XHR=True)
+                r = client.request(u, headers=headers, XHR=True, close=False)
                 r = json.loads(r)['html']
-                r = client.parseDOM(r, 'div', attrs = {'class': 'pas-list'})
-                ids = client.parseDOM(r, 'li', ret='data-id')
-                servers = client.parseDOM(r, 'li', ret='data-server')
-                labels = client.parseDOM(r, 'a', ret='title')
+                rl = client.parseDOM(r, 'div', attrs = {'class': 'pas-list'})
+                rh = client.parseDOM(r, 'div', attrs = {'class': 'pas-header'})
+                ids = client.parseDOM(rl, 'li', ret='data-id')
+                servers = client.parseDOM(rl, 'li', ret='data-server')
+                labels = client.parseDOM(rl, 'a', ret='title')
                 r = zip(ids, servers, labels)
+                rrr = zip(client.parseDOM(rh, 'li', ret='data-id'), client.parseDOM(rh, 'li', ret='class'))
+                types = {}
+                for rr in rrr:
+                    types[rr[0]] = rr[1] 
+                               
                 for eid in r:
                     try:
                         try:
@@ -173,8 +190,22 @@ class source:
                         except:
                             ep = 0
                         if (episode == 0) or (int(ep) == episode):
-                            url = urlparse.urljoin(self.base_link, self.token_link % (eid[0], mid))
-                            script = client.request(url)
+                            t = str(int(time.time()*1000))
+                            quali = source_utils.get_release_quality(eid[2])[0]
+                            if 'embed' in types[eid[1]]:
+                                url = urlparse.urljoin(self.base_link, self.embed_link % (eid[0]))
+                                xml = client.request(url, XHR=True, headers=headers)
+                                url = json.loads(xml)['src']
+                                valid, hoster = source_utils.is_host_valid(url, hostDict)
+                                if not valid: continue
+                                q = source_utils.check_sd_url(url)
+                                q = q if q != 'SD' else quali
+                                sources.append({'source': hoster, 'quality': q, 'language': 'en', 'url': url, 'direct': False, 'debridonly': False })
+                                continue
+                            else:
+                                url = urlparse.urljoin(self.base_link, self.token_link % (eid[0], mid, t))
+                            headers['Cookie'] = 's-view-%s=true'%mid
+                            script = client.request(url, XHR=True, headers=headers, close=False)
                             if '$_$' in script:
                                 params = self.uncensored1(script)
                             elif script.startswith('[]') and script.endswith('()'):
@@ -186,14 +217,37 @@ class source:
                             else:
                                 raise Exception()
                             u = urlparse.urljoin(self.base_link, self.source_link % (eid[0], params['x'], params['y']))
-                            r = client.request(u, XHR=True)
-                            url = json.loads(r)['playlist'][0]['sources']
-                            url = [i['file'] for i in url if 'file' in i]
-                            url = [directstream.googletag(i) for i in url]
-                            url = [i[0] for i in url if i]
-                            for s in url:
-                                sources.append({'source': 'gvideo', 'quality': s['quality'], 'language': 'en',
-                                                'url': s['url'], 'direct': True, 'debridonly': False})
+                            r = client.request(u, XHR=True, headers=headers, close=False)
+                            
+                            uri = None
+                            uri = json.loads(r)['playlist'][0]['sources']
+                            try:
+                                uri = [i['file'] for i in uri if 'file' in i]
+                            except:
+                                try:
+                                    uri = [uri['file']]
+                                except:
+                                    continue
+                            
+                            for url in uri:
+                                if 'googleapis' in url:
+                                    q = source_utils.check_sd_url(url)
+                                    sources.append({'source': 'gvideo', 'quality': q, 'language': 'en', 'url': url, 'direct': True, 'debridonly': False})
+                                    continue
+
+                                valid, hoster = source_utils.is_host_valid(url, hostDict)
+                                q = quali                        
+                                if valid:
+                                    if hoster == 'gvideo':
+                                        direct = True
+                                        try:
+                                            q = directstream.googletag(url)[0]['quality']
+                                        except:
+                                            pass
+                                    else: direct = False
+                                    sources.append({'source': hoster, 'quality': q, 'language': 'en', 'url': url, 'direct': direct, 'debridonly': False})                             
+                                else:
+                                    sources.append({'source': 'CDN', 'quality': q, 'language': 'en', 'url': url, 'direct': True, 'debridonly': False})
                     except:
                         pass
             except:
@@ -205,18 +259,10 @@ class source:
 
     def resolve(self, url):
         try:
-            if self.embed_link in url:
-                result = client.request(url, XHR=True)
-                url = json.loads(result)['embed_url']
-                return url
-
-            try:
-                for i in range(3):
-                    u = directstream.googlepass(url)
-                    if not u == None: break
-                return u
-            except:
-                return
+           if 'google' in url and not 'googleapis' in url:
+               return directstream.googlepass(url)
+           else:
+               return url
         except:
             return
 

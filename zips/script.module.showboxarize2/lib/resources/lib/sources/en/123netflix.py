@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -136,9 +137,15 @@ class source:
             return
 
     def resolve(self, url):
-        if self.base_link in url:
-            url = client.request(url)
-            v = re.findall('document.write\(Base64.decode\("(.+?)"\)', url)[0]
-            b64 = base64.b64decode(v)
-            url = client.parseDOM(b64, 'iframe', ret='src')[0]
-        return url
+        try:
+            if self.base_link in url:
+                url = client.request(url)
+                try:
+                    v = re.findall('document.write\(Base64.decode\("(.+?)"\)', url)[0]
+                    b64 = base64.b64decode(v)
+                    url = client.parseDOM(b64, 'iframe', ret='src')[0]
+                except:
+                    url = re.findall('<a\s*title="click\s*here\s*to\s*play\s*on\s*server\s*(?:\w+)"\s*href="([^"]+)', url.lower())[0]
+            return url
+        except: 
+            return

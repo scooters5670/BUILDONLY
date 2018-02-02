@@ -204,7 +204,21 @@ def cache_clear_search():
     try:
         cursor = _get_connection_cursor_search()
 
-        for t in ['tvshow', 'movies']:
+        for t in ['tvshow']:
+            try:
+                cursor.execute("DROP TABLE IF EXISTS %s" % t)
+                cursor.execute("VACUUM")
+                cursor.commit()
+            except:
+                pass
+    except:
+        pass
+		
+def cache_clear_search2():
+    try:
+        cursor = _get_connection_cursor_search()
+
+        for t in ['movies']:
             try:
                 cursor.execute("DROP TABLE IF EXISTS %s" % t)
                 cursor.execute("VACUUM")

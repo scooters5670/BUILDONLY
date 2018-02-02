@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -22,45 +23,48 @@ import re,urllib,urlparse
 
 from resources.lib.modules import cleantitle
 from resources.lib.modules import client
-from resources.lib.modules import proxy
+from resources.lib.modules import dom_parser2
+from resources.lib.modules import source_utils
 
 
 class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['project-free-tv.ch','project-free-tv.ag','myprojectfreetv.net','projectfreetv.ag']
-        self.base_link = 'http://projectfreetv.ag'
-        self.search_link = '/movies/%s-%s/'
-        self.search_link_2 = '/movies/search-form/?free=%s'
+        self.domains = ['project-free-tv.ch','project-free-tv.ag', 'myprojectfreetv.net']
+        self.base_link = 'https://myprojectfreetv.net'
+        self.search_link = 'search-tvshows/?free=%s'
 
 
-    def movie(self, imdb, title, localtitle, aliases, year):
+    def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
         try:
-            url = self.search_link % (cleantitle.geturl(title), year)
+            url = {'imdb': imdb, 'tvdb': tvdb, 'tvshowtitle': tvshowtitle, 'year': year}
+            url = urllib.urlencode(url)
+            return url
+        except:
+            return
 
+    def episode(self, url, imdb, tvdb, title, premiered, season, episode):
+        try:
+            if url == None: return
+            url = urlparse.parse_qs(url)
+            url = dict([(i, url[i][0]) if url[i] else (i, '') for i in url])
+            t = url['tvshowtitle']
+            query = t + ' Season ' + season
+            url = self.search_link % (cleantitle.geturl(query).replace('-','%20'))
             q = urlparse.urljoin(self.base_link, url)
-
-            r = proxy.geturl(q)
-            if not r == None: return url
-
-            t = cleantitle.get(title)
-
-            q = self.search_link_2 % urllib.quote_plus(cleantitle.query(title))
-            q = urlparse.urljoin(self.base_link, q)
-
+            print q
             r = client.request(q)
+            r = dom_parser2.parse_dom(r, 'tr')
+            r = dom_parser2.parse_dom(r, 'a', req='href')
+            r = [(i.attrs['href'], i.content.lower()) for i in r if i]
+            r = [i[0] for i in r if cleantitle.get(i[1].split('season')[0]) == cleantitle.get(t)]
+            link = r[0]
 
-            r = zip(client.parseDOM(r, 'a', ret='href'), client.parseDOM(r, 'a'))
-            r = [(i[0], re.findall('(?:\'|\")(.+?)(?:\'|\")', i[1])) for i in r]
-            r = [(i[0], [re.findall('(.+?)\((\d{4})', x) for x in i[1]]) for i in r]
-            r = [(i[0], [x[0] for x in i[1] if x]) for i in r]
-            r = [(i[0], i[1][0][0], i[1][0][1]) for i in r if i[1]]
-            r = [i[0] for i in r if t == cleantitle.get(i[1]) and year == i[2]]
-
-            url = re.findall('(?://.+?|)(/.+)', r[0])[0]
-            url = client.replaceHTMLCodes(url)
-            url = url.encode('utf-8')
+            #episode/the-walking-dead-season-8-episode-6/
+            link = link[:-1] if link.endswith('/') else link
+            t = link.split('/')[-1]
+            url = '/episode/' + t + '-episode-%d/' % int(episode)
             return url
         except:
             return
@@ -73,32 +77,25 @@ class source:
             if url == None: return sources
 
             url = urlparse.urljoin(self.base_link, url)
+            print url
 
-            r = proxy.request(url, 'movies')
-
-            links = client.parseDOM(r, 'tr')
+            r = client.request(url)
+            links = re.findall('''<td><a href=['"](.+?)['"].+?rel="nofollow"><img.+?['"]>(.+?)</a>''', r, re.DOTALL)
+            print links
 
             for i in links:
+                print i
                 try:
-                    url = re.findall('callvalue\((.+?)\)', i)[0]
-                    url = re.findall('(http.+?)(?:\'|\")', url)[0]
-                    url = client.replaceHTMLCodes(url)
-                    url = url.encode('utf-8')
+                    url = urlparse.urljoin(self.base_link, i[0])
+                    if not 'watch' in url: continue
 
-                    host = re.findall('([\w]+[.][\w]+)$', urlparse.urlparse(url.strip().lower()).netloc)[0]
-                    if not host in hostDict: raise Exception()
-                    host = host.encode('utf-8')
-
-                    quality = re.findall('quality(\w+)\.png', i)[0]
-                    if quality == 'CAM' in i or quality == 'TS': quality = 'CAM'
-                    else: quality = 'SD'
+                    quality = 'SD'
+                    valid, host = source_utils.is_host_valid(i[1].replace('&nbsp;\r\n',''), hostDict)
+                    if not valid: continue
 
                     sources.append({'source': host, 'quality': quality, 'language': 'en', 'url': url, 'direct': False, 'debridonly': False})
                 except:
                     pass
-
-            filter = [i for i in sources if i['quality'] == 'SD']
-            if filter: sources = filter
 
             return sources
         except:
@@ -106,6 +103,10 @@ class source:
 
 
     def resolve(self, url):
+        if 'watch' in url:
+            url = client.request(url)
+            url = client.parseDOM(url, 'IFRAME', ret='SRC')[0]
+
         return url
 
 

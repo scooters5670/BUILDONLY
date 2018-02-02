@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -76,7 +77,9 @@ class source:
             r = client.parseDOM(r, 'item')
             title = client.parseDOM(r, 'title')[0]
             if hdlr in title:
-                r = re.findall('<h3.+?>(.+?)</h3>\s*<h5.+?<strong>(.+?)</strong.+?h3.+?adze.+?href="(.+?)">.+?<h3', r[0], re.DOTALL)
+                link = client.parseDOM(r, 'link')[0]
+                r = client.request(link)
+                r = re.findall('<h3.+?>(.+?)</h3>\s*<h5.+?<strong>(.+?)</strong.+?h3.+?adze.+?href="(.+?)">.+?<h3', r, re.DOTALL)
                 for name, size, url in r:
                     quality, info = source_utils.get_release_quality(name, url)
                     try:

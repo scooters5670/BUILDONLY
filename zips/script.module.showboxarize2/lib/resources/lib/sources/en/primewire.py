@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -29,13 +30,12 @@ class source:
     def __init__(self):
         self.priority = 0
         self.language = ['en']
-        self.domains = ['primewire.ag','letmewatchthis.ac','primewire.unblocked.pl','primewire.unblocked.vc','letmewatchthis.ltd']
-        #self.base_link = 'http://www.primewire.ag'
-        self.base_link = 'http://www.letmewatchthis.ltd'
+        self.domains = ['primewire.ag','primewire.unblocked.vc']
+        self.base_link = 'http://www.primewire.ag'
+        self.base_link = 'https://primewire.unblocked.vc'
         self.key_link = '/index.php?search'
         self.moviesearch_link = '/index.php?search_keywords=%s&key=%s&search_section=1'
         self.tvsearch_link = '/index.php?search_keywords=%s&key=%s&search_section=2'
-
 
     def movie(self, imdb, title, localtitle, aliases, year):
         try:

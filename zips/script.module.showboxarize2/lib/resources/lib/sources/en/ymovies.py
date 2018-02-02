@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Exodus Add-on
-    Copyright (C) 2016 Exodus
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -19,8 +19,9 @@
 '''
 
 
-import re,urllib,urlparse,hashlib,random,string,json,base64,sys
+import re,urllib,urlparse,hashlib,random,string,json,base64,sys,time
 
+import requests
 from resources.lib.modules import cleantitle
 from resources.lib.modules import client
 from resources.lib.modules import cache
@@ -52,13 +53,13 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['yesmovies.to',yesmovies.net']
-        self.base_link = 'http://yesmovies.net/'
+        self.domains = ['yesmovies.to','yesmovies.unblocked.pl']
+        self.base_link = 'https://yesmovies.unblocked.pl/'
         self.search_link = '/movie/search/%s.html'
         self.info_link = '/ajax/movie_info/%s.html?is_login=false'
         self.server_link = '/ajax/v4_movie_episodes/%s'
         self.embed_link = '/ajax/movie_embed/%s'
-        self.token_link = '/ajax/movie_token?eid=%s&mid=%s'
+        self.token_link = '/ajax/movie_token?eid=%s&mid=%s&_=%s'
         self.source_link = '/ajax/movie_sources/%s?x=%s&y=%s'
 
     def matchAlias(self, title, aliases):
@@ -153,12 +154,18 @@ class source:
                 episode = 0
                 url = self.searchMovie(data['title'], data['year'], aliases, headers)
 
-            mid = re.findall('-(\d+)', url)[-1]
-
+            mozhdr = {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3'}
+            headers = mozhdr
+            headers['X-Requested-With'] = 'XMLHttpRequest'
+            headers['Referer'] = url
+            s = requests.session()
+            mid = re.findall('-(\d*)\.',url)[0]
+            data = {'id':mid}
+            r = s.post(url, headers=headers)
             try:
-                headers = {'Referer': url}
                 u = urlparse.urljoin(self.base_link, self.server_link % mid)
-                r = client.request(u, headers=headers, XHR=True)
+                #r = client.request(u, headers=headers)
+                r = s.get(u, headers=mozhdr).content
                 r = json.loads(r)['html']
                 r = client.parseDOM(r, 'div', attrs = {'class': 'pas-list'})
                 ids = client.parseDOM(r, 'li', ret='data-id')
@@ -172,8 +179,10 @@ class source:
                         except:
                             ep = 0
                         if (episode == 0) or (int(ep) == episode):
-                            url = urlparse.urljoin(self.base_link, self.token_link % (eid[0], mid))
-                            script = client.request(url)
+                            t= int(time.time()*1000)
+                            url = urlparse.urljoin(self.base_link, self.token_link % (eid[0], mid, t))
+                            #script = client.request(url, headers=headers)
+                            script = s.get(url, headers=mozhdr).text
                             if '$_$' in script:
                                 params = self.uncensored1(script)
                             elif script.startswith('[]') and script.endswith('()'):
@@ -184,14 +193,17 @@ class source:
                                 params = {'x': x, 'y': y}
                             else:
                                 raise Exception()
-
                             u = urlparse.urljoin(self.base_link, self.source_link % (eid[0], params['x'], params['y']))
-                            r = client.request(u, XHR=True)
+                            length = 0
+                            count = 0
+                            while length == 0 and count < 11:
+                                r = s.get(u, headers=mozhdr).text
+                                length = len(r)
+                                if length == 0: count += 1
                             url = json.loads(r)['playlist'][0]['sources']
                             url = [i['file'] for i in url if 'file' in i]
                             url = [directstream.googletag(i) for i in url]
                             url = [i[0] for i in url if i]
-
                             for s in url:
                                 sources.append({'source': 'gvideo', 'quality': s['quality'], 'language': 'en',
                                                 'url': s['url'], 'direct': True, 'debridonly': False})

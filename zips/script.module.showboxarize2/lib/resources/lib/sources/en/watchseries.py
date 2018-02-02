@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -28,7 +29,7 @@ from resources.lib.modules import dom_parser
 
 class source:
     def __init__(self):
-        self.priority = 0
+        self.priority = 1
         self.language = ['en']
         self.domains = ['watch-series.co','watch-series.ru']
         self.base_link = 'https://watch-series.co'
@@ -65,25 +66,30 @@ class source:
             if url == None: return sources
         
             hostDict += ['akamaized.net', 'google.com', 'picasa.com', 'blogspot.com']
-            result = client.request(url, timeout=10)
+            result = client.request(url)
             
             dom = dom_parser.parse_dom(result, 'a', req='data-video')
-            urls = [i.attrs['data-video'] if i.attrs['data-video'].startswith('https') else 'https:' + i.attrs['data-video'] for i in dom]
-
+            urls = [i.attrs['data-video'] if i.attrs['data-video'].startswith('https') else 'https:' + i.attrs['data-video'] for i in dom]            
+            
             for url in urls:
                 dom = []
                 if 'vidnode.net' in url:
-                    result = client.request(url, timeout=10)
+                    headers = {'Host': 'vidnode.net',
+                               'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36',
+                               'Upgrade-Insecure-Requests': '1',
+                               'Accept-Language': 'en-US,en;q=0.9'}
+                    result = client.request(url, headers=headers)
                     dom = dom_parser.parse_dom(result, 'source', req=['src','label'])
                     dom = [(i.attrs['src'] if i.attrs['src'].startswith('https') else 'https:' + i.attrs['src'], i.attrs['label']) for i in dom if i]
-                elif 'ocloud.stream' in url:
-                    result = client.request(url, timeout=10)
-                    base = re.findall('<base href="([^"]+)">', result)[0]
-                    hostDict += [base]
-                    dom = dom_parser.parse_dom(result, 'a', req=['href','id'])
-                    dom = [(i.attrs['href'].replace('./embed',base+'embed'), i.attrs['id']) for i in dom if i]
-                    dom = [(re.findall("var\s*ifleID\s*=\s*'([^']+)", client.request(i[0]))[0], i[1]) for i in dom if i]                        
-                if dom:                
+                # OCloud currently down. Check again at a later date.
+                #elif 'ocloud.stream' in url:
+                #    result = client.request(url, headers=headers)
+                #    base = re.findall('<base href="([^"]+)">', result)[0]
+                #    hostDict += [base]
+                #    dom = dom_parser.parse_dom(result, 'a', req=['href','id'])
+                #    dom = [(i.attrs['href'].replace('./embed',base+'embed'), i.attrs['id']) for i in dom if i]
+                #    dom = [(re.findall("var\s*ifleID\s*=\s*'([^']+)", client.request(i[0]))[0], i[1]) for i in dom if i]                        
+                if dom:         
                     try:
                         for r in dom:
                             valid, hoster = source_utils.is_host_valid(r[0], hostDict)

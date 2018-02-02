@@ -1,6 +1,6 @@
 '''
-    Covenant Add-on
-    Copyright (C) 2016 Covenant
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -47,12 +47,6 @@ class source:
             return url
         except Exception:
             return
-            
-    def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
-        return
-
-    def episode(self, url, imdb, tvdb, title, premiered, season, episode):
-        return
 
     def sources(self, url, hostDict, hostprDict):
         try:
@@ -76,8 +70,8 @@ class source:
                         'debridonly': False
                     })
             return sources
-        except Exception:
-            return
+        except:
+            return sources
 
     def resolve(self, url):
         return url

@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -25,30 +26,31 @@ from resources.lib.modules import directstream
 from resources.lib.modules import jsunpack
 from resources.lib.modules import source_utils
 from resources.lib.modules import cfscrape
+from resources.lib.modules import dom_parser2
 
 class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['pubfilmonline.net','getmypopcornnow.xyz','popcorntime.unblocked.vc']
-        self.base_link = 'http://popcorntime.unblocked.vc'
+        self.domains = ['pubfilmonline.net','getmypopcornnow.xyz']
+        self.base_link = 'http://openloadmovies.tv'
         self.post_link = '/wp-admin/admin-ajax.php'
         self.search_link = '/?s=%s'
-        self.scraper = cfscrape.create_scraper()
-
+        r = client.request(self.base_link)
+        self.cookie = re.findall('document\.cookie\s*=\s*"([^;]+)', r)[0]
+       
     def movie(self, imdb, title, localtitle, aliases, year):
-
         try:
             url =  '%s/movies/%s-%s/' % (self.base_link, cleantitle.geturl(title),year)
-            r = self.scraper.get(url).content
+            r = client.request(url, cookie=self.cookie)         
             if '<h2>ERROR <span>404</span></h2>' in r:
                 url =  '%s/movies/%s/' % (self.base_link, cleantitle.geturl(title))
-                r = self.scraper.get(url).content
+                r = client.request(url, cookie=self.cookie)
                 if '<h2>ERROR <span>404</span></h2>' in r: return
             return url
-        except:
+        except Exception:
             return
-
+            
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
         try:
             url = {'imdb': imdb, 'tvdb': tvdb, 'tvshowtitle': tvshowtitle, 'year': year}
@@ -65,9 +67,8 @@ class source:
             url['title'], url['premiered'], url['season'], url['episode'] = title, premiered, season, episode
             url = urllib.urlencode(url)
             return url
-        except:
+        except Exception:
             return
-
 
     def sources(self, url, hostDict, hostprDict):
         try:
@@ -81,26 +82,40 @@ class source:
             if 'tvshowtitle' in data:
                 url = '%s/episodes/%s-%01dx%01d/' % (self.base_link, cleantitle.geturl(data['tvshowtitle']), int(data['season']), int(data['episode']))
                 year = re.findall('(\d{4})', data['premiered'])[0]
-                r = self.scraper.get(url).content
-
+                r = client.request(url, cookie=self.cookie)
                 y = client.parseDOM(r, 'span', attrs = {'class': 'date'})[0]
                 y = re.findall('(\d{4})', y)[0]
                 if not y == year: raise Exception()
             else:
-                r = self.scraper.get(url).content
-
-            result = re.findall('''['"]file['"]:['"]([^'"]+)['"],['"]label['"]:['"]([^'"]+)''', r)
-
-            for i in result:
-                url = i[0].replace('\/', '/')
-                sources.append({'source': 'gvideo', 'quality': source_utils.label_to_quality(i[1]), 'language': 'en', 'url': url, 'direct': True, 'debridonly': False})
+                r = client.request(url, cookie=self.cookie)
+            
+            ref_url = url
+            nonces = re.findall('"nonces":{"ajax_get_video_info":"([^"]+)', r)[0]
+            r = dom_parser2.parse_dom(r, 'div', {'class': 'playex'})[0]
+            r = dom_parser2.parse_dom(r.content, 'div', req=['data-servers','data-ids'])
+            r = [(i.attrs['data-ids'].replace('=','%3D'), i.attrs['data-servers'], nonces) for i in r]
+            
+            headers = {'X-Requested-With': 'XMLHttpRequest',
+                       'Referer': ref_url}
+                       
+            for i in r:
+                post = 'action=ajax_get_video_info&ids=%s&server=%s&nonce=%s' % (i[0], i[1], i[2])
+                url = urlparse.urljoin(self.base_link, self.post_link)
+                u = client.request(url, post=post, headers=headers, cookie=self.cookie)
+                links = re.findall('''file["']:["']([^'"]+).+?label["']:['"]([^"']+)''', u)
+                for l in links:
+                    url = l[0].replace('\/', '/')
+                    sources.append({'source': 'gvideo', 'quality': source_utils.label_to_quality(l[1]), 'language': 'en', 'url': url, 'direct': True, 'debridonly': False})
 
             return sources
         except:
-            return
-
+            return sources
+            
     def resolve(self, url):
-        if 'google' in url:
-            return directstream.googlepass(url)
-        else:
-            return url
+        try:
+            if 'google' in url:
+                return directstream.googlepass(url)
+            else:
+                return url
+        except Exception:
+            return

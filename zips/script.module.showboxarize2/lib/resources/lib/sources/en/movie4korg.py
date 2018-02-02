@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 """
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -32,14 +33,14 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['http://movie4k.unblocked.vc']
+        self.domains = ['movie4k.unblocked.pl']
         self._base_link = None
         self.search_link = '/movies.php?list=search&search=%s'
 
     @property
     def base_link(self):
         if not self._base_link:
-            self._base_link = cache.get(self.__get_base_url, 120, 'http://%s' % self.domains[0])
+            self._base_link = cache.get(self.__get_base_url, 120, 'https://%s' % self.domains[0])
         return self._base_link
 
     def movie(self, imdb, title, localtitle, aliases, year):

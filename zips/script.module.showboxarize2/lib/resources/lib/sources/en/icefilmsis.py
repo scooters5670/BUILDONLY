@@ -17,34 +17,45 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
 
-
-import re,urlparse
+import re,urlparse,random,urllib
 
 from resources.lib.modules import cleantitle
 from resources.lib.modules import client
 from resources.lib.modules import cache
 from resources.lib.modules import dom_parser2
+from resources.lib.modules import log_utils
 
 class source:
     def __init__(self):
         self.priority = 0
         self.language = ['en']
-        self.domains = ['icefilms.is','icefilms.unblocked.vc']
-        self.base_link = 'https://icefilms.unblocked.vc'
-        self.search_link_movie = '/newmov.php?menu=search&query=%s'
-        self.search_link_show = 'show/%s'
+        self.domains = ['icefilms.info','icefilms.unblocked.pro','icefilms.unblocked.vc','icefilms.unblocked.vc']
+        self.base_url = 'https://icefilms1.unblocked.lol/'
+        self.search_link = urlparse.urljoin(self.base_url, 'search.php?q=%s+%s&x=0&y=0')
+        self.list_url = urlparse.urljoin(self.base_url, 'membersonly/components/com_iceplayer/video.php?h=374&w=631&vid=%s&img=')
+        self.post = 'id=%s&s=%s&iqs=&url=&m=%s&cap= &sec=%s&t=%s'
 
     def movie(self, imdb, title, localtitle, aliases, year):
         try:
             clean_title = cleantitle.geturl(title)
-            search_url = urlparse.urljoin(self.base_link, self.search_link_movie % clean_title.replace('-','+'))
-            r = cache.get(client.request, 6, search_url)
-            r = dom_parser2.parse_dom(r, 'div', {'class': 'movie'})
-            r = [(dom_parser2.parse_dom(i.content, 'a', req='href'), \
-                  dom_parser2.parse_dom(i.content, 'div', {'class': 'year'})) \
-                  for i in r]
-            r = [(urlparse.urljoin(self.base_link, i[0][0].attrs['href']), i[1][0].content) for i in r if i[1][0].content == year]
-            url = r[0][0]
+            search_url = self.search_link % (clean_title.replace('-','+'), year)
+            headers = {'Host': 'icefilms.unblocked.vc',
+                       'Cache-Control': 'max-age=0',
+                        'Connection': 'keep-alive',
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+                        'Upgrade-Insecure-Requests': '1',
+                        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+                        'Accept-Encoding': 'gzip, deflate, br',
+                        'Accept-Language': 'en-US,en;q=0.8'}
+
+            r = client.request(search_url, headers=headers)
+            r = dom_parser2.parse_dom(r, 'td')
+            r = [dom_parser2.parse_dom(i, 'a', req='href') for i in r if "<div class='number'" in i.content]
+            r = [(urlparse.urljoin(self.base_url, i[0].attrs['href'])) for i in r if title.lower() in i[0].content.lower() and year in i[0].content]
+            url = r[0]
+            url = url[:-1]
+            url = url.split('?v=')[1]
+            url = self.list_url % url
             return url
         except Exception:
             return
@@ -52,71 +63,142 @@ class source:
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
         try:
             clean_title = cleantitle.geturl(tvshowtitle)
-            url = urlparse.urljoin(self.base_link, self.search_link_show % clean_title + '/')
+            search_url = self.search_link % (clean_title.replace('-','+'), year)
+            r = client.request(search_url, headers=self.headers)
+            r = dom_parser2.parse_dom(r, 'td')
+            r = [dom_parser2.parse_dom(i, 'a', req='href') for i in r if "<div class='number'" in i.content]
+            r = [(urlparse.urljoin(self.base_url, i[0].attrs['href'])) for i in r if tvshowtitle.lower() in i[0].content.lower() and year in i[0].content]
+            url = r[0]
             return url
-        except Exception:
+        except:
             return
             
     def episode(self, url, imdb, tvdb, title, premiered, season, episode):
         try:
-            print url
-            url = urlparse.urljoin(url, 'season/%s/episode/%s' % (season, episode))
-            print url
+            if not url:
+                return
+
+            sep = '%dx%02d' % (int(season), int(episode))
+            r = client.request(url, headers=self.headers)
+            r = dom_parser2.parse_dom(r, 'span', attrs={'class': 'list'})
+            r1 = dom_parser2.parse_dom(r, 'br')
+            r1 = [dom_parser2.parse_dom(i, 'a', req='href') for i in r1]
+            try:
+                if int(season) == 1 and int(episode) == 1:
+                    url = dom_parser2.parse_dom(r, 'a', req='href')[1].attrs['href']
+                else:
+                    for i in r1:
+                        if sep in i[0].content:
+                            url = urlparse.urljoin(self.base_url, i[0].attrs['href'])
+            except:
+                pass
+            url = url[:-1]
+            url = url.split('?v=')[1]
+            url = self.list_url % url
             return url
-        except Exception:
+        except:
             return
             
     def sources(self, url, hostDict, hostprDict):
         try:
-            sources = []          
-            r = cache.get(client.request, 6, url)
-            try:
-                v = re.findall('\$\.get\(\'(.+?)(?:\'\,\s*\{\"embed\":\")([\d]+)', r)
-                for i in v:
-                    url = urlparse.urljoin(self.base_link, i[0] + '?embed=%s' % i[1])
-                    ri = cache.get(client.request, 6, search_url)
-                    url = dom_parser2.parse_dom(ri, 'iframe', req='src')[0]
-                    url = url.attrs['src']
+            sources = []     
+            url_for_post = url
+            headers = {'Host': 'icefilms.unblocked.vc',
+                       'Connection': 'keep-alive',
+                       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+                       'Upgrade-Insecure-Requests': '1',
+                       'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+                       'Accept-Encoding': 'gzip, deflate, br',
+                       'Accept-Language': 'en-US,en;q=0.8'}
+
+            cookie = client.request(url, close=False, headers=headers, output='cookie')
+            html = client.request(url, close=False, headers=headers, cookie=cookie)
+            match = re.search('lastChild\.value="([^"]+)"(?:\s*\+\s*"([^"]+))?', html)
+            secret = ''.join(match.groups(''))
+            match = re.search('"&t=([^"]+)', html)
+            t = match.group(1)
+            
+            match = re.search('(?:\s+|,)s\s*=(\d+)', html)
+            s_start = int(match.group(1))
+            
+            match = re.search('(?:\s+|,)m\s*=(\d+)', html)
+            m_start = int(match.group(1))
+            
+            for fragment in dom_parser2.parse_dom(html, 'div', {'class': 'ripdiv'}):
+                match = re.match('<b>(.*?)</b>', fragment.content)
+                if match:
+                    q_str = match.group(1).replace(' ', '').upper()
+                    if '1080' in q_str: quality = '1080p'
+                    elif '720' in q_str: quality = '720p'
+                    elif '4k' in q_str.lower(): quality = '4K'
+                    else: quality = 'SD'
+                else:
+                    quality = 'SD'
+                    
+                pattern = '''onclick='go\((\d+)\)'>([^<]+)(<span.*?)</a>'''
+                for match in re.finditer(pattern, fragment.content):
+                    link_id, label, host_fragment = match.groups()
+                    host = re.sub('(</?[^>]*>)', '', host_fragment)
+                    info = []
+                    
                     try:
-                        host = re.findall('([\w]+[.][\w]+)$', urlparse.urlparse(url.strip().lower()).netloc)[0]
-                        if host in hostDict:
-                            host = client.replaceHTMLCodes(host)
-                            host = host.encode('utf-8')
+                        size = re.findall('((?:\d+\.\d+|\d+\,\d+|\d+) (?:GB|GiB|MB|MiB))', host)[-1]
+                        div = 1 if size.endswith(('GB', 'GiB')) else 1024
+                        size = float(re.sub('[^0-9|/.|/,]', '', size)) / div
+                        size = '%.2f GB' % size
+                        info.append(size)
+                    except:
+                        pass
+
+                    host = re.search('([a-zA-Z]+)', host)
+                    host = host.group(1)
+                    info = ' | '.join(info)
+
+                    s = s_start + random.randint(3, 1000)
+                    m = m_start + random.randint(21, 1000)
+                    
+                    post = self.post % (link_id, s, m, secret, t)
+
+                    headers =  {'Host': 'icefilms.unblocked.vc',
+                                'Connection': 'keep-alive',
+                                'Content-Length': '65',
+                                'Origin': 'https://icefilms.unblocked.vc',
+                                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+                                'Content-type': 'application/x-www-form-urlencoded',
+                                'Accept': '*/*',
+                                'Referer': url_for_post,
+                                'Accept-Encoding': 'gzip, deflate, br',
+                                'Accept-Language': 'en-US,en;q=0.8'}
+                    #cookie = client.request(url, output='cookie', close=False, headers=headers, post=post)
+                    url = urlparse.urljoin(self.base_url, 'membersonly/components/com_iceplayer/video.phpAjaxResp.php?s=%s&t=%s' % (link_id, t))
+                    r = client.request(url, cookie=cookie, close=False, headers=headers, post=post)
+                    match = re.search('url=(http.*)', r)
+                    if match: 
+                        if host.lower() in str(hostDict):
+                            url = urllib.unquote_plus(match.group(1))
                             sources.append({
                                 'source': host,
-                                'quality': 'SD',
+                                'info': info,
+                                'quality': quality,
                                 'language': 'en',
                                 'url': url.replace('\/','/'),
                                 'direct': False,
                                 'debridonly': False
                             })
-                    except: pass
-            except: pass
-            r = dom_parser2.parse_dom(r, 'div', {'class': ['btn','btn-primary']})
-            r = [dom_parser2.parse_dom(i.content, 'a', req='href') for i in r]
-            r = [(i[0].attrs['href'], re.search('<\/i>\s*(\w+)', i[0].content)) for i in r]
-            r = [(i[0], i[1].groups()[0]) for i in r if i[1]]
-            if r:
-                for i in r:
-                    try:
-                        host = i[1]
-                        url = i[0]
-                        host = client.replaceHTMLCodes(host)
-                        host = host.encode('utf-8')
-                        sources.append({
-                            'source': host,
-                            'quality': 'SD',
-                            'language': 'en',
-                            'url': url.replace('\/','/'),
-                            'direct': False,
-                            'debridonly': False
-                        })
-                    except: pass
+                        elif host.lower() in str(hostprDict):
+                            url = urllib.unquote_plus(match.group(1))
+                            sources.append({
+                                'source': host,
+                                'info': info,
+                                'quality': quality,
+                                'language': 'en',
+                                'url': url.replace('\/','/'),
+                                'direct': False,
+                                'debridonly': True
+                            })
             return sources
         except Exception:
             return
-
+            
     def resolve(self, url):
-        if self.base_link in url:
-            url = client.request(url, output='geturl')
         return url

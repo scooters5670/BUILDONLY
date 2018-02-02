@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Exodus Add-on
-    Copyright (C) 2016 Exodus
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
+    Copyright (C) 2016 Filmnet
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -18,7 +19,6 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
 
-
 import re,urllib,urlparse,json
 
 from resources.lib.modules import cleantitle
@@ -28,13 +28,12 @@ from resources.lib.modules import proxy
 
 class source:
     def __init__(self):
-        self.priority = 0
+        self.priority = 1
         self.language = ['en']
-        self.domains = ['xwatchseries.to','onwatchseries.to','itswatchseries.to','watchseries.unblocked.vc']
-        self.base_link = 'https://watchseries.unblocked.vc'
-        self.search_link = 'https://watchseries.unblocked.vc/show/search-shows-json'
-        self.search_link_2 = 'https://watchseries.unblocked.vc/search/%s'
-
+        self.domains = ['itswatchseries.to','watchtvseries.unblckd.bet']
+        self.base_link = 'http://watchtvseries.unblckd.bet'
+        self.search_link = 'show/search-shows-json'
+        self.search_link_2 = 'search/%s'
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
         try:
@@ -43,7 +42,7 @@ class source:
             q = urllib.quote_plus(cleantitle.query(tvshowtitle))
             p = urllib.urlencode({'term': q})
 
-            r = client.request(self.search_link, post=p, XHR=True)
+            r = client.request(urlparse.urljoin(self.base_link, self.search_link), post=p, XHR=True)
             try: r = json.loads(r)
             except: r = None
             r = None
@@ -51,7 +50,7 @@ class source:
             if r:
                 r = [(i['seo_url'], i['value'], i['label']) for i in r if 'value' in i and 'label' in i and 'seo_url' in i]
             else:
-                r = proxy.request(self.search_link_2 % q, 'tv shows')
+                r = proxy.request(urlparse.urljoin(self.base_link, self.search_link_2 % q), 'tv shows')
                 r = client.parseDOM(r, 'div', attrs = {'valign': '.+?'})
                 r = [(client.parseDOM(i, 'a', ret='href'), client.parseDOM(i, 'a', ret='title'), client.parseDOM(i, 'a')) for i in r]
                 r = [(i[0][0], i[1][0], i[2][0]) for i in r if i[0] and i[1] and i[2]]
@@ -77,6 +76,7 @@ class source:
             url = '%s/serie/%s' % (self.base_link, url)
 
             r = proxy.request(url, 'tv shows')
+           
             r = client.parseDOM(r, 'li', attrs = {'itemprop': 'episode'})
 
             t = cleantitle.get(title)
@@ -139,5 +139,3 @@ class source:
 
     def resolve(self, url):
         return url
-
-

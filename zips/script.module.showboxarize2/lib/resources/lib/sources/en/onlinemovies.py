@@ -3,7 +3,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -24,7 +25,8 @@ import re,urllib,urlparse
 from resources.lib.modules import cleantitle
 from resources.lib.modules import client
 from resources.lib.modules import directstream
-
+from resources.lib.modules import cfscrape
+from resources.lib.modules import source_utils
 
 class source:
     def __init__(self):
@@ -71,6 +73,8 @@ class source:
 
             if url == None: return sources
 
+            scraper = cfscrape.create_scraper()
+            
             if not str(url).startswith('http'):
 
                 data = urlparse.parse_qs(url)
@@ -80,10 +84,7 @@ class source:
                     url = '%s/episode/%s-s%02de%02d/' % (self.base_link, cleantitle.geturl(data['tvshowtitle']), int(data['season']), int(data['episode']))
                     year = re.findall('(\d{4})', data['premiered'])[0]
 
-                    url = client.request(url, output='geturl')
-                    if url == None: raise Exception()
-
-                    r = client.request(url)
+                    r = scraper.get(url).content
 
                     y = client.parseDOM(r, 'span', attrs = {'class': 'date'})
                     y += [i for i in client.parseDOM(r, 'div', attrs = {'class': 'metadatac'}) if 'date' in i]
@@ -94,41 +95,40 @@ class source:
                     #url = '%s/watch/%s-%s/' % (self.base_link, cleantitle.geturl(data['title']), data['year'])
                     url = '%s/%s-%s/' % (self.base_link, cleantitle.geturl(data['title']), data['year'])
 
-                    url = client.request(url, output='geturl')
-                    if url == None: raise Exception()
-
-                    r = client.request(url)
+                    r = scraper.get(url).content
 
             else:
                 url = urlparse.urljoin(self.base_link, url)
 
-                r = client.request(url)
-
+                r = scraper.get(url).content
 
             links = client.parseDOM(r, 'iframe', ret='src')
-
             for link in links:
                 try:
                     url = link.replace('\/', '/')
                     url = client.replaceHTMLCodes(url)
                     url = 'http:' + url if url.startswith('//') else url
                     url = url.encode('utf-8')
-
-                    if not '.php' in url: raise Exception()
-
-                    r = client.request(url, timeout='10')
-
-                    s = re.compile('<script>(.+?)</script>', re.DOTALL).findall(r)
-
-                    for i in s:
-                        try: r += jsunpack.unpack(i)
-                        except: pass
-
-                    r = re.findall('file\s*:\s*(?:\"|\')(.+?)(?:\"|\')', r)
-
-                    for i in r:
-                        try: sources.append({'source': 'gvideo', 'quality': directstream.googletag(i)[0]['quality'], 'language': 'en', 'url': i, 'direct': True, 'debridonly': False})
-                        except: pass
+                    if not '.php' in url:
+                        host = re.findall('([\w]+[.][\w]+)$', urlparse.urlparse(url.strip().lower()).netloc)[0]
+                        host = client.replaceHTMLCodes(host)
+                        host = host.encode('utf-8')
+                        if host in hostDict:
+                            if 'youtube' in host: continue
+                            quality, info = source_utils.get_release_quality('None', url)
+                            sources.append({'source': host, 'quality': quality, 'language': 'en', 'url': url, 'direct': False, 'debridonly': False})
+                        elif host in hostprDict: 
+                            sources.append({'source': host, 'quality': quality, 'language': 'en', 'url': url,'direct': False, 'debridonly': True})
+                    else:
+                        r = scraper.get(url).content
+                        s = re.compile('<script>(.+?)</script>', re.DOTALL).findall(r)
+                        for i in s:
+                            try: r += jsunpack.unpack(i)
+                            except: pass
+                        r = re.findall('file\s*:\s*(?:\"|\')(.+?)(?:\"|\')', r)
+                        for i in r:
+                            try: sources.append({'source': 'gvideo', 'quality': directstream.googletag(i)[0]['quality'], 'language': 'en', 'url': i, 'direct': True, 'debridonly': False})
+                            except: pass
                 except:
                     pass
 
@@ -138,6 +138,11 @@ class source:
 
 
     def resolve(self, url):
-        return directstream.googlepass(url)
+        try:
+            if 'google' in url:
+                return directstream.googlepass(url)
+            else: return url
+        except: 
+           return
 
 

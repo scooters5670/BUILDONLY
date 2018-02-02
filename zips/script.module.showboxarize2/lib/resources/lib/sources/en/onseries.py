@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Exodus Add-on
+    Copyright (C) 2016 Exodus
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -29,10 +30,10 @@ class source:
     def __init__(self):
         self.priority = 0
         self.language = ['en']
-        self.domains = ['onwatchseries.to','mywatchseries.to','watchseries.unblocked.vc']
-        self.base_link = 'http://watchseries.unblocked.vc'
-        self.search_link = 'http://watchseries.unblocked.vc/show/search-shows-json'
-        self.search_link_2 = 'http://watchseries.unblocked.vc/search/%s'
+        self.domains = ['dwatchseries.to','onwatchseries.to','mywatchseries.to','itswatchseries.to', 'ewatchseries.to']
+        self.base_link = 'http://2-watchseries.bypassed.st/'
+        self.search_link = 'http://2-watchseries.bypassed.st/search/%s' #'http://dwatchseries.to/show/search-shows-json'
+        self.search_link_2 = 'http://2-watchseries.bypassed.st/search/%s'
 
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
@@ -45,6 +46,7 @@ class source:
             r = client.request(self.search_link, post=p, XHR=True)
             try: r = json.loads(r)
             except: r = None
+            r = None
 
             if r:
                 r = [(i['seo_url'], i['value'], i['label']) for i in r if 'value' in i and 'label' in i and 'seo_url' in i]

@@ -152,7 +152,7 @@ class tvshows:
 
     def search(self):
         navigator.navigator().addDirectoryItem('[COLOR green]Click Here to Pair[/COLOR] - (Do this once every 4 hours)', 'pair', __icon__, 'DefaultFolder.png')
-        navigator.navigator().addDirectoryItem('New TV Show Search...', 'tvSearchnew', 'search.png', 'DefaultTVShows.png')
+        navigator.navigator().addDirectoryItem('[COLOR red]• [/COLOR][COLOR gold]New TV Show Search[/COLOR]...', 'tvSearchnew', 'search.png', 'DefaultTVShows.png')
         try: from sqlite3 import dbapi2 as database
         except: from pysqlite2 import dbapi2 as database
         
@@ -172,12 +172,13 @@ class tvshows:
         for (id,term) in dbcur.fetchall():
             if term not in str(lst):
                 delete_option = True
-                navigator.navigator().addDirectoryItem(term.title(), 'tvSearchterm&name=%s' % term, 'search.png', 'DefaultTVShows.png')
+                ntit = '[COLOR green]• [/COLOR]'+str(term.title())
+                navigator.navigator().addDirectoryItem(ntit, 'tvSearchterm&name=%s' % term, 'search.png', 'DefaultTVShows.png')
                 lst += [(term)]
         dbcur.close()
         
         if delete_option:
-            navigator.navigator().addDirectoryItem('Clear Search List', 'clearCacheSearch', 'tools.png', 'DefaultAddonProgram.png')
+            navigator.navigator().addDirectoryItem('[COLOR red]Clear Search List[/COLOR]', 'clearCacheSearch', 'tools.png', 'DefaultAddonProgram.png')
 
         navigator.navigator().endDirectory()
         
@@ -697,7 +698,7 @@ class tvshows:
                 name = name.encode('utf-8')
 
                 url = client.parseDOM(item, 'a', ret='href')[0]
-                url = url.split('/list/', 1)[-1].replace('/', '')
+                url = url.split('/list/', 1)[-1] #url = url.split('/list/', 1)[-1].replace('/', '')
                 url = self.imdblist_link % url
                 url = client.replaceHTMLCodes(url)
                 url = url.encode('utf-8')
@@ -1261,7 +1262,7 @@ class tvshows:
             except:
                 pass
 
-        control.content(syshandle, 'movies')
+        control.content(syshandle, 'tvshows')
         control.directory(syshandle, cacheToDisc=True)
 
 

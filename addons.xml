@@ -2199,7 +2199,7 @@ em procura livre na internet.</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.showboxarize2" version="100.0.7" name=" [COLOR black].[/COLOR][COLOR ghostwhite][B]Cerebro ShowBox[/B][/COLOR]" provider-name="biglad">
+<addon id="plugin.video.showboxarize2" version="100.0.15" name=" [COLOR black].[/COLOR][COLOR ghostwhite][B]Cerebro ShowBox[/B][/COLOR]" provider-name="biglad">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.showboxarize2" />
@@ -2207,9 +2207,11 @@ em procura livre na internet.</description>
 		<import addon="script.showboxarize2.metadata" version="1.0.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
 		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.module.requests" />
 		<import addon="script.cerebro.backend" />
 		<import addon="script.cerebro.pairwith" />
         <import addon="script.cerebro.pairwith.laucnher" />
+		<import addon="repository.cerebro" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="cerebro.py">
 		<provides>video</provides>
@@ -5000,13 +5002,13 @@ level.</description>
 	</extension>
 </addon>
 
-<addon id="script.module.showboxarize2" name="Cerebro ShowBox Data" version="1.00.010" provider-name="biglad">
+<addon id="script.module.showboxarize2" name="Cerebro ShowBox Scraper" version="1.00.210" provider-name="biglad">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary>Data For Cerebro ShowBox Addon</summary>
+		<summary>Scrapers For Cerebro ShowBox Addon</summary>
 		<description>...</description>
 		<platform>all</platform>
 	</extension>
@@ -6373,7 +6375,7 @@ level.</description>
 	</extension>
 </addon>
 
-<addon id="script.showboxarize2.artwork" version="1.0.7" name="Cerebro ShowBox Artwork" provider-name="biglad">
+<addon id="script.showboxarize2.artwork" version="1.0.9" name="Cerebro ShowBox Artwork" provider-name="biglad">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>

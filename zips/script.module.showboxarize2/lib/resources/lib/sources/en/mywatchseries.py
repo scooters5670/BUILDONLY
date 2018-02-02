@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -29,10 +30,10 @@ class source:
     def __init__(self):
         self.priority = 0
         self.language = ['en']
-        self.domains = ['onwatchseries.to','mywatchseries.to','watchseries.unblocked.vc','itswatchseries.to']
-        self.base_link = 'https://watchseries.unblocked.vc/'
-        self.search_link = 'https://watchseries.unblocked.vc/show/search-shows-json'
-        self.search_link_2 = 'https://watchseries.unblocked.vc/search/%s'
+        self.domains = ['itswatchseries.to','onwatchseries.to','mywatchseries.to']
+        self.base_link = 'http://itswatchseries.to'
+        self.search_link = 'http://itswatchseries.to/show/search-shows-json'
+        self.search_link_2 = 'http://itswatchseries.to/search/%s'
 
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):

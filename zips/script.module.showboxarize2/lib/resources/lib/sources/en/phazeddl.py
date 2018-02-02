@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -29,6 +30,7 @@ from resources.lib.modules import source_utils
 class source:
     def __init__(self):
         self.priority = 1
+        self.release = 1
         self.language = ['en']
         self.domains = ['tinydl.com', 'phazeddl.me']
         self.base_link = 'http://phazeddl.me/'

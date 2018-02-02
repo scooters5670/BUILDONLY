@@ -1,9 +1,8 @@
-# NEEDS FIXING
-
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -32,10 +31,9 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domains = ['xmovies8.tv', 'xmovies8.ru']
-        self.base_link = 'http://xmovies8.fm/'
-        self.search_base = 'http://xmovies8.fm/search-movies'
-        self.search_link = '/%s.html'
-        self.scraper = cfscrape.create_scraper()
+        self.base_link = 'https://xmovies8.es'
+        self.search_base = 'https://search.xmovies8.es'
+        self.search_link = '/?q=%s'
 
     def matchAlias(self, title, aliases):
         try:
@@ -54,75 +52,13 @@ class source:
         except:
             return
 
-    def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
-        try:
-            aliases.append({'country': 'us', 'title': tvshowtitle})
-            url = {'imdb': imdb, 'tvdb': tvdb, 'tvshowtitle': tvshowtitle, 'year': year, 'aliases': aliases}
-            url = urllib.urlencode(url)
-            return url
-        except:
-            return
-
-
-    def episode(self, url, imdb, tvdb, title, premiered, season, episode):
-        try:
-            if url == None: return
-            url = urlparse.parse_qs(url)
-            url = dict([(i, url[i][0]) if url[i] else (i, '') for i in url])
-            url['title'], url['premiered'], url['season'], url['episode'] = title, premiered, season, episode
-            url = urllib.urlencode(url)
-            return url
-        except:
-            return
-
-    def searchShow(self, title, season, year, aliases, headers):
-        try:
-            title = cleantitle.normalize(title)
-            t = cleantitle.get(title)
-            url = urlparse.urljoin(self.search_base, self.search_link % urllib.quote_plus(cleantitle.query('%s S%02d' % (title.replace('\'', '-'), int(season)))))
-            #sr = client.request(url, headers=headers, timeout='10')
-            sr = self.scraper.get(url).content
-            if sr:
-                r = client.parseDOM(sr, 'h2', attrs={'class': 'tit'})
-                r = [(client.parseDOM(i, 'a', ret='href'), client.parseDOM(i, 'a', ret='title')) for i in r]
-                r = [(i[0][0], i[1][0]) for i in r if len(i[0]) > 0 and len(i[1]) > 0]
-                r = [(i[0], re.findall('(.+?)\s+-\s+S(\d+)', i[1])) for i in r]
-                r = [(i[0], i[1][0][0], i[1][0][1]) for i in r if len(i[1]) > 0]
-                r = [i[0] for i in r if t == cleantitle.get(i[1]) and int(season) == int(i[2])][0]
-            else:
-                url = urlparse.urljoin(self.search_base, self.search_link % urllib.quote_plus(cleantitle.query('%s Season %01d' % (title.replace('\'', '-'), int(season)))))
-                #sr = client.request(url, headers=headers, timeout='10')
-                sr = self.scraper.get(url).content
-                if sr:
-                    r = client.parseDOM(sr, 'h2', attrs={'class': 'tit'})
-                    r = [(client.parseDOM(i, 'a', ret='href'), client.parseDOM(i, 'a', ret='title')) for i in r]
-                    r = [(i[0][0], i[1][0]) for i in r if len(i[0]) > 0 and len(i[1]) > 0]
-                    r = [(i[0], re.findall('(.+?)\s+-\s+Season\s+(\d+)', i[1])) for i in r]
-                    r = [(i[0], i[1][0][0], i[1][0][1]) for i in r if len(i[1]) > 0]
-                    r = [i[0] for i in r if t == cleantitle.get(i[1]) and int(season) == int(i[2])][0]
-                else:
-                    url = urlparse.urljoin(self.search_base, self.search_link % urllib.quote_plus(cleantitle.query('%s %01d' % (title.replace('\'', '-'), int(year)))))
-                    #sr = client.request(url, headers=headers, timeout='10')
-                    sr = self.scraper.get(url).content
-                    if sr:
-                        r = client.parseDOM(sr, 'h2', attrs={'class': 'tit'})
-                        r = [(client.parseDOM(i, 'a', ret='href'), client.parseDOM(i, 'a', ret='title')) for i in r]
-                        r = [(i[0][0], i[1][0]) for i in r if len(i[0]) > 0 and len(i[1]) > 0]
-                        r = [(i[0], re.findall('(.+?) \((\d{4})', i[1])) for i in r]
-                        r = [(i[0], i[1][0][0], i[1][0][1]) for i in r if len(i[1]) > 0]
-                        r = [i[0] for i in r if t == cleantitle.get(i[1]) and year == i[2]][0]
-            url = re.findall('(?://.+?|)(/.+)', r)[0]
-            url = client.replaceHTMLCodes(url)
-            return url.encode('utf-8')
-        except:
-            return
 
     def searchMovie(self, title, year, aliases, headers):
         try:
             title = cleantitle.normalize(title)
             url = urlparse.urljoin(self.search_base, self.search_link % (cleantitle.geturl(title.replace('\'', '-'))))
             #r = client.request(url, timeout='10', headers=headers)
-            r = self.scraper.get(url).content
+            r = client.request(url)
             r = client.parseDOM(r, 'h2', attrs={'class': 'tit'})
             r = [(client.parseDOM(i, 'a', ret='href'), client.parseDOM(i, 'a', ret='title')) for i in r]
             r = [(i[0][0], i[1][0]) for i in r if len(i[0]) > 0 and len(i[1]) > 0]
@@ -160,10 +96,8 @@ class source:
             url = urlparse.urljoin(self.base_link, url)
             url = re.sub('/watching.html$', '', url.strip('/'))
             url = url + '/watching.html'
-            
             #p = client.request(url, headers=headers, timeout='10')
-            p = self.scraper.get(url).content
-
+            p = client.request(url)
             if episode > 0:
                 r = client.parseDOM(p, 'div', attrs={'class': 'ep_link.+?'})[0]
                 r = zip(client.parseDOM(r, 'a', ret='href'), client.parseDOM(r, 'a'))
@@ -171,13 +105,13 @@ class source:
                 r = [(i[0], i[1][0]) for i in r]
                 r = [i[0] for i in r if int(i[1]) == episode][0]
                 #p = client.request(r, headers=headers, timeout='10')
-                p = self.scraper.get(url).content
+                p = client.request(url)
 
             referer = url
             id = re.findall('load_player\(.+?(\d+)', p)[0]
             r = urlparse.urljoin(self.base_link, '/ajax/movie/load_player_v3?id=%s' % id)
-            #r = client.request(r, headers=headers, referer=referer, XHR=True, timeout='10')
-            r = self.scraper.get(r).content
+            r = client.request(r, headers=headers, referer=referer, XHR=True, timeout='10')
+            #r = client.request(url)
             url = json.loads(r)['value']
             if (url.startswith('//')):
                 url = 'https:' + url
@@ -185,15 +119,17 @@ class source:
             if 'openload.io' in url or 'openload.co' in url or 'oload.tv' in url:
                 sources.append({'source': 'openload.co', 'quality': 'HD', 'language': 'en', 'url': url, 'direct': False,'debridonly': False})
                 raise Exception()
-
-            r = client.request(url, headers=headers, timeout='10')
+            r = client.request(url)
+            if len(r) == 0:
+                r = client.request(url, timeout=10)
             try:
                 src = json.loads(r)['playlist'][0]
                 links = re.findall('''file['"]:\s*u['"]([^'"]+)''', str(src))
                 for i in links:
+                    if 'googleapis' in i: continue 
                     try:
                         sources.append(
-                            {'source': 'gvideo', 'quality': 'SD', 'language': 'en',
+                            {'source': 'CDN', 'quality': 'SD', 'language': 'en',
                              'url': i, 'direct': True, 'debridonly': False})
                     except:
                         pass

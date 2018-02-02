@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -109,6 +110,7 @@ class source:
                     r = client.parseDOM(r, 'div', attrs = {'class': 'ml-item'})
                 r = zip(client.parseDOM(r, 'a', ret='href'), client.parseDOM(r, 'a', ret='title'), client.parseDOM(r, 'a', ret='data-url'))
                 
+                cltitle2 = None
                 if 'tvshowtitle' in data:                   
                     cltitle = cleantitle.get(title+'season'+season)
                     cltitle2 = cleantitle.get(title+'season%02d'%int(season))

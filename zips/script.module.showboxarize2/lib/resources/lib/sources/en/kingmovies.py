@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Filmnet Add-on (C) 2017
+    Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -32,8 +33,8 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domains = ['kingmovies.to']
-        self.base_link = 'https://kingmovies.pro/'
-        self.search_link = 'search?q=%s'
+        self.base_link = 'https://kingmovies.is'
+        self.search_link = '/search?q=%s'
         self.source_link = 'https://api.streamdor.co/sources'
 
     def matchAlias(self, title, aliases):

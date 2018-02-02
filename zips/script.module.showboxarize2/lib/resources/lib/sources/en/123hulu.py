@@ -33,8 +33,8 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domains = ['123hulu.com','123hulu.unblockall.org']
-        self.base_link = 'http://123hulu.unblockall.org'
-        self.movies_search_path = ('search-movies/%s.html')
+        self.base_link = 'http://123hulu.unblockall.org/'
+        self.movies_search_path = ('/search-movies/%s.html')
 
     def movie(self, imdb, title, localtitle, aliases, year):
         try:
