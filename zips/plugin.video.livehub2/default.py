@@ -1,5 +1,4 @@
 import os,xbmc
-
 addon_id   = 'plugin.video.livehub2'
 
 icon       = xbmc.translatePath(os.path.join('special://home/addons/' + addon_id, '/icon.png'))

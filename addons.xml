@@ -1841,7 +1841,7 @@ Initial release.
   </extension>
 </addon>
 
-<addon id="plugin.video.livehub2" name=" [COLOR black].[/COLOR][COLOR ghostwhite][B]Cerebro IPTV[/B][/COLOR]" version="10.57" provider-name="Biglad">
+<addon id="plugin.video.livehub2" name=" [COLOR black].[/COLOR][COLOR ghostwhite][B]Cerebro IPTV[/B][/COLOR]" version="10.59" provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
@@ -6995,7 +6995,7 @@ level.</description>
 	</extension>
 </addon>
 
-<addon id="script.tvguide.cerebrotv.uk.2017" name="Cerebro TV Guide FREE (EPG)" version="100.8" provider-name="Biglad-FREE VERSION">
+<addon id="script.tvguide.cerebrotv.uk.2017" name="Cerebro TV Guide FREE (EPG)" version="100.20" provider-name="Biglad-FREE VERSION">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
