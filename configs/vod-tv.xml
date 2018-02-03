@@ -115,6 +115,13 @@
 </plugin>
 
 <plugin>
+<title>[COLOR pink]ITV Player[/COLOR]</title>
+<link>plugin://plugin.video.itv</link>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
 <title>[COLOR pink]Classic British Comedy[/COLOR]</title>
 <link>plugin://plugin.video.yt-comedy/</link>
 <thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>

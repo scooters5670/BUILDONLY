@@ -66,13 +66,6 @@
 </plugin>
 
 <plugin>
-<title>[COLOR pink]Sky Cinema on Demand[/COLOR]</title>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-<link>plugin://plugin.video.streamhub/?action=channels</link>
-</plugin>
-
-<plugin>
 <title>[COLOR pink]Vidics New Movies[/COLOR]</title>
 <thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
@@ -94,20 +87,6 @@
 </plugin>
 
 <plugin>
-<title>[COLOR pink]Latest Movies in HD[/COLOR] (Bucky)</title>
-<link>plugin://plugin.video.Bucky/?fanart=https%3a%2f%2fdl.dropboxusercontent.com%2fs%2fg2kzpozf21nlwn3%2faddonfanart.jpg%3fdl%3d0&mode=1&name=%5bB%5d%5bCOLOR%20gold%5dBUCKYS%20NEW%20RELEASES%5b%2fCOLOR%5d%5b%2fB%5d&url=https%3a%2f%2fdl.dropboxusercontent.com%2fs%2fwwt6et60wqpa8ai%2fbuckynew.txt</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]Latest Movies in HD[/COLOR] (BoB)</title>
-<link>plugin://plugin.video.bob.unleashed/?description=No%20information%20available&fanart=http%3a%2f%2f178.32.217.111%2freloaded%2fthemes%2fmovies%2fmovies6.jpg&iconimage=http%3a%2f%2f178.32.217.111%2freloaded%2ficons%2fMain%2fMain-New-Releases.png&mode=get_list&name=New%20Releases&url=https%3a%2f%2fpastebin.com%2fraw%2fxa8hFS9Z</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
 <title>[COLOR pink]Latest Movies some HD[/COLOR] (Supremacy)</title>
 <link>plugin://plugin.video.supremacy/?fanart=http%3a%2f%2fstephen-builds.uk%2fart%2f20839702_10207884860798337_363786087_o.jpg&mode=1&name=%5bCOLOR%20aqua%5dNew%20Releases%5b%2fCOLOR%5d&url=http%3a%2f%2fstephen-builds.uk%2fsupremacy%2fNew%2520Releases%2fNew%2520Releases.txt</link>
 <thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
@@ -124,13 +103,6 @@
 <plugin>
 <title>[COLOR pink]4K Section[/COLOR] (CerebroTV)</title>
 <link>plugin://plugin.program.super.favourites/?content_type=video&fanart=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.program.super.favourites%5cfanart.jpg&image=special%3a%2f%2fhome%2faddons%2f23.png&label=%5bCOLOR%20black%5d4k%5b%2fCOLOR%5d&mode=400&path=special%3a%2f%2fprofile%2faddon_data%2fplugin.program.super.favourites%2fSuper%20Favourites%5c4k</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>[COLOR pink]Bucky's 3D Movies[/COLOR] (Need 3D TV)</title>
-<link>plugin://plugin.video.Bucky/?fanart=https%3a%2f%2fdl.dropboxusercontent.com%2fs%2fg2kzpozf21nlwn3%2faddonfanart.jpg%3fdl%3d0&mode=1&name=%5bB%5d%5bCOLOR%20gold%5dBUCKYS%203D%20MOVIES%5b%2fCOLOR%5d%5b%2fB%5d&url=https%3a%2f%2fdl.dropboxusercontent.com%2fs%2f9424aselh2hm6lo%2f3D.txt%3fdl%3d0</link>
 <thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
