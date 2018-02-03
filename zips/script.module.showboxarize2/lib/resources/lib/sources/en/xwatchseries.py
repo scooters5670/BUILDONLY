@@ -30,10 +30,10 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['itswatchseries.to','watchtvseries.unblckd.bet']
-        self.base_link = 'http://watchtvseries.unblckd.bet'
-        self.search_link = 'show/search-shows-json'
-        self.search_link_2 = 'search/%s'
+        self.domains = ['itswatchseries.to','watchtvseries.unblckd.bet','dwatchseries.to']
+        self.base_link = 'http://dwatchseries.to/'
+        self.search_link = '/show/search-shows-json'
+        self.search_link_2 = '/search/%s'
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
         try:

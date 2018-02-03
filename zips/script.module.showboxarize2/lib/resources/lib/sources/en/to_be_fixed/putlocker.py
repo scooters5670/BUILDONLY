@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-    #Cerebro ShowBox Scraper
-    Credits to Exodus and Covenant; our thanks go to their creators
+    Cerebro ShowBox Scraper
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -31,11 +30,10 @@ from resources.lib.modules import source_utils
 
 class source:
     def __init__(self):
-        self.priority = 1
+        self.priority = 0
         self.language = ['en']
-        self.domains = ['putlocker.systems', 'putlocker-movies.tv', 'cartoonhd.website', 'cartoonhd.online', 'cartoonhd.cc']
-        self.base_link = 'https://cartoonhd.biz/'
-        self.ajax_id = 'vsozrflxcw'
+        self.domains = ['putlocker.systems', 'putlocker-movies.tv', 'cartoonhd.website', 'cartoonhd.online', 'cartoonhd.cc','putlockertv.to','putlocker.unblocked.vc','cartoonhd.life','putlockers.global']
+        self.base_link = 'http://plocker.unblocked.lol'
 
     def movie(self, imdb, title, localtitle, aliases, year):
         try:
@@ -67,42 +65,27 @@ class source:
         except:
             return
 
-    def searchShow(self, title, year, season, episode, aliases, headers):
+    def searchShow(self, title, season, episode, aliases, headers):
         try:
             for alias in aliases:
-                url = '%s/show/%s-%s/season/%01d/episode/%01d' % (self.base_link, cleantitle.geturl(alias['title']), year, int(season), int(episode))
-                url = client.request(url, headers=headers, output='geturl', timeout='10')
+                url = '%s/show/%s/season/%01d/episode/%01d' % (self.base_link, cleantitle.geturl(alias['title']), int(season), int(episode))
+                url = client.request(url, headers=headers,output='geturl', timeout='10')
                 if not url == None and url != self.base_link: break
-            if url == None:
-                for alias in aliases:
-                    url = '%s/show/%s/season/%01d/episode/%01d' % (self.base_link, cleantitle.geturl(alias['title']), int(season), int(episode))
-                    url = client.request(url, headers=headers, output='geturl', timeout='10')
-                    if not url == None and url != self.base_link: break
             return url
         except:
             return
 
     def searchMovie(self, title, year, aliases, headers):
         try:
-        
-            url = '%s/full-movie/%s' % (self.base_link, cleantitle.geturl(title))
-            url = client.request(url, headers=headers, output='geturl', timeout='10')
-
-            if url == None:
-                url = '%s/full-movie/%s-%s' % (self.base_link, cleantitle.geturl(title), year)
+            for alias in aliases:
+                url = '%s/full-movie/%s' % (self.base_link, cleantitle.geturl(alias['title']))
                 url = client.request(url, headers=headers, output='geturl', timeout='10')
-            
+                if not url == None and url != self.base_link: break
             if url == None:
-
                 for alias in aliases:
-                    url = '%s/full-movie/%s' % (self.base_link, cleantitle.geturl(alias['title']))
+                    url = '%s/full-movie/%s-%s' % (self.base_link, cleantitle.geturl(alias['title']), year)
                     url = client.request(url, headers=headers, output='geturl', timeout='10')
                     if not url == None and url != self.base_link: break
-                if url == None:
-                    for alias in aliases:
-                        url = '%s/full-movie/%s-%s' % (self.base_link, cleantitle.geturl(alias['title']), year)
-                        url = client.request(url, headers=headers, output='geturl', timeout='10')
-                        if not url == None and url != self.base_link: break
 
             return url
         except:
@@ -123,7 +106,7 @@ class source:
             headers = {}
 
             if 'tvshowtitle' in data:
-                url = self.searchShow(title, data['year'], int(data['season']), int(data['episode']), aliases, headers)
+                url = self.searchShow(title, int(data['season']), int(data['episode']), aliases, headers)
             else:
                 url = self.searchMovie(title, data['year'], aliases, headers)
 
@@ -156,10 +139,10 @@ class source:
             headers['Accept-Encoding'] = 'gzip,deflate,br'
             headers['Referer'] = url
 
-            u = '/ajax/%s.php' % (self.ajax_id)
+            u = '/ajax/tnembedr.php'
             self.base_link = client.request(self.base_link, headers=headers, output='geturl')
-
             u = urlparse.urljoin(self.base_link, u)
+
             action = 'getEpisodeEmb' if '/episode/' in url else 'getMovieEmb'
 
             elid = urllib.quote(base64.encodestring(str(int(time.time()))).strip())
@@ -168,16 +151,18 @@ class source:
 
             idEl = re.findall('elid\s*=\s*"([^"]+)', result)[0]
 
-            post = {'action': action, 'idEl': idEl, 'token': token, 'nopop': '', 'elid': elid}
+            post = {'action': action, 'idEl': idEl, 'token': token, 'elid': elid}
             post = urllib.urlencode(post)
             cookie += ';%s=%s'%(idEl,elid)
             headers['Cookie'] = cookie
+
             r = client.request(u, post=post, headers=headers, cookie=cookie, XHR=True)
             r = str(json.loads(r))
             r = re.findall('\'(http.+?)\'', r) + re.findall('\"(http.+?)\"', r)
 
             for i in r:
-                urls = None
+                #try: sources.append({'source': 'gvideo', 'quality': directstream.googletag(i)[0]['quality'], 'language': 'en', 'url': i, 'direct': True, 'debridonly': False})
+                #except: pass
                 if 'googleusercontent' in i or 'blogspot' in i:
                     try:
                         newheaders = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
@@ -200,6 +185,7 @@ class source:
                         pass
 
                 try:
+                    #direct = False
                     quali = 'SD'
                     quali = source_utils.check_sd_url(i)
                     if 'googleapis' in i:
@@ -231,3 +217,4 @@ class source:
             return directstream.googlepass(url)
         else:
             return url
+
