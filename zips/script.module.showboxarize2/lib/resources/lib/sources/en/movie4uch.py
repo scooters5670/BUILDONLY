@@ -8,8 +8,8 @@
  # ----------------------------------------------------------------------------
 #######################################################################
 
-# Addon Name: Placenta
-# Addon id: plugin.video.placenta
+# #Cerebro ShowBox Scraper
+#Cerebro ShowBox Scraper
 # Addon Provider: MuadDib
 
 import re, urlparse, urllib

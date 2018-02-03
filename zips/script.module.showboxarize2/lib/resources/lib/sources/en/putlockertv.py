@@ -1,5 +1,5 @@
 '''
-    Covenant Add-on
+    Cerebro ShowBox Scraper
     Copyright (C) 2017 Covenant
 
     This program is free software: you can redistribute it and/or modify

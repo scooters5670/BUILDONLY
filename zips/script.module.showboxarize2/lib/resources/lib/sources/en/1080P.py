@@ -8,8 +8,8 @@
  # ----------------------------------------------------------------------------
 #######################################################################
 
-# Addon Name: Placenta
-# Addon id: plugin.video.placenta
+# #Cerebro ShowBox Scraper
+#Cerebro ShowBox Scraper
 # Addon Provider: MuadDib
 
 
@@ -25,7 +25,7 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domains = ['1080pmovie.com']
-        self.base_link = 'https://1080pmovie.com'
+        self.base_link = 'https://1080pmovie.com/'
         self.search_link = '%s/wp-json/wp/v2/posts?search=%s'
 
 

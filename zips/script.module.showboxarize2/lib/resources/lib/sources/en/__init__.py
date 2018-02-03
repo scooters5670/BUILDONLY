@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-    Filmnet Add-on (C) 2017
+    #Cerebro ShowBox Scraper
     Credits to Exodus and Covenant; our thanks go to their creators
     Copyright (C) 2017 Filmnet
 

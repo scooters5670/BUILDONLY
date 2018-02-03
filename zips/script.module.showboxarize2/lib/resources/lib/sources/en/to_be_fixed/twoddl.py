@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    #Cerebro ShowBox Scraper
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -31,7 +31,7 @@ class source:
         self.language = ['en']
         self.domains = ['iiddl.com','iiddl.net']
         self.base_link = 'http://iiddl.net'
-        self.search_link = '/?s=%s' #'/search/%s/feed/rss2/'
+        self.search_link = '/search/%s/feed/rss2/'
 
 
     def movie(self, imdb, title, localtitle, aliases, year):

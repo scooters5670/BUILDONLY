@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 
 '''
-    Fantastic Add-on
+    #Cerebro ShowBox Scraper
 
 
     This program is free software: you can redistribute it and/or modify

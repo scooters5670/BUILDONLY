@@ -3,7 +3,7 @@
 # Broken - Needs fixing by manually creating the cookie from the first page.
 
 '''
-    Filmnet Add-on (C) 2017
+    Cerebro ShowBox Scraper
     Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-    Filmnet Add-on (C) 2017
+    Cerebro ShowBox Scraper
     Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
@@ -33,7 +33,7 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['movie4k.unblocked.pl']
+        self.domains = ['movie4k.unblocked.vc']
         self._base_link = None
         self.search_link = '/movies.php?list=search&search=%s'
 

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Covenant Add-on
+    Cerebro ShowBox Scraper
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -29,8 +29,8 @@ class source:
     def __init__(self):
         self.priority = 0
         self.language = ['en']
-        self.domains = ['icefilms.info','icefilms.unblocked.pro','icefilms.unblocked.vc','icefilms.unblocked.vc']
-        self.base_url = 'https://icefilms1.unblocked.lol/'
+        self.domains = ['icefilms.info','icefilms.unblocked.pro','icefilms.unblocked.vc','icefilms.unblocked.vc','ice.unblocked.lol']
+        self.base_url = 'https://ice.unblocked.lol/'
         self.search_link = urlparse.urljoin(self.base_url, 'search.php?q=%s+%s&x=0&y=0')
         self.list_url = urlparse.urljoin(self.base_url, 'membersonly/components/com_iceplayer/video.php?h=374&w=631&vid=%s&img=')
         self.post = 'id=%s&s=%s&iqs=&url=&m=%s&cap= &sec=%s&t=%s'

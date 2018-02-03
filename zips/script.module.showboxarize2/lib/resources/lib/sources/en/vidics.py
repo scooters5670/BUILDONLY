@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Filmnet Add-on (C) 2017
+    Cerebro ShowBox Scraper
     Credits to Exodus and Covenant; our thanks go to their creators
 
     This program is free software: you can redistribute it and/or modify
@@ -32,7 +32,7 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domains = ['vidics.to','vidics.unblocked.pl']
-        self.base_link = 'https://vidics.unblocked.pl'
+        self.base_link = 'https://vidics.unblocked.vc/'
         self.search_link = urlparse.urljoin(self.base_link, 'searchSuggest/FilmsAndTV/%s')
                        
     def movie(self, imdb, title, localtitle, aliases, year):
