@@ -3900,7 +3900,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="script.cachesystem"
   name="Cache System"
-  version="1.9"
+  version="2.0"
   provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
@@ -6487,7 +6487,7 @@ level.</description>
 
 <addon id="script.program.menurefresh"
   name="CerebroTV Menu Updater"
-  version="1.9"
+  version="2.0"
   provider-name="biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

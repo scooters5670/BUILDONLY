@@ -36,7 +36,7 @@ with open(file99, 'r') as myfile:
     boxid=myfile.read()
  
 timer = 10
-xbmc.executebuiltin('RunAddon(script.program.megatvhousekeeper)') 
+#xbmc.executebuiltin('RunAddon(script.program.megatvhousekeeper)') 
 def UpdateCheck():
     xbmc.executebuiltin("XBMC.AlarmClock('MTVBCS',XBMC.RunAddon(script.cachesystem),45,silent)")
     try:
