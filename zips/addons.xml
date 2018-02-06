@@ -3939,7 +3939,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="script.cerebro.backend"
   name="CerebroTV BackEnd System"
-  version="2.6"
+  version="2.7"
   provider-name="Biglad">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -5099,7 +5099,7 @@ level.</description>
 	</extension>
 </addon>
 
-<addon id="script.module.showboxarize2" name="Cerebro ShowBox Scraper" version="1.00.402" provider-name="biglad">
+<addon id="script.module.showboxarize2" name="Cerebro ShowBox Scraper" version="1.00.403" provider-name="biglad">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>

@@ -4,7 +4,7 @@ import os
 import xbmcgui
 import urllib2
 import random
-
+ext()
 time = [115,120,125]
 ntime  = random.choice(time)
 header_data = [
