@@ -22,6 +22,20 @@
 <fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
 </plugin>
 
+<plugin>
+<title>[COLOR pink]Animie Movies & Shows[/COLOR]</title>
+<link>plugin://plugin.video.cartoongo</link>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>[COLOR pink]Animie Movies & Shows[/COLOR] Version 2</title>
+<link>plugin://plugin.video.animego</link>
+<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
+</plugin>
+
 <dir>
 <name>[COLOR pink]Kids Youtube Channels[/COLOR]</name>
 <link>https://raw.githubusercontent.com/biglad/BUILDONLY/master/configs/KidsYouTube.xml</link>
