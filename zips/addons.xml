@@ -3065,6 +3065,19 @@ Skin and code for skin by Demonstratorz</description>
 	</extension>
 </addon>
 
+<addon id="repository.alleidun" version="1.0.0" name="Alleidun's repository" provider-name="Alleidun">
+	<extension point="xbmc.addon.repository" name="Alleidun's repository">
+		<info compressed="false">https://offshoregit.com/Alleidun/addons.xml</info>
+		<checksum>https://offshoregit.com/Alleidun/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/Alleidun/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Alleidun's repository</summary>
+		<description lang="en">Alleidun's repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 
 <addon id="repository.bear" name="PBear Repository" version="1.00" provider-name="PBear">
 	<extension point="xbmc.addon.repository" name="The Community Repository">
@@ -3242,6 +3255,20 @@ Skin and code for skin by Demonstratorz</description>
             <description>Deliverance Repo</description>
             <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="repository.dk-xbmc-repaddon" name="dk-xbmc-repaddon Add-on Repository" version="1.0.5" provider-name="dk-xbmc-repaddon">
+	<extension point="xbmc.addon.repository" name="dk-xbmc-repaddon Add-on Repository">
+		<info compressed="false">http://raw.githubusercontent.com/dknlght/dkodi/master/addons.xml</info>
+		<checksum>http://raw.githubusercontent.com/dknlght/dkodi/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.githubusercontent.com/dknlght/dkodi/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from dk Add-on Repository</summary>
+		<description>Video plug-ins for XBMC</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="repository.elysium" version="2017.06.10" name="Elysium repository" provider-name="Elysium">
