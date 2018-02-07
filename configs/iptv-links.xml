@@ -139,7 +139,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.19
 <title>Sky One</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20One%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2febcd8ef93fa99c4834d0cc3275f3dcd7.m3u8::LISTNAME:Sky One (Blocked in UK During EPL Games)::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/189::LISTNAME:Sky One::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/189::LISTNAME:Sky One (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSKYONE%2Fplaylist.m3u8::LISTNAME:Sky One::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/79832_sky11.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -183,7 +183,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY2w::LISTNAME:Sky Livi
 <item>
 <title>Sky Arts</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/191::LISTNAME:Sky Arts::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/191::LISTNAME:Sky Arts (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Arts%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f19720b905499b5bc8ff1c34eeb6c6e91.m3u8::LISTNAME:Sky Arts (Blocked in UK During EPL Games)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040113sky%20arts1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -205,7 +205,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDMww::LISTNAME:Gold::#
 <title>PICK</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDc1w::LISTNAME:Pick UK::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/650::LISTNAME:Pick UK::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/650::LISTNAME:Pick UK (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/pick.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -215,7 +215,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/650::LISTNAME:Pick UK::#
 <title>4Seven</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvplayer/?url=565&amp;mode=200&amp;name=%5BCOLOR+royalblue%5D4Seven%5B%2FCOLOR%5D+-+%5BCOLOR+white%5DLocation%2C+Location%2C+Location%5B%2FCOLOR%5D&amp;iconimage=https%3A%2F%2Fassets.tvplayer.com%2Fcommon%2Flogos%2F256%2FColour%2F565.png&amp;description=Phil+Spencer+helps+a+couple+who+are+at+loggerheads+over+their+priorities+for+their+next+property%2C+with+Becki+wanting+a+ready-to-move-into+family+home%2C+while+Craig+is+looking+for+a+bargain+project+in+the+popular+suburbs+of+south+Manchester.+Kirstie+Allsopp+meets+newlyweds+Chris+and+Amy+in+Cheshire%2C+who+are+looking+to+buy+their+first+home+together+and+want+something+semi-rural+in+pricey+areas+including+Knutsford%2C+Lymm+and+Frodsham.&amp;genre=Entertainment::LISTNAME:4 Seven::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/501::LISTNAME:4 Seven::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/501::LISTNAME:4 Seven (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>https://assets.tvplayer.com/common/logos/256/Colour/565.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -341,7 +341,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUww::LISTNAME:Really::
 <title>TLC</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/d7aa295db6f5a09cc47f862d7042dd64::LISTNAME:TLC::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/288::LISTNAME:TLC::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/288::LISTNAME:TLC (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2FTLC%2Fplaylist.m3u8::LISTNAME:TLC::#
 </link>
 <thumbnail>https://i.imgur.com/jD8E5A6.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -353,7 +353,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.15
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/8371f16a5529228ac3dda62ea9ffb0e4::LISTNAME:DMAX::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.194%3A7071%2Fserver%2Fdmax%2Fplaylist.m3u8::LISTNAME:DMAX::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/97::LISTNAME:DMAX::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/97::LISTNAME:DMAX (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>https://k60.kn3.net/CD4655D85.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -362,7 +362,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/97::LISTNAME:DMAX::#
 <item>
 <title>Investigation Discovery (ID)</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/249::LISTNAME:Investigation Discovery::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/249::LISTNAME:Investigation Discovery (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/cf723f822ded11e60e6bb78f16c327c8::LISTNAME:Investigation Discovery::#
 </link>
 <thumbnail>https://k61.kn3.net/2/4/3/A/C/D/AD0.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -384,7 +384,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.31
 <title>Discovery Science</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FDiscoveryScience%2Fplaylist.m3u8::LISTNAME:Discovery Science::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/93::LISTNAME:Discovery Science::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/93::LISTNAME:Discovery Science (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/49109_discoveryscience1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -414,7 +414,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/ccb7de5c42461be
 <title>Animal Planet</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fanimalplanet.php%2526title%3DAnimal+Planet%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Animal Planet::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/30::LISTNAME:Animal Planet::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/30::LISTNAME:Animal Planet (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/b39899a4d7a8537a3fb9a4b36a364642::LISTNAME:Animal Planet::#
 </link>
 <thumbnail>https://k60.kn3.net/12E42B0E1.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -425,7 +425,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/b39899a4d7a8537
 <title>Travel Channel</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/614452655bc157322106de2e209a2853::LISTNAME:Travel Channel::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/230::LISTNAME:Travel Channel::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/230::LISTNAME:Travel Channel (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=126&amp;mode=2&amp;name=Travel+Channel::LISTNAME:Travel Channel::#
 </link>
 <thumbnail>https://static1.squarespace.com/static/570feabe22482e8e386f0385/570ff5182b8ddef633276114/57704a86d2b857e35787a860/1466976918144/travel-channel-logo.jpg?format=750w|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -457,7 +457,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/ceebc66a0265f56
 <title>Quest</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=327&amp;mode=2&amp;name=QUEST::LISTNAME:Quest::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/177::LISTNAME:Quest::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/177::LISTNAME:Quest (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2Fserver4.servep2p.com%3A7071%2Fserver%2Fquest%2Fplaylist.m3u8::LISTNAME:Quest::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F639.ts/QUEST-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fquest_us_plus1.jpg::LISTNAME:Quest::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/07bf513a88c3df282a30cb374f8a933d::LISTNAME:Quest::#
@@ -489,7 +489,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.15
 <item>
 <title>Sky News</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/203::LISTNAME:Sky News::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/203::LISTNAME:Sky News (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.youtube/play/?video_id=XOacA3RYrXk::LISTNAME:Sky News::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20News%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3b7dd11b6654dd5f35745285ededdbd9.m3u8::LISTNAME:Sky News (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/news/3b7dd11b6654dd5f35745285ededdbd9::LISTNAME:Sky News::#
@@ -573,7 +573,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.19
 <title>MTV Hits</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FMTVHits%2Fplaylist.m3u8::LISTNAME:MTV Hits::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/152::LISTNAME:MTV Hits::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/152::LISTNAME:MTV Hits (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/93265_mtvhits1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -583,7 +583,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/152::LISTNAME:MTV Hits::#
 <title>MTV Dance</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FMTVDance%2Fplaylist.m3u8::LISTNAME:MTV Dance::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/295::LISTNAME:MTV Dance::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/295::LISTNAME:MTV Dance (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/2672617afdf44cdfe0bef6f41856c920::LISTNAME:MTV Dance::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dMTV%20Dance%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2672617afdf44cdfe0bef6f41856c920.m3u8::LISTNAME:MTV Dance (Blocked in UK During EPL Games)::#
 </link>
@@ -594,7 +594,7 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3
 <item>
 <title>MTV Rocks</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/296::LISTNAME:MTV Rocks::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/296::LISTNAME:MTV Rocks (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/38b937a77d8587999c0e1d1d13d9a37c::LISTNAME:MTV Rocks::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/290616023224mtvr.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -604,7 +604,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/music/38b937a77d8587999c
 <item>
 <title>VH1</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/239::LISTNAME:VH1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/239::LISTNAME:VH1 (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2Fserver4.servep2p.com%3A7071%2Fserver%2Fvh1uk%2Fplaylist.m3u8::LISTNAME:VH1::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116043534vh1.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -617,7 +617,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2Fserver4.serve
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesdisney.php%2526title%3DSky+Cinema+Disney%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Disney::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSKYMOVIESDISNEY%2Fplaylist.m3u8::LISTNAME:Sky Cinema Disney::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Disney%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2ffb2cde6e0410cf537a19800bd19261f0.m3u8::LISTNAME:Sky Cinema Disney (Blocked in UK During EPL Games)::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/194::LISTNAME:Sky Cinema Disney::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/194::LISTNAME:Sky Cinema Disney (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040235disn.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -629,7 +629,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/194::LISTNAME:Sky Cinema Dis
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesshowcase.php%2526title%3DSky+Cinema+Showcase%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Showcase::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Premiere%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3265682a41f442e5a4164e9b26393634.m3u8::LISTNAME:Sky Cinema Showcase (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesPremiere%2Fplaylist.m3u8::LISTNAME:Sky Cinema Showcase::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Showcase::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Showcase (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040916premi.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -642,7 +642,7 @@ sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-premiere%2526title%3DSky+Cinema+Premiere%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Premiere::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Premiere%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3265682a41f442e5a4164e9b26393634.m3u8::LISTNAME:Sky Cinema Premiere (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesPremiere%2Fplaylist.m3u8::LISTNAME:Sky Cinema Premiere::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Premiere::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Premiere (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040916premi.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -652,7 +652,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Pre
 <title>Sky Cinema Showcase</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Showcase%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb6f08ad1b0976d993e116cbb72aef8bd.m3u8::LISTNAME:Sky Cinema Showcase (Blocked in UK During EPL Games)::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/255::LISTNAME:Sky Cinema Showcase::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/255::LISTNAME:Sky Cinema Showcase (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/070216063533show.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -664,7 +664,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/255::LISTNAME:Sky Cinema Sho
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesfamily.php%2526title%3DSky+Cinema+Family%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Family::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Family%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3caed59e3b7e405b3a802cc480a14e32.m3u8::LISTNAME:Sky Cinema Family (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyFamily%2Fplaylist.m3u8::LISTNAME:Sky Cinema Family::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/200::LISTNAME:Sky Cinema Family::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/200::LISTNAME:Sky Cinema Family (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040807famil.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -674,7 +674,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/200::LISTNAME:Sky Cinema Fam
 <title>Sky Cinema Drama</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Drama%20%26%20Romance%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f5081d68d4054bc9209ec2bb1c5ff5eef.m3u8::LISTNAME:Sky Cinema Drama (Blocked in UK During EPL Games)::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/199::LISTNAME:Sky Cinema Drama::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/199::LISTNAME:Sky Cinema Drama (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040745drama.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -686,7 +686,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/199::LISTNAME:Sky Cinema Dra
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesaction.php%2526title%3DSky+Cinema+Action%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Action::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Action%20%26%20Adventure%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3c909c9218961b2ecfdd5f44a89a90b8.m3u8::LISTNAME:Sky Cinema Action (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesAction%2Fplaylist.m3u8::LISTNAME:Sky Cinema Action::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/196::LISTNAME:Sky Cinema Action::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/196::LISTNAME:Sky Cinema Action (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040508action.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -698,7 +698,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/196::LISTNAME:Sky Cinema Act
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviescomedy.php%2526title%3DSky+Cinema+Comedy%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Comedy::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Comedy%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc168262cf8b9775300da0b79b2199ee6.m3u8::LISTNAME:Sky Cinema Comedy (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyComedy%2Fplaylist.m3u8::LISTNAME:Sky Cinema Comedy::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/197::LISTNAME:Sky Cinema Comedy::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/197::LISTNAME:Sky Cinema Comedy (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/26959_skycomdey1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -710,7 +710,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/197::LISTNAME:Sky Cinema Com
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviescrime.php%2526title%3DSky+Cinema+Crime%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Crime::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Crime%20%26%20Thriller%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa84271250d9dc93c1edc84874552d6c7.m3u8::LISTNAME:Sky Cinema Crime (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesCrime%2Fplaylist.m3u8::LISTNAME:Sky Cinema Crime::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/198::LISTNAME:Sky Cinema Crime::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/198::LISTNAME:Sky Cinema Crime (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040646crime.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -721,7 +721,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/198::LISTNAME:Sky Cinema Cri
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Sci-fi%20Horror%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f20abccafd4a26b6fce57df892e5040be.m3u8::LISTNAME:Sky Cinema Sci-Fi (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesSciFiHorror%2Fplaylist.m3u8::LISTNAME:Sky Cinema Sci-Fi::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/202::LISTNAME:Sky Cinema Sci-Fi::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/202::LISTNAME:Sky Cinema Sci-Fi (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116040946horror.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -732,7 +732,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/202::LISTNAME:Sky Cinema Sci
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesselect.php%2526title%3DSky+Cinema+Select%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Select::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Select%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f760670eeaaa3e62adc1989fee2e8b259.m3u8::LISTNAME:Sky Cinema Select (Blocked in UK During EPL Games)::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/254::LISTNAME:Sky Cinema Select::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/254::LISTNAME:Sky Cinema Select (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/070216062955select_1426076182.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -743,7 +743,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/254::LISTNAME:Sky Cinema Sel
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20(Modern%20Greats)%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa2d025900c268045e4e2da567a8c3f9b.m3u8::LISTNAME:Sky Cinema Modern Greats (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesGreats%2Fplaylist.m3u8::LISTNAME:Sky Cinema Modern Greats::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/253::LISTNAME:Sky Cinema Modern Greats::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/253::LISTNAME:Sky Cinema Modern Greats (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/070216062713greats.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -752,7 +752,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/253::LISTNAME:Sky Cinema Mod
 <item>
 <title>TCM</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/292::LISTNAME:TCM::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/292::LISTNAME:TCM (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTCM%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f1debc5c648b7d2fa58d76d8e90f314a9.m3u8::LISTNAME:TCM (Blocked in UK During EPL Games)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/290616022825tcm.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -763,7 +763,7 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3
 <title>Film 4</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFilm%204%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f0f2c179db3d0e356f8615dde513bc4aa.m3u8::LISTNAME:Film 4 (Blocked in UK During EPL Games)::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/112::LISTNAME:Film 4::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/112::LISTNAME:Film 4 (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=film4&amp;mode=13&amp;name=Film4::LISTNAME:Film 4::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116044643film.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -785,7 +785,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjU5w::LISTNAME:True Mov
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/abr_hdtv/ak/cbeebies_hd.m3u8&amp;mode=9999&amp;name=CBeebies&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:CBeebies (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F4696.ts/BBC%20CBEEBIES%20UK-KDZ/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Fbbc_cbeebies.jpg::LISTNAME:CBeebies::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/498::LISTNAME:CBeebies::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/498::LISTNAME:CBeebies (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>https://pbs.twimg.com/profile_images/851480480700669952/5ttz9hg1.jpg</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -805,7 +805,7 @@ sublink:LISTSOURCE:plugin://plugin.video.filmon.simple/?url=http%3A%2F%2Fwww.fil
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fdisneyjunior.php%2526title%3DDisney+JR%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Disney Junior::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dDisney%20Junior%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe6e17fbb85e77c0eabc0ed20d6b8799e.m3u8::LISTNAME:Disney Junior (Blocked in UK During EPL Games)::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/96::LISTNAME:Disney Junior::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/96::LISTNAME:Disney Junior (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116014600disj.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -866,7 +866,7 @@ sublink:LISTSOURCE:plugin://plugin.video.filmon.simple/?url=http%3A%2F%2Fwww.fil
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fdisneyxd.php%2526title%3DDisney+XD%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Disney XD::#
 sublink:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FDisney-XD-77%2526title%3DDisney+XD+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Disney XD::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FDisneyXD%2Fplaylist.m3u8::LISTNAME:Disney XD::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/250::LISTNAME:Disney XD::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/250::LISTNAME:Disney XD (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/78312_DisneyXD1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -894,7 +894,7 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk
 <title>Nick Toons</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNicktoons%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa5c568b3ed1bce30903f6092519ef949.m3u8::LISTNAME:Nick Toons (Blocked in UK During EPL Games)::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/166::LISTNAME:Nick Toons::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/166::LISTNAME:Nick Toons (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116021120nicktoons.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -904,7 +904,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/166::LISTNAME:Nick Toons::#
 <title>Disney Channel</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dDisney%20Channel%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f14b7d3edf41bba55aebd39254e3a0100.m3u8::LISTNAME:Disney Channel (Blocked in UK During EPL Games)::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/95::LISTNAME:Disney Channel::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/95::LISTNAME:Disney Channel (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116012005disnep.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -960,7 +960,7 @@ sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.
 <item>
 <title>RTE 1</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/179::LISTNAME:RTE 1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/179::LISTNAME:RTE 1 (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDQ2w::LISTNAME:RTE 1::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dRTE%201%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2c3bc07df7606365a0c449d3193cefe8.m3u8::LISTNAME:RTE 1 (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F641.ts/RTE%201-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Frte_one.jpg::LISTNAME:RTE 1::#
@@ -975,7 +975,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F642.ts/RTE%202-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Frte_2_ie.jpg::LISTNAME:RTE 2::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dRTE%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f36fc922224816d18332eb55b897746ba.m3u8::LISTNAME:RTE 2 (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjcyw::LISTNAME:RTE 2::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/180::LISTNAME:RTE 2::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/180::LISTNAME:RTE 2 (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116035301rte2.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -985,7 +985,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/180::LISTNAME:RTE 2::#
 <title>TG4</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTG4%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fcd7247622a163a95d54994da83ee69fd.m3u8::LISTNAME:TG4 (Blocked in UK During EPL Games)::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/226::LISTNAME:TG4::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/226::LISTNAME:TG4 (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116042814tg4.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1005,7 +1005,7 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.ddns.net%3A25461%2Flive%2Fdata%2Fask%2F591.ts/3E-EN/http%3A%2F%2Flogosforapp.ddns.net%2Flogo%2Ftv3_ie_e.jpg::LISTNAME:3e::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjcww::LISTNAME:3e::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/379::LISTNAME:3e::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/379::LISTNAME:3e (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/2001170312593e.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1038,7 +1038,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/379::LISTNAME:3e::#
 <item>
 <title>TBS</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/222::LISTNAME:TBS::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/222::LISTNAME:TBS (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dTBS%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc370dca571a8e9eeb48104236808fe8d.m3u8::LISTNAME:TBS (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDY3w::LISTNAME:TBS::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2Fserver4.servep2p.com%3A7071%2Fserver%2Ftbs%2Fplaylist.m3u8::LISTNAME:TBS::#
@@ -1266,7 +1266,7 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3
 <item>
 <title>History</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/133::LISTNAME:History::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/133::LISTNAME:History (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/46577_history.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1353,7 +1353,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTExw::LISTNAME:BT Sport
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2Fserver4.servep2p.com%3A7071%2Fserver%2Fbt1%2Fplaylist.m3u8::LISTNAME:BT Sports 1::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fbt1sd%2Fplaylist.m3u8::LISTNAME:BT Sports 1::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fbt1hd%2Fplaylist.m3u8::LISTNAME:BT Sports 1::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/59::LISTNAME:BT Sports 1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/59::LISTNAME:BT Sports 1 (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/49801_bt1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1371,7 +1371,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTEyw::LISTNAME:BT Sport
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fbt2%2Fplaylist.m3u8::LISTNAME:BT Sports 2::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fbt2sd%2Fplaylist.m3u8::LISTNAME:BT Sports 2::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fbt2hd%2Fplaylist.m3u8::LISTNAME:BT Sports 2::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/60::LISTNAME:BT Sports 2::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/60::LISTNAME:BT Sports 2 (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115549bt2.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1389,7 +1389,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NTI2w::LISTNAME:BT Sport
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fbt3%2Fplaylist.m3u8::LISTNAME:BT Sports 3::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fbt3sd%2Fplaylist.m3u8::LISTNAME:BT Sports 3::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fbt3hd%2Fplaylist.m3u8::LISTNAME:BT Sports 3::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/298::LISTNAME:BT Sports 3::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/298::LISTNAME:BT Sports 3 (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/270916013607bt3.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1402,7 +1402,7 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33RaaaBeetYywEespeen%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+ESPN&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports ESPN::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUzw::LISTNAME:BT Sports ESPN::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.153%3A7071%2Fserver%2Fbtespn%2Fplaylist.m3u8::LISTNAME:BT Sports ESPN::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/107::LISTNAME:BT Sports ESPN::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/107::LISTNAME:BT Sports ESPN (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/bt_sport_espn.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1414,7 +1414,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/107::LISTNAME:BT Sports ESPN
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskysportsmainevent.php%2526title%3DSky+Sports+Main+Event%2526referer%3Dreferer%3Dhttp%3A%2F%2Ffreeitvonline.com%2F&amp;mode=12::LISTNAME:Sky Sports Main::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTM=w::LISTNAME:Sky Sports Main::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp1%2Fplaylist.m3u8::LISTNAME:Sky Sports Main::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/204::LISTNAME:Sky Sports Main::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/204::LISTNAME:Sky Sports Main (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/43621_skymainevent.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1427,7 +1427,7 @@ sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttp%3A%2F%2Fmamahd.com%2Fp%2Fmama.php%3Fid%3D17806%26match%3B%3DSky%2520Sports%2520Football%2520vs%2520%2526title%3DSky+Sports+Football+SD%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Sports Football::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTgyw::LISTNAME:Sky Sports Football::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.137%3A7071%2Fserver%2Fskysp7%2Fplaylist.m3u8::LISTNAME:Sky Sports Football::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/410::LISTNAME:Sky Sports Football::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/410::LISTNAME:Sky Sports Football (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/270717102848foot1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1440,7 +1440,7 @@ sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.
 sublink:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttp%3A%2F%2Fmamahd.com%2Fp%2Fmama.php%3Fid%3D17805%26match%3B%3DSky%2520Sports%2520Premier%2520League%2520vs%2520%2526title%3DSky+Sports+Premier+League+SD%2526referer%3Dreferer%3Dhttp%3A%2F%2Ffreeitvonline.com%2F&amp;mode=12::LISTNAME:Sky Sports Premier League::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTY=w::LISTNAME:Sky Sports Premier League::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp5%2Fplaylist.m3u8::LISTNAME:Sky Sports Premier League::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/208::LISTNAME:Sky Sports Premier League::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/208::LISTNAME:Sky Sports Premier League (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/sky_sp_premier.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1452,7 +1452,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/208::LISTNAME:Sky Sports Pre
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskysportscricket.php%2526title%3DSky+Sports+Cricket%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Sky Sports Cricket::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTQ=w::LISTNAME:Sky Sports Cricket::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp2%2Fplaylist.m3u8::LISTNAME:Sky Sports Cricket::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/205::LISTNAME:Sky Sports Cricket::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/205::LISTNAME:Sky Sports Cricket (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717080620skycric.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1464,7 +1464,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/205::LISTNAME:Sky Sports Cri
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskysportsgolf.php%2526title%3DSky+Sports+Golf%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Sky Sports Golf::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTg=w::LISTNAME:Sky Sports Golf::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp4%2Fplaylist.m3u8::LISTNAME:Sky Sports Golf::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/207::LISTNAME:Sky Sports Golf::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/207::LISTNAME:Sky Sports Golf (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/sky_sp_golf.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1477,7 +1477,7 @@ sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Sports%20F1%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f343b4b2909705b5f5babe196c05c7895.m3u8::LISTNAME:Sky Sports F1 (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUxw::LISTNAME:Sky Sports F1::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysportsf1%2Fplaylist.m3u8::LISTNAME:Sky Sports F1::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/209::LISTNAME:Sky Sports F1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/209::LISTNAME:Sky Sports F1 (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717081443f12.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1489,7 +1489,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/209::LISTNAME:Sky Sports F1:
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskysportsaction.php%2526title%3DSky+Sports+Action%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Sports Action::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTU=w::LISTNAME:Sky Sports Action::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp3%2Fplaylist.m3u8::LISTNAME:Sky Sports Action::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/206::LISTNAME:Sky Sports Action::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/206::LISTNAME:Sky Sports Action (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717080926act3.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1500,7 +1500,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/206::LISTNAME:Sky Sports Act
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTgzw::LISTNAME:Sky Sports Arena::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp6%2Fplaylist.m3u8::LISTNAME:Sky Sports Arena::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/411::LISTNAME:Sky Sports Arena::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/411::LISTNAME:Sky Sports Arena (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/270717102912arena1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1511,7 +1511,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/411::LISTNAME:Sky Sports Are
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NTgww::LISTNAME:Sky Sports Mix::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fskymix%2Fplaylist.m3u8::LISTNAME:Sky Sports Mix::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/308::LISTNAME:Sky Sports Mix::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/308::LISTNAME:Sky Sports Mix (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717081554mix2.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1524,7 +1524,7 @@ sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskysportsnews.php%2526title%3DSky+Sports+News+SD%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Sports News::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/ODExw::LISTNAME:Sky Sports News::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskyspnews%2Fplaylist.m3u8::LISTNAME:Sky Sports News::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/210::LISTNAME:Sky Sports News::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/210::LISTNAME:Sky Sports News (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200717081653news1.jpeg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1536,7 +1536,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/210::LISTNAME:Sky Sports New
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FPremier-Sports-89%2526title%3DPremier+Sports+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Premier Sports::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dPremier%20Sports%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2d18f483dbcf20bf0cc41b916f026d6b.m3u8::LISTNAME:Premier Sports (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDE0w::LISTNAME:Premier Sports::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/170::LISTNAME:Premier Sports::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/170::LISTNAME:Premier Sports (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116033917prem.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1547,7 +1547,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/170::LISTNAME:Premier Sports
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBox%20Nation%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f96433d4a4b7fe9fdddcc23da704dce11.m3u8::LISTNAME:Box Nation (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTE5w::LISTNAME:Box Nation::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/55::LISTNAME:Box Nation::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/55::LISTNAME:Box Nation (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116115340box.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1559,7 +1559,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/55::LISTNAME:Box Nation::#
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Feurosport.php%2526title%3DEuro+Sports+1%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:British Eurosport 1::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBritish%20Eurosport%201%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f7adc3be6083aeecdcfd51f2cc92d3713.m3u8::LISTNAME:British Eurosport 1 (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA2w::LISTNAME:British Eurosport 1::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/108::LISTNAME:British Eurosport 1::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/108::LISTNAME:British Eurosport 1 (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://cdn.livenettv.co:4040/data/img/files/euro_sports_1.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1571,7 +1571,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/108::LISTNAME:British Eurosp
 sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Feurosport2.php%2526title%3DEuro+Sports+2%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:British Eurosport 2::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBritish%20Eurosport%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb17a4be223d6d945f21785dc401a0429.m3u8::LISTNAME:British Eurosport 2 (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA3w::LISTNAME:British Eurosport 2::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/109::LISTNAME:British Eurosport 2::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/109::LISTNAME:British Eurosport 2 (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116044416euro2.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1582,7 +1582,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/109::LISTNAME:British Eurosp
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dAt%20the%20Races%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f770491f6a94a4901fb248d5f6659d88a.m3u8::LISTNAME:At The Races (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjkxw::LISTNAME:At The Races::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/41::LISTNAME:At The Races::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/41::LISTNAME:At The Races (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116114320at.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1593,7 +1593,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/41::LISTNAME:At The Races::#
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dRacing%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f7e8c4145e3a4119dbe243813d877aca8.m3u8::LISTNAME:Racing UK (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjkyw::LISTNAME:Racing UK::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/178::LISTNAME:Racing UK::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/178::LISTNAME:Racing UK (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116035209racing.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1604,7 +1604,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/178::LISTNAME:Racing UK::#
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dChelsea%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fdc3b39d192930d7e940b1d58bda64bcf.m3u8::LISTNAME:Chelsea TV (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDQ1w::LISTNAME:Chelsea TV::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/78::LISTNAME:Chelsea TV::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/78::LISTNAME:Chelsea TV (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/160116010005chelsea.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1615,7 +1615,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/78::LISTNAME:Chelsea TV::#
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dMUTV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f50e67d468d54cd43a2bd100b5ef8a53e.m3u8::LISTNAME:MUTV (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDExw::LISTNAME:MUTV::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/154::LISTNAME:MUTV::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/154::LISTNAME:MUTV (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116020618mutv.gif|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1626,7 +1626,7 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/154::LISTNAME:MUTV::#
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dLiverpool%20TV%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f71a00014007ea740e245d9a342300cab.m3u8::LISTNAME:LFC TV (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTIww::LISTNAME:LFC TV::#
-sublink:LISTSOURCE:plugin://plugin.video.tvone/play/145::LISTNAME:LFC TV::#
+sublink:LISTSOURCE:plugin://plugin.video.tvone/play/145::LISTNAME:LFC TV (Takes A Few Seconds to Exit)::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/200116013110lfc.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
