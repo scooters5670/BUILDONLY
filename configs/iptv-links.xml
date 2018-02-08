@@ -19,7 +19,6 @@
 <title>BBC1</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=http%3A%2F%2Fvs-hls-uk-live.akamaized.net%2Fpool_30%2Flive%2Fbbc_one_hd%2Fbbc_one_hd.isml%2Fbbc_one_hd-pa4%253d128000-video%253d5070016.m3u8&amp;mode=1&amp;name=BBC+One+HD::LISTNAME:BBC One HD::#
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fbbcone.php%2526title%3DBBC+One%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:BBC One (NO GEO LOCK!)::#
 sublink:LISTSOURCE:plugin://plugin.video.f4mTester/?proxy_for_chunks=False&amp;maxbitrate=0&amp;name=bbc1+%28uk%29&amp;url=http%3A%2F%2Fvs-hds-uk-live.akamaized.net%2Fpool_30%2Flive%2Fbbc_one_hd%2Fbbc_one_hd.isml%2Fbbc_one_hd-pa3%253d96000-video%253d827008.f4m%7CReferer%3Dhttp%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbcone%26X-Requested-With%3DShockwaveFlash%2F18.0.0.160&amp;proxy=&amp;mode=play::LISTNAME:BBC One (NO GEO LOCK!)::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_yorks.m3u8&amp;mode=9999&amp;name=BBC+One+Yorkshire&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One Yorkshire::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_one_east.m3u8&amp;mode=9999&amp;name=BBC+One+East&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC One East::#
@@ -46,7 +45,6 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk
 <title>BBC2</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.freeview/?url=http%3A%2F%2Fvs-hls-uk-live.akamaized.net%2Fpool_31%2Flive%2Fbbc_two_hd%2Fbbc_two_hd.isml%2Fbbc_two_hd-pa4%253d128000-video%253d5070016.m3u8&amp;mode=1&amp;name=BBC+Two+HD::LISTNAME:BBC Two HD::#
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fbbctwo.php%2526title%3DBBC+Two%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:BBC Two (NO GEO LOCK!)::#
 sublink:LISTSOURCE:plugin://plugin.video.f4mTester/?proxy_for_chunks=False&amp;maxbitrate=0&amp;name=bbc2+%28uk%29&amp;url=http%3A%2F%2Fvs-hds-uk-live.akamaized.net%2Fpool_31%2Flive%2Fbbc_two_hd%2Fbbc_two_hd.isml%2Fbbc_two_hd-pa3%253d96000-video%253d827008.f4m%7CReferer%3Dhttp%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbctwo%26X-Requested-With%3DShockwaveFlash%2F18.0.0.160&amp;proxy=&amp;mode=play::LISTNAME:BBC Two (NO GEO LOCK!)::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_scotland.m3u8&amp;mode=9999&amp;name=BBC+Two+Scotland&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description::LISTNAME:BBC Two Scotland::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk/media/live/manifesto/audio_video/simulcast/hls/uk/hls_tablet/ak/bbc_two_northern_ireland_digital.m3u8&amp;mode=9999&amp;name=BBC+Two+Northen+Ireland&amp;iconimage=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F851480480700669952%2F5ttz9hg1.jpg&amp;description=::LISTNAME:BBC Two Northen Ireland::#
@@ -61,7 +59,6 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://a.files.bbci.co.uk
 <title>ITV</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http://itv1liveios-i.akamaihd.net/hls/live/203437/itvlive/ITV1MN/master_Main1800.m3u8&amp;mode=9999&amp;name=ITV+1&amp;iconimage=http%3A%2F%2Fblog.careco.co.uk%2Fwp-content%2Fuploads%2F2015%2F08%2Fx__i0KC0.png&amp;description=::LISTNAME:ITV 1::#
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fitv1.php%2526title%3DITV+%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:ITV 1 (NO GEO LOCK)::#
 sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOTUuMTU0LjIzNy44ODo4MDgwL01hdEgzM1JhYWFleWVUZVYtMS9TdHJtL2luZGV4Lm0zdTh8VXNlci1BZ2VudD1BcHBsZUNvcmVNZWRpYS8xLjAuMC4xM0E0NTIgKGlQaG9uZTsgVTsgQ1BVIE9TIDlfMF8yIGxpa2UgTWFjIE9TIFg7IGVuX2diKQ%3D%3D&amp;mode=11&amp;name=Itv+sports+1::LISTNAME:ITV 1 (NO GEO LOCK)::#
 </link>
 <thumbnail>http://blog.careco.co.uk/wp-content/uploads/2015/08/x__i0KC0.png</thumbnail>
@@ -160,7 +157,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjY5w::LISTNAME:Sky Two:
 <item>
 <title>Sky Atlantic</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskyatlantic.php%2526title%3DSky+Atlantic%2526referer%3Dreferer%3Dhttp%3A%2F%2Fm.liveonlinetv247.info&amp;mode=12::LISTNAME:Sky Atlantic::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Atlantic%20Ireland%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2feabd32acc39d4bd72a4ad687090aef8f.m3u8::LISTNAME:Sky Atlantic (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyAtlantic%2Fplaylist.m3u8::LISTNAME:Sky Atlantic::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/Mjc5w::LISTNAME:Sky Atlantic::#
@@ -224,8 +220,8 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/501::LISTNAME:4 Seven (Takes
 <item>
 <title>SYFY</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fsyfy.php%2526title%3DSYFY%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:SYFY::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjU0w::LISTNAME:SYFY UK/US (USE LINK ONE FOR UK)::#
+sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fsyfy.php%2526title%3DSYFY%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:SYFY::#
 </link>
 <thumbnail>http://212.129.54.17:4040/data/img/files/syfy.png|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -372,7 +368,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/cf723f822ded11e
 <item>
 <title>Discovery Channel</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fdiscovery.php%2526title%3DDiscovery+%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Discovery Channel::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/c283a671e1189d568500d494ff8cd77d::LISTNAME:Discovery Channel::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.31%3A7071%2Fgama%2FDiscovery%2Fplaylist.m3u8::LISTNAME:Discovery Channel::#
 </link>
@@ -403,7 +398,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.15
 <item>
 <title>History Channel</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fhistory.php%2526title%3DHistory%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:History Channel::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/ccb7de5c42461be2cac10f5baf7d62cf::LISTNAME:History Channel::#
 </link>
 <thumbnail>https://k60.kn3.net/89CEAFFEF.png|User-Agent=Mozilla%2F5.0%20%28Linux%3B%20Android%205.1.1%3B%20AFTT%20Build%2FLVY48F%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F57.0.2987.132%20Mobile%20Safari%2F537.36</thumbnail>
@@ -413,7 +407,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/ccb7de5c42461be
 <item>
 <title>Animal Planet</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fanimalplanet.php%2526title%3DAnimal+Planet%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Animal Planet::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/30::LISTNAME:Animal Planet (Takes A Few Seconds to Exit)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/b39899a4d7a8537a3fb9a4b36a364642::LISTNAME:Animal Planet::#
 </link>
@@ -614,7 +607,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2Fserver4.serve
 <item>
 <title>Sky Cinema Disney</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesdisney.php%2526title%3DSky+Cinema+Disney%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Disney::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSKYMOVIESDISNEY%2Fplaylist.m3u8::LISTNAME:Sky Cinema Disney::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Disney%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2ffb2cde6e0410cf537a19800bd19261f0.m3u8::LISTNAME:Sky Cinema Disney (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/194::LISTNAME:Sky Cinema Disney (Takes A Few Seconds to Exit)::#
@@ -626,7 +618,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/194::LISTNAME:Sky Cinema Dis
 <item>
 <title>Sky Cinema Showcase</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesshowcase.php%2526title%3DSky+Cinema+Showcase%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Showcase::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Premiere%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3265682a41f442e5a4164e9b26393634.m3u8::LISTNAME:Sky Cinema Showcase (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesPremiere%2Fplaylist.m3u8::LISTNAME:Sky Cinema Showcase::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Showcase (Takes A Few Seconds to Exit)::#
@@ -638,8 +629,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Sho
 <item>
 <title>Sky Cinema Premiere</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviespremiere.php%2526title%3DSky+Cinema+Premiere%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Premiere::#
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Flive.bypassed.org%2Fsky-movies-premiere%2526title%3DSky+Cinema+Premiere%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Premiere::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Premiere%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3265682a41f442e5a4164e9b26393634.m3u8::LISTNAME:Sky Cinema Premiere (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesPremiere%2Fplaylist.m3u8::LISTNAME:Sky Cinema Premiere::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/201::LISTNAME:Sky Cinema Premiere (Takes A Few Seconds to Exit)::#
@@ -661,7 +650,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/255::LISTNAME:Sky Cinema Sho
 <item>
 <title>Sky Cinema Family</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesfamily.php%2526title%3DSky+Cinema+Family%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Family::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Family%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3caed59e3b7e405b3a802cc480a14e32.m3u8::LISTNAME:Sky Cinema Family (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyFamily%2Fplaylist.m3u8::LISTNAME:Sky Cinema Family::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/200::LISTNAME:Sky Cinema Family (Takes A Few Seconds to Exit)::#
@@ -683,7 +671,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/199::LISTNAME:Sky Cinema Dra
 <item>
 <title>Sky Cinema Action</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesaction.php%2526title%3DSky+Cinema+Action%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Action::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Action%20%26%20Adventure%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f3c909c9218961b2ecfdd5f44a89a90b8.m3u8::LISTNAME:Sky Cinema Action (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesAction%2Fplaylist.m3u8::LISTNAME:Sky Cinema Action::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/196::LISTNAME:Sky Cinema Action (Takes A Few Seconds to Exit)::#
@@ -695,7 +682,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/196::LISTNAME:Sky Cinema Act
 <item>
 <title>Sky Cinema Comedy</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviescomedy.php%2526title%3DSky+Cinema+Comedy%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Comedy::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Comedy%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc168262cf8b9775300da0b79b2199ee6.m3u8::LISTNAME:Sky Cinema Comedy (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyComedy%2Fplaylist.m3u8::LISTNAME:Sky Cinema Comedy::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/197::LISTNAME:Sky Cinema Comedy (Takes A Few Seconds to Exit)::#
@@ -707,7 +693,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/197::LISTNAME:Sky Cinema Com
 <item>
 <title>Sky Cinema Crime</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviescrime.php%2526title%3DSky+Cinema+Crime%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Crime::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Crime%20%26%20Thriller%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa84271250d9dc93c1edc84874552d6c7.m3u8::LISTNAME:Sky Cinema Crime (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FSkyMoviesCrime%2Fplaylist.m3u8::LISTNAME:Sky Cinema Crime::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/198::LISTNAME:Sky Cinema Crime (Takes A Few Seconds to Exit)::#
@@ -730,7 +715,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/202::LISTNAME:Sky Cinema Sci
 <item>
 <title>Sky Cinema Select</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskymoviesselect.php%2526title%3DSky+Cinema+Select%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Cinema Select::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Movies%20Select%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f760670eeaaa3e62adc1989fee2e8b259.m3u8::LISTNAME:Sky Cinema Select (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/254::LISTNAME:Sky Cinema Select (Takes A Few Seconds to Exit)::#
 </link>
@@ -803,7 +787,6 @@ sublink:LISTSOURCE:plugin://plugin.video.filmon.simple/?url=http%3A%2F%2Fwww.fil
 <item>
 <title>Disney Junior</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fdisneyjunior.php%2526title%3DDisney+JR%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Disney Junior::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dDisney%20Junior%20UK%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe6e17fbb85e77c0eabc0ed20d6b8799e.m3u8::LISTNAME:Disney Junior (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/96::LISTNAME:Disney Junior (Takes A Few Seconds to Exit)::#
 </link>
@@ -834,7 +817,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone111/play/http%3A%2F%2Fstreamxcode.
 <item>
 <title>Cartoon Network</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fcartoonnetwork.php%2526title%3DCatroon+Network%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Cartoon Network::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1/play_id/channels/afafc38ed5abfaf4372734cea19f409a::LISTNAME:Cartoon Network::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FCartoonNetwork%2Fplaylist.m3u8::LISTNAME:Cartoon Network::#
 </link>
@@ -863,8 +845,6 @@ sublink:LISTSOURCE:plugin://plugin.video.filmon.simple/?url=http%3A%2F%2Fwww.fil
 <item>
 <title>Disney XD</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fdisneyxd.php%2526title%3DDisney+XD%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Disney XD::#
-sublink:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FDisney-XD-77%2526title%3DDisney+XD+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Disney XD::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.192%3A7071%2Fgama%2FDisneyXD%2Fplaylist.m3u8::LISTNAME:Disney XD::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/250::LISTNAME:Disney XD (Takes A Few Seconds to Exit)::#
 </link>
@@ -914,15 +894,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/95::LISTNAME:Disney Channel 
 <title>CARTOONITO</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fcartoonito%2Fplaylist.m3u8::LISTNAME:CARTOONITO::#
-</link>
-<thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/61131_Cartoonito.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
-<fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
-</item>
-
-<item>
-<title>Nickelodeon</title>
-<link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fnick.php%2526title%3DNickelodeon%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Nickelodeon::#
 </link>
 <thumbnail>http://swiftstreamz.com/SwiftLive/images/thumbs/61131_Cartoonito.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
@@ -1118,7 +1089,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDY2w::LISTNAME:PBS::#
 <item>
 <title>AMC</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Famc.php%2526title%3DAMC%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:AMC::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dAMC%20USA%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fc0371e35a2b3244f5edda7947172d954.m3u8 (Blocked in UK During EPL Games)::LISTNAME:AMC::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDYzw::LISTNAME:AMC::#
 </link>
@@ -1324,7 +1294,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA4Mw==w::LISTNAME:Hall
 <item>
 <title>NBC Sport Network</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fnbcsn.php%2526title%3DNBC+Sports+Network%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:NBC Sport Network::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dNBC%20Sport%20Network%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fe4d6b46ca81b601fe8461b43f641488c.m3u8::LISTNAME:NBC Sport Network (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.159%3A7071%2Fserver%2Fnbcsn%2Fplaylist.m3u8::LISTNAME:NBC Sport Network::#
 </link>
@@ -1345,7 +1314,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA4w::LISTNAME:WWE Netw
 <item>
 <title>BT Sports 1</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fbtsport1.php%2526title%3DBT+Sports+1%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:BT Sports 1::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%201%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2ffeb9c19124327ffd2bae3c97249ea40e.m3u8::LISTNAME:BT Sports 1 (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33RaaabB3eETtiyiy-1%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+1&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports 1::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F163.172.220.115%3A8080%2FMatH33RaaabB3eETtiyiy-1%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+1%282%29&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports 1::#
@@ -1362,8 +1330,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/59::LISTNAME:BT Sports 1 (Ta
 <item>
 <title>BT Sports 2</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttp%3A%2F%2Fmamahd.com%2Fp%2Fmama.php%3Fid%3D17812%26match%3B%3DBT%2520Sport%25202%2520vs%2520%2526title%3DBT+Sports+2+SD%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:BT Sports 2::#
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fbtsport2.php%2526title%3DBT+Sports+2+SD%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:BT Sports 2::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fa0baff4a9870ad57efd54f32cf8be880.m3u8::LISTNAME:BT Sports 2 (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33RaaabB3eETtiyiy-2%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+2&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports 2::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F163.172.220.115%3A8080%2FMatH33RaaabB3eETtiyiy-2%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+2%282%29&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports 2::#
@@ -1380,8 +1346,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/60::LISTNAME:BT Sports 2 (Ta
 <item>
 <title>BT Sports 3</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttp%3A%2F%2Fmamahd.com%2Fp%2Fmama.php%3Fid%3D17813%26match%3B%3DBT%2520Sport%25203%2520vs%2520%2526title%3DBT+Sports+3+SD%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:BT Sports 3::#
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fbtsport3.php%2526title%3DBT+Sports+3+SD%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:BT Sports 3::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBT%20SPORT%203%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fba7c7bb9f1f2be48a9041f6a308eaa92.m3u8::LISTNAME:BT Sports 3 (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33RaaaBeeT3yy-U%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+3&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports 3::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F163.172.220.115%3A8080%2FMatH33RaaaBeeT3yy-U%2FStrm%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=BT+Sports+3%282%29&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:BT Sports 3::#
@@ -1411,7 +1375,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/107::LISTNAME:BT Sports ESPN
 <item>
 <title>Sky Sports Main</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskysportsmainevent.php%2526title%3DSky+Sports+Main+Event%2526referer%3Dreferer%3Dhttp%3A%2F%2Ffreeitvonline.com%2F&amp;mode=12::LISTNAME:Sky Sports Main::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTM=w::LISTNAME:Sky Sports Main::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp1%2Fplaylist.m3u8::LISTNAME:Sky Sports Main::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/204::LISTNAME:Sky Sports Main (Takes A Few Seconds to Exit)::#
@@ -1423,8 +1386,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/204::LISTNAME:Sky Sports Mai
 <item>
 <title>Sky Sports Football</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskysportsfootball.php%2526title%3DSky+Sports+Football+SD%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Sports Football::#
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttp%3A%2F%2Fmamahd.com%2Fp%2Fmama.php%3Fid%3D17806%26match%3B%3DSky%2520Sports%2520Football%2520vs%2520%2526title%3DSky+Sports+Football+SD%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Sports Football::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTgyw::LISTNAME:Sky Sports Football::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.216.137%3A7071%2Fserver%2Fskysp7%2Fplaylist.m3u8::LISTNAME:Sky Sports Football::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/410::LISTNAME:Sky Sports Football (Takes A Few Seconds to Exit)::#
@@ -1436,8 +1397,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/410::LISTNAME:Sky Sports Foo
 <item>
 <title>Sky Sports Premier League</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskysportspremierleague.php%2526title%3DSky+Sports+Premier+League+SD%2526referer%3Dreferer%3Dhttp%3A%2F%2Ffreeitvonline.com%2F&amp;mode=12::LISTNAME:Sky Sports Premier League::#
-sublink:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttp%3A%2F%2Fmamahd.com%2Fp%2Fmama.php%3Fid%3D17805%26match%3B%3DSky%2520Sports%2520Premier%2520League%2520vs%2520%2526title%3DSky+Sports+Premier+League+SD%2526referer%3Dreferer%3Dhttp%3A%2F%2Ffreeitvonline.com%2F&amp;mode=12::LISTNAME:Sky Sports Premier League::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTY=w::LISTNAME:Sky Sports Premier League::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp5%2Fplaylist.m3u8::LISTNAME:Sky Sports Premier League::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/208::LISTNAME:Sky Sports Premier League (Takes A Few Seconds to Exit)::#
@@ -1461,7 +1420,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/205::LISTNAME:Sky Sports Cri
 <item>
 <title>Sky Sports Golf</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskysportsgolf.php%2526title%3DSky+Sports+Golf%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:Sky Sports Golf::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTg=w::LISTNAME:Sky Sports Golf::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp4%2Fplaylist.m3u8::LISTNAME:Sky Sports Golf::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/207::LISTNAME:Sky Sports Golf (Takes A Few Seconds to Exit)::#
@@ -1473,7 +1431,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/207::LISTNAME:Sky Sports Gol
 <item>
 <title>Sky Sports F1</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskysportsf1.php%2526title%3DSky+Sports+F1%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Sports F1::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dSky%20Sports%20F1%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f343b4b2909705b5f5babe196c05c7895.m3u8::LISTNAME:Sky Sports F1 (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MjUxw::LISTNAME:Sky Sports F1::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysportsf1%2Fplaylist.m3u8::LISTNAME:Sky Sports F1::#
@@ -1486,7 +1443,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/209::LISTNAME:Sky Sports F1 
 <item>
 <title>Sky Sports Action</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskysportsaction.php%2526title%3DSky+Sports+Action%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Sports Action::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/OTU=w::LISTNAME:Sky Sports Action::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskysp3%2Fplaylist.m3u8::LISTNAME:Sky Sports Action::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/206::LISTNAME:Sky Sports Action (Takes A Few Seconds to Exit)::#
@@ -1520,8 +1476,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/308::LISTNAME:Sky Sports Mix
 <item>
 <title>Sky Sports News</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttp%3A%2F%2Fthesportek.com%2Fp%2Fmama.php%3Fid%3D17809%26match%3B%3DSKY%2520SPORTS%2520News%2520vs%2520%2526title%3DSky+Sports+News+SD%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Sports News::#
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fskysportsnews.php%2526title%3DSky+Sports+News+SD%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Sky Sports News::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/ODExw::LISTNAME:Sky Sports News::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone11/play/http%3A%2F%2F185.21.217.34%3A7071%2Fserver%2Fskyspnews%2Fplaylist.m3u8::LISTNAME:Sky Sports News::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/210::LISTNAME:Sky Sports News (Takes A Few Seconds to Exit)::#
@@ -1533,7 +1487,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/210::LISTNAME:Sky Sports New
 <item>
 <title>Premier Sports</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.firstonetv.net%2FLive%2FUnited-Kingdom%2FPremier-Sports-89%2526title%3DPremier+Sports+%28Takes+a+few+seconds+to+start+playing%29%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.firstonetv.net&amp;mode=12::LISTNAME:Premier Sports::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dPremier%20Sports%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f2d18f483dbcf20bf0cc41b916f026d6b.m3u8::LISTNAME:Premier Sports (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/NDE0w::LISTNAME:Premier Sports::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/170::LISTNAME:Premier Sports (Takes A Few Seconds to Exit)::#
@@ -1556,7 +1509,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/55::LISTNAME:Box Nation (Tak
 <item>
 <title>British Eurosport 1</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Feurosport.php%2526title%3DEuro+Sports+1%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:British Eurosport 1::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBritish%20Eurosport%201%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2f7adc3be6083aeecdcfd51f2cc92d3713.m3u8::LISTNAME:British Eurosport 1 (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA2w::LISTNAME:British Eurosport 1::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/108::LISTNAME:British Eurosport 1 (Takes A Few Seconds to Exit)::#
@@ -1568,7 +1520,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/108::LISTNAME:British Eurosp
 <item>
 <title>British Eurosport 2</title>
 <link>
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Feurosport2.php%2526title%3DEuro+Sports+2%2526referer%3Dreferer%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info&amp;mode=12::LISTNAME:British Eurosport 2::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dBritish%20Eurosport%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb17a4be223d6d945f21785dc401a0429.m3u8::LISTNAME:British Eurosport 2 (Blocked in UK During EPL Games)::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone1111/play/MTA3w::LISTNAME:British Eurosport 2::#
 sublink:LISTSOURCE:plugin://plugin.video.tvone/play/109::LISTNAME:British Eurosport 2 (Takes A Few Seconds to Exit)::#
@@ -1636,7 +1587,6 @@ sublink:LISTSOURCE:plugin://plugin.video.tvone/play/145::LISTNAME:LFC TV (Takes 
 <title>Fox Sports 1</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOTUuMTU0LjIzNy44ODo4MDgwL01hdEgzM1JhYWEvZjAwY3NzcDEvaW5kZXgubTN1OHxVc2VyLUFnZW50PUFwcGxlQ29yZU1lZGlhLzEuMC4wLjEzQTQ1MiAoaVBob25lOyBVOyBDUFUgT1MgOV8wXzIgbGlrZSBNYWMgT1MgWDsgZW5fZ2Ip&amp;mode=11&amp;name=Fox+sports+1+us::LISTNAME:Fox Sports 1::#
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Ffoxsports1.php%2526title%3DFox+Sports+1%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Fox Sports 1::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaa%2Ff00cssp1%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=Fox+Sports+1+US&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:Fox Sports 1::#
 </link>
 <thumbnail>http://uktvnow.net/uktvnow8/images/channel_imgs/190116045235foxsp1.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</thumbnail>
@@ -1647,7 +1597,6 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.8
 <title>Fox Sports 2</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOTUuMTU0LjIzNy44ODo4MDgwL01hdEgzM1JhYWEvZjAwY3NzcDIvaW5kZXgubTN1OHxVc2VyLUFnZW50PUFwcGxlQ29yZU1lZGlhLzEuMC4wLjEzQTQ1MiAoaVBob25lOyBVOyBDUFUgT1MgOV8wXzIgbGlrZSBNYWMgT1MgWDsgZW5fZ2Ip&amp;mode=11&amp;name=Fox+sports+2+us::LISTNAME:Fox Sports 2::#
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Ffoxsports2.php%2526title%3DFox+Sports+2%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:Fox Sports 2::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?url=http%3A%2F%2F95.154.237.88%3A8080%2FMatH33Raaa%2Ff00cssp2%2Findex.m3u8%7CUser-Agent%3DAppleCoreMedia%2F1.0.0.13A452+%28iPhone%3B+U%3B+CPU+OS+9_0_2+like+Mac+OS+X%3B+en_gb%29&amp;mode=9999&amp;name=Fox+Sports+2+US&amp;iconimage=C%3A%5CUsers%5Cbigla%5CAppData%5CRoaming%5CKodi%5Caddons%5Cplugin.video.livehub2%5Cicon.png&amp;description=::LISTNAME:Fox Sports 2::#
 sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3a%5cUsers%5cbigla%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.livehub2%5cicon.png&amp;mode=10&amp;name=%5bCOLOR%20white%5dFox%20Sports%202%5b%2fCOLOR%5d&amp;url=mpd%3a%2f%2fb543594967ce3122d04138e344cdcff2.m3u8::LISTNAME:Fox Sports 2 (Blocked in UK During EPL Games)::#
 </link>
@@ -1659,7 +1608,6 @@ sublink:LISTSOURCE:plugin://plugin.video.livehub2/?description&amp;iconimage=C%3
 <title>BEIN 11</title>
 <link>
 sublink:LISTSOURCE:plugin://plugin.video.ZemTV-shani/?url=ZGlyZWN0MjpodHRwOi8vOTUuMTU0LjIzNy44ODo4MDgwL01hdEgzM1JhYWFiaW5vb29oZGQtMTEvU3RybS9pbmRleC5tM3U4fFVzZXItQWdlbnQ9QXBwbGVDb3JlTWVkaWEvMS4wLjAuMTNBNDUyIChpUGhvbmU7IFU7IENQVSBPUyA5XzBfMiBsaWtlIE1hYyBPUyBYOyBlbl9nYik%3D&amp;mode=11&amp;name=Bein+sports+11::LISTNAME:BEIN 11::#
-sublink:LISTSOURCE:plugin://plugin.video.goodfellas2/?url=plugin%3A%2F%2Fplugin.video.SportsDevil%2F%3Fmode%3D1%26amp%3Bitem%3Dcatcher%253dstreams%2526url%3Dhttps%3A%2F%2Fwww.liveonlinetv247.info%2Fbeinsports11.php%2526title%3DBEIN+11%2526referer%3Dreferer%3Dhttps%3A%2F%2Flive.bypassed.org&amp;mode=12::LISTNAME:BEIN 11::#
 </link>
 <thumbnail>http://shani.offshorepastebin.com/ZemLogos/beinsports11.png</thumbnail>
 <fanart>http://swiftstreamz.com/SwiftLive/images/thumbs/22488_UK.jpg|User-Agent=Dalvik%2F2.1.0%20%28Linux%3B%20U%3B%20Android%205.1.1%3B%20AFTS%20Build%2FLVY48F%29</fanart>
