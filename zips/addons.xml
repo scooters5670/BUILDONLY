@@ -2052,6 +2052,31 @@ Initial release.
 	</extension>
 </addon>
 
+<addon id="plugin.video.NetStreams" name="[B][COLOR white]Net[/COLOR][/B][B][COLOR blueviolet]Streams[/COLOR][B] [B][COLOR white]AIO[/COLOR][/B]" version="3.9.1" provider-name="@KodinityTV">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <import addon="script.module.resolveurl" version="5.0.0" />
+		<import addon="script.module.netstreams.iptv" version="" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">[B][COLOR white]Net[/COLOR][/B][B][COLOR blueviolet]Streams[/COLOR][B][B][COLOR white] AIO[/COLOR][/B]</summary>
+      <description lang="en">V3.4 - AceStream Sports Links Fixed l V3.5 - NetStreams IPTV Added l Twitter = @KodinityTV l Special Thanks To @JudgementWiz For All The Help!</description>
+      <disclaimer lang="en">The author does not host or own any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+      <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="plugin.video.openloadmovies" name="Openload Movies" version="2.3.0" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -3379,6 +3404,31 @@ Skin and code for skin by Demonstratorz</description>
 	<extension point="xbmc.addon.metadata">
 		<summary>Welcome to the Jesusbox Repository where you will find all Jesusbox produced Addon-ons and wizards</summary>
 		<description>The Best Media Center Box Available</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.judgement" name="Judgement Repo" version="2.0" provider-name="Judgement">
+	<extension point="xbmc.addon.repository" name="Judgement">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">http://theunjudged.com/Judgement/Repo/addons.xml</info>
+		<checksum>http://theunjudged.com/Judgement/Repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://theunjudged.com/Judgement/Repo/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Judgement Repo</summary>
+		<description>Judgement Repository</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -5040,6 +5090,25 @@ level.</description>
                 <forum>http://www.noobsandnerds.com/support/showthread.php?tid=17212</forum>
                 <website>http://noobsandnerds.com</website>
         </extension>
+</addon>
+
+<addon id="script.module.netstreams.iptv" name="[B][COLOR white]Net[/COLOR][/B][B][COLOR blueviolet]Streams[/COLOR][B] [B][COLOR white]IPTV[/COLOR][/B]" version="1.0" provider-name="@KodinityTV/RACC">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.livestreamer" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[B][COLOR white]Net[/COLOR][COLOR blueviolet]Streams[/COLOR] [COLOR white]IPTV[/COLOR]</summary>
+    <description lang="en">NetStreams IPTV</description>
+    <disclaimer lang="en">The author does not host or own any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+    <language></language>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="script.module.pyrollbar"
