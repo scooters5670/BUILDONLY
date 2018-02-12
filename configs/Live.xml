@@ -31,13 +31,6 @@
 </plugin>
 
 <plugin>
-<title>[COLOR gold]CerebroTV: [/COLOR][COLOR green]Open FREE TV Guide[/COLOR] (Free Version)</title>
-<link>plugin://script.cerebro.tvguide.open.free</link>
-<thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/fanart.jpg</fanart>
-</plugin>
-
-<plugin>
 <title>[COLOR gold]CerebroTV: [/COLOR][COLOR green]Make Your Own InI File For FREE TV Guide[/COLOR]</title>
 <link>plugin://plugin.video.echoini</link>
 <thumbnail>https://raw.githubusercontent.com/biglad/BUILDONLY/master/build_data/icon.png</thumbnail>
