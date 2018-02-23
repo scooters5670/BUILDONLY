@@ -11,71 +11,19 @@
 		<import addon="script.module.liveresolver" version="0.1.24"/>
 		<import addon="script.video.F4mProxy" version="2.2.3"/>
         <import addon="plugin.video.f4mTester" />
-		<!--<import addon="plugin.video.livehub2"/>-->
-		<!--<import addon="plugin.video.kratosfucksducky"/>-->
-        <import addon="plugin.video.Showbox"/>
-        <import addon="script.module.streamhub" />
-        <import addon="script.module.streamhublive" />
         <import addon="script.module.requests" />
         <import addon="script.cerebro.pairwith" />
-        <import addon="script.exodus.artwork" version="1.0.4" />-->
-		<import addon="script.exodus.metadata" version="1.0.0" />-->
-        <!--<import addon="plugin.video.itv" />
-        <import addon="plugin.video.bbciplayer" />
-        <import addon="plugin.video.tvplayer" />
-        <import addon="plugin.audio.tuneinradio" />
-        <import addon="plugin.audio.mp3streams" />-->
+        <import addon="script.exodus.artwork" version="1.0.4" />
+		<import addon="script.exodus.metadata" version="1.0.0" />
         <import addon="script.module.futures" />
-		<!--<import addon="plugin.video.meta" />-->
-		<import addon="script.cerebro.tvguide.open" />
-        <import addon="script.cerebro.tvguide.open2" />
-        <import addon="script.cerebro.tvguide.open3" />
-		<import addon="script.cerebro.tvguide.open4" />
-        <import addon="script.cerebro.tvguide.open.free" />
-        <import addon="script.cerebro.pairwith.laucnher" />
-        <import addon="script.tvguide.cerebrotv.uk.2017" />
-        <import addon="script.program.menurefresh" />
-		<import addon="plugin.video.Showbox" />-->
-		<!--<import addon="script.tvguide.cerebrotv.usa" />-->
-        <!--<import addon="plugin.video.ProjectCypher" />-->
-        <import addon="script.mtvbxxx" />
-        <!--<import addon="script.covloader" />-->
         <import addon="script.xbmc.unpausejumpback" />
-        <!--<import addon="script.covtvsearch" />-->
-        <!--<import addon="script.covtvsearch2" />-->
-        <!--<import addon="program.apollo" />-->
-        <import addon="script.cerebro.backend" />
         <import addon="script.module.muckys.common" />
 		<import addon="script.module.urllib3" version="1.22"/>
 		<import addon="script.module.chardet" version="3.0.4"/>
 		<import addon="script.module.idna" version="2.6"/>
 		<import addon="script.module.certifi" version="2017.07.27.1"/>
 		<import addon="script.module.arrow" />
-        <!--<import addon="script.cerebro.buy" />-->
-        <!--<import addon="script.cerebro.buyprem" />-->
-        <!--<import addon="script.module.mutagen" />-->
-        <!--<import addon="plugin.video.SportsDevil" /> -->
-        <import addon="script.mtvppv" />
-        <!--<import addon="plugin.video.tvmix" />-->
-        <!--<import addon="script.tvguide.cerebrotv.uk" />-->
-        <!--<import addon="plugin.program.GenieWiz" />-->
-        <!--<import addon="script.tvguide.cerebrotv.kids" />-->
-        <!--<import addon="script.tvguide.cerebrotv.sports" />-->
-        <!--<import addon="plugin.video.dnatv4k" />-->
-        <import addon="repository.streamhub" />
-        <import addon="repository.Cypherslocker" />
-		<import addon="repository.supremacy" />
-		<import addon="repository.noobsandnerds" />
-        <!--<import addon="repository.sanctuary" />
-        <import addon="repository.smash" />
-        <import addon="repository.elysium" />
-        <import addon="repository.colossus" />
-        <import addon="repository.aresproject" />
-        <import addon="repository.soulless" />
-        <import addon="repository.CruCialminds" />
-        <import addon="repository.geetee.kodi" />
-		<import addon="repository.schemestreams" />
-        <import addon="repository.zt" />-->
+
 		
         
 	</requires>
